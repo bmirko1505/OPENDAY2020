@@ -1,0 +1,35 @@
+<ordinazioni>
+	<ordinazione>
+		<indirizzoDiConsegna>
+			Text
+		</indirizzoDiConsegna>
+		<piano>
+			Text
+		</piano>
+		<orarioDiConsegna>
+			Orario
+		</orarioDiConsegna>
+		<numeroDiTelefono>
+			442547618371
+		</numeroDiTelefono>
+		<cibi>
+			<cibo>
+				Text
+			</cibo>
+			<cibo>
+				Text
+			</cibo>
+		</cibi>
+		<bevande>
+			<bevanda>
+				Text
+			</bevanda>
+			<bevanda>
+				Text
+			</bevanda>
+		</bevande>
+		<prezzo>
+			Prezzo
+		</prezzo>
+	</ordinazione>
+</ordinazioni>

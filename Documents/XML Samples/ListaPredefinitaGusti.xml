@@ -1,0 +1,11 @@
+<!-- XML standard per sezione "ListaPredefinitaGusti" -->
+<!-- 
+
+@Root -> gusti 
+1@Child -> gusto
+
+-->
+
+<gusti><gusto>XYZ</gusto></gusti>
+
+<!-- BBG -->

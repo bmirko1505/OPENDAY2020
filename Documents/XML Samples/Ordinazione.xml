@@ -1,0 +1,44 @@
+<!-- XML standard per sezione "Ordinazione" -->
+<!-- 
+
+@Root -> ordinazioni 
+1@Child -> ordinazione
+1@Child@Child -> cognome
+2@Child@Child -> numeroDiTelefono
+3@Child@Child -> indirizzoDiConsegna
+4@Child@Child -> orarioDiConsegna
+5@Child@Child -> vaschetta
+1@Child@Child@Child -> gusti
+1@Child@Child@Child@Child -> gusto
+2@Child@Child@Child -> dimensione
+
+-->
+
+<ordinazioni>
+	<ordinazione>
+		<cognome>
+			XYZ
+		</cognome>
+		<numeroDiTelefono>
+			123
+		</numeroDiTelefono>
+		<indirizzoDiConsegna>
+			XYZ
+		</indirizzoDiConsegna>
+		<orarioDiConsegna>
+		00:00
+		</orarioDiConsegna>	
+		<vaschetta>
+			<gusti>
+				<gusto>
+				XYZ
+				</gusto>
+			</gusti>
+			<dimensione>
+				XYZ
+			</dimensione>
+		</vaschetta>
+	</ordinazione>
+</ordinazioni>
+
+<!-- BBG -->

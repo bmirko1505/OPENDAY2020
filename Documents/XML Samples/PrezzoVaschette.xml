@@ -1,0 +1,14 @@
+<!-- XML standard per sezione "ModificaPrezzi" -->
+<!-- 
+
+@Root -> prezzoVaschette 
+1@Child -> prezzo
+1@Child@Child -> vaschettaPiccola
+2@Child@Child -> vaschettaMedia
+3@Child@Child -> vaschettaGrande
+
+-->
+
+<prezzoVaschette><prezzo><vaschettaPiccola>0</vaschettaPiccola><vaschettaMedia>0</vaschettaMedia><vaschettaGrande>0</vaschettaGrande></prezzo></prezzoVaschette>
+
+<!-- BBG -->

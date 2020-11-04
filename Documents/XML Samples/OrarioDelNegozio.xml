@@ -1,0 +1,13 @@
+<!-- XML standard per sezione "ModificaOrarioDelNegozio" -->
+<!-- 
+
+@Root -> orarioDelNegozio 
+1@Child -> orario
+1@Child@Child -> oraDiApertura
+2@Child@Child -> oraDiChiusura
+
+-->
+
+<orarioDelNegozio><orario><oraDiApertura>00:00:00</oraDiApertura><oraDiChiusura>00:00:00</oraDiChiusura></orario></orarioDelNegozio>
+
+<!-- BBG -->
