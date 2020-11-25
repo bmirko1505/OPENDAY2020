@@ -1,0 +1,9 @@
+<map id="resources.ftpserver.Manager.setIsConnected" name="resources.ftpserver.Manager.setIsConnected">
+<area shape="rect" id="node1" title="Imposta il valore dell&#39;attributo Manager.isConnected." alt="" coords="877,81,1084,123"/>
+<area shape="rect" id="node2" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#a674fe9fc38ba3ecf4d779310489ef230" title="Tenta di stabilire una connessione con il server FTP." alt="" coords="565,13,811,39"/>
+<area shape="rect" id="node5" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#adc106008f1f77d93d8189870b1d9ae81" title="Tenta di stabilire una connessione con il server FTP." alt="" coords="555,63,821,90"/>
+<area shape="rect" id="node6" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#ad7b1c599ab1c0dd9a2f3b88cc1ca4f2b" title="Tenta di effettuare la disconnesione dal server." alt="" coords="557,114,819,141"/>
+<area shape="rect" id="node7" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#ae7d54aaf3ba9136f829eaed4aab3b646" title="Tenta di effettuare la disconnesione dal server." alt="" coords="547,165,829,191"/>
+<area shape="rect" id="node3" href="$classgui_gelataio_1_1_interfaccia_principale_galataio.html#a6c05e9d7c45210225160936679546306" title="Inizializzatore stabile." alt="" coords="292,5,499,47"/>
+<area shape="rect" id="node4" href="$classgui_gelataio_1_1_interfaccia_principale_galataio.html#ad28db3222d7369871d6b679c1a6c1782" title="Costruttore." alt="" coords="5,5,244,47"/>
+</map>

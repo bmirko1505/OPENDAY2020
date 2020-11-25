@@ -1,0 +1,5 @@
+<map id="resources.ftpserver.Manager.getIsNoOp" name="resources.ftpserver.Manager.getIsNoOp">
+<area shape="rect" id="node1" title="Ritorna il valore dell&#39;attributo Manager.isNoOp." alt="" coords="271,35,477,76"/>
+<area shape="rect" id="node2" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#a11cf3fa1d1d7eb9e83dae58cdc9afdd1" title="Ritorna il valore ottenuto attraverso l&#39;invocazione del metodo resources.ftpserver...." alt="" coords="5,5,223,47"/>
+<area shape="rect" id="node3" href="$classresources_1_1ftpserver_1_1_keeper.html#a030e2156a7c720bcdc3f15e7cea92d3e" title="Codice eseguito dal thread." alt="" coords="15,71,213,98"/>
+</map>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_fa3b942b33b04fef8622e6ed9abffc5c" kind="dir">
+    <compoundname>C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources</compoundname>
+    <innerdir refid="dir_42706dbdbfbf40b97ce2ae33dca351cc">C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/compositionlistapredefinitagusti</innerdir>
+    <innerdir refid="dir_10af375220c3f3e7fcb5ba3409b0dc80">C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/cronology</innerdir>
+    <innerdir refid="dir_c636ed5c429b8496dda1c1ed7a0ab736">C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/currenttime</innerdir>
+    <innerdir refid="dir_38f3b576b2a67c6d94cb3ffeddc206f2">C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver</innerdir>
+    <innerdir refid="dir_2131fe1c72f877324bb908673102a11d">C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/listtextwrapper</innerdir>
+    <innerdir refid="dir_60fcd318f1e1e3a87b5fa69f6dba13bb">C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/orariodelnegozio</innerdir>
+    <innerdir refid="dir_9c3b7bca5ce21a8bab4feb559398ee6e">C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine</innerdir>
+    <innerdir refid="dir_88dfeed5f5229f8a7acba86a9f7a0974">C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/prezzovaschette</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/"/>
+  </compounddef>
+</doxygen>

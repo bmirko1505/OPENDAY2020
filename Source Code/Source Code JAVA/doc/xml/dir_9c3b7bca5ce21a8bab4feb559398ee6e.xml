@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_9c3b7bca5ce21a8bab4feb559398ee6e" kind="dir">
+    <compoundname>C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine</compoundname>
+    <innerdir refid="dir_855eb9abc81b9354f7e2950398cab6b6">C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/xml</innerdir>
+    <innerfile refid="_ordine_8java">Ordine.java</innerfile>
+    <innerfile refid="_ordine_updater_8java">OrdineUpdater.java</innerfile>
+    <innerfile refid="_vaschetta_8java">Vaschetta.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/"/>
+  </compounddef>
+</doxygen>

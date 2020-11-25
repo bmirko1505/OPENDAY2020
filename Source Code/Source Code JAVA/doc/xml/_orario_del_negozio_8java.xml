@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="_orario_del_negozio_8java" kind="file" language="Java">
+    <compoundname>OrarioDelNegozio.java</compoundname>
+    <innerclass refid="classresources_1_1orariodelnegozio_1_1_orario_del_negozio" prot="public">resources::orariodelnegozio::OrarioDelNegozio</innerclass>
+    <innernamespace refid="namespaceresources_1_1orariodelnegozio">resources::orariodelnegozio</innernamespace>
+    <briefdescription>
+<para>Classe che rappresenta la struttura &quot;OrarioDelNegozio&quot;. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Grandieri Andrea <ulink url="mailto:g.andreus02@gmail.com">g.andreus02@gmail.com</ulink> </para>
+</simplesect>
+<simplesect kind="author"><para>Barsotti Mirko <ulink url="mailto:bmirko1505@gmail.com">bmirko1505@gmail.com</ulink> </para>
+</simplesect>
+<simplesect kind="author"><para>Brambilla Mirko <ulink url="mailto:brambobilla01@gmail.com">brambobilla01@gmail.com</ulink> </para>
+</simplesect>
+<simplesect kind="version"><para>1.0 </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespaceresources_1_1orariodelnegozio" refkind="compound"><highlight class="keyword">package<sp/></highlight><highlight class="normal">resources.orariodelnegozio;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.text.ParseException;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.text.SimpleDateFormat;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.util.Date;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.util.logging.Level;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.util.logging.Logger;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="classresources_1_1orariodelnegozio_1_1_orario_del_negozio" refkind="compound"><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classresources_1_1orariodelnegozio_1_1_orario_del_negozio" kindref="compound">OrarioDelNegozio</ref><sp/>{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="classresources_1_1orariodelnegozio_1_1_orario_del_negozio_1a91809348af3ab07ea3e29d2a5a8b2239" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">final</highlight><highlight class="normal"><sp/>String<sp/><ref refid="classresources_1_1orariodelnegozio_1_1_orario_del_negozio_1a91809348af3ab07ea3e29d2a5a8b2239" kindref="member">oraDiApertura</ref>;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="classresources_1_1orariodelnegozio_1_1_orario_del_negozio_1a3863a8752de2a14470504c916ccb6986" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">final</highlight><highlight class="normal"><sp/>String<sp/><ref refid="classresources_1_1orariodelnegozio_1_1_orario_del_negozio_1a3863a8752de2a14470504c916ccb6986" kindref="member">oraDiChiusura</ref>;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="classresources_1_1orariodelnegozio_1_1_orario_del_negozio_1abeda21e393ea1f02dc9c05dafc73a583" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">final</highlight><highlight class="normal"><sp/>SimpleDateFormat<sp/><ref refid="classresources_1_1orariodelnegozio_1_1_orario_del_negozio_1abeda21e393ea1f02dc9c05dafc73a583" kindref="member">simpleDateFormat</ref>;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="classresources_1_1orariodelnegozio_1_1_orario_del_negozio_1a3eb089eaa7f1b98c2bbc9faf326dada4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classresources_1_1orariodelnegozio_1_1_orario_del_negozio_1a3eb089eaa7f1b98c2bbc9faf326dada4" kindref="member">OrarioDelNegozio</ref>(String<sp/><ref refid="classresources_1_1orariodelnegozio_1_1_orario_del_negozio_1a91809348af3ab07ea3e29d2a5a8b2239" kindref="member">oraDiApertura</ref>,<sp/>String<sp/><ref refid="classresources_1_1orariodelnegozio_1_1_orario_del_negozio_1a3863a8752de2a14470504c916ccb6986" kindref="member">oraDiChiusura</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.simpleDateFormat<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>SimpleDateFormat(</highlight><highlight class="stringliteral">&quot;HH:mm&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.oraDiApertura<sp/>=<sp/><ref refid="classresources_1_1orariodelnegozio_1_1_orario_del_negozio_1a91809348af3ab07ea3e29d2a5a8b2239" kindref="member">oraDiApertura</ref>;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.oraDiChiusura<sp/>=<sp/><ref refid="classresources_1_1orariodelnegozio_1_1_orario_del_negozio_1a3863a8752de2a14470504c916ccb6986" kindref="member">oraDiChiusura</ref>;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="classresources_1_1orariodelnegozio_1_1_orario_del_negozio_1a46be1b7f954027bb34836c9fc59982a5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classresources_1_1orariodelnegozio_1_1_orario_del_negozio_1a46be1b7f954027bb34836c9fc59982a5" kindref="member">OrarioDelNegozio</ref>(Date<sp/><ref refid="classresources_1_1orariodelnegozio_1_1_orario_del_negozio_1a91809348af3ab07ea3e29d2a5a8b2239" kindref="member">oraDiApertura</ref>,<sp/>Date<sp/><ref refid="classresources_1_1orariodelnegozio_1_1_orario_del_negozio_1a3863a8752de2a14470504c916ccb6986" kindref="member">oraDiChiusura</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.simpleDateFormat<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>SimpleDateFormat(</highlight><highlight class="stringliteral">&quot;HH:mm&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.oraDiApertura<sp/>=<sp/>this.simpleDateFormat.format(<ref refid="classresources_1_1orariodelnegozio_1_1_orario_del_negozio_1a91809348af3ab07ea3e29d2a5a8b2239" kindref="member">oraDiApertura</ref>);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.oraDiChiusura<sp/>=<sp/>this.simpleDateFormat.format(<ref refid="classresources_1_1orariodelnegozio_1_1_orario_del_negozio_1a3863a8752de2a14470504c916ccb6986" kindref="member">oraDiChiusura</ref>);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="classresources_1_1orariodelnegozio_1_1_orario_del_negozio_1a9f3c511055e616b18441da5a899ce7b8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>String<sp/><ref refid="classresources_1_1orariodelnegozio_1_1_orario_del_negozio_1a9f3c511055e616b18441da5a899ce7b8" kindref="member">getOraDiApertura</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classresources_1_1orariodelnegozio_1_1_orario_del_negozio_1a91809348af3ab07ea3e29d2a5a8b2239" kindref="member">oraDiApertura</ref>;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109" refid="classresources_1_1orariodelnegozio_1_1_orario_del_negozio_1af6608fee46a1b5b10299ade0a99d10ae" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>String<sp/><ref refid="classresources_1_1orariodelnegozio_1_1_orario_del_negozio_1af6608fee46a1b5b10299ade0a99d10ae" kindref="member">getOraDiChiusura</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classresources_1_1orariodelnegozio_1_1_orario_del_negozio_1a3863a8752de2a14470504c916ccb6986" kindref="member">oraDiChiusura</ref>;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120" refid="classresources_1_1orariodelnegozio_1_1_orario_del_negozio_1a21ab037d52acbe8037fecf1daca0307d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Date<sp/><ref refid="classresources_1_1orariodelnegozio_1_1_orario_del_negozio_1a21ab037d52acbe8037fecf1daca0307d" kindref="member">getOraDiAperturaDate</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this.simpleDateFormat.parse(this.oraDiApertura);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal"><sp/>(ParseException<sp/>ex)<sp/>{</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Logger.getLogger(<ref refid="classresources_1_1orariodelnegozio_1_1_orario_del_negozio" kindref="compound">OrarioDelNegozio</ref>.class.getName()).log(Level.SEVERE,<sp/></highlight><highlight class="keyword">null</highlight><highlight class="normal">,<sp/>ex);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">null</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136" refid="classresources_1_1orariodelnegozio_1_1_orario_del_negozio_1a9bef4d940a3590de6fb725bd33275dad" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Date<sp/><ref refid="classresources_1_1orariodelnegozio_1_1_orario_del_negozio_1a9bef4d940a3590de6fb725bd33275dad" kindref="member">getOraDiChiusuraDate</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this.simpleDateFormat.parse(this.oraDiChiusura);</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal"><sp/>(ParseException<sp/>ex)<sp/>{</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Logger.getLogger(<ref refid="classresources_1_1orariodelnegozio_1_1_orario_del_negozio" kindref="compound">OrarioDelNegozio</ref>.class.getName()).log(Level.SEVERE,<sp/></highlight><highlight class="keyword">null</highlight><highlight class="normal">,<sp/>ex);</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">null</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/orariodelnegozio/OrarioDelNegozio.java"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_855eb9abc81b9354f7e2950398cab6b6" kind="dir">
+    <compoundname>C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/xml</compoundname>
+    <innerdir refid="dir_24535f961cb40eb2f8eacfe460a19db2">C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/xml/generatorxml</innerdir>
+    <innerdir refid="dir_c4a52c70a6152638d798462e88091bca">C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/xml/generatorxmlv2</innerdir>
+    <innerdir refid="dir_a9de406763dd1dd6723145c9912430b0">C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/xml/generatorxmlv3</innerdir>
+    <innerdir refid="dir_97dc51a14a11f9cf31afd6e19268eda8">C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/xml/parserxml</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/xml/"/>
+  </compounddef>
+</doxygen>

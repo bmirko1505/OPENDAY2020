@@ -1,0 +1,602 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="classresources_1_1ordine_1_1_ordine" kind="class" language="Java" prot="public">
+    <compoundname>resources::ordine::Ordine</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classresources_1_1ordine_1_1_ordine_1abb49a0f3375e4ad6365d484b03c42233" prot="private" static="no" mutable="no">
+        <type>final String[]</type>
+        <definition>final String [] resources.ordine.Ordine.cibi</definition>
+        <argsstring></argsstring>
+        <name>cibi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Rappresenta una lista contenente tutte le vaschette ordinate dall&apos;ordinatore</para>
+<para><simplesect kind="see"><para><ref refid="classresources_1_1ordine_1_1_vaschetta" kindref="compound">resources.ordine.Vaschetta</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/Ordine.java" line="41" column="26" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/Ordine.java" bodystart="41" bodyend="-1"/>
+        <referencedby refid="classresources_1_1ordine_1_1_ordine_1a666e3033673e72d631d52fa342bc199b" compoundref="_ordine_8java" startline="106" endline="116">resources.ordine.Ordine.Ordine</referencedby>
+        <referencedby refid="classresources_1_1ordine_1_1_ordine_1a32f583f428c1f9c2a0c142a4cfe4dfad" compoundref="_ordine_8java" startline="198" endline="200">resources.ordine.Ordine.getCibi</referencedby>
+        <referencedby refid="classresources_1_1ordine_1_1_ordine_1a3cb0e2e2ea8e7b033128d8220f966959" compoundref="_ordine_8java" startline="225" endline="261">resources.ordine.Ordine.equals</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classresources_1_1ordine_1_1_ordine_1a9b9944829a6c995efaebcc9bcc715851" prot="private" static="no" mutable="no">
+        <type>final String[]</type>
+        <definition>final String [] resources.ordine.Ordine.bevande</definition>
+        <argsstring></argsstring>
+        <name>bevande</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/Ordine.java" line="42" column="26" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/Ordine.java" bodystart="42" bodyend="-1"/>
+        <referencedby refid="classresources_1_1ordine_1_1_ordine_1a666e3033673e72d631d52fa342bc199b" compoundref="_ordine_8java" startline="106" endline="116">resources.ordine.Ordine.Ordine</referencedby>
+        <referencedby refid="classresources_1_1ordine_1_1_ordine_1a455d468d4f02b60a9769bea15df859d8" compoundref="_ordine_8java" startline="202" endline="204">resources.ordine.Ordine.getBevande</referencedby>
+        <referencedby refid="classresources_1_1ordine_1_1_ordine_1a3cb0e2e2ea8e7b033128d8220f966959" compoundref="_ordine_8java" startline="225" endline="261">resources.ordine.Ordine.equals</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classresources_1_1ordine_1_1_ordine_1a9f4d30f67c3e696316df1da65d65b15b" prot="private" static="no" mutable="no">
+        <type>final String</type>
+        <definition>final String resources.ordine.Ordine.numeroTelefonico</definition>
+        <argsstring></argsstring>
+        <name>numeroTelefonico</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Rappresenta il numero di telefono dell&apos;ordinatore </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/Ordine.java" line="47" column="26" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/Ordine.java" bodystart="47" bodyend="-1"/>
+        <referencedby refid="classresources_1_1ordine_1_1_ordine_1a666e3033673e72d631d52fa342bc199b" compoundref="_ordine_8java" startline="106" endline="116">resources.ordine.Ordine.Ordine</referencedby>
+        <referencedby refid="classresources_1_1ordine_1_1_ordine_1acc272527cc5724f22fbf61b2d193376b" compoundref="_ordine_8java" startline="161" endline="163">resources.ordine.Ordine.getNumeroTelefonico</referencedby>
+        <referencedby refid="classresources_1_1ordine_1_1_ordine_1a3cb0e2e2ea8e7b033128d8220f966959" compoundref="_ordine_8java" startline="225" endline="261">resources.ordine.Ordine.equals</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classresources_1_1ordine_1_1_ordine_1a5a676025cc2f298ac9e50783c28c1c7e" prot="private" static="no" mutable="no">
+        <type>final String</type>
+        <definition>final String resources.ordine.Ordine.indirizzoConsegna</definition>
+        <argsstring></argsstring>
+        <name>indirizzoConsegna</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>CLASSE (5BI) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/Ordine.java" line="52" column="26" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/Ordine.java" bodystart="52" bodyend="-1"/>
+        <referencedby refid="classresources_1_1ordine_1_1_ordine_1a666e3033673e72d631d52fa342bc199b" compoundref="_ordine_8java" startline="106" endline="116">resources.ordine.Ordine.Ordine</referencedby>
+        <referencedby refid="classresources_1_1ordine_1_1_ordine_1aa83b08e2f510d89aef792008639411d3" compoundref="_ordine_8java" startline="172" endline="174">resources.ordine.Ordine.getIndirizzoConsegna</referencedby>
+        <referencedby refid="classresources_1_1ordine_1_1_ordine_1a3cb0e2e2ea8e7b033128d8220f966959" compoundref="_ordine_8java" startline="225" endline="261">resources.ordine.Ordine.equals</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classresources_1_1ordine_1_1_ordine_1ad8d81b5e25f85f463e46d53048fa23f1" prot="private" static="no" mutable="no">
+        <type>final String</type>
+        <definition>final String resources.ordine.Ordine.piano</definition>
+        <argsstring></argsstring>
+        <name>piano</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>PIANO (Lotto 1 Piano 2) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/Ordine.java" line="57" column="26" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/Ordine.java" bodystart="57" bodyend="-1"/>
+        <referencedby refid="classresources_1_1ordine_1_1_ordine_1a666e3033673e72d631d52fa342bc199b" compoundref="_ordine_8java" startline="106" endline="116">resources.ordine.Ordine.Ordine</referencedby>
+        <referencedby refid="classresources_1_1ordine_1_1_ordine_1ab3d97714f7c6a8ab9f6eb5fbcbea30b0" compoundref="_ordine_8java" startline="206" endline="208">resources.ordine.Ordine.getPiano</referencedby>
+        <referencedby refid="classresources_1_1ordine_1_1_ordine_1a3cb0e2e2ea8e7b033128d8220f966959" compoundref="_ordine_8java" startline="225" endline="261">resources.ordine.Ordine.equals</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classresources_1_1ordine_1_1_ordine_1ab0c14d82732c7e41d223a3a86a366cac" prot="private" static="no" mutable="no">
+        <type>final String</type>
+        <definition>final String resources.ordine.Ordine.orarioConsegna</definition>
+        <argsstring></argsstring>
+        <name>orarioConsegna</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Rappresenta l&apos;orario di consegna dell&apos;ordinatore </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/Ordine.java" line="62" column="26" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/Ordine.java" bodystart="62" bodyend="-1"/>
+        <referencedby refid="classresources_1_1ordine_1_1_ordine_1a666e3033673e72d631d52fa342bc199b" compoundref="_ordine_8java" startline="106" endline="116">resources.ordine.Ordine.Ordine</referencedby>
+        <referencedby refid="classresources_1_1ordine_1_1_ordine_1acda2ef7930fb55064587096029779ad9" compoundref="_ordine_8java" startline="183" endline="185">resources.ordine.Ordine.getOrarioConsegna</referencedby>
+        <referencedby refid="classresources_1_1ordine_1_1_ordine_1a3cb0e2e2ea8e7b033128d8220f966959" compoundref="_ordine_8java" startline="225" endline="261">resources.ordine.Ordine.equals</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classresources_1_1ordine_1_1_ordine_1a8c5d1f512adb8c2818476bc6974ee124" prot="private" static="no" mutable="no">
+        <type>Float</type>
+        <definition>Float resources.ordine.Ordine.prezzoTotale</definition>
+        <argsstring></argsstring>
+        <name>prezzoTotale</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Rappresenta il prezzo totale dell&apos;ordina corrente </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/Ordine.java" line="67" column="19" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/Ordine.java" bodystart="67" bodyend="-1"/>
+        <referencedby refid="classresources_1_1ordine_1_1_ordine_1a8c20e24f82ca3e545474529bd081e554" compoundref="_ordine_8java" startline="194" endline="196">resources.ordine.Ordine.getPrezzoTotale</referencedby>
+        <referencedby refid="classresources_1_1ordine_1_1_ordine_1a3cb0e2e2ea8e7b033128d8220f966959" compoundref="_ordine_8java" startline="225" endline="261">resources.ordine.Ordine.equals</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classresources_1_1ordine_1_1_ordine_1afca6e9896230fe2c8b2d79925a064d72" prot="private" static="no" mutable="no">
+        <type>final JList</type>
+        <definition>final JList resources.ordine.Ordine.jListListaPredefinitaGusti</definition>
+        <argsstring></argsstring>
+        <name>jListListaPredefinitaGusti</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/Ordine.java" line="69" column="25" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/Ordine.java" bodystart="69" bodyend="-1"/>
+        <referencedby refid="classresources_1_1ordine_1_1_ordine_1a666e3033673e72d631d52fa342bc199b" compoundref="_ordine_8java" startline="106" endline="116">resources.ordine.Ordine.Ordine</referencedby>
+        <referencedby refid="classresources_1_1ordine_1_1_ordine_1a3cb0e2e2ea8e7b033128d8220f966959" compoundref="_ordine_8java" startline="225" endline="261">resources.ordine.Ordine.equals</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classresources_1_1ordine_1_1_ordine_1a666e3033673e72d631d52fa342bc199b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>resources.ordine.Ordine.Ordine</definition>
+        <argsstring>(String[] cibi, String[] bevande, String indirizzoConsegna, String piano, String numeroTelefonico, String orarioConsegna, JList jListListaPredefinitaGusti)</argsstring>
+        <name>Ordine</name>
+        <param>
+          <type>String[]</type>
+          <declname>cibi</declname>
+        </param>
+        <param>
+          <type>String[]</type>
+          <declname>bevande</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>indirizzoConsegna</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>piano</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>numeroTelefonico</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>orarioConsegna</declname>
+        </param>
+        <param>
+          <type>JList</type>
+          <declname>jListListaPredefinitaGusti</declname>
+        </param>
+        <briefdescription>
+<para>Costruttore. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>jListListaPredefinitaGusti</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Inizializza tutte le risorse necessarie ad un oggetto di questa classe</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>vaschette</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista contenente tutte le vaschette ordinate dall&apos;ordinatore </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cognome</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Cognome dell&apos;ordinatore </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>numeroTelefonico</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Numero di telefono dell&apos;ordinatore </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>indirizzoConsegna</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Indirizzo di consegna dell&apos;ordinatore </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>orarioConsegna</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Orario di consegna dell&apos;ordinatore </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>jSpinnerVaschettaPiccola</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Riferimento allo spinner InterfacciaPrincipaleGelataio.jSpinnerVaschettaPiccola per ottenere il prezzo delle vaschette piccole per procedere con il calcolo del <ref refid="classresources_1_1ordine_1_1_ordine_1a8c5d1f512adb8c2818476bc6974ee124" kindref="member">Ordine.prezzoTotale</ref> </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>jSpinnerVaschettaMedia</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Riferimento allo spinner InterfacciaPrincipaleGelataio.jSpinnerVaschettaMedia per ottenere il prezzo delle vaschette medie per procedere con il calcolo del <ref refid="classresources_1_1ordine_1_1_ordine_1a8c5d1f512adb8c2818476bc6974ee124" kindref="member">Ordine.prezzoTotale</ref> </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>jSpinnerVaschettaGrande</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Riferimento allo spinner InterfacciaPrincipaleGelataio.jSpinnerVaschettaGrande per ottenere il prezzo delle vaschette grandi per procedere con il calcolo del <ref refid="classresources_1_1ordine_1_1_ordine_1a8c5d1f512adb8c2818476bc6974ee124" kindref="member">Ordine.prezzoTotale</ref></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para>Ordine.vaschette </para>
+</simplesect>
+<simplesect kind="see"><para>Ordine.cognome </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ordine_1_1_ordine_1a9f4d30f67c3e696316df1da65d65b15b" kindref="member">Ordine.numeroTelefonico</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ordine_1_1_ordine_1a5a676025cc2f298ac9e50783c28c1c7e" kindref="member">Ordine.indirizzoConsegna</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ordine_1_1_ordine_1ab0c14d82732c7e41d223a3a86a366cac" kindref="member">Ordine.orarioConsegna</ref> </para>
+</simplesect>
+<simplesect kind="see"><para>Ordine.jSpinnerVaschettaPiccola </para>
+</simplesect>
+<simplesect kind="see"><para>Ordine.jSpinnerVaschettaMedia </para>
+</simplesect>
+<simplesect kind="see"><para>Ordine.jSpinnerVaschettaGrande </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ordine_1_1_ordine_1aa7ee04f71d02c4b1f93c6492986c602d" kindref="member">Ordine.calcolaPrezzo()</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/Ordine.java" line="106" column="12" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/Ordine.java" bodystart="106" bodyend="116"/>
+        <references refid="classresources_1_1ordine_1_1_ordine_1a9b9944829a6c995efaebcc9bcc715851" compoundref="_ordine_8java" startline="42">resources.ordine.Ordine.bevande</references>
+        <references refid="classresources_1_1ordine_1_1_ordine_1aa7ee04f71d02c4b1f93c6492986c602d" compoundref="_ordine_8java" startline="132" endline="152">resources.ordine.Ordine.calcolaPrezzo</references>
+        <references refid="classresources_1_1ordine_1_1_ordine_1abb49a0f3375e4ad6365d484b03c42233" compoundref="_ordine_8java" startline="41">resources.ordine.Ordine.cibi</references>
+        <references refid="classresources_1_1ordine_1_1_ordine_1a5a676025cc2f298ac9e50783c28c1c7e" compoundref="_ordine_8java" startline="52">resources.ordine.Ordine.indirizzoConsegna</references>
+        <references refid="classresources_1_1ordine_1_1_ordine_1afca6e9896230fe2c8b2d79925a064d72" compoundref="_ordine_8java" startline="69">resources.ordine.Ordine.jListListaPredefinitaGusti</references>
+        <references refid="classresources_1_1ordine_1_1_ordine_1a9f4d30f67c3e696316df1da65d65b15b" compoundref="_ordine_8java" startline="47">resources.ordine.Ordine.numeroTelefonico</references>
+        <references refid="classresources_1_1ordine_1_1_ordine_1ab0c14d82732c7e41d223a3a86a366cac" compoundref="_ordine_8java" startline="62">resources.ordine.Ordine.orarioConsegna</references>
+        <references refid="classresources_1_1ordine_1_1_ordine_1ad8d81b5e25f85f463e46d53048fa23f1" compoundref="_ordine_8java" startline="57">resources.ordine.Ordine.piano</references>
+        <referencedby refid="classresources_1_1ordine_1_1_ordine_1a3cb0e2e2ea8e7b033128d8220f966959" compoundref="_ordine_8java" startline="225" endline="261">resources.ordine.Ordine.equals</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1ordine_1_1_ordine_1acc272527cc5724f22fbf61b2d193376b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String resources.ordine.Ordine.getNumeroTelefonico</definition>
+        <argsstring>()</argsstring>
+        <name>getNumeroTelefonico</name>
+        <briefdescription>
+<para>Ritorna il valore dell&apos;attributo <ref refid="classresources_1_1ordine_1_1_ordine_1a9f4d30f67c3e696316df1da65d65b15b" kindref="member">Ordine.numeroTelefonico</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Il valore dell&apos;attributo <ref refid="classresources_1_1ordine_1_1_ordine_1a9f4d30f67c3e696316df1da65d65b15b" kindref="member">Ordine.numeroTelefonico</ref></para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ordine_1_1_ordine_1a9f4d30f67c3e696316df1da65d65b15b" kindref="member">Ordine.numeroTelefonico</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/Ordine.java" line="161" column="19" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/Ordine.java" bodystart="161" bodyend="163"/>
+        <references refid="classresources_1_1ordine_1_1_ordine_1a9f4d30f67c3e696316df1da65d65b15b" compoundref="_ordine_8java" startline="47">resources.ordine.Ordine.numeroTelefonico</references>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1ordine_1_1_ordine_1aa83b08e2f510d89aef792008639411d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String resources.ordine.Ordine.getIndirizzoConsegna</definition>
+        <argsstring>()</argsstring>
+        <name>getIndirizzoConsegna</name>
+        <briefdescription>
+<para>Ritorna il valore dell&apos;attributo <ref refid="classresources_1_1ordine_1_1_ordine_1a5a676025cc2f298ac9e50783c28c1c7e" kindref="member">Ordine.indirizzoConsegna</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Il valore dell&apos;attributo <ref refid="classresources_1_1ordine_1_1_ordine_1a5a676025cc2f298ac9e50783c28c1c7e" kindref="member">Ordine.indirizzoConsegna</ref></para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ordine_1_1_ordine_1a5a676025cc2f298ac9e50783c28c1c7e" kindref="member">Ordine.indirizzoConsegna</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/Ordine.java" line="172" column="19" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/Ordine.java" bodystart="172" bodyend="174"/>
+        <references refid="classresources_1_1ordine_1_1_ordine_1a5a676025cc2f298ac9e50783c28c1c7e" compoundref="_ordine_8java" startline="52">resources.ordine.Ordine.indirizzoConsegna</references>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1ordine_1_1_ordine_1acda2ef7930fb55064587096029779ad9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String resources.ordine.Ordine.getOrarioConsegna</definition>
+        <argsstring>()</argsstring>
+        <name>getOrarioConsegna</name>
+        <briefdescription>
+<para>Ritorna il valore dell&apos;attributo <ref refid="classresources_1_1ordine_1_1_ordine_1ab0c14d82732c7e41d223a3a86a366cac" kindref="member">Ordine.orarioConsegna</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Il valore dell&apos;attributo <ref refid="classresources_1_1ordine_1_1_ordine_1ab0c14d82732c7e41d223a3a86a366cac" kindref="member">Ordine.orarioConsegna</ref></para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ordine_1_1_ordine_1ab0c14d82732c7e41d223a3a86a366cac" kindref="member">Ordine.orarioConsegna</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/Ordine.java" line="183" column="19" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/Ordine.java" bodystart="183" bodyend="185"/>
+        <references refid="classresources_1_1ordine_1_1_ordine_1ab0c14d82732c7e41d223a3a86a366cac" compoundref="_ordine_8java" startline="62">resources.ordine.Ordine.orarioConsegna</references>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1ordine_1_1_ordine_1a8c20e24f82ca3e545474529bd081e554" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Float</type>
+        <definition>Float resources.ordine.Ordine.getPrezzoTotale</definition>
+        <argsstring>()</argsstring>
+        <name>getPrezzoTotale</name>
+        <briefdescription>
+<para>Ritorna il valore dell&apos;attributo <ref refid="classresources_1_1ordine_1_1_ordine_1a8c5d1f512adb8c2818476bc6974ee124" kindref="member">Ordine.prezzoTotale</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Il valore dell&apos;attributo <ref refid="classresources_1_1ordine_1_1_ordine_1a8c5d1f512adb8c2818476bc6974ee124" kindref="member">Ordine.prezzoTotale</ref></para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ordine_1_1_ordine_1a8c5d1f512adb8c2818476bc6974ee124" kindref="member">Ordine.prezzoTotale</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/Ordine.java" line="194" column="18" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/Ordine.java" bodystart="194" bodyend="196"/>
+        <references refid="classresources_1_1ordine_1_1_ordine_1a8c5d1f512adb8c2818476bc6974ee124" compoundref="_ordine_8java" startline="67">resources.ordine.Ordine.prezzoTotale</references>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1ordine_1_1_ordine_1a32f583f428c1f9c2a0c142a4cfe4dfad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String[]</type>
+        <definition>String [] resources.ordine.Ordine.getCibi</definition>
+        <argsstring>()</argsstring>
+        <name>getCibi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/Ordine.java" line="198" column="19" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/Ordine.java" bodystart="198" bodyend="200"/>
+        <references refid="classresources_1_1ordine_1_1_ordine_1abb49a0f3375e4ad6365d484b03c42233" compoundref="_ordine_8java" startline="41">resources.ordine.Ordine.cibi</references>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1ordine_1_1_ordine_1a455d468d4f02b60a9769bea15df859d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String[]</type>
+        <definition>String [] resources.ordine.Ordine.getBevande</definition>
+        <argsstring>()</argsstring>
+        <name>getBevande</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/Ordine.java" line="202" column="19" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/Ordine.java" bodystart="202" bodyend="204"/>
+        <references refid="classresources_1_1ordine_1_1_ordine_1a9b9944829a6c995efaebcc9bcc715851" compoundref="_ordine_8java" startline="42">resources.ordine.Ordine.bevande</references>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1ordine_1_1_ordine_1ab3d97714f7c6a8ab9f6eb5fbcbea30b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String resources.ordine.Ordine.getPiano</definition>
+        <argsstring>()</argsstring>
+        <name>getPiano</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/Ordine.java" line="206" column="19" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/Ordine.java" bodystart="206" bodyend="208"/>
+        <references refid="classresources_1_1ordine_1_1_ordine_1ad8d81b5e25f85f463e46d53048fa23f1" compoundref="_ordine_8java" startline="57">resources.ordine.Ordine.piano</references>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1ordine_1_1_ordine_1a808c8591578bb8bc3506e7f44f7cae35" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int resources.ordine.Ordine.hashCode</definition>
+        <argsstring>()</argsstring>
+        <name>hashCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/Ordine.java" line="211" column="16" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/Ordine.java" bodystart="211" bodyend="222"/>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1ordine_1_1_ordine_1a3cb0e2e2ea8e7b033128d8220f966959" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean resources.ordine.Ordine.equals</definition>
+        <argsstring>(Object obj)</argsstring>
+        <name>equals</name>
+        <param>
+          <type>Object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/Ordine.java" line="225" column="20" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/Ordine.java" bodystart="225" bodyend="261"/>
+        <references refid="classresources_1_1ordine_1_1_ordine_1a9b9944829a6c995efaebcc9bcc715851" compoundref="_ordine_8java" startline="42">resources.ordine.Ordine.bevande</references>
+        <references refid="classresources_1_1ordine_1_1_ordine_1abb49a0f3375e4ad6365d484b03c42233" compoundref="_ordine_8java" startline="41">resources.ordine.Ordine.cibi</references>
+        <references refid="classresources_1_1ordine_1_1_ordine_1a5a676025cc2f298ac9e50783c28c1c7e" compoundref="_ordine_8java" startline="52">resources.ordine.Ordine.indirizzoConsegna</references>
+        <references refid="classresources_1_1ordine_1_1_ordine_1afca6e9896230fe2c8b2d79925a064d72" compoundref="_ordine_8java" startline="69">resources.ordine.Ordine.jListListaPredefinitaGusti</references>
+        <references refid="classresources_1_1ordine_1_1_ordine_1a9f4d30f67c3e696316df1da65d65b15b" compoundref="_ordine_8java" startline="47">resources.ordine.Ordine.numeroTelefonico</references>
+        <references refid="classresources_1_1ordine_1_1_ordine_1ab0c14d82732c7e41d223a3a86a366cac" compoundref="_ordine_8java" startline="62">resources.ordine.Ordine.orarioConsegna</references>
+        <references refid="classresources_1_1ordine_1_1_ordine_1a666e3033673e72d631d52fa342bc199b" compoundref="_ordine_8java" startline="106" endline="116">resources.ordine.Ordine.Ordine</references>
+        <references refid="classresources_1_1ordine_1_1_ordine_1ad8d81b5e25f85f463e46d53048fa23f1" compoundref="_ordine_8java" startline="57">resources.ordine.Ordine.piano</references>
+        <references refid="classresources_1_1ordine_1_1_ordine_1a8c5d1f512adb8c2818476bc6974ee124" compoundref="_ordine_8java" startline="67">resources.ordine.Ordine.prezzoTotale</references>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1ordine_1_1_ordine_1a5420b898533191f8da149d77d4e09aae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String resources.ordine.Ordine.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <briefdescription>
+<para>Returns a hash code value for the object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>A hash code value for the object</para>
+</simplesect>
+<simplesect kind="see"><para>Ordine.vaschette </para>
+</simplesect>
+<simplesect kind="see"><para>Ordine.cognome </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ordine_1_1_ordine_1a9f4d30f67c3e696316df1da65d65b15b" kindref="member">Ordine.numeroTelefonico</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ordine_1_1_ordine_1a5a676025cc2f298ac9e50783c28c1c7e" kindref="member">Ordine.indirizzoConsegna</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ordine_1_1_ordine_1ab0c14d82732c7e41d223a3a86a366cac" kindref="member">Ordine.orarioConsegna</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ordine_1_1_ordine_1a8c5d1f512adb8c2818476bc6974ee124" kindref="member">Ordine.prezzoTotale</ref></para>
+</simplesect>
+Indicates whether some other object is &quot;equal to&quot; this one</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>obj</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The reference object with which to compare</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Whether some other object is &quot;equal to&quot; this one</para>
+</simplesect>
+<simplesect kind="see"><para>Ordine.vaschette </para>
+</simplesect>
+<simplesect kind="see"><para>Ordine.cognome </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ordine_1_1_ordine_1a9f4d30f67c3e696316df1da65d65b15b" kindref="member">Ordine.numeroTelefonico</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ordine_1_1_ordine_1a5a676025cc2f298ac9e50783c28c1c7e" kindref="member">Ordine.indirizzoConsegna</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ordine_1_1_ordine_1ab0c14d82732c7e41d223a3a86a366cac" kindref="member">Ordine.orarioConsegna</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ordine_1_1_ordine_1a8c5d1f512adb8c2818476bc6974ee124" kindref="member">Ordine.prezzoTotale</ref></para>
+</simplesect>
+Genera e ritorna il toString di questa classe</para>
+<para><simplesect kind="return"><para>Il toString di questa classe</para>
+</simplesect>
+<simplesect kind="see"><para>Ordine.vaschette </para>
+</simplesect>
+<simplesect kind="see"><para>Ordine.cognome </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ordine_1_1_ordine_1a9f4d30f67c3e696316df1da65d65b15b" kindref="member">Ordine.numeroTelefonico</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ordine_1_1_ordine_1a5a676025cc2f298ac9e50783c28c1c7e" kindref="member">Ordine.indirizzoConsegna</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ordine_1_1_ordine_1ab0c14d82732c7e41d223a3a86a366cac" kindref="member">Ordine.orarioConsegna</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ordine_1_1_ordine_1a8c5d1f512adb8c2818476bc6974ee124" kindref="member">Ordine.prezzoTotale</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/Ordine.java" line="302" column="19" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/Ordine.java" bodystart="302" bodyend="324"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classresources_1_1ordine_1_1_ordine_1aa7ee04f71d02c4b1f93c6492986c602d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void resources.ordine.Ordine.calcolaPrezzo</definition>
+        <argsstring>()</argsstring>
+        <name>calcolaPrezzo</name>
+        <briefdescription>
+<para>Calcola il <ref refid="classresources_1_1ordine_1_1_ordine_1a8c5d1f512adb8c2818476bc6974ee124" kindref="member">Ordine.prezzoTotale</ref> dell&apos;ordine. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Il seguente metodo calcola il <ref refid="classresources_1_1ordine_1_1_ordine_1a8c5d1f512adb8c2818476bc6974ee124" kindref="member">Ordine.prezzoTotale</ref> dell&apos;ordine in base ai prezzi ricavati dagli spinner Ordine.jSpinnerVaschettaPiccola, Ordine.jSpinnerVaschettaMedia, Ordine.jSpinnerVaschettaGrande</para>
+<para><simplesect kind="see"><para><ref refid="classresources_1_1ordine_1_1_ordine_1a666e3033673e72d631d52fa342bc199b" kindref="member">Ordine.Ordine()</ref> </para>
+</simplesect>
+<simplesect kind="see"><para>Ordine.vaschette </para>
+</simplesect>
+<simplesect kind="see"><para>Ordine.jSpinnerVaschettaPiccola </para>
+</simplesect>
+<simplesect kind="see"><para>Ordine.jSpinnerVaschettaMedia </para>
+</simplesect>
+<simplesect kind="see"><para>Ordine.jSpinnerVaschettaGrande </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ordine_1_1_ordine_1a8c5d1f512adb8c2818476bc6974ee124" kindref="member">Ordine.prezzoTotale</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/Ordine.java" line="132" column="18" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/Ordine.java" bodystart="132" bodyend="152"/>
+        <referencedby refid="classresources_1_1ordine_1_1_ordine_1a666e3033673e72d631d52fa342bc199b" compoundref="_ordine_8java" startline="106" endline="116">resources.ordine.Ordine.Ordine</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Classe che rappresenta la struttura &quot;Ordine&quot;. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Grandieri Andrea <ulink url="mailto:g.andreus02@gmail.com">g.andreus02@gmail.com</ulink> </para>
+</simplesect>
+<simplesect kind="author"><para>Barsotti Mirko <ulink url="mailto:bmirko1505@gmail.com">bmirko1505@gmail.com</ulink> </para>
+</simplesect>
+<simplesect kind="author"><para>Brambilla Mirko <ulink url="mailto:brambobilla01@gmail.com">brambobilla01@gmail.com</ulink></para>
+</simplesect>
+La seguente classe rappresenta l&apos;astrazione della struttura &quot;Ordine&quot; e funge da punto di riferimento per i rispettivi parser XML e generator XML che operano su quest&apos;ultima.</para>
+<para><simplesect kind="see"><para><ref refid="classresources_1_1ordine_1_1xml_1_1generatorxml_1_1_generator_x_m_l_ordine" kindref="compound">resources.ordine.xml.generatorxml.GeneratorXMLOrdine</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2" kindref="compound">resources.ordine.xml.generatorxmlv2.GeneratorXMLOrdinev2</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine" kindref="compound">resources.ordine.xml.parserxml.ParserXMLOrdine</ref> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>JList</label>
+      </node>
+      <node id="1">
+        <label>resources.ordine.Ordine</label>
+        <link refid="classresources_1_1ordine_1_1_ordine"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>-jListListaPredefinitaGusti</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/Ordine.java" line="33" column="7" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/Ordine.java" bodystart="33" bodyend="326"/>
+    <listofallmembers>
+      <member refid="classresources_1_1ordine_1_1_ordine_1a9b9944829a6c995efaebcc9bcc715851" prot="private" virt="non-virtual"><scope>resources::ordine::Ordine</scope><name>bevande</name></member>
+      <member refid="classresources_1_1ordine_1_1_ordine_1aa7ee04f71d02c4b1f93c6492986c602d" prot="private" virt="non-virtual"><scope>resources::ordine::Ordine</scope><name>calcolaPrezzo</name></member>
+      <member refid="classresources_1_1ordine_1_1_ordine_1abb49a0f3375e4ad6365d484b03c42233" prot="private" virt="non-virtual"><scope>resources::ordine::Ordine</scope><name>cibi</name></member>
+      <member refid="classresources_1_1ordine_1_1_ordine_1a3cb0e2e2ea8e7b033128d8220f966959" prot="public" virt="non-virtual"><scope>resources::ordine::Ordine</scope><name>equals</name></member>
+      <member refid="classresources_1_1ordine_1_1_ordine_1a455d468d4f02b60a9769bea15df859d8" prot="public" virt="non-virtual"><scope>resources::ordine::Ordine</scope><name>getBevande</name></member>
+      <member refid="classresources_1_1ordine_1_1_ordine_1a32f583f428c1f9c2a0c142a4cfe4dfad" prot="public" virt="non-virtual"><scope>resources::ordine::Ordine</scope><name>getCibi</name></member>
+      <member refid="classresources_1_1ordine_1_1_ordine_1aa83b08e2f510d89aef792008639411d3" prot="public" virt="non-virtual"><scope>resources::ordine::Ordine</scope><name>getIndirizzoConsegna</name></member>
+      <member refid="classresources_1_1ordine_1_1_ordine_1acc272527cc5724f22fbf61b2d193376b" prot="public" virt="non-virtual"><scope>resources::ordine::Ordine</scope><name>getNumeroTelefonico</name></member>
+      <member refid="classresources_1_1ordine_1_1_ordine_1acda2ef7930fb55064587096029779ad9" prot="public" virt="non-virtual"><scope>resources::ordine::Ordine</scope><name>getOrarioConsegna</name></member>
+      <member refid="classresources_1_1ordine_1_1_ordine_1ab3d97714f7c6a8ab9f6eb5fbcbea30b0" prot="public" virt="non-virtual"><scope>resources::ordine::Ordine</scope><name>getPiano</name></member>
+      <member refid="classresources_1_1ordine_1_1_ordine_1a8c20e24f82ca3e545474529bd081e554" prot="public" virt="non-virtual"><scope>resources::ordine::Ordine</scope><name>getPrezzoTotale</name></member>
+      <member refid="classresources_1_1ordine_1_1_ordine_1a808c8591578bb8bc3506e7f44f7cae35" prot="public" virt="non-virtual"><scope>resources::ordine::Ordine</scope><name>hashCode</name></member>
+      <member refid="classresources_1_1ordine_1_1_ordine_1a5a676025cc2f298ac9e50783c28c1c7e" prot="private" virt="non-virtual"><scope>resources::ordine::Ordine</scope><name>indirizzoConsegna</name></member>
+      <member refid="classresources_1_1ordine_1_1_ordine_1afca6e9896230fe2c8b2d79925a064d72" prot="private" virt="non-virtual"><scope>resources::ordine::Ordine</scope><name>jListListaPredefinitaGusti</name></member>
+      <member refid="classresources_1_1ordine_1_1_ordine_1a9f4d30f67c3e696316df1da65d65b15b" prot="private" virt="non-virtual"><scope>resources::ordine::Ordine</scope><name>numeroTelefonico</name></member>
+      <member refid="classresources_1_1ordine_1_1_ordine_1ab0c14d82732c7e41d223a3a86a366cac" prot="private" virt="non-virtual"><scope>resources::ordine::Ordine</scope><name>orarioConsegna</name></member>
+      <member refid="classresources_1_1ordine_1_1_ordine_1a666e3033673e72d631d52fa342bc199b" prot="public" virt="non-virtual"><scope>resources::ordine::Ordine</scope><name>Ordine</name></member>
+      <member refid="classresources_1_1ordine_1_1_ordine_1ad8d81b5e25f85f463e46d53048fa23f1" prot="private" virt="non-virtual"><scope>resources::ordine::Ordine</scope><name>piano</name></member>
+      <member refid="classresources_1_1ordine_1_1_ordine_1a8c5d1f512adb8c2818476bc6974ee124" prot="private" virt="non-virtual"><scope>resources::ordine::Ordine</scope><name>prezzoTotale</name></member>
+      <member refid="classresources_1_1ordine_1_1_ordine_1a5420b898533191f8da149d77d4e09aae" prot="public" virt="non-virtual"><scope>resources::ordine::Ordine</scope><name>toString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

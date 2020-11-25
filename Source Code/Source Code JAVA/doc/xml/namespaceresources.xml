@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="namespaceresources" kind="namespace" language="Java">
+    <compoundname>resources</compoundname>
+    <innernamespace refid="namespaceresources_1_1compositionlistapredefinitagusti">resources::compositionlistapredefinitagusti</innernamespace>
+    <innernamespace refid="namespaceresources_1_1cronology">resources::cronology</innernamespace>
+    <innernamespace refid="namespaceresources_1_1currenttime">resources::currenttime</innernamespace>
+    <innernamespace refid="namespaceresources_1_1ftpserver">resources::ftpserver</innernamespace>
+    <innernamespace refid="namespaceresources_1_1listtextwrapper">resources::listtextwrapper</innernamespace>
+    <innernamespace refid="namespaceresources_1_1orariodelnegozio">resources::orariodelnegozio</innernamespace>
+    <innernamespace refid="namespaceresources_1_1ordine">resources::ordine</innernamespace>
+    <innernamespace refid="namespaceresources_1_1prezzovaschette">resources::prezzovaschette</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="[generated]" line="1" column="1"/>
+  </compounddef>
+</doxygen>

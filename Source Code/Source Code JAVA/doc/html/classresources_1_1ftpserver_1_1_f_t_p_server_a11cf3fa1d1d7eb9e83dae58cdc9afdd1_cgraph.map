@@ -1,0 +1,4 @@
+<map id="resources.ftpserver.FTPServer.getIsNoOp" name="resources.ftpserver.FTPServer.getIsNoOp">
+<area shape="rect" id="node1" title="Ritorna il valore ottenuto attraverso l&#39;invocazione del metodo resources.ftpserver...." alt="" coords="5,5,223,47"/>
+<area shape="rect" id="node2" href="$classresources_1_1ftpserver_1_1_manager.html#a5c52f5769c89fb20b0bfc7520fc2d3b7" title="Ritorna il valore dell&#39;attributo Manager.isNoOp." alt="" coords="271,5,477,47"/>
+</map>

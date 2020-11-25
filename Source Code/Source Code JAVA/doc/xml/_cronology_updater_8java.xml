@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="_cronology_updater_8java" kind="file" language="Java">
+    <compoundname>CronologyUpdater.java</compoundname>
+    <innerclass refid="classresources_1_1cronology_1_1_cronology_updater" prot="public">resources::cronology::CronologyUpdater</innerclass>
+    <innernamespace refid="namespaceresources_1_1cronology">resources::cronology</innernamespace>
+    <briefdescription>
+<para>Classe per garantire un aggiornamento automatico e continuo del conteggio dei frammenti cronologici degli ordini evasi. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Grandieri Andrea <ulink url="mailto:g.andreus02@gmail.com">g.andreus02@gmail.com</ulink> </para>
+</simplesect>
+<simplesect kind="author"><para>Barsotti Mirko <ulink url="mailto:bmirko1505@gmail.com">bmirko1505@gmail.com</ulink> </para>
+</simplesect>
+<simplesect kind="author"><para>Brambilla Mirko <ulink url="mailto:brambobilla01@gmail.com">brambobilla01@gmail.com</ulink> </para>
+</simplesect>
+<simplesect kind="version"><para>1.0 </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespaceresources_1_1cronology" refkind="compound"><highlight class="keyword">package<sp/></highlight><highlight class="normal">resources.cronology;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="namespacegui_gelataio" kindref="compound">guiGelataio</ref>.<ref refid="classgui_gelataio_1_1_interfaccia_principale_galataio" kindref="compound">InterfacciaPrincipaleGalataio</ref>;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.util.TimerTask;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>javax.swing.JLabel;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="namespaceresources" kindref="compound">resources</ref>.<ref refid="namespaceresources_1_1ftpserver" kindref="compound">ftpserver</ref>.<ref refid="classresources_1_1ftpserver_1_1_f_t_p_server" kindref="compound">FTPServer</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="classresources_1_1cronology_1_1_cronology_updater" refkind="compound"><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classresources_1_1cronology_1_1_cronology_updater" kindref="compound">CronologyUpdater</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/>TimerTask<sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="classresources_1_1cronology_1_1_cronology_updater_1a739c0247888a0098c4162b3b02aa5fe8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">final</highlight><highlight class="normal"><sp/>JLabel<sp/><ref refid="classresources_1_1cronology_1_1_cronology_updater_1a739c0247888a0098c4162b3b02aa5fe8" kindref="member">printLabel</ref>;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="classresources_1_1cronology_1_1_cronology_updater_1a0de12e3701e50773237d10c608ff7be0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">final</highlight><highlight class="normal"><sp/><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server" kindref="compound">FTPServer</ref><sp/><ref refid="classresources_1_1cronology_1_1_cronology_updater_1a0de12e3701e50773237d10c608ff7be0" kindref="member">server</ref>;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="classresources_1_1cronology_1_1_cronology_updater_1a848b51eece7eb98337a865a64f2f0633" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classresources_1_1cronology_1_1_cronology_updater_1a848b51eece7eb98337a865a64f2f0633" kindref="member">CronologyUpdater</ref>(<ref refid="classresources_1_1ftpserver_1_1_f_t_p_server" kindref="compound">FTPServer</ref><sp/><ref refid="classresources_1_1cronology_1_1_cronology_updater_1a0de12e3701e50773237d10c608ff7be0" kindref="member">server</ref>,<sp/>JLabel<sp/><ref refid="classresources_1_1cronology_1_1_cronology_updater_1a739c0247888a0098c4162b3b02aa5fe8" kindref="member">printLabel</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.server<sp/>=<sp/><ref refid="classresources_1_1cronology_1_1_cronology_updater_1a0de12e3701e50773237d10c608ff7be0" kindref="member">server</ref>;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.printLabel<sp/>=<sp/><ref refid="classresources_1_1cronology_1_1_cronology_updater_1a739c0247888a0098c4162b3b02aa5fe8" kindref="member">printLabel</ref>;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>@Override</highlight></codeline>
+<codeline lineno="82" refid="classresources_1_1cronology_1_1_cronology_updater_1a9894bb0596657375bc888de39c019834" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classresources_1_1cronology_1_1_cronology_updater_1a9894bb0596657375bc888de39c019834" kindref="member">run</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Imposto<sp/>la<sp/>directory<sp/>cronologia</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.server.<ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ab87c0e92af371c7034d82b026367b401" kindref="member">setCurrentDirectory</ref>(</highlight><highlight class="stringliteral">&quot;../../../../update07/cronologia&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Ottengo<sp/>lista<sp/>di<sp/>elementi<sp/>nella<sp/>directory<sp/>del<sp/>server</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>outSiteInGelataio</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>String[]<sp/>listElements<sp/>=<sp/>this.server.<ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1acf6cff62c6a86355a070f15d2d15bf84" kindref="member">getListElements</ref>();</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.printLabel.setText(</highlight><highlight class="stringliteral">&quot;Frammenti<sp/>Cronologici:<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/>listElements.length);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="94"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/cronology/CronologyUpdater.java"/>
+  </compounddef>
+</doxygen>

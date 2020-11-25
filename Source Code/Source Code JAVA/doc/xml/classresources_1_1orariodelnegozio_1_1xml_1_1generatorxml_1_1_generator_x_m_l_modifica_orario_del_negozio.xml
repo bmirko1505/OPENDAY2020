@@ -1,0 +1,234 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="classresources_1_1orariodelnegozio_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_orario_del_negozio" kind="class" language="Java" prot="public">
+    <compoundname>resources::orariodelnegozio::xml::generatorxml::GeneratorXMLModificaOrarioDelNegozio</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classresources_1_1orariodelnegozio_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_orario_del_negozio_1af122e296541d4d081d71124168f36bdb" prot="private" static="no" mutable="no">
+        <type>Document</type>
+        <definition>Document resources.orariodelnegozio.xml.generatorxml.GeneratorXMLModificaOrarioDelNegozio.document</definition>
+        <argsstring></argsstring>
+        <name>document</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Rappresenta il documento &quot;virtuale&quot; sul quale andremo a creare il nostro albero DOM </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/orariodelnegozio/xml/generatorxml/GeneratorXMLModificaOrarioDelNegozio.java" line="51" column="22" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/orariodelnegozio/xml/generatorxml/GeneratorXMLModificaOrarioDelNegozio.java" bodystart="51" bodyend="-1"/>
+        <referencedby refid="classresources_1_1orariodelnegozio_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_orario_del_negozio_1a2bc6028579dbc81a02622da49482b7b0" compoundref="_generator_x_m_l_modifica_orario_del_negozio_8java" startline="97" endline="136">resources.orariodelnegozio.xml.generatorxml.GeneratorXMLModificaOrarioDelNegozio.createDOMTree</referencedby>
+        <referencedby refid="classresources_1_1orariodelnegozio_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_orario_del_negozio_1ae723d0ef0a2d190183bb26498456d379" compoundref="_generator_x_m_l_modifica_orario_del_negozio_8java" startline="149" endline="205">resources.orariodelnegozio.xml.generatorxml.GeneratorXMLModificaOrarioDelNegozio.get</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classresources_1_1orariodelnegozio_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_orario_del_negozio_1ada96a10c845038da553b139f1311f1d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>resources.orariodelnegozio.xml.generatorxml.GeneratorXMLModificaOrarioDelNegozio.GeneratorXMLModificaOrarioDelNegozio</definition>
+        <argsstring>()</argsstring>
+        <name>GeneratorXMLModificaOrarioDelNegozio</name>
+        <briefdescription>
+<para>Costruttore. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Inizializza tutte le risorse necessarie ad un oggetto di questa classe</para>
+<para><simplesect kind="see"><para><ref refid="classresources_1_1orariodelnegozio_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_orario_del_negozio_1af122e296541d4d081d71124168f36bdb" kindref="member">GeneratorXMLModificaOrarioDelNegozio.document</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/orariodelnegozio/xml/generatorxml/GeneratorXMLModificaOrarioDelNegozio.java" line="61" column="12" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/orariodelnegozio/xml/generatorxml/GeneratorXMLModificaOrarioDelNegozio.java" bodystart="61" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1orariodelnegozio_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_orario_del_negozio_1a2bc6028579dbc81a02622da49482b7b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void resources.orariodelnegozio.xml.generatorxml.GeneratorXMLModificaOrarioDelNegozio.createDOMTree</definition>
+        <argsstring>(ArrayList&lt; OrarioDelNegozio &gt; data)</argsstring>
+        <name>createDOMTree</name>
+        <param>
+          <type>ArrayList&lt; <ref refid="classresources_1_1orariodelnegozio_1_1_orario_del_negozio" kindref="compound">OrarioDelNegozio</ref> &gt;</type>
+          <declname>data</declname>
+        </param>
+        <exceptions> throws ParserConfigurationException </exceptions>
+        <briefdescription>
+<para>Crea l&apos;albero DOM. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista di oggetti da convertire in &quot;nodi dell&apos;albero DOM&quot;</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>ParserConfigurationException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="classresources_1_1orariodelnegozio_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_orario_del_negozio_1ad954510fb015782b25c60bf127bb00bd" kindref="member">GeneratorXMLModificaOrarioDelNegozio.createDocument()</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1orariodelnegozio_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_orario_del_negozio_1af122e296541d4d081d71124168f36bdb" kindref="member">GeneratorXMLModificaOrarioDelNegozio.document</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/orariodelnegozio/xml/generatorxml/GeneratorXMLModificaOrarioDelNegozio.java" line="97" column="17" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/orariodelnegozio/xml/generatorxml/GeneratorXMLModificaOrarioDelNegozio.java" bodystart="97" bodyend="136"/>
+        <references refid="classresources_1_1orariodelnegozio_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_orario_del_negozio_1ad954510fb015782b25c60bf127bb00bd" compoundref="_generator_x_m_l_modifica_orario_del_negozio_8java" startline="76" endline="84">resources.orariodelnegozio.xml.generatorxml.GeneratorXMLModificaOrarioDelNegozio.createDocument</references>
+        <references refid="classresources_1_1orariodelnegozio_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_orario_del_negozio_1af122e296541d4d081d71124168f36bdb" compoundref="_generator_x_m_l_modifica_orario_del_negozio_8java" startline="51">resources.orariodelnegozio.xml.generatorxml.GeneratorXMLModificaOrarioDelNegozio.document</references>
+        <referencedby refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a5648ca5385ef5ad8b89e7bbfbc58207f" compoundref="_interfaccia_principale_galataio_8java" startline="1807" endline="1874">guiGelataio.InterfacciaPrincipaleGalataio.jButtonConfermaActionPerformed</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1orariodelnegozio_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_orario_del_negozio_1ae7a13330ad3be206fe8c7e43ef646343" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void resources.orariodelnegozio.xml.generatorxml.GeneratorXMLModificaOrarioDelNegozio.applyDOMonXMLFile</definition>
+        <argsstring>(String filenameNpath)</argsstring>
+        <name>applyDOMonXMLFile</name>
+        <param>
+          <type>String</type>
+          <declname>filenameNpath</declname>
+        </param>
+        <exceptions> throws TransformerConfigurationException, TransformerException </exceptions>
+        <briefdescription>
+<para>Crea l&apos;effettivo file XML sulla base dell&apos;albero DOM. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>filenameNpath</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Path del file XML di salvataggio</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>TransformerConfigurationException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>TransformerException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="classresources_1_1orariodelnegozio_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_orario_del_negozio_1af122e296541d4d081d71124168f36bdb" kindref="member">GeneratorXMLModificaOrarioDelNegozio.document</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/orariodelnegozio/xml/generatorxml/GeneratorXMLModificaOrarioDelNegozio.java" line="218" column="17" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/orariodelnegozio/xml/generatorxml/GeneratorXMLModificaOrarioDelNegozio.java" bodystart="218" bodyend="247"/>
+        <referencedby refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a5648ca5385ef5ad8b89e7bbfbc58207f" compoundref="_interfaccia_principale_galataio_8java" startline="1807" endline="1874">guiGelataio.InterfacciaPrincipaleGalataio.jButtonConfermaActionPerformed</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classresources_1_1orariodelnegozio_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_orario_del_negozio_1ad954510fb015782b25c60bf127bb00bd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void resources.orariodelnegozio.xml.generatorxml.GeneratorXMLModificaOrarioDelNegozio.createDocument</definition>
+        <argsstring>()</argsstring>
+        <name>createDocument</name>
+        <exceptions> throws ParserConfigurationException </exceptions>
+        <briefdescription>
+<para>Crea il documento &quot;virtuale&quot; supporto per il nostro albero DOM. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>ParserConfigurationException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="classresources_1_1orariodelnegozio_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_orario_del_negozio_1af122e296541d4d081d71124168f36bdb" kindref="member">GeneratorXMLModificaOrarioDelNegozio.document</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/orariodelnegozio/xml/generatorxml/GeneratorXMLModificaOrarioDelNegozio.java" line="76" column="18" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/orariodelnegozio/xml/generatorxml/GeneratorXMLModificaOrarioDelNegozio.java" bodystart="76" bodyend="84"/>
+        <referencedby refid="classresources_1_1orariodelnegozio_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_orario_del_negozio_1a2bc6028579dbc81a02622da49482b7b0" compoundref="_generator_x_m_l_modifica_orario_del_negozio_8java" startline="97" endline="136">resources.orariodelnegozio.xml.generatorxml.GeneratorXMLModificaOrarioDelNegozio.createDOMTree</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1orariodelnegozio_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_orario_del_negozio_1ae723d0ef0a2d190183bb26498456d379" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Element</type>
+        <definition>Element resources.orariodelnegozio.xml.generatorxml.GeneratorXMLModificaOrarioDelNegozio.get</definition>
+        <argsstring>(OrarioDelNegozio singleElement)</argsstring>
+        <name>get</name>
+        <param>
+          <type><ref refid="classresources_1_1orariodelnegozio_1_1_orario_del_negozio" kindref="compound">OrarioDelNegozio</ref></type>
+          <declname>singleElement</declname>
+        </param>
+        <briefdescription>
+<para>Converte un oggetto in &quot;nodo dell&apos;albero DOM&quot;. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>singleElement</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>L&apos;oggetto da convertire in &quot;nodo dell&apos;albero DOM&quot;</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Il nodo dell&apos;albero DOM (L&apos;oggetto convertito in)</para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1orariodelnegozio_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_orario_del_negozio_1af122e296541d4d081d71124168f36bdb" kindref="member">GeneratorXMLModificaOrarioDelNegozio.document</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/orariodelnegozio/xml/generatorxml/GeneratorXMLModificaOrarioDelNegozio.java" line="149" column="21" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/orariodelnegozio/xml/generatorxml/GeneratorXMLModificaOrarioDelNegozio.java" bodystart="149" bodyend="205"/>
+        <references refid="classresources_1_1orariodelnegozio_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_orario_del_negozio_1af122e296541d4d081d71124168f36bdb" compoundref="_generator_x_m_l_modifica_orario_del_negozio_8java" startline="51">resources.orariodelnegozio.xml.generatorxml.GeneratorXMLModificaOrarioDelNegozio.document</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Classe generator per i file XML con struttura &quot;OrarioDelNegozio&quot;. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Grandieri Andrea <ulink url="mailto:g.andreus02@gmail.com">g.andreus02@gmail.com</ulink> </para>
+</simplesect>
+<simplesect kind="author"><para>Barsotti Mirko <ulink url="mailto:bmirko1505@gmail.com">bmirko1505@gmail.com</ulink> </para>
+</simplesect>
+<simplesect kind="author"><para>Brambilla Mirko <ulink url="mailto:brambobilla01@gmail.com">brambobilla01@gmail.com</ulink></para>
+</simplesect>
+La seguente classe fornisce un generatore di file XML con struttura &quot;OrarioDelNegozio&quot; </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>resources.orariodelnegozio.xml.generatorxml.GeneratorXMLModificaOrarioDelNegozio</label>
+        <link refid="classresources_1_1orariodelnegozio_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_orario_del_negozio"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>-document</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Document</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/orariodelnegozio/xml/generatorxml/GeneratorXMLModificaOrarioDelNegozio.java" line="38" column="7" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/orariodelnegozio/xml/generatorxml/GeneratorXMLModificaOrarioDelNegozio.java" bodystart="38" bodyend="248"/>
+    <listofallmembers>
+      <member refid="classresources_1_1orariodelnegozio_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_orario_del_negozio_1ae7a13330ad3be206fe8c7e43ef646343" prot="public" virt="non-virtual"><scope>resources::orariodelnegozio::xml::generatorxml::GeneratorXMLModificaOrarioDelNegozio</scope><name>applyDOMonXMLFile</name></member>
+      <member refid="classresources_1_1orariodelnegozio_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_orario_del_negozio_1ad954510fb015782b25c60bf127bb00bd" prot="private" virt="non-virtual"><scope>resources::orariodelnegozio::xml::generatorxml::GeneratorXMLModificaOrarioDelNegozio</scope><name>createDocument</name></member>
+      <member refid="classresources_1_1orariodelnegozio_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_orario_del_negozio_1a2bc6028579dbc81a02622da49482b7b0" prot="public" virt="non-virtual"><scope>resources::orariodelnegozio::xml::generatorxml::GeneratorXMLModificaOrarioDelNegozio</scope><name>createDOMTree</name></member>
+      <member refid="classresources_1_1orariodelnegozio_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_orario_del_negozio_1af122e296541d4d081d71124168f36bdb" prot="private" virt="non-virtual"><scope>resources::orariodelnegozio::xml::generatorxml::GeneratorXMLModificaOrarioDelNegozio</scope><name>document</name></member>
+      <member refid="classresources_1_1orariodelnegozio_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_orario_del_negozio_1ada96a10c845038da553b139f1311f1d4" prot="public" virt="non-virtual"><scope>resources::orariodelnegozio::xml::generatorxml::GeneratorXMLModificaOrarioDelNegozio</scope><name>GeneratorXMLModificaOrarioDelNegozio</name></member>
+      <member refid="classresources_1_1orariodelnegozio_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_orario_del_negozio_1ae723d0ef0a2d190183bb26498456d379" prot="private" virt="non-virtual"><scope>resources::orariodelnegozio::xml::generatorxml::GeneratorXMLModificaOrarioDelNegozio</scope><name>get</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

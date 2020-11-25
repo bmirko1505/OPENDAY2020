@@ -1,0 +1,5 @@
+<map id="resources.ftpserver.Manager.getIsLogBidirectional" name="resources.ftpserver.Manager.getIsLogBidirectional">
+<area shape="rect" id="node1" title="Ritorna il valore dell&#39;attributo Manager.isLogBidirectional." alt="" coords="591,23,797,65"/>
+<area shape="rect" id="node2" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#ab2740547f1222dd15c12f2b3a43e2873" title="Tenta di effettuare il logout dal server." alt="" coords="308,5,543,32"/>
+<area shape="rect" id="node3" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#ac715abb38c9bb7ed27155d7ce200d2cb" title="Tenta di effettuare il logout dal server." alt="" coords="5,31,260,57"/>
+</map>

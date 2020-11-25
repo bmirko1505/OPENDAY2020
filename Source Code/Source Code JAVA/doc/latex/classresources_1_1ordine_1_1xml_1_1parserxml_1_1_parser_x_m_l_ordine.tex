@@ -1,0 +1,207 @@
+\hypertarget{classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine}{}\doxysection{resources.\+ordine.\+xml.\+parserxml.\+Parser\+X\+M\+L\+Ordine Class Reference}
+\label{classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine}\index{resources.ordine.xml.parserxml.ParserXMLOrdine@{resources.ordine.xml.parserxml.ParserXMLOrdine}}
+
+
+Classe parser per i file X\+ML con struttura \char`\"{}\+Ordine\char`\"{}.  
+
+
+
+
+Collaboration diagram for resources.\+ordine.\+xml.\+parserxml.\+Parser\+X\+M\+L\+Ordine\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine_a840e57b044e8370bdd95cf42871ada7a}{Parser\+X\+M\+L\+Ordine}} (J\+List \mbox{\hyperlink{classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine_ac429dc5fac21743a7b71102772c82fef}{j\+List\+Lista\+Predefinita\+Gusti}})
+\begin{DoxyCompactList}\small\item\em Costruttore. \end{DoxyCompactList}\item 
+Array\+List$<$ \mbox{\hyperlink{classresources_1_1ordine_1_1_ordine}{Ordine}} $>$ \mbox{\hyperlink{classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine_aa730d79aa207eef84cca50a5ee1b4c07}{parse\+Document}} (String path)  throws Parser\+Configuration\+Exception, S\+A\+X\+Exception, I\+O\+Exception, Parse\+Exception 
+\begin{DoxyCompactList}\small\item\em Effettua il parsing del documento X\+ML di cui viene specificato il path. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine_a83cead9d33a5d8fdc38adaf8394a630f}{put}} (Document document, Element root\+Tag, Element single\+Tag)  throws Parse\+Exception 
+\begin{DoxyCompactList}\small\item\em Converte un \char`\"{}nodo dell\textquotesingle{}albero D\+O\+M\char`\"{} in oggetto. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Array\+List$<$ \mbox{\hyperlink{classresources_1_1ordine_1_1_ordine}{Ordine}} $>$ \mbox{\hyperlink{classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine_a5c4b2b2d01e2dba275220b276eda3803}{parsing\+Result}}
+\item 
+final J\+List \mbox{\hyperlink{classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine_ac429dc5fac21743a7b71102772c82fef}{j\+List\+Lista\+Predefinita\+Gusti}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Classe parser per i file X\+ML con struttura \char`\"{}\+Ordine\char`\"{}. 
+
+\begin{DoxyAuthor}{Author}
+Grandieri Andrea \href{mailto:g.andreus02@gmail.com}{\texttt{ g.\+andreus02@gmail.\+com}} 
+
+Barsotti Mirko \href{mailto:bmirko1505@gmail.com}{\texttt{ bmirko1505@gmail.\+com}} 
+
+Brambilla Mirko \href{mailto:brambobilla01@gmail.com}{\texttt{ brambobilla01@gmail.\+com}}
+\end{DoxyAuthor}
+La seguente classe fornisce un parser di file X\+ML con struttura \char`\"{}\+Ordine\char`\"{} 
+
+Definition at line 35 of file Parser\+X\+M\+L\+Ordine.\+java.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine_a840e57b044e8370bdd95cf42871ada7a}\label{classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine_a840e57b044e8370bdd95cf42871ada7a}} 
+\index{resources.ordine.xml.parserxml.ParserXMLOrdine@{resources.ordine.xml.parserxml.ParserXMLOrdine}!ParserXMLOrdine@{ParserXMLOrdine}}
+\index{ParserXMLOrdine@{ParserXMLOrdine}!resources.ordine.xml.parserxml.ParserXMLOrdine@{resources.ordine.xml.parserxml.ParserXMLOrdine}}
+\doxysubsubsection{\texorpdfstring{ParserXMLOrdine()}{ParserXMLOrdine()}}
+{\footnotesize\ttfamily resources.\+ordine.\+xml.\+parserxml.\+Parser\+X\+M\+L\+Ordine.\+Parser\+X\+M\+L\+Ordine (\begin{DoxyParamCaption}\item[{J\+List}]{j\+List\+Lista\+Predefinita\+Gusti }\end{DoxyParamCaption})}
+
+
+
+Costruttore. 
+
+Inizializza tutte le risorse necessarie ad un oggetto di questa classe
+
+
+\begin{DoxyParams}{Parameters}
+{\em j\+Spinner\+Vaschetta\+Piccola} & Riferimento allo spinner Interfaccia\+Principale\+Gelataio.\+j\+Spinner\+Vaschetta\+Piccola per ottenere il prezzo delle vaschette piccole per procedere con il calcolo del \mbox{\hyperlink{classresources_1_1ordine_1_1_ordine_a8c5d1f512adb8c2818476bc6974ee124}{Ordine.\+prezzo\+Totale}} \\
+\hline
+{\em j\+Spinner\+Vaschetta\+Media} & Riferimento allo spinner Interfaccia\+Principale\+Gelataio.\+j\+Spinner\+Vaschetta\+Media per ottenere il prezzo delle vaschette medie per procedere con il calcolo del \mbox{\hyperlink{classresources_1_1ordine_1_1_ordine_a8c5d1f512adb8c2818476bc6974ee124}{Ordine.\+prezzo\+Totale}} \\
+\hline
+{\em j\+Spinner\+Vaschetta\+Grande} & Riferimento allo spinner Interfaccia\+Principale\+Gelataio.\+j\+Spinner\+Vaschetta\+Grande per ottenere il prezzo delle vaschette grandi per procedere con il calcolo del \mbox{\hyperlink{classresources_1_1ordine_1_1_ordine_a8c5d1f512adb8c2818476bc6974ee124}{Ordine.\+prezzo\+Totale}}\\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine_a5c4b2b2d01e2dba275220b276eda3803}{Parser\+X\+M\+L\+Ordine.\+parsing\+Result}} 
+
+Parser\+X\+M\+L\+Ordine.\+j\+Spinner\+Vaschetta\+Piccola 
+
+Parser\+X\+M\+L\+Ordine.\+j\+Spinner\+Vaschetta\+Media 
+
+Parser\+X\+M\+L\+Ordine.\+j\+Spinner\+Vaschetta\+Grande 
+\end{DoxySeeAlso}
+
+
+Definition at line 70 of file Parser\+X\+M\+L\+Ordine.\+java.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine_aa730d79aa207eef84cca50a5ee1b4c07}\label{classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine_aa730d79aa207eef84cca50a5ee1b4c07}} 
+\index{resources.ordine.xml.parserxml.ParserXMLOrdine@{resources.ordine.xml.parserxml.ParserXMLOrdine}!parseDocument@{parseDocument}}
+\index{parseDocument@{parseDocument}!resources.ordine.xml.parserxml.ParserXMLOrdine@{resources.ordine.xml.parserxml.ParserXMLOrdine}}
+\doxysubsubsection{\texorpdfstring{parseDocument()}{parseDocument()}}
+{\footnotesize\ttfamily Array\+List$<$\mbox{\hyperlink{classresources_1_1ordine_1_1_ordine}{Ordine}}$>$ resources.\+ordine.\+xml.\+parserxml.\+Parser\+X\+M\+L\+Ordine.\+parse\+Document (\begin{DoxyParamCaption}\item[{String}]{path }\end{DoxyParamCaption}) throws Parser\+Configuration\+Exception, S\+A\+X\+Exception, I\+O\+Exception, Parse\+Exception}
+
+
+
+Effettua il parsing del documento X\+ML di cui viene specificato il path. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em path} & Path del file X\+ML del quale effettuare il parsing\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Lista di oggetti convertiti da \char`\"{}nodi dell\textquotesingle{}albero D\+O\+M\char`\"{}
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Parser\+Configuration\+Exception} & \\
+\hline
+{\em S\+A\+X\+Exception} & \\
+\hline
+{\em I\+O\+Exception} & \\
+\hline
+{\em Parse\+Exception} & \\
+\hline
+\end{DoxyExceptions}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine_a5c4b2b2d01e2dba275220b276eda3803}{Parser\+X\+M\+L\+Ordine.\+parsing\+Result}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 94 of file Parser\+X\+M\+L\+Ordine.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine_aa730d79aa207eef84cca50a5ee1b4c07_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine_aa730d79aa207eef84cca50a5ee1b4c07_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine_a83cead9d33a5d8fdc38adaf8394a630f}\label{classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine_a83cead9d33a5d8fdc38adaf8394a630f}} 
+\index{resources.ordine.xml.parserxml.ParserXMLOrdine@{resources.ordine.xml.parserxml.ParserXMLOrdine}!put@{put}}
+\index{put@{put}!resources.ordine.xml.parserxml.ParserXMLOrdine@{resources.ordine.xml.parserxml.ParserXMLOrdine}}
+\doxysubsubsection{\texorpdfstring{put()}{put()}}
+{\footnotesize\ttfamily void resources.\+ordine.\+xml.\+parserxml.\+Parser\+X\+M\+L\+Ordine.\+put (\begin{DoxyParamCaption}\item[{Document}]{document,  }\item[{Element}]{root\+Tag,  }\item[{Element}]{single\+Tag }\end{DoxyParamCaption}) throws Parse\+Exception\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Converte un \char`\"{}nodo dell\textquotesingle{}albero D\+O\+M\char`\"{} in oggetto. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em single\+Tag} & Nodo dell\textquotesingle{}albero D\+OM da convertire in oggetto\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Parse\+Exception} & \\
+\hline
+\end{DoxyExceptions}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine_a5c4b2b2d01e2dba275220b276eda3803}{Parser\+X\+M\+L\+Ordine.\+parsing\+Result}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 182 of file Parser\+X\+M\+L\+Ordine.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine_a83cead9d33a5d8fdc38adaf8394a630f_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine_ac429dc5fac21743a7b71102772c82fef}\label{classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine_ac429dc5fac21743a7b71102772c82fef}} 
+\index{resources.ordine.xml.parserxml.ParserXMLOrdine@{resources.ordine.xml.parserxml.ParserXMLOrdine}!jListListaPredefinitaGusti@{jListListaPredefinitaGusti}}
+\index{jListListaPredefinitaGusti@{jListListaPredefinitaGusti}!resources.ordine.xml.parserxml.ParserXMLOrdine@{resources.ordine.xml.parserxml.ParserXMLOrdine}}
+\doxysubsubsection{\texorpdfstring{jListListaPredefinitaGusti}{jListListaPredefinitaGusti}}
+{\footnotesize\ttfamily final J\+List resources.\+ordine.\+xml.\+parserxml.\+Parser\+X\+M\+L\+Ordine.\+j\+List\+Lista\+Predefinita\+Gusti\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 44 of file Parser\+X\+M\+L\+Ordine.\+java.
+
+\mbox{\Hypertarget{classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine_a5c4b2b2d01e2dba275220b276eda3803}\label{classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine_a5c4b2b2d01e2dba275220b276eda3803}} 
+\index{resources.ordine.xml.parserxml.ParserXMLOrdine@{resources.ordine.xml.parserxml.ParserXMLOrdine}!parsingResult@{parsingResult}}
+\index{parsingResult@{parsingResult}!resources.ordine.xml.parserxml.ParserXMLOrdine@{resources.ordine.xml.parserxml.ParserXMLOrdine}}
+\doxysubsubsection{\texorpdfstring{parsingResult}{parsingResult}}
+{\footnotesize\ttfamily Array\+List$<$\mbox{\hyperlink{classresources_1_1ordine_1_1_ordine}{Ordine}}$>$ resources.\+ordine.\+xml.\+parserxml.\+Parser\+X\+M\+L\+Ordine.\+parsing\+Result\hspace{0.3cm}{\ttfamily [private]}}
+
+Lista di oggetti convertiti da \char`\"{}nodi dell\textquotesingle{}albero D\+O\+M\char`\"{} 
+
+Definition at line 42 of file Parser\+X\+M\+L\+Ordine.\+java.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/gandr/\+Desktop/\+Interfaccia\+Gelataio/src/resources/ordine/xml/parserxml/\mbox{\hyperlink{_parser_x_m_l_ordine_8java}{Parser\+X\+M\+L\+Ordine.\+java}}\end{DoxyCompactItemize}

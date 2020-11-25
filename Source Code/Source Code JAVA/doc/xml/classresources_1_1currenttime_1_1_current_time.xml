@@ -1,0 +1,333 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="classresources_1_1currenttime_1_1_current_time" kind="class" language="Java" prot="public">
+    <compoundname>resources::currenttime::CurrentTime</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">TimerTask</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classresources_1_1currenttime_1_1_current_time_1a9b6d2c22a4791ea9608fb152f42c42de" prot="private" static="no" mutable="no">
+        <type>Calendar</type>
+        <definition>Calendar resources.currenttime.CurrentTime.calendar</definition>
+        <argsstring></argsstring>
+        <name>calendar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Rappresenta un oggetto di classe Calendar per ottenere l&apos;ora corrente del sistema operativo </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/currenttime/CurrentTime.java" line="37" column="22" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/currenttime/CurrentTime.java" bodystart="37" bodyend="-1"/>
+        <referencedby refid="classresources_1_1currenttime_1_1_current_time_1affec9cbcc42854f1a6583e2ec752ea20" compoundref="_current_time_8java" startline="138" endline="147">resources.currenttime.CurrentTime.run</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classresources_1_1currenttime_1_1_current_time_1a58e538e0aee4e86cc8dea84d93a6c435" prot="private" static="no" mutable="no">
+        <type>final SimpleDateFormat</type>
+        <definition>final SimpleDateFormat resources.currenttime.CurrentTime.simpleDateFormat</definition>
+        <argsstring></argsstring>
+        <name>simpleDateFormat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Rappresenta un oggetto di classe SimpleDateFormat per formattare l&apos;informazione ottenuta dall&apos;oggetto <ref refid="classresources_1_1currenttime_1_1_current_time_1a9b6d2c22a4791ea9608fb152f42c42de" kindref="member">CurrentTime.calendar</ref> per permettere una corretta visualizzazione dell&apos;ora corrente nelle interfacce del software</para>
+<para><simplesect kind="see"><para><ref refid="classresources_1_1currenttime_1_1_current_time_1a9b6d2c22a4791ea9608fb152f42c42de" kindref="member">CurrentTime.calendar</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/currenttime/CurrentTime.java" line="47" column="36" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/currenttime/CurrentTime.java" bodystart="47" bodyend="-1"/>
+        <referencedby refid="classresources_1_1currenttime_1_1_current_time_1affec9cbcc42854f1a6583e2ec752ea20" compoundref="_current_time_8java" startline="138" endline="147">resources.currenttime.CurrentTime.run</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classresources_1_1currenttime_1_1_current_time_1a99bc9a2b01a760de5846fe09f19282f0" prot="private" static="no" mutable="no">
+        <type>final JLabel</type>
+        <definition>final JLabel resources.currenttime.CurrentTime.jLabelOraCorrente</definition>
+        <argsstring></argsstring>
+        <name>jLabelOraCorrente</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Rappresenta una zona di visualizzazione dell&apos;ora corrente nelle interfacce del software </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/currenttime/CurrentTime.java" line="53" column="26" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/currenttime/CurrentTime.java" bodystart="53" bodyend="-1"/>
+        <referencedby refid="classresources_1_1currenttime_1_1_current_time_1a43fbe0ca8aec47ac559e4a069b95a44b" compoundref="_current_time_8java" startline="106" endline="120">resources.currenttime.CurrentTime.CurrentTime</referencedby>
+        <referencedby refid="classresources_1_1currenttime_1_1_current_time_1affec9cbcc42854f1a6583e2ec752ea20" compoundref="_current_time_8java" startline="138" endline="147">resources.currenttime.CurrentTime.run</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classresources_1_1currenttime_1_1_current_time_1a69773ca89e760dac72fa82098a3c50d5" prot="private" static="no" mutable="no">
+        <type>final JLabel</type>
+        <definition>final JLabel resources.currenttime.CurrentTime.jLabelOraCorrente5</definition>
+        <argsstring></argsstring>
+        <name>jLabelOraCorrente5</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Rappresenta una zona di visualizzazione dell&apos;ora corrente nelle interfacce del software </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/currenttime/CurrentTime.java" line="59" column="26" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/currenttime/CurrentTime.java" bodystart="59" bodyend="-1"/>
+        <referencedby refid="classresources_1_1currenttime_1_1_current_time_1a43fbe0ca8aec47ac559e4a069b95a44b" compoundref="_current_time_8java" startline="106" endline="120">resources.currenttime.CurrentTime.CurrentTime</referencedby>
+        <referencedby refid="classresources_1_1currenttime_1_1_current_time_1affec9cbcc42854f1a6583e2ec752ea20" compoundref="_current_time_8java" startline="138" endline="147">resources.currenttime.CurrentTime.run</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classresources_1_1currenttime_1_1_current_time_1a42b9b188dbddd1faf449ad1acc6b7462" prot="private" static="no" mutable="no">
+        <type>final JLabel</type>
+        <definition>final JLabel resources.currenttime.CurrentTime.jLabelOraCorrente1</definition>
+        <argsstring></argsstring>
+        <name>jLabelOraCorrente1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Rappresenta una zona di visualizzazione dell&apos;ora corrente nelle interfacce del software </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/currenttime/CurrentTime.java" line="67" column="26" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/currenttime/CurrentTime.java" bodystart="67" bodyend="-1"/>
+        <referencedby refid="classresources_1_1currenttime_1_1_current_time_1a43fbe0ca8aec47ac559e4a069b95a44b" compoundref="_current_time_8java" startline="106" endline="120">resources.currenttime.CurrentTime.CurrentTime</referencedby>
+        <referencedby refid="classresources_1_1currenttime_1_1_current_time_1affec9cbcc42854f1a6583e2ec752ea20" compoundref="_current_time_8java" startline="138" endline="147">resources.currenttime.CurrentTime.run</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classresources_1_1currenttime_1_1_current_time_1a4ccb68c8c9d15793f158e8b0b4091aac" prot="private" static="no" mutable="no">
+        <type>final JLabel</type>
+        <definition>final JLabel resources.currenttime.CurrentTime.jLabelOraCorrente2</definition>
+        <argsstring></argsstring>
+        <name>jLabelOraCorrente2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Rappresenta una zona di visualizzazione dell&apos;ora corrente nelle interfacce del software </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/currenttime/CurrentTime.java" line="73" column="26" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/currenttime/CurrentTime.java" bodystart="73" bodyend="-1"/>
+        <referencedby refid="classresources_1_1currenttime_1_1_current_time_1a43fbe0ca8aec47ac559e4a069b95a44b" compoundref="_current_time_8java" startline="106" endline="120">resources.currenttime.CurrentTime.CurrentTime</referencedby>
+        <referencedby refid="classresources_1_1currenttime_1_1_current_time_1affec9cbcc42854f1a6583e2ec752ea20" compoundref="_current_time_8java" startline="138" endline="147">resources.currenttime.CurrentTime.run</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classresources_1_1currenttime_1_1_current_time_1a5ec0d8a98376ec9392f29747db3cc4be" prot="private" static="no" mutable="no">
+        <type>final JLabel</type>
+        <definition>final JLabel resources.currenttime.CurrentTime.jLabelOraCorrente3</definition>
+        <argsstring></argsstring>
+        <name>jLabelOraCorrente3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Rappresenta una zona di visualizzazione dell&apos;ora corrente nelle interfacce del software </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/currenttime/CurrentTime.java" line="79" column="26" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/currenttime/CurrentTime.java" bodystart="79" bodyend="-1"/>
+        <referencedby refid="classresources_1_1currenttime_1_1_current_time_1a43fbe0ca8aec47ac559e4a069b95a44b" compoundref="_current_time_8java" startline="106" endline="120">resources.currenttime.CurrentTime.CurrentTime</referencedby>
+        <referencedby refid="classresources_1_1currenttime_1_1_current_time_1affec9cbcc42854f1a6583e2ec752ea20" compoundref="_current_time_8java" startline="138" endline="147">resources.currenttime.CurrentTime.run</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classresources_1_1currenttime_1_1_current_time_1a43fbe0ca8aec47ac559e4a069b95a44b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>resources.currenttime.CurrentTime.CurrentTime</definition>
+        <argsstring>(JLabel jLabelOraCorrente, JLabel jLabelOraCorrente5, JLabel jLabelOraCorrente1, JLabel jLabelOraCorrente2, JLabel jLabelOraCorrente3)</argsstring>
+        <name>CurrentTime</name>
+        <param>
+          <type>JLabel</type>
+          <declname>jLabelOraCorrente</declname>
+        </param>
+        <param>
+          <type>JLabel</type>
+          <declname>jLabelOraCorrente5</declname>
+        </param>
+        <param>
+          <type>JLabel</type>
+          <declname>jLabelOraCorrente1</declname>
+        </param>
+        <param>
+          <type>JLabel</type>
+          <declname>jLabelOraCorrente2</declname>
+        </param>
+        <param>
+          <type>JLabel</type>
+          <declname>jLabelOraCorrente3</declname>
+        </param>
+        <briefdescription>
+<para>Costruttore. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Inizializza tutte le risorse necessarie ad un oggetto di questa classe</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>jLabelOraCorrente</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zona di visualizzazione dell&apos;ora corrente nelle interfacce del software </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>jLabelOraCorrente5</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zona di visualizzazione dell&apos;ora corrente nelle interfacce del software </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>jLabelOraCorrente4</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zona di visualizzazione dell&apos;ora corrente nelle interfacce del software </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>jLabelOraCorrente1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zona di visualizzazione dell&apos;ora corrente nelle interfacce del software </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>jLabelOraCorrente2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zona di visualizzazione dell&apos;ora corrente nelle interfacce del software </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>jLabelOraCorrente3</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zona di visualizzazione dell&apos;ora corrente nelle interfacce del software</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="classresources_1_1currenttime_1_1_current_time_1a99bc9a2b01a760de5846fe09f19282f0" kindref="member">CurrentTime.jLabelOraCorrente</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1currenttime_1_1_current_time_1a69773ca89e760dac72fa82098a3c50d5" kindref="member">CurrentTime.jLabelOraCorrente5</ref> </para>
+</simplesect>
+<simplesect kind="see"><para>CurrentTime.jLabelOraCorrente4 </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1currenttime_1_1_current_time_1a42b9b188dbddd1faf449ad1acc6b7462" kindref="member">CurrentTime.jLabelOraCorrente1</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1currenttime_1_1_current_time_1a4ccb68c8c9d15793f158e8b0b4091aac" kindref="member">CurrentTime.jLabelOraCorrente2</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1currenttime_1_1_current_time_1a5ec0d8a98376ec9392f29747db3cc4be" kindref="member">CurrentTime.jLabelOraCorrente3</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/currenttime/CurrentTime.java" line="106" column="12" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/currenttime/CurrentTime.java" bodystart="106" bodyend="120"/>
+        <references refid="classresources_1_1currenttime_1_1_current_time_1a99bc9a2b01a760de5846fe09f19282f0" compoundref="_current_time_8java" startline="53">resources.currenttime.CurrentTime.jLabelOraCorrente</references>
+        <references refid="classresources_1_1currenttime_1_1_current_time_1a42b9b188dbddd1faf449ad1acc6b7462" compoundref="_current_time_8java" startline="67">resources.currenttime.CurrentTime.jLabelOraCorrente1</references>
+        <references refid="classresources_1_1currenttime_1_1_current_time_1a4ccb68c8c9d15793f158e8b0b4091aac" compoundref="_current_time_8java" startline="73">resources.currenttime.CurrentTime.jLabelOraCorrente2</references>
+        <references refid="classresources_1_1currenttime_1_1_current_time_1a5ec0d8a98376ec9392f29747db3cc4be" compoundref="_current_time_8java" startline="79">resources.currenttime.CurrentTime.jLabelOraCorrente3</references>
+        <references refid="classresources_1_1currenttime_1_1_current_time_1a69773ca89e760dac72fa82098a3c50d5" compoundref="_current_time_8java" startline="59">resources.currenttime.CurrentTime.jLabelOraCorrente5</references>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1currenttime_1_1_current_time_1affec9cbcc42854f1a6583e2ec752ea20" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void resources.currenttime.CurrentTime.run</definition>
+        <argsstring>()</argsstring>
+        <name>run</name>
+        <briefdescription>
+<para>Codice eseguito dal thread. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Il seguente metodo ottiene l&apos;ora corrente dal sistema operativo, la formatta e la visualizza nelle rispettive interfacce</para>
+<para><simplesect kind="see"><para><ref refid="classresources_1_1currenttime_1_1_current_time_1a99bc9a2b01a760de5846fe09f19282f0" kindref="member">CurrentTime.jLabelOraCorrente</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1currenttime_1_1_current_time_1a69773ca89e760dac72fa82098a3c50d5" kindref="member">CurrentTime.jLabelOraCorrente5</ref> </para>
+</simplesect>
+<simplesect kind="see"><para>CurrentTime.jLabelOraCorrente4 </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1currenttime_1_1_current_time_1a42b9b188dbddd1faf449ad1acc6b7462" kindref="member">CurrentTime.jLabelOraCorrente1</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1currenttime_1_1_current_time_1a4ccb68c8c9d15793f158e8b0b4091aac" kindref="member">CurrentTime.jLabelOraCorrente2</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1currenttime_1_1_current_time_1a5ec0d8a98376ec9392f29747db3cc4be" kindref="member">CurrentTime.jLabelOraCorrente3</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1currenttime_1_1_current_time_1a9b6d2c22a4791ea9608fb152f42c42de" kindref="member">CurrentTime.calendar</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1currenttime_1_1_current_time_1a58e538e0aee4e86cc8dea84d93a6c435" kindref="member">CurrentTime.simpleDateFormat</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/currenttime/CurrentTime.java" line="138" column="17" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/currenttime/CurrentTime.java" bodystart="138" bodyend="147"/>
+        <references refid="classresources_1_1currenttime_1_1_current_time_1a9b6d2c22a4791ea9608fb152f42c42de" compoundref="_current_time_8java" startline="37">resources.currenttime.CurrentTime.calendar</references>
+        <references refid="classresources_1_1currenttime_1_1_current_time_1a99bc9a2b01a760de5846fe09f19282f0" compoundref="_current_time_8java" startline="53">resources.currenttime.CurrentTime.jLabelOraCorrente</references>
+        <references refid="classresources_1_1currenttime_1_1_current_time_1a42b9b188dbddd1faf449ad1acc6b7462" compoundref="_current_time_8java" startline="67">resources.currenttime.CurrentTime.jLabelOraCorrente1</references>
+        <references refid="classresources_1_1currenttime_1_1_current_time_1a4ccb68c8c9d15793f158e8b0b4091aac" compoundref="_current_time_8java" startline="73">resources.currenttime.CurrentTime.jLabelOraCorrente2</references>
+        <references refid="classresources_1_1currenttime_1_1_current_time_1a5ec0d8a98376ec9392f29747db3cc4be" compoundref="_current_time_8java" startline="79">resources.currenttime.CurrentTime.jLabelOraCorrente3</references>
+        <references refid="classresources_1_1currenttime_1_1_current_time_1a69773ca89e760dac72fa82098a3c50d5" compoundref="_current_time_8java" startline="59">resources.currenttime.CurrentTime.jLabelOraCorrente5</references>
+        <references refid="classresources_1_1currenttime_1_1_current_time_1a58e538e0aee4e86cc8dea84d93a6c435" compoundref="_current_time_8java" startline="47">resources.currenttime.CurrentTime.simpleDateFormat</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Classe per mantenere &quot;corrente&quot; e visualizzare correttamente l&apos;ora nelle interfacce del software. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Grandieri Andrea <ulink url="mailto:g.andreus02@gmail.com">g.andreus02@gmail.com</ulink> </para>
+</simplesect>
+<simplesect kind="author"><para>Barsotti Mirko <ulink url="mailto:bmirko1505@gmail.com">bmirko1505@gmail.com</ulink> </para>
+</simplesect>
+<simplesect kind="author"><para>Brambilla Mirko <ulink url="mailto:brambobilla01@gmail.com">brambobilla01@gmail.com</ulink></para>
+</simplesect>
+La seguente classe rappresenta un thread daemon per mantenere sincronizzata l&apos;ora visualizzata nelle interfacce del software con l&apos;ora del sistema operativo. Inoltre, permette di visualizzare in modo corretto quest&apos;ultima. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>resources.currenttime.CurrentTime</label>
+        <link refid="classresources_1_1currenttime_1_1_current_time"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>TimerTask</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>JLabel</label>
+      </node>
+      <node id="3">
+        <label>Calendar</label>
+      </node>
+      <node id="4">
+        <label>SimpleDateFormat</label>
+      </node>
+      <node id="1">
+        <label>resources.currenttime.CurrentTime</label>
+        <link refid="classresources_1_1currenttime_1_1_current_time"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>-calendar</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>-simpleDateFormat</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>-jLabelOraCorrente</edgelabel>
+          <edgelabel>-jLabelOraCorrente1</edgelabel>
+          <edgelabel>-jLabelOraCorrente2</edgelabel>
+          <edgelabel>-jLabelOraCorrente3</edgelabel>
+          <edgelabel>-jLabelOraCorrente5</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>TimerTask</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/currenttime/CurrentTime.java" line="31" column="7" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/currenttime/CurrentTime.java" bodystart="31" bodyend="148"/>
+    <listofallmembers>
+      <member refid="classresources_1_1currenttime_1_1_current_time_1a9b6d2c22a4791ea9608fb152f42c42de" prot="private" virt="non-virtual"><scope>resources::currenttime::CurrentTime</scope><name>calendar</name></member>
+      <member refid="classresources_1_1currenttime_1_1_current_time_1a43fbe0ca8aec47ac559e4a069b95a44b" prot="public" virt="non-virtual"><scope>resources::currenttime::CurrentTime</scope><name>CurrentTime</name></member>
+      <member refid="classresources_1_1currenttime_1_1_current_time_1a99bc9a2b01a760de5846fe09f19282f0" prot="private" virt="non-virtual"><scope>resources::currenttime::CurrentTime</scope><name>jLabelOraCorrente</name></member>
+      <member refid="classresources_1_1currenttime_1_1_current_time_1a42b9b188dbddd1faf449ad1acc6b7462" prot="private" virt="non-virtual"><scope>resources::currenttime::CurrentTime</scope><name>jLabelOraCorrente1</name></member>
+      <member refid="classresources_1_1currenttime_1_1_current_time_1a4ccb68c8c9d15793f158e8b0b4091aac" prot="private" virt="non-virtual"><scope>resources::currenttime::CurrentTime</scope><name>jLabelOraCorrente2</name></member>
+      <member refid="classresources_1_1currenttime_1_1_current_time_1a5ec0d8a98376ec9392f29747db3cc4be" prot="private" virt="non-virtual"><scope>resources::currenttime::CurrentTime</scope><name>jLabelOraCorrente3</name></member>
+      <member refid="classresources_1_1currenttime_1_1_current_time_1a69773ca89e760dac72fa82098a3c50d5" prot="private" virt="non-virtual"><scope>resources::currenttime::CurrentTime</scope><name>jLabelOraCorrente5</name></member>
+      <member refid="classresources_1_1currenttime_1_1_current_time_1affec9cbcc42854f1a6583e2ec752ea20" prot="public" virt="non-virtual"><scope>resources::currenttime::CurrentTime</scope><name>run</name></member>
+      <member refid="classresources_1_1currenttime_1_1_current_time_1a58e538e0aee4e86cc8dea84d93a6c435" prot="private" virt="non-virtual"><scope>resources::currenttime::CurrentTime</scope><name>simpleDateFormat</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

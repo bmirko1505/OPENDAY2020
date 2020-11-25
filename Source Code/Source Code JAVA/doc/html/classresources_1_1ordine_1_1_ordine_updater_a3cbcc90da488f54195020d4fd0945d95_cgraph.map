@@ -1,0 +1,17 @@
+<map id="resources.ordine.OrdineUpdater.run" name="resources.ordine.OrdineUpdater.run">
+<area shape="rect" id="node1" title="Codice eseguito dal thread." alt="" coords="5,229,232,255"/>
+<area shape="rect" id="node2" href="$classresources_1_1ordine_1_1xml_1_1generatorxml_1_1_generator_x_m_l_ordine.html#af95ba9a2a56fa35bf088245bd5946ef6" title="Crea l&#39;effettivo file XML sulla base dell&#39;albero DOM." alt="" coords="284,5,551,47"/>
+<area shape="rect" id="node3" href="$classresources_1_1ordine_1_1xml_1_1generatorxml_1_1_generator_x_m_l_ordine.html#a0467e69c8f59a9ad1ab8957af55a3d9a" title="Crea l&#39;albero DOM." alt="" coords="299,71,536,112"/>
+<area shape="rect" id="node5" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#a6cc5286e0f5e71f286b12df943499577" title="Elimina un file dal server." alt="" coords="290,319,545,346"/>
+<area shape="rect" id="node10" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#aeed840d7a1f20b8b579203dc60a312d2" title="Scarica un file dal server al client." alt="" coords="280,370,555,397"/>
+<area shape="rect" id="node11" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#acf6cff62c6a86355a070f15d2d15bf84" title="Ottiene una lista di elementi presenti nella directory di lavoro corrente." alt="" coords="309,188,526,229"/>
+<area shape="rect" id="node12" href="$classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine.html#aa730d79aa207eef84cca50a5ee1b4c07" title="Effettua il parsing del documento XML di cui viene specificato il path." alt="" coords="308,447,527,488"/>
+<area shape="rect" id="node14" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#ab87c0e92af371c7034d82b026367b401" title="Cambia la directory di lavoro corrente." alt="" coords="309,253,526,295"/>
+<area shape="rect" id="node15" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#aaae22be90f18fa0c827240ef0fc5b466" title="Carica un file dal client al server." alt="" coords="288,137,547,163"/>
+<area shape="rect" id="node4" href="$classresources_1_1ordine_1_1xml_1_1generatorxml_1_1_generator_x_m_l_ordine.html#abc701b28dcf44fd8cbaa562f3c42d95e" title="Crea il documento &quot;virtuale&quot; supporto per il nostro albero DOM." alt="" coords="603,20,844,61"/>
+<area shape="rect" id="node6" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#a53efc9cad594b3f20e40c70ac21c3504" title="Visualizza su console le eventuali risposte del server a comandi." alt="" coords="615,253,832,295"/>
+<area shape="rect" id="node7" href="$classresources_1_1ftpserver_1_1_manager.html#a9eea40adb30e967a9fbebe61acb7ecf5" title="Ritorna il valore dell&#39;attributo Manager.server." alt="" coords="892,312,1099,353"/>
+<area shape="rect" id="node9" href="$classresources_1_1ftpserver_1_1_manager.html#a760aae78030588d2f0d5b5898969de39" title="Ritorna il valore dell&#39;attributo Manager.serverMutex." alt="" coords="620,188,827,229"/>
+<area shape="rect" id="node8" href="$classresources_1_1ftpserver_1_1_manager.html#a15422d664ec1762a2b98a86228099cd7" title="Ritorna il valore dell&#39;attributo Manager.showServerReplies." alt="" coords="892,247,1099,288"/>
+<area shape="rect" id="node13" href="$classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine.html#a83cead9d33a5d8fdc38adaf8394a630f" title="Converte un &quot;nodo dell&#39;albero DOM&quot; in oggetto." alt="" coords="619,472,827,513"/>
+</map>

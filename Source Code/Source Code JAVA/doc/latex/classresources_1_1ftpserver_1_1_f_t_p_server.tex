@@ -1,0 +1,1679 @@
+\hypertarget{classresources_1_1ftpserver_1_1_f_t_p_server}{}\doxysection{resources.\+ftpserver.\+F\+T\+P\+Server Class Reference}
+\label{classresources_1_1ftpserver_1_1_f_t_p_server}\index{resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}}
+
+
+Classe per la gestione della comunicazione con un server F\+TP.  
+
+
+
+
+Collaboration diagram for resources.\+ftpserver.\+F\+T\+P\+Server\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classresources_1_1ftpserver_1_1_f_t_p_server__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a43a53e52889fdf1b7e43c6ff15688054}{F\+T\+P\+Server}} (final Boolean show\+Server\+Replies, final Boolean is\+No\+Op, final Boolean is\+Log\+Bidirectional)
+\begin{DoxyCompactList}\small\item\em Costruttore. \end{DoxyCompactList}\item 
+Boolean \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_ae9bf45f3284f3eefd4e65e75d77a77c6}{set\+Coords}} (String \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_aa2cf870a50389845feeeb58864b66729}{host}}, Integer \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a16ccf76c5751fdc1e8e35357d06ef901}{port}})
+\begin{DoxyCompactList}\small\item\em Imposta le coordinate del server F\+TP con il quale comunicare. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a093946fe4f699687964567e9d3bc48e8}{set\+Coords\+AM}} (String \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_aa2cf870a50389845feeeb58864b66729}{host}}, Integer \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a16ccf76c5751fdc1e8e35357d06ef901}{port}})
+\begin{DoxyCompactList}\small\item\em Imposta le coordinate del server F\+TP con il quale comunicare. \end{DoxyCompactList}\item 
+Boolean \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a674fe9fc38ba3ecf4d779310489ef230}{connect}} ()
+\begin{DoxyCompactList}\small\item\em Tenta di stabilire una connessione con il server F\+TP. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_adc106008f1f77d93d8189870b1d9ae81}{connect\+AM}} ()
+\begin{DoxyCompactList}\small\item\em Tenta di stabilire una connessione con il server F\+TP. \end{DoxyCompactList}\item 
+Boolean \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a7250e1c8a1ee00b6550402cfac9b495a}{login}} (String username, String password)
+\begin{DoxyCompactList}\small\item\em Tenta di effettuare il login sul server F\+TP. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a2754c501b06fbad87a2fe9770bd2a866}{login\+AM}} (String username, String password)
+\begin{DoxyCompactList}\small\item\em Tenta di effettuare il login sul server F\+TP. \end{DoxyCompactList}\item 
+String \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a97a1bef804fb89c035559e813083d9cf}{get\+Current\+Directory}} ()
+\begin{DoxyCompactList}\small\item\em Ottiene la directory di lavoro corrente. \end{DoxyCompactList}\item 
+String \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a36d4d5cb44e5aa899f60095dc26ce542}{get\+Current\+Directory\+AM}} ()
+\begin{DoxyCompactList}\small\item\em Ottiene la directory di lavoro corrente. \end{DoxyCompactList}\item 
+Boolean \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_ab87c0e92af371c7034d82b026367b401}{set\+Current\+Directory}} (String directory\+Path)
+\begin{DoxyCompactList}\small\item\em Cambia la directory di lavoro corrente. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_aa8db03d0dcb287d621a7909fa44e3a47}{set\+Current\+Directory\+AM}} (String directory\+Path)
+\begin{DoxyCompactList}\small\item\em Cambia la directory di lavoro corrente. \end{DoxyCompactList}\item 
+String\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_acf6cff62c6a86355a070f15d2d15bf84}{get\+List\+Elements}} ()
+\begin{DoxyCompactList}\small\item\em Ottiene una lista di elementi presenti nella directory di lavoro corrente. \end{DoxyCompactList}\item 
+String\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a71605cd701446bd0c6c72c8ff6dd7210}{get\+List\+Elements\+AM}} ()
+\begin{DoxyCompactList}\small\item\em Ottiene una lista di elementi presenti nella directory di lavoro corrente. \end{DoxyCompactList}\item 
+Boolean \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a7c7887e959b30f623c3afa81b8eda93f}{upload\+Unique\+File}} (Input\+Stream upload\+Stream)
+\begin{DoxyCompactList}\small\item\em Carica un file con nome unico dal client al server. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a22b434ac642092b0e107a794ab039af3}{upload\+Unique\+File\+AM}} (Input\+Stream upload\+Stream)
+\begin{DoxyCompactList}\small\item\em Carica un file con nome unico dal client al server. \end{DoxyCompactList}\item 
+Boolean \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_aaae22be90f18fa0c827240ef0fc5b466}{upload\+File}} (String name\+Remote\+File, Input\+Stream upload\+Stream)
+\begin{DoxyCompactList}\small\item\em Carica un file dal client al server. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_ac741e8d53f8a6d175e9e7b5b661e1bbe}{upload\+File\+AM}} (String name\+Remote\+File, Input\+Stream upload\+Stream)
+\begin{DoxyCompactList}\small\item\em Carica un file dal client al server. \end{DoxyCompactList}\item 
+Boolean \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_aeed840d7a1f20b8b579203dc60a312d2}{download\+File}} (String name\+Remote\+File, Output\+Stream download\+Stream)
+\begin{DoxyCompactList}\small\item\em Scarica un file dal server al client. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a0aa2b7f023ab044bf8723b39aaca43a6}{download\+File\+AM}} (String name\+Remote\+File, Output\+Stream download\+Stream)
+\begin{DoxyCompactList}\small\item\em Scarica un file dal server al client. \end{DoxyCompactList}\item 
+Boolean \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_ae68c9fbcb668eb1a3a21c100e87dcda9}{update\+File\+Appending}} (String name\+Remote\+File, Input\+Stream upload\+Stream, Output\+Stream download\+Stream, Print\+Writer local\+Write\+Stream, String to\+Append)
+\begin{DoxyCompactList}\small\item\em Aggiorna un file nel server dal client al server. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a2f9e7352518d43b67aa6d0c081b4e632}{update\+File\+Appending\+AM}} (String name\+Remote\+File, Input\+Stream upload\+Stream, Output\+Stream download\+Stream, Print\+Writer local\+Write\+Stream, String to\+Append)
+\begin{DoxyCompactList}\small\item\em Aggiorna un file nel server dal client al server. \end{DoxyCompactList}\item 
+Boolean \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_ab2740547f1222dd15c12f2b3a43e2873}{logout}} ()
+\begin{DoxyCompactList}\small\item\em Tenta di effettuare il logout dal server. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_ac715abb38c9bb7ed27155d7ce200d2cb}{logout\+AM}} ()
+\begin{DoxyCompactList}\small\item\em Tenta di effettuare il logout dal server. \end{DoxyCompactList}\item 
+Boolean \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_ad7b1c599ab1c0dd9a2f3b88cc1ca4f2b}{disconnect}} ()
+\begin{DoxyCompactList}\small\item\em Tenta di effettuare la disconnesione dal server. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_ae7d54aaf3ba9136f829eaed4aab3b646}{disconnect\+AM}} ()
+\begin{DoxyCompactList}\small\item\em Tenta di effettuare la disconnesione dal server. \end{DoxyCompactList}\item 
+Boolean \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a6cc5286e0f5e71f286b12df943499577}{delete\+File}} (String name\+Remote\+File)
+\begin{DoxyCompactList}\small\item\em Elimina un file dal server. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a378bc314d9cd6300683c36443820a0c0}{delete\+File\+AM}} (String name\+Remote\+File)
+\begin{DoxyCompactList}\small\item\em Elimina un file dal server. \end{DoxyCompactList}\item 
+String \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a83b22a422f0084383570029df8c869ee}{get\+Host}} ()
+\begin{DoxyCompactList}\small\item\em Ritorna il valore dell\textquotesingle{}attributo \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_aa2cf870a50389845feeeb58864b66729}{F\+T\+P\+Server.\+host}}. \end{DoxyCompactList}\item 
+Integer \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a8f9b64e25bfbc724f82f077d1d961fb0}{get\+Port}} ()
+\begin{DoxyCompactList}\small\item\em Ritorna il valore dell\textquotesingle{}attributo \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a16ccf76c5751fdc1e8e35357d06ef901}{F\+T\+P\+Server.\+port}}. \end{DoxyCompactList}\item 
+Boolean \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_acdf74c41af0de18af30a2b2e5b459fa0}{get\+Is\+Logged\+In}} ()
+\begin{DoxyCompactList}\small\item\em Ritorna il valore dell\textquotesingle{}attributo \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a62e0c4cd4f0cda5fb8002edb6bcaec32}{F\+T\+P\+Server.\+is\+Logged\+In}}. \end{DoxyCompactList}\item 
+Boolean \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a8626bea24c8b8e903489cebffef30ef2}{get\+Is\+Connected}} ()
+\begin{DoxyCompactList}\small\item\em Ritorna il valore ottenuto attraverso l\textquotesingle{}invocazione del metodo \mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_ae743d882c2b3e7db928b39fc1b164750}{resources.\+ftpserver.\+Manager.\+get\+Is\+Connected()}} \end{DoxyCompactList}\item 
+Boolean \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a11cf3fa1d1d7eb9e83dae58cdc9afdd1}{get\+Is\+No\+Op}} ()
+\begin{DoxyCompactList}\small\item\em Ritorna il valore ottenuto attraverso l\textquotesingle{}invocazione del metodo \mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_a5c52f5769c89fb20b0bfc7520fc2d3b7}{resources.\+ftpserver.\+Manager.\+get\+Is\+No\+Op()}} \end{DoxyCompactList}\item 
+Boolean \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a36fb43ded9ef67aadabcd64ffd8a5b28}{get\+Show\+Server\+Replies}} ()
+\begin{DoxyCompactList}\small\item\em Ritorna il valore ottenuto attraverso l\textquotesingle{}invocazione del metodo \mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_a15422d664ec1762a2b98a86228099cd7}{resources.\+ftpserver.\+Manager.\+get\+Show\+Server\+Replies()}} \end{DoxyCompactList}\item 
+F\+T\+P\+Client \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a471d37798cfc6fbe05c05cd90cd37b0b}{get\+Server\+Backdoor}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Package Functions}
+\begin{DoxyCompactItemize}
+\item 
+static Boolean \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_abab87b35980051614e04c19b2997c320}{upload\+File}} (F\+T\+P\+Client server, String name\+Remote\+File, Input\+Stream upload\+Stream)
+\begin{DoxyCompactList}\small\item\em Carica un file dal client al server. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_ac7157f46f1f3b4e9966451e6c07c18f2}{start\+Keeper}} ()
+\begin{DoxyCompactList}\small\item\em Avvia il thread rappresentato dall\textquotesingle{}oggetto \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a21623ae06bcbe6245a7e1aab8abe332e}{F\+T\+P\+Server.\+keeper}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a53efc9cad594b3f20e40c70ac21c3504}{get\+And\+Print\+Server\+Reply}} ()
+\begin{DoxyCompactList}\small\item\em Visualizza su console le eventuali risposte del server a comandi. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final \mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager}{Manager}} \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_ac87b529a62f626ab37e39d3086102305}{manager}}
+\item 
+final \mbox{\hyperlink{classresources_1_1ftpserver_1_1_keeper}{Keeper}} \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a21623ae06bcbe6245a7e1aab8abe332e}{keeper}}
+\item 
+final Timer \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a15d6faedcb0c2d675640b0e8880b0c4c}{timer}}
+\item 
+String\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a5f8b219e78c73bd998163d3298eec651}{backup\+Replies}}
+\item 
+String \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_aa2cf870a50389845feeeb58864b66729}{host}}
+\item 
+Integer \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a16ccf76c5751fdc1e8e35357d06ef901}{port}}
+\item 
+Boolean \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a62e0c4cd4f0cda5fb8002edb6bcaec32}{is\+Logged\+In}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Classe per la gestione della comunicazione con un server F\+TP. 
+
+\begin{DoxyAuthor}{Author}
+Grandieri Andrea \href{mailto:g.andreus02@gmail.com}{\texttt{ g.\+andreus02@gmail.\+com}} 
+
+Barsotti Mirko \href{mailto:bmirko1505@gmail.com}{\texttt{ bmirko1505@gmail.\+com}} 
+
+Brambilla Mirko \href{mailto:brambobilla01@gmail.com}{\texttt{ brambobilla01@gmail.\+com}}
+\end{DoxyAuthor}
+La seguente classe fornisce tutti i metodi necessari a stabilire una connessione e ad relazionarsi con un server F\+TP. 
+
+Definition at line 35 of file F\+T\+P\+Server.\+java.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classresources_1_1ftpserver_1_1_f_t_p_server_a43a53e52889fdf1b7e43c6ff15688054}\label{classresources_1_1ftpserver_1_1_f_t_p_server_a43a53e52889fdf1b7e43c6ff15688054}} 
+\index{resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}!FTPServer@{FTPServer}}
+\index{FTPServer@{FTPServer}!resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}}
+\doxysubsubsection{\texorpdfstring{FTPServer()}{FTPServer()}}
+{\footnotesize\ttfamily resources.\+ftpserver.\+F\+T\+P\+Server.\+F\+T\+P\+Server (\begin{DoxyParamCaption}\item[{final Boolean}]{show\+Server\+Replies,  }\item[{final Boolean}]{is\+No\+Op,  }\item[{final Boolean}]{is\+Log\+Bidirectional }\end{DoxyParamCaption})}
+
+
+
+Costruttore. 
+
+Inizializza tutte le risorse necessarie ad un oggetto di questa classe
+
+
+\begin{DoxyParams}{Parameters}
+{\em show\+Server\+Replies} & Flag booleano indicante se o se non visualizzare su console le risposte da parte del server \\
+\hline
+{\em is\+No\+Op} & Flag booleano indicante se o se non il server supporta la funzionalità keep alive\+: noop \\
+\hline
+{\em is\+Log\+Bidirectional} & Flag booleano indicante se o se non il server supporta la funzionalità di login/logout bidirezionale\\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_ac87b529a62f626ab37e39d3086102305}{F\+T\+P\+Server.\+manager}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a21623ae06bcbe6245a7e1aab8abe332e}{F\+T\+P\+Server.\+keeper}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a15d6faedcb0c2d675640b0e8880b0c4c}{F\+T\+P\+Server.\+timer}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a5f8b219e78c73bd998163d3298eec651}{F\+T\+P\+Server.\+backup\+Replies}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_aa2cf870a50389845feeeb58864b66729}{F\+T\+P\+Server.\+host}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a16ccf76c5751fdc1e8e35357d06ef901}{F\+T\+P\+Server.\+port}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a62e0c4cd4f0cda5fb8002edb6bcaec32}{F\+T\+P\+Server.\+is\+Logged\+In}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_ac7157f46f1f3b4e9966451e6c07c18f2}{F\+T\+P\+Server.\+start\+Keeper}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 130 of file F\+T\+P\+Server.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresources_1_1ftpserver_1_1_f_t_p_server_a43a53e52889fdf1b7e43c6ff15688054_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classresources_1_1ftpserver_1_1_f_t_p_server_a674fe9fc38ba3ecf4d779310489ef230}\label{classresources_1_1ftpserver_1_1_f_t_p_server_a674fe9fc38ba3ecf4d779310489ef230}} 
+\index{resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}!connect@{connect}}
+\index{connect@{connect}!resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}}
+\doxysubsubsection{\texorpdfstring{connect()}{connect()}}
+{\footnotesize\ttfamily Boolean resources.\+ftpserver.\+F\+T\+P\+Server.\+connect (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Tenta di stabilire una connessione con il server F\+TP. 
+
+Il seguente metodo tenta di stabilire una connessione con il server F\+TP
+
+\begin{DoxyReturn}{Returns}
+Un valore booleano indicante la corretta esecuzione del tentativo di stabilire una connessione con il server F\+TP
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+La connessione con il server non deve essere attiva
+\end{DoxyPrecond}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_ac87b529a62f626ab37e39d3086102305}{F\+T\+P\+Server.\+manager}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_aa2cf870a50389845feeeb58864b66729}{F\+T\+P\+Server.\+host}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a16ccf76c5751fdc1e8e35357d06ef901}{F\+T\+P\+Server.\+port}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a53efc9cad594b3f20e40c70ac21c3504}{F\+T\+P\+Server.\+get\+And\+Print\+Server\+Reply()}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 266 of file F\+T\+P\+Server.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresources_1_1ftpserver_1_1_f_t_p_server_a674fe9fc38ba3ecf4d779310489ef230_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresources_1_1ftpserver_1_1_f_t_p_server_a674fe9fc38ba3ecf4d779310489ef230_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classresources_1_1ftpserver_1_1_f_t_p_server_adc106008f1f77d93d8189870b1d9ae81}\label{classresources_1_1ftpserver_1_1_f_t_p_server_adc106008f1f77d93d8189870b1d9ae81}} 
+\index{resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}!connectAM@{connectAM}}
+\index{connectAM@{connectAM}!resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}}
+\doxysubsubsection{\texorpdfstring{connectAM()}{connectAM()}}
+{\footnotesize\ttfamily void resources.\+ftpserver.\+F\+T\+P\+Server.\+connect\+AM (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Tenta di stabilire una connessione con il server F\+TP. 
+
+Il seguente metodo tenta di stabilire una connessione con il server F\+TP
+
+\begin{DoxyPrecond}{Precondition}
+La connessione con il server non deve essere attiva
+\end{DoxyPrecond}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_ac87b529a62f626ab37e39d3086102305}{F\+T\+P\+Server.\+manager}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_aa2cf870a50389845feeeb58864b66729}{F\+T\+P\+Server.\+host}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a16ccf76c5751fdc1e8e35357d06ef901}{F\+T\+P\+Server.\+port}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a53efc9cad594b3f20e40c70ac21c3504}{F\+T\+P\+Server.\+get\+And\+Print\+Server\+Reply()}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 342 of file F\+T\+P\+Server.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresources_1_1ftpserver_1_1_f_t_p_server_adc106008f1f77d93d8189870b1d9ae81_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classresources_1_1ftpserver_1_1_f_t_p_server_a6cc5286e0f5e71f286b12df943499577}\label{classresources_1_1ftpserver_1_1_f_t_p_server_a6cc5286e0f5e71f286b12df943499577}} 
+\index{resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}!deleteFile@{deleteFile}}
+\index{deleteFile@{deleteFile}!resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}}
+\doxysubsubsection{\texorpdfstring{deleteFile()}{deleteFile()}}
+{\footnotesize\ttfamily Boolean resources.\+ftpserver.\+F\+T\+P\+Server.\+delete\+File (\begin{DoxyParamCaption}\item[{String}]{name\+Remote\+File }\end{DoxyParamCaption})}
+
+
+
+Elimina un file dal server. 
+
+Il seguente metodo effettua l\textquotesingle{}eliminazione di un file dalla memoria del server
+
+
+\begin{DoxyParams}{Parameters}
+{\em name\+Remote\+File} & Nome del file salvato nella memoria del server da eliminare\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Un valore booleano indicante la corretta esecuzione dell\textquotesingle{}eliminazione del file dalla memoria del server
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+Il login sul server deve essere già stato eseguito
+\end{DoxyPrecond}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a62e0c4cd4f0cda5fb8002edb6bcaec32}{F\+T\+P\+Server.\+is\+Logged\+In}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_ac87b529a62f626ab37e39d3086102305}{F\+T\+P\+Server.\+manager}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 1787 of file F\+T\+P\+Server.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresources_1_1ftpserver_1_1_f_t_p_server_a6cc5286e0f5e71f286b12df943499577_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresources_1_1ftpserver_1_1_f_t_p_server_a6cc5286e0f5e71f286b12df943499577_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classresources_1_1ftpserver_1_1_f_t_p_server_a378bc314d9cd6300683c36443820a0c0}\label{classresources_1_1ftpserver_1_1_f_t_p_server_a378bc314d9cd6300683c36443820a0c0}} 
+\index{resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}!deleteFileAM@{deleteFileAM}}
+\index{deleteFileAM@{deleteFileAM}!resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}}
+\doxysubsubsection{\texorpdfstring{deleteFileAM()}{deleteFileAM()}}
+{\footnotesize\ttfamily void resources.\+ftpserver.\+F\+T\+P\+Server.\+delete\+File\+AM (\begin{DoxyParamCaption}\item[{String}]{name\+Remote\+File }\end{DoxyParamCaption})}
+
+
+
+Elimina un file dal server. 
+
+Il seguente metodo effettua l\textquotesingle{}eliminazione di un file dalla memoria del server
+
+
+\begin{DoxyParams}{Parameters}
+{\em name\+Remote\+File} & Nome del file salvato nella memoria del server da eliminare\\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+Il login sul server deve essere già stato eseguito
+\end{DoxyPrecond}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a62e0c4cd4f0cda5fb8002edb6bcaec32}{F\+T\+P\+Server.\+is\+Logged\+In}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_ac87b529a62f626ab37e39d3086102305}{F\+T\+P\+Server.\+manager}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 1840 of file F\+T\+P\+Server.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresources_1_1ftpserver_1_1_f_t_p_server_a378bc314d9cd6300683c36443820a0c0_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classresources_1_1ftpserver_1_1_f_t_p_server_ad7b1c599ab1c0dd9a2f3b88cc1ca4f2b}\label{classresources_1_1ftpserver_1_1_f_t_p_server_ad7b1c599ab1c0dd9a2f3b88cc1ca4f2b}} 
+\index{resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}!disconnect@{disconnect}}
+\index{disconnect@{disconnect}!resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}}
+\doxysubsubsection{\texorpdfstring{disconnect()}{disconnect()}}
+{\footnotesize\ttfamily Boolean resources.\+ftpserver.\+F\+T\+P\+Server.\+disconnect (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Tenta di effettuare la disconnesione dal server. 
+
+Il seguente metodo tenta di effattuare la disconnesione dal server
+
+\begin{DoxyReturn}{Returns}
+Un valore booleano indicante la corretta esecuzione del tentativo di disconnessione dal server
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+La connessione con il server deve essere attiva
+\end{DoxyPrecond}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_ac87b529a62f626ab37e39d3086102305}{F\+T\+P\+Server.\+manager}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a62e0c4cd4f0cda5fb8002edb6bcaec32}{F\+T\+P\+Server.\+is\+Logged\+In}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a53efc9cad594b3f20e40c70ac21c3504}{F\+T\+P\+Server.\+get\+And\+Print\+Server\+Reply()}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 1674 of file F\+T\+P\+Server.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresources_1_1ftpserver_1_1_f_t_p_server_ad7b1c599ab1c0dd9a2f3b88cc1ca4f2b_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classresources_1_1ftpserver_1_1_f_t_p_server_ae7d54aaf3ba9136f829eaed4aab3b646}\label{classresources_1_1ftpserver_1_1_f_t_p_server_ae7d54aaf3ba9136f829eaed4aab3b646}} 
+\index{resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}!disconnectAM@{disconnectAM}}
+\index{disconnectAM@{disconnectAM}!resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}}
+\doxysubsubsection{\texorpdfstring{disconnectAM()}{disconnectAM()}}
+{\footnotesize\ttfamily void resources.\+ftpserver.\+F\+T\+P\+Server.\+disconnect\+AM (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Tenta di effettuare la disconnesione dal server. 
+
+Il seguente metodo tenta di effattuare la disconnesione dal server
+
+\begin{DoxyPrecond}{Precondition}
+La connessione con il server deve essere attiva
+\end{DoxyPrecond}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_ac87b529a62f626ab37e39d3086102305}{F\+T\+P\+Server.\+manager}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a62e0c4cd4f0cda5fb8002edb6bcaec32}{F\+T\+P\+Server.\+is\+Logged\+In}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a53efc9cad594b3f20e40c70ac21c3504}{F\+T\+P\+Server.\+get\+And\+Print\+Server\+Reply()}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 1727 of file F\+T\+P\+Server.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresources_1_1ftpserver_1_1_f_t_p_server_ae7d54aaf3ba9136f829eaed4aab3b646_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classresources_1_1ftpserver_1_1_f_t_p_server_aeed840d7a1f20b8b579203dc60a312d2}\label{classresources_1_1ftpserver_1_1_f_t_p_server_aeed840d7a1f20b8b579203dc60a312d2}} 
+\index{resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}!downloadFile@{downloadFile}}
+\index{downloadFile@{downloadFile}!resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}}
+\doxysubsubsection{\texorpdfstring{downloadFile()}{downloadFile()}}
+{\footnotesize\ttfamily Boolean resources.\+ftpserver.\+F\+T\+P\+Server.\+download\+File (\begin{DoxyParamCaption}\item[{String}]{name\+Remote\+File,  }\item[{Output\+Stream}]{download\+Stream }\end{DoxyParamCaption})}
+
+
+
+Scarica un file dal server al client. 
+
+Il seguente metodo scarica un file dal server al client
+
+
+\begin{DoxyParams}{Parameters}
+{\em name\+Remote\+File} & Nome del file salvato nella memoria del server da scaricare nella memoria locale \\
+\hline
+{\em download\+Stream} & File salvato nella memoria locale utilizzato come target per lo scaricamento dei dati\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Un valore booleano indicante il corretto scaricamento di un file dal server al client
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+Il login sul server deve essere già stato eseguito
+\end{DoxyPrecond}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a62e0c4cd4f0cda5fb8002edb6bcaec32}{F\+T\+P\+Server.\+is\+Logged\+In}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_ac87b529a62f626ab37e39d3086102305}{F\+T\+P\+Server.\+manager}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a53efc9cad594b3f20e40c70ac21c3504}{F\+T\+P\+Server.\+get\+And\+Print\+Server\+Reply()}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 1274 of file F\+T\+P\+Server.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresources_1_1ftpserver_1_1_f_t_p_server_aeed840d7a1f20b8b579203dc60a312d2_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresources_1_1ftpserver_1_1_f_t_p_server_aeed840d7a1f20b8b579203dc60a312d2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classresources_1_1ftpserver_1_1_f_t_p_server_a0aa2b7f023ab044bf8723b39aaca43a6}\label{classresources_1_1ftpserver_1_1_f_t_p_server_a0aa2b7f023ab044bf8723b39aaca43a6}} 
+\index{resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}!downloadFileAM@{downloadFileAM}}
+\index{downloadFileAM@{downloadFileAM}!resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}}
+\doxysubsubsection{\texorpdfstring{downloadFileAM()}{downloadFileAM()}}
+{\footnotesize\ttfamily void resources.\+ftpserver.\+F\+T\+P\+Server.\+download\+File\+AM (\begin{DoxyParamCaption}\item[{String}]{name\+Remote\+File,  }\item[{Output\+Stream}]{download\+Stream }\end{DoxyParamCaption})}
+
+
+
+Scarica un file dal server al client. 
+
+Il seguente metodo scarica un file dal server al client
+
+
+\begin{DoxyParams}{Parameters}
+{\em name\+Remote\+File} & Nome del file salvato nella memoria del server da scaricare nella memoria locale \\
+\hline
+{\em download\+Stream} & File salvato nella memoria locale utilizzato come target per lo scaricamento dei dati\\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+Il login sul server deve essere già stato eseguito
+\end{DoxyPrecond}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a62e0c4cd4f0cda5fb8002edb6bcaec32}{F\+T\+P\+Server.\+is\+Logged\+In}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_ac87b529a62f626ab37e39d3086102305}{F\+T\+P\+Server.\+manager}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a53efc9cad594b3f20e40c70ac21c3504}{F\+T\+P\+Server.\+get\+And\+Print\+Server\+Reply()}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 1342 of file F\+T\+P\+Server.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresources_1_1ftpserver_1_1_f_t_p_server_a0aa2b7f023ab044bf8723b39aaca43a6_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classresources_1_1ftpserver_1_1_f_t_p_server_a53efc9cad594b3f20e40c70ac21c3504}\label{classresources_1_1ftpserver_1_1_f_t_p_server_a53efc9cad594b3f20e40c70ac21c3504}} 
+\index{resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}!getAndPrintServerReply@{getAndPrintServerReply}}
+\index{getAndPrintServerReply@{getAndPrintServerReply}!resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}}
+\doxysubsubsection{\texorpdfstring{getAndPrintServerReply()}{getAndPrintServerReply()}}
+{\footnotesize\ttfamily void resources.\+ftpserver.\+F\+T\+P\+Server.\+get\+And\+Print\+Server\+Reply (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Visualizza su console le eventuali risposte del server a comandi. 
+
+Il seguente metodo visualizza su console le eventuali risposte del server dopo lo svolgimento di azioni con esso. E\textquotesingle{} consigliabile richiamare questo metodo dopo ogni comando inviato al server, in quanto eventuali messaggi generati da un comando sovrascrivono quelli precedenti
+
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_ac87b529a62f626ab37e39d3086102305}{F\+T\+P\+Server.\+manager}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a5f8b219e78c73bd998163d3298eec651}{F\+T\+P\+Server.\+backup\+Replies}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 1896 of file F\+T\+P\+Server.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresources_1_1ftpserver_1_1_f_t_p_server_a53efc9cad594b3f20e40c70ac21c3504_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresources_1_1ftpserver_1_1_f_t_p_server_a53efc9cad594b3f20e40c70ac21c3504_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classresources_1_1ftpserver_1_1_f_t_p_server_a97a1bef804fb89c035559e813083d9cf}\label{classresources_1_1ftpserver_1_1_f_t_p_server_a97a1bef804fb89c035559e813083d9cf}} 
+\index{resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}!getCurrentDirectory@{getCurrentDirectory}}
+\index{getCurrentDirectory@{getCurrentDirectory}!resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}}
+\doxysubsubsection{\texorpdfstring{getCurrentDirectory()}{getCurrentDirectory()}}
+{\footnotesize\ttfamily String resources.\+ftpserver.\+F\+T\+P\+Server.\+get\+Current\+Directory (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Ottiene la directory di lavoro corrente. 
+
+Il seguente metodo ottiene la directory di lavoro corrente
+
+\begin{DoxyReturn}{Returns}
+La directory di lavoro corrente
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+Il login sul server deve essere già stato eseguito
+\end{DoxyPrecond}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_ac87b529a62f626ab37e39d3086102305}{F\+T\+P\+Server.\+manager}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a53efc9cad594b3f20e40c70ac21c3504}{F\+T\+P\+Server.\+get\+And\+Print\+Server\+Reply()}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 571 of file F\+T\+P\+Server.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresources_1_1ftpserver_1_1_f_t_p_server_a97a1bef804fb89c035559e813083d9cf_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classresources_1_1ftpserver_1_1_f_t_p_server_a36d4d5cb44e5aa899f60095dc26ce542}\label{classresources_1_1ftpserver_1_1_f_t_p_server_a36d4d5cb44e5aa899f60095dc26ce542}} 
+\index{resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}!getCurrentDirectoryAM@{getCurrentDirectoryAM}}
+\index{getCurrentDirectoryAM@{getCurrentDirectoryAM}!resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}}
+\doxysubsubsection{\texorpdfstring{getCurrentDirectoryAM()}{getCurrentDirectoryAM()}}
+{\footnotesize\ttfamily String resources.\+ftpserver.\+F\+T\+P\+Server.\+get\+Current\+Directory\+AM (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Ottiene la directory di lavoro corrente. 
+
+Il seguente metodo ottiene la directory di lavoro corrente
+
+\begin{DoxyReturn}{Returns}
+La directory di lavoro corrente
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+Il login sul server deve essere già stato eseguito
+\end{DoxyPrecond}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_ac87b529a62f626ab37e39d3086102305}{F\+T\+P\+Server.\+manager}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a53efc9cad594b3f20e40c70ac21c3504}{F\+T\+P\+Server.\+get\+And\+Print\+Server\+Reply()}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 621 of file F\+T\+P\+Server.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresources_1_1ftpserver_1_1_f_t_p_server_a36d4d5cb44e5aa899f60095dc26ce542_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classresources_1_1ftpserver_1_1_f_t_p_server_a83b22a422f0084383570029df8c869ee}\label{classresources_1_1ftpserver_1_1_f_t_p_server_a83b22a422f0084383570029df8c869ee}} 
+\index{resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}!getHost@{getHost}}
+\index{getHost@{getHost}!resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}}
+\doxysubsubsection{\texorpdfstring{getHost()}{getHost()}}
+{\footnotesize\ttfamily String resources.\+ftpserver.\+F\+T\+P\+Server.\+get\+Host (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Ritorna il valore dell\textquotesingle{}attributo \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_aa2cf870a50389845feeeb58864b66729}{F\+T\+P\+Server.\+host}}. 
+
+\begin{DoxyReturn}{Returns}
+Il valore dell\textquotesingle{}attributo \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_aa2cf870a50389845feeeb58864b66729}{F\+T\+P\+Server.\+host}}
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_aa2cf870a50389845feeeb58864b66729}{F\+T\+P\+Server.\+host}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 1928 of file F\+T\+P\+Server.\+java.
+
+\mbox{\Hypertarget{classresources_1_1ftpserver_1_1_f_t_p_server_a8626bea24c8b8e903489cebffef30ef2}\label{classresources_1_1ftpserver_1_1_f_t_p_server_a8626bea24c8b8e903489cebffef30ef2}} 
+\index{resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}!getIsConnected@{getIsConnected}}
+\index{getIsConnected@{getIsConnected}!resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}}
+\doxysubsubsection{\texorpdfstring{getIsConnected()}{getIsConnected()}}
+{\footnotesize\ttfamily Boolean resources.\+ftpserver.\+F\+T\+P\+Server.\+get\+Is\+Connected (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Ritorna il valore ottenuto attraverso l\textquotesingle{}invocazione del metodo \mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_ae743d882c2b3e7db928b39fc1b164750}{resources.\+ftpserver.\+Manager.\+get\+Is\+Connected()}} 
+
+Il seguente metodo ritorna il valore ottenuto attraverso l\textquotesingle{}invocazione del metodo \mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_ae743d882c2b3e7db928b39fc1b164750}{resources.\+ftpserver.\+Manager.\+get\+Is\+Connected()}}
+
+\begin{DoxyReturn}{Returns}
+Il valore ottenuto attraverso l\textquotesingle{}invocazione del metodo \mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_ae743d882c2b3e7db928b39fc1b164750}{resources.\+ftpserver.\+Manager.\+get\+Is\+Connected()}}
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager}{resources.\+ftpserver.\+Manager}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_ac87b529a62f626ab37e39d3086102305}{F\+T\+P\+Server.\+manager}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 1968 of file F\+T\+P\+Server.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresources_1_1ftpserver_1_1_f_t_p_server_a8626bea24c8b8e903489cebffef30ef2_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classresources_1_1ftpserver_1_1_f_t_p_server_acdf74c41af0de18af30a2b2e5b459fa0}\label{classresources_1_1ftpserver_1_1_f_t_p_server_acdf74c41af0de18af30a2b2e5b459fa0}} 
+\index{resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}!getIsLoggedIn@{getIsLoggedIn}}
+\index{getIsLoggedIn@{getIsLoggedIn}!resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}}
+\doxysubsubsection{\texorpdfstring{getIsLoggedIn()}{getIsLoggedIn()}}
+{\footnotesize\ttfamily Boolean resources.\+ftpserver.\+F\+T\+P\+Server.\+get\+Is\+Logged\+In (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Ritorna il valore dell\textquotesingle{}attributo \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a62e0c4cd4f0cda5fb8002edb6bcaec32}{F\+T\+P\+Server.\+is\+Logged\+In}}. 
+
+\begin{DoxyReturn}{Returns}
+Il valore dell\textquotesingle{}attributo \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a62e0c4cd4f0cda5fb8002edb6bcaec32}{F\+T\+P\+Server.\+is\+Logged\+In}}
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a62e0c4cd4f0cda5fb8002edb6bcaec32}{F\+T\+P\+Server.\+is\+Logged\+In}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 1950 of file F\+T\+P\+Server.\+java.
+
+\mbox{\Hypertarget{classresources_1_1ftpserver_1_1_f_t_p_server_a11cf3fa1d1d7eb9e83dae58cdc9afdd1}\label{classresources_1_1ftpserver_1_1_f_t_p_server_a11cf3fa1d1d7eb9e83dae58cdc9afdd1}} 
+\index{resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}!getIsNoOp@{getIsNoOp}}
+\index{getIsNoOp@{getIsNoOp}!resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}}
+\doxysubsubsection{\texorpdfstring{getIsNoOp()}{getIsNoOp()}}
+{\footnotesize\ttfamily Boolean resources.\+ftpserver.\+F\+T\+P\+Server.\+get\+Is\+No\+Op (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Ritorna il valore ottenuto attraverso l\textquotesingle{}invocazione del metodo \mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_a5c52f5769c89fb20b0bfc7520fc2d3b7}{resources.\+ftpserver.\+Manager.\+get\+Is\+No\+Op()}} 
+
+Il seguente metodo ritorna il valore ottenuto attraverso l\textquotesingle{}invocazione del metodo \mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_a5c52f5769c89fb20b0bfc7520fc2d3b7}{resources.\+ftpserver.\+Manager.\+get\+Is\+No\+Op()}}
+
+\begin{DoxyReturn}{Returns}
+Il valore ottenuto attraverso l\textquotesingle{}invocazione del metodo \mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_a5c52f5769c89fb20b0bfc7520fc2d3b7}{resources.\+ftpserver.\+Manager.\+get\+Is\+No\+Op()}}
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager}{resources.\+ftpserver.\+Manager}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_ac87b529a62f626ab37e39d3086102305}{F\+T\+P\+Server.\+manager}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 1986 of file F\+T\+P\+Server.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresources_1_1ftpserver_1_1_f_t_p_server_a11cf3fa1d1d7eb9e83dae58cdc9afdd1_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classresources_1_1ftpserver_1_1_f_t_p_server_acf6cff62c6a86355a070f15d2d15bf84}\label{classresources_1_1ftpserver_1_1_f_t_p_server_acf6cff62c6a86355a070f15d2d15bf84}} 
+\index{resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}!getListElements@{getListElements}}
+\index{getListElements@{getListElements}!resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}}
+\doxysubsubsection{\texorpdfstring{getListElements()}{getListElements()}}
+{\footnotesize\ttfamily String \mbox{[}$\,$\mbox{]} resources.\+ftpserver.\+F\+T\+P\+Server.\+get\+List\+Elements (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Ottiene una lista di elementi presenti nella directory di lavoro corrente. 
+
+Il seguente metodo ottiene una lista di elementi presenti nella directory di lavoro corrente
+
+\begin{DoxyReturn}{Returns}
+Una lista di elementi presenti nella directory di lavoro corrente
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+Il login sul server deve essere già stato eseguito
+\end{DoxyPrecond}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a62e0c4cd4f0cda5fb8002edb6bcaec32}{F\+T\+P\+Server.\+is\+Logged\+In}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_ac87b529a62f626ab37e39d3086102305}{F\+T\+P\+Server.\+manager}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a53efc9cad594b3f20e40c70ac21c3504}{F\+T\+P\+Server.\+get\+And\+Print\+Server\+Reply()}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 802 of file F\+T\+P\+Server.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresources_1_1ftpserver_1_1_f_t_p_server_acf6cff62c6a86355a070f15d2d15bf84_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresources_1_1ftpserver_1_1_f_t_p_server_acf6cff62c6a86355a070f15d2d15bf84_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classresources_1_1ftpserver_1_1_f_t_p_server_a71605cd701446bd0c6c72c8ff6dd7210}\label{classresources_1_1ftpserver_1_1_f_t_p_server_a71605cd701446bd0c6c72c8ff6dd7210}} 
+\index{resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}!getListElementsAM@{getListElementsAM}}
+\index{getListElementsAM@{getListElementsAM}!resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}}
+\doxysubsubsection{\texorpdfstring{getListElementsAM()}{getListElementsAM()}}
+{\footnotesize\ttfamily String \mbox{[}$\,$\mbox{]} resources.\+ftpserver.\+F\+T\+P\+Server.\+get\+List\+Elements\+AM (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Ottiene una lista di elementi presenti nella directory di lavoro corrente. 
+
+Il seguente metodo ottiene una lista di elementi presenti nella directory di lavoro corrente
+
+\begin{DoxyReturn}{Returns}
+Una lista di elementi presenti nella directory di lavoro corrente
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+Il login sul server deve essere già stato eseguito
+\end{DoxyPrecond}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a62e0c4cd4f0cda5fb8002edb6bcaec32}{F\+T\+P\+Server.\+is\+Logged\+In}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_ac87b529a62f626ab37e39d3086102305}{F\+T\+P\+Server.\+manager}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a53efc9cad594b3f20e40c70ac21c3504}{F\+T\+P\+Server.\+get\+And\+Print\+Server\+Reply()}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 860 of file F\+T\+P\+Server.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresources_1_1ftpserver_1_1_f_t_p_server_a71605cd701446bd0c6c72c8ff6dd7210_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classresources_1_1ftpserver_1_1_f_t_p_server_a8f9b64e25bfbc724f82f077d1d961fb0}\label{classresources_1_1ftpserver_1_1_f_t_p_server_a8f9b64e25bfbc724f82f077d1d961fb0}} 
+\index{resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}!getPort@{getPort}}
+\index{getPort@{getPort}!resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}}
+\doxysubsubsection{\texorpdfstring{getPort()}{getPort()}}
+{\footnotesize\ttfamily Integer resources.\+ftpserver.\+F\+T\+P\+Server.\+get\+Port (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Ritorna il valore dell\textquotesingle{}attributo \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a16ccf76c5751fdc1e8e35357d06ef901}{F\+T\+P\+Server.\+port}}. 
+
+\begin{DoxyReturn}{Returns}
+Il valore dell\textquotesingle{}attributo \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a16ccf76c5751fdc1e8e35357d06ef901}{F\+T\+P\+Server.\+port}}
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a16ccf76c5751fdc1e8e35357d06ef901}{F\+T\+P\+Server.\+port}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 1939 of file F\+T\+P\+Server.\+java.
+
+\mbox{\Hypertarget{classresources_1_1ftpserver_1_1_f_t_p_server_a471d37798cfc6fbe05c05cd90cd37b0b}\label{classresources_1_1ftpserver_1_1_f_t_p_server_a471d37798cfc6fbe05c05cd90cd37b0b}} 
+\index{resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}!getServerBackdoor@{getServerBackdoor}}
+\index{getServerBackdoor@{getServerBackdoor}!resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}}
+\doxysubsubsection{\texorpdfstring{getServerBackdoor()}{getServerBackdoor()}}
+{\footnotesize\ttfamily F\+T\+P\+Client resources.\+ftpserver.\+F\+T\+P\+Server.\+get\+Server\+Backdoor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 2009 of file F\+T\+P\+Server.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresources_1_1ftpserver_1_1_f_t_p_server_a471d37798cfc6fbe05c05cd90cd37b0b_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classresources_1_1ftpserver_1_1_f_t_p_server_a36fb43ded9ef67aadabcd64ffd8a5b28}\label{classresources_1_1ftpserver_1_1_f_t_p_server_a36fb43ded9ef67aadabcd64ffd8a5b28}} 
+\index{resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}!getShowServerReplies@{getShowServerReplies}}
+\index{getShowServerReplies@{getShowServerReplies}!resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}}
+\doxysubsubsection{\texorpdfstring{getShowServerReplies()}{getShowServerReplies()}}
+{\footnotesize\ttfamily Boolean resources.\+ftpserver.\+F\+T\+P\+Server.\+get\+Show\+Server\+Replies (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Ritorna il valore ottenuto attraverso l\textquotesingle{}invocazione del metodo \mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_a15422d664ec1762a2b98a86228099cd7}{resources.\+ftpserver.\+Manager.\+get\+Show\+Server\+Replies()}} 
+
+Il seguente metodo ritorna il valore ottenuto attraverso l\textquotesingle{}invocazione del metodo \mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_a15422d664ec1762a2b98a86228099cd7}{resources.\+ftpserver.\+Manager.\+get\+Show\+Server\+Replies()}}
+
+\begin{DoxyReturn}{Returns}
+Il valore ottenuto attraverso l\textquotesingle{}invocazione del metodo \mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_a15422d664ec1762a2b98a86228099cd7}{resources.\+ftpserver.\+Manager.\+get\+Show\+Server\+Replies()}}
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager}{resources.\+ftpserver.\+Manager}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_ac87b529a62f626ab37e39d3086102305}{F\+T\+P\+Server.\+manager}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 2004 of file F\+T\+P\+Server.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresources_1_1ftpserver_1_1_f_t_p_server_a36fb43ded9ef67aadabcd64ffd8a5b28_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classresources_1_1ftpserver_1_1_f_t_p_server_a7250e1c8a1ee00b6550402cfac9b495a}\label{classresources_1_1ftpserver_1_1_f_t_p_server_a7250e1c8a1ee00b6550402cfac9b495a}} 
+\index{resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}!login@{login}}
+\index{login@{login}!resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}}
+\doxysubsubsection{\texorpdfstring{login()}{login()}}
+{\footnotesize\ttfamily Boolean resources.\+ftpserver.\+F\+T\+P\+Server.\+login (\begin{DoxyParamCaption}\item[{String}]{username,  }\item[{String}]{password }\end{DoxyParamCaption})}
+
+
+
+Tenta di effettuare il login sul server F\+TP. 
+
+Il seguente metodo tenta di effettuare il login sul server F\+TP
+
+
+\begin{DoxyParams}{Parameters}
+{\em username} & Username per effettuare il login \\
+\hline
+{\em password} & Password per effettuare il login\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Un valore booleano indicante la corretta esecuzione del tentativo di effettuare il login sul server F\+TP
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+La connessione con il server deve essere attiva 
+
+Il login sul server non deve essere già stato eseguito
+\end{DoxyPrecond}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a62e0c4cd4f0cda5fb8002edb6bcaec32}{F\+T\+P\+Server.\+is\+Logged\+In}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_ac87b529a62f626ab37e39d3086102305}{F\+T\+P\+Server.\+manager}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a53efc9cad594b3f20e40c70ac21c3504}{F\+T\+P\+Server.\+get\+And\+Print\+Server\+Reply()}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 423 of file F\+T\+P\+Server.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresources_1_1ftpserver_1_1_f_t_p_server_a7250e1c8a1ee00b6550402cfac9b495a_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresources_1_1ftpserver_1_1_f_t_p_server_a7250e1c8a1ee00b6550402cfac9b495a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classresources_1_1ftpserver_1_1_f_t_p_server_a2754c501b06fbad87a2fe9770bd2a866}\label{classresources_1_1ftpserver_1_1_f_t_p_server_a2754c501b06fbad87a2fe9770bd2a866}} 
+\index{resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}!loginAM@{loginAM}}
+\index{loginAM@{loginAM}!resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}}
+\doxysubsubsection{\texorpdfstring{loginAM()}{loginAM()}}
+{\footnotesize\ttfamily void resources.\+ftpserver.\+F\+T\+P\+Server.\+login\+AM (\begin{DoxyParamCaption}\item[{String}]{username,  }\item[{String}]{password }\end{DoxyParamCaption})}
+
+
+
+Tenta di effettuare il login sul server F\+TP. 
+
+Il seguente metodo tenta di effettuare il login sul server F\+TP
+
+
+\begin{DoxyParams}{Parameters}
+{\em username} & Username per effettuare il login \\
+\hline
+{\em password} & Password per effettuare il login\\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+La connessione con il server deve essere attiva 
+
+Il login sul server non deve essere già stato eseguito
+\end{DoxyPrecond}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a62e0c4cd4f0cda5fb8002edb6bcaec32}{F\+T\+P\+Server.\+is\+Logged\+In}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_ac87b529a62f626ab37e39d3086102305}{F\+T\+P\+Server.\+manager}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a53efc9cad594b3f20e40c70ac21c3504}{F\+T\+P\+Server.\+get\+And\+Print\+Server\+Reply()}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 496 of file F\+T\+P\+Server.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresources_1_1ftpserver_1_1_f_t_p_server_a2754c501b06fbad87a2fe9770bd2a866_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classresources_1_1ftpserver_1_1_f_t_p_server_ab2740547f1222dd15c12f2b3a43e2873}\label{classresources_1_1ftpserver_1_1_f_t_p_server_ab2740547f1222dd15c12f2b3a43e2873}} 
+\index{resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}!logout@{logout}}
+\index{logout@{logout}!resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}}
+\doxysubsubsection{\texorpdfstring{logout()}{logout()}}
+{\footnotesize\ttfamily Boolean resources.\+ftpserver.\+F\+T\+P\+Server.\+logout (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Tenta di effettuare il logout dal server. 
+
+Il seguente metodo tenta di effettuare il logout dal server
+
+\begin{DoxyReturn}{Returns}
+Un valore booleano indicante la corretta esecuzione del tentativo di effettuare il logout dal server
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+Il login sul server deve essere già stato eseguito
+\end{DoxyPrecond}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_ac87b529a62f626ab37e39d3086102305}{F\+T\+P\+Server.\+manager}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a62e0c4cd4f0cda5fb8002edb6bcaec32}{F\+T\+P\+Server.\+is\+Logged\+In()}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 1553 of file F\+T\+P\+Server.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresources_1_1ftpserver_1_1_f_t_p_server_ab2740547f1222dd15c12f2b3a43e2873_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresources_1_1ftpserver_1_1_f_t_p_server_ab2740547f1222dd15c12f2b3a43e2873_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classresources_1_1ftpserver_1_1_f_t_p_server_ac715abb38c9bb7ed27155d7ce200d2cb}\label{classresources_1_1ftpserver_1_1_f_t_p_server_ac715abb38c9bb7ed27155d7ce200d2cb}} 
+\index{resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}!logoutAM@{logoutAM}}
+\index{logoutAM@{logoutAM}!resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}}
+\doxysubsubsection{\texorpdfstring{logoutAM()}{logoutAM()}}
+{\footnotesize\ttfamily void resources.\+ftpserver.\+F\+T\+P\+Server.\+logout\+AM (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Tenta di effettuare il logout dal server. 
+
+Il seguente metodo tenta di effettuare il logout dal server
+
+\begin{DoxyPrecond}{Precondition}
+Il login sul server deve essere già stato eseguito
+\end{DoxyPrecond}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_ac87b529a62f626ab37e39d3086102305}{F\+T\+P\+Server.\+manager}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a62e0c4cd4f0cda5fb8002edb6bcaec32}{F\+T\+P\+Server.\+is\+Logged\+In()}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 1609 of file F\+T\+P\+Server.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresources_1_1ftpserver_1_1_f_t_p_server_ac715abb38c9bb7ed27155d7ce200d2cb_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classresources_1_1ftpserver_1_1_f_t_p_server_ae9bf45f3284f3eefd4e65e75d77a77c6}\label{classresources_1_1ftpserver_1_1_f_t_p_server_ae9bf45f3284f3eefd4e65e75d77a77c6}} 
+\index{resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}!setCoords@{setCoords}}
+\index{setCoords@{setCoords}!resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}}
+\doxysubsubsection{\texorpdfstring{setCoords()}{setCoords()}}
+{\footnotesize\ttfamily Boolean resources.\+ftpserver.\+F\+T\+P\+Server.\+set\+Coords (\begin{DoxyParamCaption}\item[{String}]{host,  }\item[{Integer}]{port }\end{DoxyParamCaption})}
+
+
+
+Imposta le coordinate del server F\+TP con il quale comunicare. 
+
+Il seguente metodo imposta le coordinate dal server F\+TP con il quale comunicare
+
+
+\begin{DoxyParams}{Parameters}
+{\em host} & La prima coordinata per la comunicazione con il server F\+TP\+: host \\
+\hline
+{\em port} & La seconda coordinata per la comunicazione con il server F\+TP\+: port\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Un valore booleano indicante la corretta esecuzione dell\textquotesingle{}impostazione delle coordinate del server F\+TP con il quale comunicare
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+La connessione con il server non deve essere attiva
+\end{DoxyPrecond}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_ac87b529a62f626ab37e39d3086102305}{F\+T\+P\+Server.\+manager}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_aa2cf870a50389845feeeb58864b66729}{F\+T\+P\+Server.\+host}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a16ccf76c5751fdc1e8e35357d06ef901}{F\+T\+P\+Server.\+port}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 198 of file F\+T\+P\+Server.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresources_1_1ftpserver_1_1_f_t_p_server_ae9bf45f3284f3eefd4e65e75d77a77c6_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresources_1_1ftpserver_1_1_f_t_p_server_ae9bf45f3284f3eefd4e65e75d77a77c6_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classresources_1_1ftpserver_1_1_f_t_p_server_a093946fe4f699687964567e9d3bc48e8}\label{classresources_1_1ftpserver_1_1_f_t_p_server_a093946fe4f699687964567e9d3bc48e8}} 
+\index{resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}!setCoordsAM@{setCoordsAM}}
+\index{setCoordsAM@{setCoordsAM}!resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}}
+\doxysubsubsection{\texorpdfstring{setCoordsAM()}{setCoordsAM()}}
+{\footnotesize\ttfamily void resources.\+ftpserver.\+F\+T\+P\+Server.\+set\+Coords\+AM (\begin{DoxyParamCaption}\item[{String}]{host,  }\item[{Integer}]{port }\end{DoxyParamCaption})}
+
+
+
+Imposta le coordinate del server F\+TP con il quale comunicare. 
+
+Il seguente metodo imposta le coordinate dal server F\+TP con il quale comunicare
+
+
+\begin{DoxyParams}{Parameters}
+{\em host} & La prima coordinata per la comunicazione con il server F\+TP\+: host \\
+\hline
+{\em port} & La seconda coordinata per la comunicazione con il server F\+TP\+: port\\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+La connessione con il server non deve essere attiva
+\end{DoxyPrecond}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_ac87b529a62f626ab37e39d3086102305}{F\+T\+P\+Server.\+manager}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_aa2cf870a50389845feeeb58864b66729}{F\+T\+P\+Server.\+host}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a16ccf76c5751fdc1e8e35357d06ef901}{F\+T\+P\+Server.\+port}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 235 of file F\+T\+P\+Server.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresources_1_1ftpserver_1_1_f_t_p_server_a093946fe4f699687964567e9d3bc48e8_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classresources_1_1ftpserver_1_1_f_t_p_server_ab87c0e92af371c7034d82b026367b401}\label{classresources_1_1ftpserver_1_1_f_t_p_server_ab87c0e92af371c7034d82b026367b401}} 
+\index{resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}!setCurrentDirectory@{setCurrentDirectory}}
+\index{setCurrentDirectory@{setCurrentDirectory}!resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}}
+\doxysubsubsection{\texorpdfstring{setCurrentDirectory()}{setCurrentDirectory()}}
+{\footnotesize\ttfamily Boolean resources.\+ftpserver.\+F\+T\+P\+Server.\+set\+Current\+Directory (\begin{DoxyParamCaption}\item[{String}]{directory\+Path }\end{DoxyParamCaption})}
+
+
+
+Cambia la directory di lavoro corrente. 
+
+Il seguente metodo cambia la directory di lavoro corrente
+
+
+\begin{DoxyParams}{Parameters}
+{\em directory\+Path} & La nuova directory di lavoro corrente\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Un valore booleano indicante il corretto cambiamento della directory di lavoro corrente
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+Il login sul server deve essere già stato eseguito
+\end{DoxyPrecond}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a62e0c4cd4f0cda5fb8002edb6bcaec32}{F\+T\+P\+Server.\+is\+Logged\+In}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_ac87b529a62f626ab37e39d3086102305}{F\+T\+P\+Server.\+manager}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a53efc9cad594b3f20e40c70ac21c3504}{F\+T\+P\+Server.\+get\+And\+Print\+Server\+Reply()}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 677 of file F\+T\+P\+Server.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresources_1_1ftpserver_1_1_f_t_p_server_ab87c0e92af371c7034d82b026367b401_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresources_1_1ftpserver_1_1_f_t_p_server_ab87c0e92af371c7034d82b026367b401_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classresources_1_1ftpserver_1_1_f_t_p_server_aa8db03d0dcb287d621a7909fa44e3a47}\label{classresources_1_1ftpserver_1_1_f_t_p_server_aa8db03d0dcb287d621a7909fa44e3a47}} 
+\index{resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}!setCurrentDirectoryAM@{setCurrentDirectoryAM}}
+\index{setCurrentDirectoryAM@{setCurrentDirectoryAM}!resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}}
+\doxysubsubsection{\texorpdfstring{setCurrentDirectoryAM()}{setCurrentDirectoryAM()}}
+{\footnotesize\ttfamily void resources.\+ftpserver.\+F\+T\+P\+Server.\+set\+Current\+Directory\+AM (\begin{DoxyParamCaption}\item[{String}]{directory\+Path }\end{DoxyParamCaption})}
+
+
+
+Cambia la directory di lavoro corrente. 
+
+Il seguente metodo cambia la directory di lavoro corrente
+
+
+\begin{DoxyParams}{Parameters}
+{\em directory\+Path} & La nuova directory di lavoro corrente\\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+Il login sul server deve essere già stato eseguito
+\end{DoxyPrecond}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a62e0c4cd4f0cda5fb8002edb6bcaec32}{F\+T\+P\+Server.\+is\+Logged\+In}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_ac87b529a62f626ab37e39d3086102305}{F\+T\+P\+Server.\+manager}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a53efc9cad594b3f20e40c70ac21c3504}{F\+T\+P\+Server.\+get\+And\+Print\+Server\+Reply()}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 738 of file F\+T\+P\+Server.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresources_1_1ftpserver_1_1_f_t_p_server_aa8db03d0dcb287d621a7909fa44e3a47_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classresources_1_1ftpserver_1_1_f_t_p_server_ac7157f46f1f3b4e9966451e6c07c18f2}\label{classresources_1_1ftpserver_1_1_f_t_p_server_ac7157f46f1f3b4e9966451e6c07c18f2}} 
+\index{resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}!startKeeper@{startKeeper}}
+\index{startKeeper@{startKeeper}!resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}}
+\doxysubsubsection{\texorpdfstring{startKeeper()}{startKeeper()}}
+{\footnotesize\ttfamily void resources.\+ftpserver.\+F\+T\+P\+Server.\+start\+Keeper (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Avvia il thread rappresentato dall\textquotesingle{}oggetto \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a21623ae06bcbe6245a7e1aab8abe332e}{F\+T\+P\+Server.\+keeper}}. 
+
+Il seguente metodo è necessario per avviare il thread rappresentato dall\textquotesingle{}oggetto \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a21623ae06bcbe6245a7e1aab8abe332e}{F\+T\+P\+Server.\+keeper}}
+
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a15d6faedcb0c2d675640b0e8880b0c4c}{F\+T\+P\+Server.\+timer}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a21623ae06bcbe6245a7e1aab8abe332e}{F\+T\+P\+Server.\+keeper}} 
+\end{DoxySeeAlso}
+this.\+timer.\+schedule(keeper, 180000, 180000);
+
+Definition at line 166 of file F\+T\+P\+Server.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresources_1_1ftpserver_1_1_f_t_p_server_ac7157f46f1f3b4e9966451e6c07c18f2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classresources_1_1ftpserver_1_1_f_t_p_server_ae68c9fbcb668eb1a3a21c100e87dcda9}\label{classresources_1_1ftpserver_1_1_f_t_p_server_ae68c9fbcb668eb1a3a21c100e87dcda9}} 
+\index{resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}!updateFileAppending@{updateFileAppending}}
+\index{updateFileAppending@{updateFileAppending}!resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}}
+\doxysubsubsection{\texorpdfstring{updateFileAppending()}{updateFileAppending()}}
+{\footnotesize\ttfamily Boolean resources.\+ftpserver.\+F\+T\+P\+Server.\+update\+File\+Appending (\begin{DoxyParamCaption}\item[{String}]{name\+Remote\+File,  }\item[{Input\+Stream}]{upload\+Stream,  }\item[{Output\+Stream}]{download\+Stream,  }\item[{Print\+Writer}]{local\+Write\+Stream,  }\item[{String}]{to\+Append }\end{DoxyParamCaption})}
+
+
+
+Aggiorna un file nel server dal client al server. 
+
+Il seguente metodo effettua un aggiornamento di un file già presente nella memoria del server con le informazioni di un file locale presente nella memoria del client
+
+
+\begin{DoxyParams}{Parameters}
+{\em name\+Remote\+File} & Nome del file salvato nella memoria del server da aggiornare \\
+\hline
+{\em upload\+Stream} & Il file locale con le quali informazioni aggiornare il file salvato nella memoria del server \\
+\hline
+{\em download\+Stream} & File salvato nella memoria locale utilizzato come target per lo scaricamento dei dati \\
+\hline
+{\em local\+Write\+Stream} & Stream per effettuare la scrittura di un file in locale \\
+\hline
+{\em to\+Append} & Informazioni da scrivere nel file\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Un valore booleano indicante la corretta esecuzione dell\textquotesingle{}aggiornamento del file nel server
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+Il login sul server deve essere già stato eseguito
+\end{DoxyPrecond}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a62e0c4cd4f0cda5fb8002edb6bcaec32}{F\+T\+P\+Server.\+is\+Logged\+In}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_aeed840d7a1f20b8b579203dc60a312d2}{F\+T\+P\+Server.\+download\+File()}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_aaae22be90f18fa0c827240ef0fc5b466}{F\+T\+P\+Server.\+upload\+File()}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 1444 of file F\+T\+P\+Server.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresources_1_1ftpserver_1_1_f_t_p_server_ae68c9fbcb668eb1a3a21c100e87dcda9_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classresources_1_1ftpserver_1_1_f_t_p_server_a2f9e7352518d43b67aa6d0c081b4e632}\label{classresources_1_1ftpserver_1_1_f_t_p_server_a2f9e7352518d43b67aa6d0c081b4e632}} 
+\index{resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}!updateFileAppendingAM@{updateFileAppendingAM}}
+\index{updateFileAppendingAM@{updateFileAppendingAM}!resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}}
+\doxysubsubsection{\texorpdfstring{updateFileAppendingAM()}{updateFileAppendingAM()}}
+{\footnotesize\ttfamily void resources.\+ftpserver.\+F\+T\+P\+Server.\+update\+File\+Appending\+AM (\begin{DoxyParamCaption}\item[{String}]{name\+Remote\+File,  }\item[{Input\+Stream}]{upload\+Stream,  }\item[{Output\+Stream}]{download\+Stream,  }\item[{Print\+Writer}]{local\+Write\+Stream,  }\item[{String}]{to\+Append }\end{DoxyParamCaption})}
+
+
+
+Aggiorna un file nel server dal client al server. 
+
+Il seguente metodo effettua un aggiornamento di un file già presente nella memoria del server con le informazioni di un file locale presente nella memoria del client
+
+
+\begin{DoxyParams}{Parameters}
+{\em name\+Remote\+File} & Nome del file salvato nella memoria del server da aggiornare \\
+\hline
+{\em upload\+Stream} & Il file locale con le quali informazioni aggiornare il file salvato nella memoria del server \\
+\hline
+{\em download\+Stream} & File salvato nella memoria locale utilizzato come target per lo scaricamento dei dati \\
+\hline
+{\em local\+Write\+Stream} & Stream per effettuare la scrittura di un file in locale \\
+\hline
+{\em to\+Append} & Informazioni da scrivere nel file\\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+Il login sul server deve essere già stato eseguito
+\end{DoxyPrecond}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a62e0c4cd4f0cda5fb8002edb6bcaec32}{F\+T\+P\+Server.\+is\+Logged\+In}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_aeed840d7a1f20b8b579203dc60a312d2}{F\+T\+P\+Server.\+download\+File()}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_aaae22be90f18fa0c827240ef0fc5b466}{F\+T\+P\+Server.\+upload\+File()}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 1502 of file F\+T\+P\+Server.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresources_1_1ftpserver_1_1_f_t_p_server_a2f9e7352518d43b67aa6d0c081b4e632_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classresources_1_1ftpserver_1_1_f_t_p_server_abab87b35980051614e04c19b2997c320}\label{classresources_1_1ftpserver_1_1_f_t_p_server_abab87b35980051614e04c19b2997c320}} 
+\index{resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}!uploadFile@{uploadFile}}
+\index{uploadFile@{uploadFile}!resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}}
+\doxysubsubsection{\texorpdfstring{uploadFile()}{uploadFile()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily static Boolean resources.\+ftpserver.\+F\+T\+P\+Server.\+upload\+File (\begin{DoxyParamCaption}\item[{F\+T\+P\+Client}]{server,  }\item[{String}]{name\+Remote\+File,  }\item[{Input\+Stream}]{upload\+Stream }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [package]}}
+
+
+
+Carica un file dal client al server. 
+
+Il seguente metodo carica un file dal client al server
+
+
+\begin{DoxyParams}{Parameters}
+{\em server} & Server \\
+\hline
+{\em name\+Remote\+File} & Nome da assegnare al file salvato nella memoria del server \\
+\hline
+{\em upload\+Stream} & Il file da caricare dal client al server\\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+Il login sul server deve essere già stato eseguito
+\end{DoxyPrecond}
+\begin{DoxyReturn}{Returns}
+Un valore booleano indicante il corretto caricamento del file dal client al server 
+\end{DoxyReturn}
+
+
+Definition at line 1139 of file F\+T\+P\+Server.\+java.
+
+\mbox{\Hypertarget{classresources_1_1ftpserver_1_1_f_t_p_server_aaae22be90f18fa0c827240ef0fc5b466}\label{classresources_1_1ftpserver_1_1_f_t_p_server_aaae22be90f18fa0c827240ef0fc5b466}} 
+\index{resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}!uploadFile@{uploadFile}}
+\index{uploadFile@{uploadFile}!resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}}
+\doxysubsubsection{\texorpdfstring{uploadFile()}{uploadFile()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Boolean resources.\+ftpserver.\+F\+T\+P\+Server.\+upload\+File (\begin{DoxyParamCaption}\item[{String}]{name\+Remote\+File,  }\item[{Input\+Stream}]{upload\+Stream }\end{DoxyParamCaption})}
+
+
+
+Carica un file dal client al server. 
+
+Il seguente metodo carica un file dal client al server
+
+
+\begin{DoxyParams}{Parameters}
+{\em name\+Remote\+File} & Nome da assegnare al file salvato nella memoria del server \\
+\hline
+{\em upload\+Stream} & Il file da caricare dal client al server\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Un valore booleano indicante il corretto caricamento del file dal client al server
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+Il login sul server deve essere già stato eseguito
+\end{DoxyPrecond}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a62e0c4cd4f0cda5fb8002edb6bcaec32}{F\+T\+P\+Server.\+is\+Logged\+In}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_ac87b529a62f626ab37e39d3086102305}{F\+T\+P\+Server.\+manager}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a53efc9cad594b3f20e40c70ac21c3504}{F\+T\+P\+Server.\+get\+And\+Print\+Server\+Reply()}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 1068 of file F\+T\+P\+Server.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresources_1_1ftpserver_1_1_f_t_p_server_aaae22be90f18fa0c827240ef0fc5b466_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresources_1_1ftpserver_1_1_f_t_p_server_aaae22be90f18fa0c827240ef0fc5b466_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classresources_1_1ftpserver_1_1_f_t_p_server_ac741e8d53f8a6d175e9e7b5b661e1bbe}\label{classresources_1_1ftpserver_1_1_f_t_p_server_ac741e8d53f8a6d175e9e7b5b661e1bbe}} 
+\index{resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}!uploadFileAM@{uploadFileAM}}
+\index{uploadFileAM@{uploadFileAM}!resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}}
+\doxysubsubsection{\texorpdfstring{uploadFileAM()}{uploadFileAM()}}
+{\footnotesize\ttfamily void resources.\+ftpserver.\+F\+T\+P\+Server.\+upload\+File\+AM (\begin{DoxyParamCaption}\item[{String}]{name\+Remote\+File,  }\item[{Input\+Stream}]{upload\+Stream }\end{DoxyParamCaption})}
+
+
+
+Carica un file dal client al server. 
+
+Il seguente metodo carica un file dal client al server
+
+
+\begin{DoxyParams}{Parameters}
+{\em name\+Remote\+File} & Nome da assegnare al file salvato nella memoria del server \\
+\hline
+{\em upload\+Stream} & Il file da caricare dal client al server\\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+Il login sul server deve essere già stato eseguito
+\end{DoxyPrecond}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a62e0c4cd4f0cda5fb8002edb6bcaec32}{F\+T\+P\+Server.\+is\+Logged\+In}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_ac87b529a62f626ab37e39d3086102305}{F\+T\+P\+Server.\+manager}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a53efc9cad594b3f20e40c70ac21c3504}{F\+T\+P\+Server.\+get\+And\+Print\+Server\+Reply()}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 1197 of file F\+T\+P\+Server.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresources_1_1ftpserver_1_1_f_t_p_server_ac741e8d53f8a6d175e9e7b5b661e1bbe_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classresources_1_1ftpserver_1_1_f_t_p_server_a7c7887e959b30f623c3afa81b8eda93f}\label{classresources_1_1ftpserver_1_1_f_t_p_server_a7c7887e959b30f623c3afa81b8eda93f}} 
+\index{resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}!uploadUniqueFile@{uploadUniqueFile}}
+\index{uploadUniqueFile@{uploadUniqueFile}!resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}}
+\doxysubsubsection{\texorpdfstring{uploadUniqueFile()}{uploadUniqueFile()}}
+{\footnotesize\ttfamily Boolean resources.\+ftpserver.\+F\+T\+P\+Server.\+upload\+Unique\+File (\begin{DoxyParamCaption}\item[{Input\+Stream}]{upload\+Stream }\end{DoxyParamCaption})}
+
+
+
+Carica un file con nome unico dal client al server. 
+
+Il seguente metodo carica un file con nome unico dal client al server
+
+
+\begin{DoxyParams}{Parameters}
+{\em upload\+Stream} & Il file da caricare dal client al server\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Un valore booleano indicante il corretto caricamento del file con nome unico dal client al server
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+Il login sul server deve essere già stato eseguito
+\end{DoxyPrecond}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a62e0c4cd4f0cda5fb8002edb6bcaec32}{F\+T\+P\+Server.\+is\+Logged\+In}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_ac87b529a62f626ab37e39d3086102305}{F\+T\+P\+Server.\+manager}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a53efc9cad594b3f20e40c70ac21c3504}{F\+T\+P\+Server.\+get\+And\+Print\+Server\+Reply()}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 921 of file F\+T\+P\+Server.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresources_1_1ftpserver_1_1_f_t_p_server_a7c7887e959b30f623c3afa81b8eda93f_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresources_1_1ftpserver_1_1_f_t_p_server_a7c7887e959b30f623c3afa81b8eda93f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classresources_1_1ftpserver_1_1_f_t_p_server_a22b434ac642092b0e107a794ab039af3}\label{classresources_1_1ftpserver_1_1_f_t_p_server_a22b434ac642092b0e107a794ab039af3}} 
+\index{resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}!uploadUniqueFileAM@{uploadUniqueFileAM}}
+\index{uploadUniqueFileAM@{uploadUniqueFileAM}!resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}}
+\doxysubsubsection{\texorpdfstring{uploadUniqueFileAM()}{uploadUniqueFileAM()}}
+{\footnotesize\ttfamily void resources.\+ftpserver.\+F\+T\+P\+Server.\+upload\+Unique\+File\+AM (\begin{DoxyParamCaption}\item[{Input\+Stream}]{upload\+Stream }\end{DoxyParamCaption})}
+
+
+
+Carica un file con nome unico dal client al server. 
+
+Il seguente metodo carica un file con nome unico dal client al server
+
+
+\begin{DoxyParams}{Parameters}
+{\em upload\+Stream} & Il file da caricare dal client al server\\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+Il login sul server deve essere già stato eseguito
+\end{DoxyPrecond}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a62e0c4cd4f0cda5fb8002edb6bcaec32}{F\+T\+P\+Server.\+is\+Logged\+In}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_ac87b529a62f626ab37e39d3086102305}{F\+T\+P\+Server.\+manager}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a53efc9cad594b3f20e40c70ac21c3504}{F\+T\+P\+Server.\+get\+And\+Print\+Server\+Reply()}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 992 of file F\+T\+P\+Server.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresources_1_1ftpserver_1_1_f_t_p_server_a22b434ac642092b0e107a794ab039af3_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classresources_1_1ftpserver_1_1_f_t_p_server_a5f8b219e78c73bd998163d3298eec651}\label{classresources_1_1ftpserver_1_1_f_t_p_server_a5f8b219e78c73bd998163d3298eec651}} 
+\index{resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}!backupReplies@{backupReplies}}
+\index{backupReplies@{backupReplies}!resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}}
+\doxysubsubsection{\texorpdfstring{backupReplies}{backupReplies}}
+{\footnotesize\ttfamily String \mbox{[}$\,$\mbox{]} resources.\+ftpserver.\+F\+T\+P\+Server.\+backup\+Replies\hspace{0.3cm}{\ttfamily [private]}}
+
+Rappresenta una variabile di backup utilizzata per implementare la protezione contro messaggi duplicati di risposta da parte del server
+
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a53efc9cad594b3f20e40c70ac21c3504}{F\+T\+P\+Server.\+get\+And\+Print\+Server\+Reply()}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 84 of file F\+T\+P\+Server.\+java.
+
+\mbox{\Hypertarget{classresources_1_1ftpserver_1_1_f_t_p_server_aa2cf870a50389845feeeb58864b66729}\label{classresources_1_1ftpserver_1_1_f_t_p_server_aa2cf870a50389845feeeb58864b66729}} 
+\index{resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}!host@{host}}
+\index{host@{host}!resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}}
+\doxysubsubsection{\texorpdfstring{host}{host}}
+{\footnotesize\ttfamily String resources.\+ftpserver.\+F\+T\+P\+Server.\+host\hspace{0.3cm}{\ttfamily [private]}}
+
+Rappresenta la prima coordinata per la comunicazione con il server F\+TP\+: host 
+
+Definition at line 91 of file F\+T\+P\+Server.\+java.
+
+\mbox{\Hypertarget{classresources_1_1ftpserver_1_1_f_t_p_server_a62e0c4cd4f0cda5fb8002edb6bcaec32}\label{classresources_1_1ftpserver_1_1_f_t_p_server_a62e0c4cd4f0cda5fb8002edb6bcaec32}} 
+\index{resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}!isLoggedIn@{isLoggedIn}}
+\index{isLoggedIn@{isLoggedIn}!resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}}
+\doxysubsubsection{\texorpdfstring{isLoggedIn}{isLoggedIn}}
+{\footnotesize\ttfamily Boolean resources.\+ftpserver.\+F\+T\+P\+Server.\+is\+Logged\+In\hspace{0.3cm}{\ttfamily [private]}}
+
+Rappresenta un flag booleano indicante se o se non si è loggati nel server 
+
+Definition at line 106 of file F\+T\+P\+Server.\+java.
+
+\mbox{\Hypertarget{classresources_1_1ftpserver_1_1_f_t_p_server_a21623ae06bcbe6245a7e1aab8abe332e}\label{classresources_1_1ftpserver_1_1_f_t_p_server_a21623ae06bcbe6245a7e1aab8abe332e}} 
+\index{resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}!keeper@{keeper}}
+\index{keeper@{keeper}!resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}}
+\doxysubsubsection{\texorpdfstring{keeper}{keeper}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classresources_1_1ftpserver_1_1_keeper}{Keeper}} resources.\+ftpserver.\+F\+T\+P\+Server.\+keeper\hspace{0.3cm}{\ttfamily [private]}}
+
+Rappresenta un oggetto di classe \mbox{\hyperlink{classresources_1_1ftpserver_1_1_keeper}{resources.\+ftpserver.\+Keeper}}, il quale rappresenta un thread daemon per mantenere attiva la comunicazione client-\/server, anche in stato di idle
+
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_keeper}{resources.\+ftpserver.\+Keeper}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 61 of file F\+T\+P\+Server.\+java.
+
+\mbox{\Hypertarget{classresources_1_1ftpserver_1_1_f_t_p_server_ac87b529a62f626ab37e39d3086102305}\label{classresources_1_1ftpserver_1_1_f_t_p_server_ac87b529a62f626ab37e39d3086102305}} 
+\index{resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}!manager@{manager}}
+\index{manager@{manager}!resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}}
+\doxysubsubsection{\texorpdfstring{manager}{manager}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager}{Manager}} resources.\+ftpserver.\+F\+T\+P\+Server.\+manager\hspace{0.3cm}{\ttfamily [private]}}
+
+Rappresenta un oggetto di classe \mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager}{resources.\+ftpserver.\+Manager}}, classe contenente dati condivisi tra le classi \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server}{resources.\+ftpserver.\+F\+T\+P\+Server}} e \mbox{\hyperlink{classresources_1_1ftpserver_1_1_keeper}{resources.\+ftpserver.\+Keeper}}
+
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server}{resources.\+ftpserver.\+F\+T\+P\+Server}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager}{resources.\+ftpserver.\+Manager}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_keeper}{resources.\+ftpserver.\+Keeper}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 48 of file F\+T\+P\+Server.\+java.
+
+\mbox{\Hypertarget{classresources_1_1ftpserver_1_1_f_t_p_server_a16ccf76c5751fdc1e8e35357d06ef901}\label{classresources_1_1ftpserver_1_1_f_t_p_server_a16ccf76c5751fdc1e8e35357d06ef901}} 
+\index{resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}!port@{port}}
+\index{port@{port}!resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}}
+\doxysubsubsection{\texorpdfstring{port}{port}}
+{\footnotesize\ttfamily Integer resources.\+ftpserver.\+F\+T\+P\+Server.\+port\hspace{0.3cm}{\ttfamily [private]}}
+
+Rappresenta la seconda coordinata per la comunicazione con il server F\+TP\+: port 
+
+Definition at line 98 of file F\+T\+P\+Server.\+java.
+
+\mbox{\Hypertarget{classresources_1_1ftpserver_1_1_f_t_p_server_a15d6faedcb0c2d675640b0e8880b0c4c}\label{classresources_1_1ftpserver_1_1_f_t_p_server_a15d6faedcb0c2d675640b0e8880b0c4c}} 
+\index{resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}!timer@{timer}}
+\index{timer@{timer}!resources.ftpserver.FTPServer@{resources.ftpserver.FTPServer}}
+\doxysubsubsection{\texorpdfstring{timer}{timer}}
+{\footnotesize\ttfamily final Timer resources.\+ftpserver.\+F\+T\+P\+Server.\+timer\hspace{0.3cm}{\ttfamily [private]}}
+
+Rappresenta un oggetto di classe Timer, il quale è necessario per garantire la corretta esecuzione schedulata del thread \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a21623ae06bcbe6245a7e1aab8abe332e}{F\+T\+P\+Server.\+keeper}}
+
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_a21623ae06bcbe6245a7e1aab8abe332e}{F\+T\+P\+Server.\+keeper}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 73 of file F\+T\+P\+Server.\+java.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/gandr/\+Desktop/\+Interfaccia\+Gelataio/src/resources/ftpserver/\mbox{\hyperlink{_f_t_p_server_8java}{F\+T\+P\+Server.\+java}}\end{DoxyCompactItemize}

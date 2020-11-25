@@ -1,0 +1,1759 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="classresources_1_1ftpserver_1_1_f_t_p_server" kind="class" language="Java" prot="public">
+    <compoundname>resources::ftpserver::FTPServer</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classresources_1_1ftpserver_1_1_f_t_p_server_1ac87b529a62f626ab37e39d3086102305" prot="private" static="no" mutable="no">
+        <type>final <ref refid="classresources_1_1ftpserver_1_1_manager" kindref="compound">Manager</ref></type>
+        <definition>final Manager resources.ftpserver.FTPServer.manager</definition>
+        <argsstring></argsstring>
+        <name>manager</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Rappresenta un oggetto di classe <ref refid="classresources_1_1ftpserver_1_1_manager" kindref="compound">resources.ftpserver.Manager</ref>, classe contenente dati condivisi tra le classi <ref refid="classresources_1_1ftpserver_1_1_f_t_p_server" kindref="compound">resources.ftpserver.FTPServer</ref> e <ref refid="classresources_1_1ftpserver_1_1_keeper" kindref="compound">resources.ftpserver.Keeper</ref></para>
+<para><simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server" kindref="compound">resources.ftpserver.FTPServer</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_manager" kindref="compound">resources.ftpserver.Manager</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_keeper" kindref="compound">resources.ftpserver.Keeper</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" line="48" column="27" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" bodystart="48" bodyend="-1"/>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a43a53e52889fdf1b7e43c6ff15688054" compoundref="_f_t_p_server_8java" startline="130" endline="153">resources.ftpserver.FTPServer.FTPServer</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classresources_1_1ftpserver_1_1_f_t_p_server_1a21623ae06bcbe6245a7e1aab8abe332e" prot="private" static="no" mutable="no">
+        <type>final <ref refid="classresources_1_1ftpserver_1_1_keeper" kindref="compound">Keeper</ref></type>
+        <definition>final Keeper resources.ftpserver.FTPServer.keeper</definition>
+        <argsstring></argsstring>
+        <name>keeper</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Rappresenta un oggetto di classe <ref refid="classresources_1_1ftpserver_1_1_keeper" kindref="compound">resources.ftpserver.Keeper</ref>, il quale rappresenta un thread daemon per mantenere attiva la comunicazione client-server, anche in stato di idle</para>
+<para><simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_keeper" kindref="compound">resources.ftpserver.Keeper</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" line="61" column="26" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" bodystart="61" bodyend="-1"/>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ac7157f46f1f3b4e9966451e6c07c18f2" compoundref="_f_t_p_server_8java" startline="166" endline="174">resources.ftpserver.FTPServer.startKeeper</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classresources_1_1ftpserver_1_1_f_t_p_server_1a15d6faedcb0c2d675640b0e8880b0c4c" prot="private" static="no" mutable="no">
+        <type>final Timer</type>
+        <definition>final Timer resources.ftpserver.FTPServer.timer</definition>
+        <argsstring></argsstring>
+        <name>timer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Rappresenta un oggetto di classe Timer, il quale è necessario per garantire la corretta esecuzione schedulata del thread <ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a21623ae06bcbe6245a7e1aab8abe332e" kindref="member">FTPServer.keeper</ref></para>
+<para><simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a21623ae06bcbe6245a7e1aab8abe332e" kindref="member">FTPServer.keeper</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" line="73" column="25" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classresources_1_1ftpserver_1_1_f_t_p_server_1a5f8b219e78c73bd998163d3298eec651" prot="private" static="no" mutable="no">
+        <type>String[]</type>
+        <definition>String [] resources.ftpserver.FTPServer.backupReplies</definition>
+        <argsstring></argsstring>
+        <name>backupReplies</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Rappresenta una variabile di backup utilizzata per implementare la protezione contro messaggi duplicati di risposta da parte del server</para>
+<para><simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a53efc9cad594b3f20e40c70ac21c3504" kindref="member">FTPServer.getAndPrintServerReply()</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" line="84" column="20" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classresources_1_1ftpserver_1_1_f_t_p_server_1aa2cf870a50389845feeeb58864b66729" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String resources.ftpserver.FTPServer.host</definition>
+        <argsstring></argsstring>
+        <name>host</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Rappresenta la prima coordinata per la comunicazione con il server FTP: host </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" line="91" column="20" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" bodystart="91" bodyend="-1"/>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ae9bf45f3284f3eefd4e65e75d77a77c6" compoundref="_f_t_p_server_8java" startline="198" endline="214">resources.ftpserver.FTPServer.setCoords</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a093946fe4f699687964567e9d3bc48e8" compoundref="_f_t_p_server_8java" startline="235" endline="247">resources.ftpserver.FTPServer.setCoordsAM</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a83b22a422f0084383570029df8c869ee" compoundref="_f_t_p_server_8java" startline="1928" endline="1930">resources.ftpserver.FTPServer.getHost</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classresources_1_1ftpserver_1_1_f_t_p_server_1a16ccf76c5751fdc1e8e35357d06ef901" prot="private" static="no" mutable="no">
+        <type>Integer</type>
+        <definition>Integer resources.ftpserver.FTPServer.port</definition>
+        <argsstring></argsstring>
+        <name>port</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Rappresenta la seconda coordinata per la comunicazione con il server FTP: port </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" line="98" column="21" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" bodystart="98" bodyend="-1"/>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ae9bf45f3284f3eefd4e65e75d77a77c6" compoundref="_f_t_p_server_8java" startline="198" endline="214">resources.ftpserver.FTPServer.setCoords</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a093946fe4f699687964567e9d3bc48e8" compoundref="_f_t_p_server_8java" startline="235" endline="247">resources.ftpserver.FTPServer.setCoordsAM</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a8f9b64e25bfbc724f82f077d1d961fb0" compoundref="_f_t_p_server_8java" startline="1939" endline="1941">resources.ftpserver.FTPServer.getPort</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classresources_1_1ftpserver_1_1_f_t_p_server_1a62e0c4cd4f0cda5fb8002edb6bcaec32" prot="private" static="no" mutable="no">
+        <type>Boolean</type>
+        <definition>Boolean resources.ftpserver.FTPServer.isLoggedIn</definition>
+        <argsstring></argsstring>
+        <name>isLoggedIn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Rappresenta un flag booleano indicante se o se non si è loggati nel server </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" line="106" column="21" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" bodystart="106" bodyend="-1"/>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1acdf74c41af0de18af30a2b2e5b459fa0" compoundref="_f_t_p_server_8java" startline="1950" endline="1952">resources.ftpserver.FTPServer.getIsLoggedIn</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classresources_1_1ftpserver_1_1_f_t_p_server_1a43a53e52889fdf1b7e43c6ff15688054" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>resources.ftpserver.FTPServer.FTPServer</definition>
+        <argsstring>(final Boolean showServerReplies, final Boolean isNoOp, final Boolean isLogBidirectional)</argsstring>
+        <name>FTPServer</name>
+        <param>
+          <type>final Boolean</type>
+          <declname>showServerReplies</declname>
+        </param>
+        <param>
+          <type>final Boolean</type>
+          <declname>isNoOp</declname>
+        </param>
+        <param>
+          <type>final Boolean</type>
+          <declname>isLogBidirectional</declname>
+        </param>
+        <briefdescription>
+<para>Costruttore. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Inizializza tutte le risorse necessarie ad un oggetto di questa classe</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>showServerReplies</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Flag booleano indicante se o se non visualizzare su console le risposte da parte del server </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>isNoOp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Flag booleano indicante se o se non il server supporta la funzionalità keep alive: noop </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>isLogBidirectional</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Flag booleano indicante se o se non il server supporta la funzionalità di login/logout bidirezionale</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ac87b529a62f626ab37e39d3086102305" kindref="member">FTPServer.manager</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a21623ae06bcbe6245a7e1aab8abe332e" kindref="member">FTPServer.keeper</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a15d6faedcb0c2d675640b0e8880b0c4c" kindref="member">FTPServer.timer</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a5f8b219e78c73bd998163d3298eec651" kindref="member">FTPServer.backupReplies</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1aa2cf870a50389845feeeb58864b66729" kindref="member">FTPServer.host</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a16ccf76c5751fdc1e8e35357d06ef901" kindref="member">FTPServer.port</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a62e0c4cd4f0cda5fb8002edb6bcaec32" kindref="member">FTPServer.isLoggedIn</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ac7157f46f1f3b4e9966451e6c07c18f2" kindref="member">FTPServer.startKeeper</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" line="130" column="12" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" bodystart="130" bodyend="153"/>
+        <references refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ac87b529a62f626ab37e39d3086102305" compoundref="_f_t_p_server_8java" startline="48">resources.ftpserver.FTPServer.manager</references>
+        <references refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ac7157f46f1f3b4e9966451e6c07c18f2" compoundref="_f_t_p_server_8java" startline="166" endline="174">resources.ftpserver.FTPServer.startKeeper</references>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1ftpserver_1_1_f_t_p_server_1ae9bf45f3284f3eefd4e65e75d77a77c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Boolean</type>
+        <definition>Boolean resources.ftpserver.FTPServer.setCoords</definition>
+        <argsstring>(String host, Integer port)</argsstring>
+        <name>setCoords</name>
+        <param>
+          <type>String</type>
+          <declname>host</declname>
+        </param>
+        <param>
+          <type>Integer</type>
+          <declname>port</declname>
+        </param>
+        <briefdescription>
+<para>Imposta le coordinate del server FTP con il quale comunicare. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Il seguente metodo imposta le coordinate dal server FTP con il quale comunicare</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>host</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>La prima coordinata per la comunicazione con il server FTP: host </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>port</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>La seconda coordinata per la comunicazione con il server FTP: port</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Un valore booleano indicante la corretta esecuzione dell&apos;impostazione delle coordinate del server FTP con il quale comunicare</para>
+</simplesect>
+<simplesect kind="pre"><para>La connessione con il server non deve essere attiva</para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ac87b529a62f626ab37e39d3086102305" kindref="member">FTPServer.manager</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1aa2cf870a50389845feeeb58864b66729" kindref="member">FTPServer.host</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a16ccf76c5751fdc1e8e35357d06ef901" kindref="member">FTPServer.port</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" line="198" column="20" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" bodystart="198" bodyend="214"/>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1ae743d882c2b3e7db928b39fc1b164750" compoundref="_manager_8java" startline="145" endline="147">resources.ftpserver.Manager.getIsConnected</references>
+        <references refid="classresources_1_1ftpserver_1_1_f_t_p_server_1aa2cf870a50389845feeeb58864b66729" compoundref="_f_t_p_server_8java" startline="91">resources.ftpserver.FTPServer.host</references>
+        <references refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a16ccf76c5751fdc1e8e35357d06ef901" compoundref="_f_t_p_server_8java" startline="98">resources.ftpserver.FTPServer.port</references>
+        <referencedby refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a6c05e9d7c45210225160936679546306" compoundref="_interfaccia_principale_galataio_8java" startline="600" endline="687">guiGelataio.InterfacciaPrincipaleGalataio.stableState</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1ftpserver_1_1_f_t_p_server_1a093946fe4f699687964567e9d3bc48e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void resources.ftpserver.FTPServer.setCoordsAM</definition>
+        <argsstring>(String host, Integer port)</argsstring>
+        <name>setCoordsAM</name>
+        <param>
+          <type>String</type>
+          <declname>host</declname>
+        </param>
+        <param>
+          <type>Integer</type>
+          <declname>port</declname>
+        </param>
+        <briefdescription>
+<para>Imposta le coordinate del server FTP con il quale comunicare. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Il seguente metodo imposta le coordinate dal server FTP con il quale comunicare</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>host</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>La prima coordinata per la comunicazione con il server FTP: host </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>port</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>La seconda coordinata per la comunicazione con il server FTP: port</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="pre"><para>La connessione con il server non deve essere attiva</para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ac87b529a62f626ab37e39d3086102305" kindref="member">FTPServer.manager</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1aa2cf870a50389845feeeb58864b66729" kindref="member">FTPServer.host</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a16ccf76c5751fdc1e8e35357d06ef901" kindref="member">FTPServer.port</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" line="235" column="17" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" bodystart="235" bodyend="247"/>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1ae743d882c2b3e7db928b39fc1b164750" compoundref="_manager_8java" startline="145" endline="147">resources.ftpserver.Manager.getIsConnected</references>
+        <references refid="classresources_1_1ftpserver_1_1_f_t_p_server_1aa2cf870a50389845feeeb58864b66729" compoundref="_f_t_p_server_8java" startline="91">resources.ftpserver.FTPServer.host</references>
+        <references refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a16ccf76c5751fdc1e8e35357d06ef901" compoundref="_f_t_p_server_8java" startline="98">resources.ftpserver.FTPServer.port</references>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1ftpserver_1_1_f_t_p_server_1a674fe9fc38ba3ecf4d779310489ef230" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Boolean</type>
+        <definition>Boolean resources.ftpserver.FTPServer.connect</definition>
+        <argsstring>()</argsstring>
+        <name>connect</name>
+        <briefdescription>
+<para>Tenta di stabilire una connessione con il server FTP. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Il seguente metodo tenta di stabilire una connessione con il server FTP</para>
+<para><simplesect kind="return"><para>Un valore booleano indicante la corretta esecuzione del tentativo di stabilire una connessione con il server FTP</para>
+</simplesect>
+<simplesect kind="pre"><para>La connessione con il server non deve essere attiva</para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ac87b529a62f626ab37e39d3086102305" kindref="member">FTPServer.manager</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1aa2cf870a50389845feeeb58864b66729" kindref="member">FTPServer.host</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a16ccf76c5751fdc1e8e35357d06ef901" kindref="member">FTPServer.port</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a53efc9cad594b3f20e40c70ac21c3504" kindref="member">FTPServer.getAndPrintServerReply()</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" line="266" column="20" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" bodystart="266" bodyend="326"/>
+        <references refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a53efc9cad594b3f20e40c70ac21c3504" compoundref="_f_t_p_server_8java" startline="1896" endline="1919">resources.ftpserver.FTPServer.getAndPrintServerReply</references>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1ae743d882c2b3e7db928b39fc1b164750" compoundref="_manager_8java" startline="145" endline="147">resources.ftpserver.Manager.getIsConnected</references>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a9eea40adb30e967a9fbebe61acb7ecf5" compoundref="_manager_8java" startline="121" endline="123">resources.ftpserver.Manager.getServer</references>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a760aae78030588d2f0d5b5898969de39" compoundref="_manager_8java" startline="133" endline="135">resources.ftpserver.Manager.getServerMutex</references>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a24a30cecd1eb5c581bcec87d1b70f5a5" compoundref="_manager_8java" startline="158" endline="160">resources.ftpserver.Manager.setIsConnected</references>
+        <referencedby refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a6c05e9d7c45210225160936679546306" compoundref="_interfaccia_principale_galataio_8java" startline="600" endline="687">guiGelataio.InterfacciaPrincipaleGalataio.stableState</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1ftpserver_1_1_f_t_p_server_1adc106008f1f77d93d8189870b1d9ae81" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void resources.ftpserver.FTPServer.connectAM</definition>
+        <argsstring>()</argsstring>
+        <name>connectAM</name>
+        <briefdescription>
+<para>Tenta di stabilire una connessione con il server FTP. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Il seguente metodo tenta di stabilire una connessione con il server FTP</para>
+<para><simplesect kind="pre"><para>La connessione con il server non deve essere attiva</para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ac87b529a62f626ab37e39d3086102305" kindref="member">FTPServer.manager</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1aa2cf870a50389845feeeb58864b66729" kindref="member">FTPServer.host</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a16ccf76c5751fdc1e8e35357d06ef901" kindref="member">FTPServer.port</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a53efc9cad594b3f20e40c70ac21c3504" kindref="member">FTPServer.getAndPrintServerReply()</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" line="342" column="17" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" bodystart="342" bodyend="401"/>
+        <references refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a53efc9cad594b3f20e40c70ac21c3504" compoundref="_f_t_p_server_8java" startline="1896" endline="1919">resources.ftpserver.FTPServer.getAndPrintServerReply</references>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1ae743d882c2b3e7db928b39fc1b164750" compoundref="_manager_8java" startline="145" endline="147">resources.ftpserver.Manager.getIsConnected</references>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a9eea40adb30e967a9fbebe61acb7ecf5" compoundref="_manager_8java" startline="121" endline="123">resources.ftpserver.Manager.getServer</references>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a760aae78030588d2f0d5b5898969de39" compoundref="_manager_8java" startline="133" endline="135">resources.ftpserver.Manager.getServerMutex</references>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a24a30cecd1eb5c581bcec87d1b70f5a5" compoundref="_manager_8java" startline="158" endline="160">resources.ftpserver.Manager.setIsConnected</references>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1ftpserver_1_1_f_t_p_server_1a7250e1c8a1ee00b6550402cfac9b495a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Boolean</type>
+        <definition>Boolean resources.ftpserver.FTPServer.login</definition>
+        <argsstring>(String username, String password)</argsstring>
+        <name>login</name>
+        <param>
+          <type>String</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+<para>Tenta di effettuare il login sul server FTP. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Il seguente metodo tenta di effettuare il login sul server FTP</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>username</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Username per effettuare il login </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>password</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Password per effettuare il login</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Un valore booleano indicante la corretta esecuzione del tentativo di effettuare il login sul server FTP</para>
+</simplesect>
+<simplesect kind="pre"><para>La connessione con il server deve essere attiva </para>
+</simplesect>
+<simplesect kind="pre"><para>Il login sul server non deve essere già stato eseguito</para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a62e0c4cd4f0cda5fb8002edb6bcaec32" kindref="member">FTPServer.isLoggedIn</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ac87b529a62f626ab37e39d3086102305" kindref="member">FTPServer.manager</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a53efc9cad594b3f20e40c70ac21c3504" kindref="member">FTPServer.getAndPrintServerReply()</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" line="423" column="20" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" bodystart="423" bodyend="477"/>
+        <references refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a53efc9cad594b3f20e40c70ac21c3504" compoundref="_f_t_p_server_8java" startline="1896" endline="1919">resources.ftpserver.FTPServer.getAndPrintServerReply</references>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1ae743d882c2b3e7db928b39fc1b164750" compoundref="_manager_8java" startline="145" endline="147">resources.ftpserver.Manager.getIsConnected</references>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a9eea40adb30e967a9fbebe61acb7ecf5" compoundref="_manager_8java" startline="121" endline="123">resources.ftpserver.Manager.getServer</references>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a760aae78030588d2f0d5b5898969de39" compoundref="_manager_8java" startline="133" endline="135">resources.ftpserver.Manager.getServerMutex</references>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a2754c501b06fbad87a2fe9770bd2a866" compoundref="_f_t_p_server_8java" startline="496" endline="555">resources.ftpserver.FTPServer.loginAM</referencedby>
+        <referencedby refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a6c05e9d7c45210225160936679546306" compoundref="_interfaccia_principale_galataio_8java" startline="600" endline="687">guiGelataio.InterfacciaPrincipaleGalataio.stableState</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1ftpserver_1_1_f_t_p_server_1a2754c501b06fbad87a2fe9770bd2a866" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void resources.ftpserver.FTPServer.loginAM</definition>
+        <argsstring>(String username, String password)</argsstring>
+        <name>loginAM</name>
+        <param>
+          <type>String</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+<para>Tenta di effettuare il login sul server FTP. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Il seguente metodo tenta di effettuare il login sul server FTP</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>username</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Username per effettuare il login </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>password</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Password per effettuare il login</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="pre"><para>La connessione con il server deve essere attiva </para>
+</simplesect>
+<simplesect kind="pre"><para>Il login sul server non deve essere già stato eseguito</para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a62e0c4cd4f0cda5fb8002edb6bcaec32" kindref="member">FTPServer.isLoggedIn</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ac87b529a62f626ab37e39d3086102305" kindref="member">FTPServer.manager</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a53efc9cad594b3f20e40c70ac21c3504" kindref="member">FTPServer.getAndPrintServerReply()</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" line="496" column="17" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" bodystart="496" bodyend="555"/>
+        <references refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a53efc9cad594b3f20e40c70ac21c3504" compoundref="_f_t_p_server_8java" startline="1896" endline="1919">resources.ftpserver.FTPServer.getAndPrintServerReply</references>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1ae743d882c2b3e7db928b39fc1b164750" compoundref="_manager_8java" startline="145" endline="147">resources.ftpserver.Manager.getIsConnected</references>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a9eea40adb30e967a9fbebe61acb7ecf5" compoundref="_manager_8java" startline="121" endline="123">resources.ftpserver.Manager.getServer</references>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a760aae78030588d2f0d5b5898969de39" compoundref="_manager_8java" startline="133" endline="135">resources.ftpserver.Manager.getServerMutex</references>
+        <references refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a7250e1c8a1ee00b6550402cfac9b495a" compoundref="_f_t_p_server_8java" startline="423" endline="477">resources.ftpserver.FTPServer.login</references>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1ftpserver_1_1_f_t_p_server_1a97a1bef804fb89c035559e813083d9cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String resources.ftpserver.FTPServer.getCurrentDirectory</definition>
+        <argsstring>()</argsstring>
+        <name>getCurrentDirectory</name>
+        <briefdescription>
+<para>Ottiene la directory di lavoro corrente. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Il seguente metodo ottiene la directory di lavoro corrente</para>
+<para><simplesect kind="return"><para>La directory di lavoro corrente</para>
+</simplesect>
+<simplesect kind="pre"><para>Il login sul server deve essere già stato eseguito</para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ac87b529a62f626ab37e39d3086102305" kindref="member">FTPServer.manager</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a53efc9cad594b3f20e40c70ac21c3504" kindref="member">FTPServer.getAndPrintServerReply()</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" line="571" column="19" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" bodystart="571" bodyend="605"/>
+        <references refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a53efc9cad594b3f20e40c70ac21c3504" compoundref="_f_t_p_server_8java" startline="1896" endline="1919">resources.ftpserver.FTPServer.getAndPrintServerReply</references>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1ae743d882c2b3e7db928b39fc1b164750" compoundref="_manager_8java" startline="145" endline="147">resources.ftpserver.Manager.getIsConnected</references>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a9eea40adb30e967a9fbebe61acb7ecf5" compoundref="_manager_8java" startline="121" endline="123">resources.ftpserver.Manager.getServer</references>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a760aae78030588d2f0d5b5898969de39" compoundref="_manager_8java" startline="133" endline="135">resources.ftpserver.Manager.getServerMutex</references>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1ftpserver_1_1_f_t_p_server_1a36d4d5cb44e5aa899f60095dc26ce542" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String resources.ftpserver.FTPServer.getCurrentDirectoryAM</definition>
+        <argsstring>()</argsstring>
+        <name>getCurrentDirectoryAM</name>
+        <briefdescription>
+<para>Ottiene la directory di lavoro corrente. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Il seguente metodo ottiene la directory di lavoro corrente</para>
+<para><simplesect kind="return"><para>La directory di lavoro corrente</para>
+</simplesect>
+<simplesect kind="pre"><para>Il login sul server deve essere già stato eseguito</para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ac87b529a62f626ab37e39d3086102305" kindref="member">FTPServer.manager</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a53efc9cad594b3f20e40c70ac21c3504" kindref="member">FTPServer.getAndPrintServerReply()</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" line="621" column="19" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" bodystart="621" bodyend="657"/>
+        <references refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a53efc9cad594b3f20e40c70ac21c3504" compoundref="_f_t_p_server_8java" startline="1896" endline="1919">resources.ftpserver.FTPServer.getAndPrintServerReply</references>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a9eea40adb30e967a9fbebe61acb7ecf5" compoundref="_manager_8java" startline="121" endline="123">resources.ftpserver.Manager.getServer</references>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a760aae78030588d2f0d5b5898969de39" compoundref="_manager_8java" startline="133" endline="135">resources.ftpserver.Manager.getServerMutex</references>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1ftpserver_1_1_f_t_p_server_1ab87c0e92af371c7034d82b026367b401" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Boolean</type>
+        <definition>Boolean resources.ftpserver.FTPServer.setCurrentDirectory</definition>
+        <argsstring>(String directoryPath)</argsstring>
+        <name>setCurrentDirectory</name>
+        <param>
+          <type>String</type>
+          <declname>directoryPath</declname>
+        </param>
+        <briefdescription>
+<para>Cambia la directory di lavoro corrente. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Il seguente metodo cambia la directory di lavoro corrente</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>directoryPath</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>La nuova directory di lavoro corrente</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Un valore booleano indicante il corretto cambiamento della directory di lavoro corrente</para>
+</simplesect>
+<simplesect kind="pre"><para>Il login sul server deve essere già stato eseguito</para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a62e0c4cd4f0cda5fb8002edb6bcaec32" kindref="member">FTPServer.isLoggedIn</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ac87b529a62f626ab37e39d3086102305" kindref="member">FTPServer.manager</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a53efc9cad594b3f20e40c70ac21c3504" kindref="member">FTPServer.getAndPrintServerReply()</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" line="677" column="20" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" bodystart="677" bodyend="721"/>
+        <references refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a53efc9cad594b3f20e40c70ac21c3504" compoundref="_f_t_p_server_8java" startline="1896" endline="1919">resources.ftpserver.FTPServer.getAndPrintServerReply</references>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a9eea40adb30e967a9fbebe61acb7ecf5" compoundref="_manager_8java" startline="121" endline="123">resources.ftpserver.Manager.getServer</references>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a760aae78030588d2f0d5b5898969de39" compoundref="_manager_8java" startline="133" endline="135">resources.ftpserver.Manager.getServerMutex</references>
+        <referencedby refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1ad2db5f6f733b3d6f9e1301d3c5097c14" compoundref="_interfaccia_principale_galataio_8java" startline="1523" endline="1561">guiGelataio.InterfacciaPrincipaleGalataio.jButtonConferma2ActionPerformed</referencedby>
+        <referencedby refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a5648ca5385ef5ad8b89e7bbfbc58207f" compoundref="_interfaccia_principale_galataio_8java" startline="1807" endline="1874">guiGelataio.InterfacciaPrincipaleGalataio.jButtonConfermaActionPerformed</referencedby>
+        <referencedby refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a39cae8eaace69bbe3047518bc82e3cc9" compoundref="_interfaccia_principale_galataio_8java" startline="2206" endline="2222">guiGelataio.InterfacciaPrincipaleGalataio.jButtonEliminaCronologiaOrdinazioniActionPerformed</referencedby>
+        <referencedby refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a12d9f4c60e04480a89b8bf1be456cda6" compoundref="_interfaccia_principale_galataio_8java" startline="1893" endline="1971">guiGelataio.InterfacciaPrincipaleGalataio.jButtonIndietro1ActionPerformed</referencedby>
+        <referencedby refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a63b28e86a185bdcff2251f9fd6097330" compoundref="_interfaccia_principale_galataio_8java" startline="1697" endline="1759">guiGelataio.InterfacciaPrincipaleGalataio.jButtonInoltroAlFattorinoActionPerformed</referencedby>
+        <referencedby refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a62413514aa70becff967d21393308a3e" compoundref="_interfaccia_principale_galataio_8java" startline="2131" endline="2204">guiGelataio.InterfacciaPrincipaleGalataio.jButtonScaricaCronologiaOrdinazioniActionPerformed</referencedby>
+        <referencedby refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a03dfacb80fd3faa98d75ae460ade5c8f" compoundref="_interfaccia_principale_galataio_8java" startline="715" endline="893">guiGelataio.InterfacciaPrincipaleGalataio.loadFromServer</referencedby>
+        <referencedby refid="classresources_1_1cronology_1_1_cronology_updater_1a9894bb0596657375bc888de39c019834" compoundref="_cronology_updater_8java" startline="82" endline="93">resources.cronology.CronologyUpdater.run</referencedby>
+        <referencedby refid="classresources_1_1ordine_1_1_ordine_updater_1a3cbcc90da488f54195020d4fd0945d95" compoundref="_ordine_updater_8java" startline="120" endline="170">resources.ordine.OrdineUpdater.run</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1ftpserver_1_1_f_t_p_server_1aa8db03d0dcb287d621a7909fa44e3a47" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void resources.ftpserver.FTPServer.setCurrentDirectoryAM</definition>
+        <argsstring>(String directoryPath)</argsstring>
+        <name>setCurrentDirectoryAM</name>
+        <param>
+          <type>String</type>
+          <declname>directoryPath</declname>
+        </param>
+        <briefdescription>
+<para>Cambia la directory di lavoro corrente. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Il seguente metodo cambia la directory di lavoro corrente</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>directoryPath</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>La nuova directory di lavoro corrente</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="pre"><para>Il login sul server deve essere già stato eseguito</para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a62e0c4cd4f0cda5fb8002edb6bcaec32" kindref="member">FTPServer.isLoggedIn</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ac87b529a62f626ab37e39d3086102305" kindref="member">FTPServer.manager</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a53efc9cad594b3f20e40c70ac21c3504" kindref="member">FTPServer.getAndPrintServerReply()</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" line="738" column="17" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" bodystart="738" bodyend="783"/>
+        <references refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a53efc9cad594b3f20e40c70ac21c3504" compoundref="_f_t_p_server_8java" startline="1896" endline="1919">resources.ftpserver.FTPServer.getAndPrintServerReply</references>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a9eea40adb30e967a9fbebe61acb7ecf5" compoundref="_manager_8java" startline="121" endline="123">resources.ftpserver.Manager.getServer</references>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a760aae78030588d2f0d5b5898969de39" compoundref="_manager_8java" startline="133" endline="135">resources.ftpserver.Manager.getServerMutex</references>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1ftpserver_1_1_f_t_p_server_1acf6cff62c6a86355a070f15d2d15bf84" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String[]</type>
+        <definition>String [] resources.ftpserver.FTPServer.getListElements</definition>
+        <argsstring>()</argsstring>
+        <name>getListElements</name>
+        <briefdescription>
+<para>Ottiene una lista di elementi presenti nella directory di lavoro corrente. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Il seguente metodo ottiene una lista di elementi presenti nella directory di lavoro corrente</para>
+<para><simplesect kind="return"><para>Una lista di elementi presenti nella directory di lavoro corrente</para>
+</simplesect>
+<simplesect kind="pre"><para>Il login sul server deve essere già stato eseguito</para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a62e0c4cd4f0cda5fb8002edb6bcaec32" kindref="member">FTPServer.isLoggedIn</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ac87b529a62f626ab37e39d3086102305" kindref="member">FTPServer.manager</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a53efc9cad594b3f20e40c70ac21c3504" kindref="member">FTPServer.getAndPrintServerReply()</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" line="802" column="19" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" bodystart="802" bodyend="841"/>
+        <references refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a53efc9cad594b3f20e40c70ac21c3504" compoundref="_f_t_p_server_8java" startline="1896" endline="1919">resources.ftpserver.FTPServer.getAndPrintServerReply</references>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a9eea40adb30e967a9fbebe61acb7ecf5" compoundref="_manager_8java" startline="121" endline="123">resources.ftpserver.Manager.getServer</references>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a760aae78030588d2f0d5b5898969de39" compoundref="_manager_8java" startline="133" endline="135">resources.ftpserver.Manager.getServerMutex</references>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a0aa2b7f023ab044bf8723b39aaca43a6" compoundref="_f_t_p_server_8java" startline="1342" endline="1414">resources.ftpserver.FTPServer.downloadFileAM</referencedby>
+        <referencedby refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a39cae8eaace69bbe3047518bc82e3cc9" compoundref="_interfaccia_principale_galataio_8java" startline="2206" endline="2222">guiGelataio.InterfacciaPrincipaleGalataio.jButtonEliminaCronologiaOrdinazioniActionPerformed</referencedby>
+        <referencedby refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a62413514aa70becff967d21393308a3e" compoundref="_interfaccia_principale_galataio_8java" startline="2131" endline="2204">guiGelataio.InterfacciaPrincipaleGalataio.jButtonScaricaCronologiaOrdinazioniActionPerformed</referencedby>
+        <referencedby refid="classresources_1_1cronology_1_1_cronology_updater_1a9894bb0596657375bc888de39c019834" compoundref="_cronology_updater_8java" startline="82" endline="93">resources.cronology.CronologyUpdater.run</referencedby>
+        <referencedby refid="classresources_1_1ordine_1_1_ordine_updater_1a3cbcc90da488f54195020d4fd0945d95" compoundref="_ordine_updater_8java" startline="120" endline="170">resources.ordine.OrdineUpdater.run</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1ftpserver_1_1_f_t_p_server_1a71605cd701446bd0c6c72c8ff6dd7210" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String[]</type>
+        <definition>String [] resources.ftpserver.FTPServer.getListElementsAM</definition>
+        <argsstring>()</argsstring>
+        <name>getListElementsAM</name>
+        <briefdescription>
+<para>Ottiene una lista di elementi presenti nella directory di lavoro corrente. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Il seguente metodo ottiene una lista di elementi presenti nella directory di lavoro corrente</para>
+<para><simplesect kind="return"><para>Una lista di elementi presenti nella directory di lavoro corrente</para>
+</simplesect>
+<simplesect kind="pre"><para>Il login sul server deve essere già stato eseguito</para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a62e0c4cd4f0cda5fb8002edb6bcaec32" kindref="member">FTPServer.isLoggedIn</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ac87b529a62f626ab37e39d3086102305" kindref="member">FTPServer.manager</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a53efc9cad594b3f20e40c70ac21c3504" kindref="member">FTPServer.getAndPrintServerReply()</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" line="860" column="19" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" bodystart="860" bodyend="901"/>
+        <references refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a53efc9cad594b3f20e40c70ac21c3504" compoundref="_f_t_p_server_8java" startline="1896" endline="1919">resources.ftpserver.FTPServer.getAndPrintServerReply</references>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a9eea40adb30e967a9fbebe61acb7ecf5" compoundref="_manager_8java" startline="121" endline="123">resources.ftpserver.Manager.getServer</references>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a760aae78030588d2f0d5b5898969de39" compoundref="_manager_8java" startline="133" endline="135">resources.ftpserver.Manager.getServerMutex</references>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1ftpserver_1_1_f_t_p_server_1a7c7887e959b30f623c3afa81b8eda93f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Boolean</type>
+        <definition>Boolean resources.ftpserver.FTPServer.uploadUniqueFile</definition>
+        <argsstring>(InputStream uploadStream)</argsstring>
+        <name>uploadUniqueFile</name>
+        <param>
+          <type>InputStream</type>
+          <declname>uploadStream</declname>
+        </param>
+        <briefdescription>
+<para>Carica un file con nome unico dal client al server. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Il seguente metodo carica un file con nome unico dal client al server</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>uploadStream</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Il file da caricare dal client al server</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Un valore booleano indicante il corretto caricamento del file con nome unico dal client al server</para>
+</simplesect>
+<simplesect kind="pre"><para>Il login sul server deve essere già stato eseguito</para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a62e0c4cd4f0cda5fb8002edb6bcaec32" kindref="member">FTPServer.isLoggedIn</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ac87b529a62f626ab37e39d3086102305" kindref="member">FTPServer.manager</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a53efc9cad594b3f20e40c70ac21c3504" kindref="member">FTPServer.getAndPrintServerReply()</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" line="921" column="20" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" bodystart="921" bodyend="975"/>
+        <references refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a53efc9cad594b3f20e40c70ac21c3504" compoundref="_f_t_p_server_8java" startline="1896" endline="1919">resources.ftpserver.FTPServer.getAndPrintServerReply</references>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a9eea40adb30e967a9fbebe61acb7ecf5" compoundref="_manager_8java" startline="121" endline="123">resources.ftpserver.Manager.getServer</references>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a760aae78030588d2f0d5b5898969de39" compoundref="_manager_8java" startline="133" endline="135">resources.ftpserver.Manager.getServerMutex</references>
+        <referencedby refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a63b28e86a185bdcff2251f9fd6097330" compoundref="_interfaccia_principale_galataio_8java" startline="1697" endline="1759">guiGelataio.InterfacciaPrincipaleGalataio.jButtonInoltroAlFattorinoActionPerformed</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1ftpserver_1_1_f_t_p_server_1a22b434ac642092b0e107a794ab039af3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void resources.ftpserver.FTPServer.uploadUniqueFileAM</definition>
+        <argsstring>(InputStream uploadStream)</argsstring>
+        <name>uploadUniqueFileAM</name>
+        <param>
+          <type>InputStream</type>
+          <declname>uploadStream</declname>
+        </param>
+        <briefdescription>
+<para>Carica un file con nome unico dal client al server. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Il seguente metodo carica un file con nome unico dal client al server</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>uploadStream</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Il file da caricare dal client al server</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="pre"><para>Il login sul server deve essere già stato eseguito</para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a62e0c4cd4f0cda5fb8002edb6bcaec32" kindref="member">FTPServer.isLoggedIn</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ac87b529a62f626ab37e39d3086102305" kindref="member">FTPServer.manager</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a53efc9cad594b3f20e40c70ac21c3504" kindref="member">FTPServer.getAndPrintServerReply()</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" line="992" column="17" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" bodystart="992" bodyend="1047"/>
+        <references refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a53efc9cad594b3f20e40c70ac21c3504" compoundref="_f_t_p_server_8java" startline="1896" endline="1919">resources.ftpserver.FTPServer.getAndPrintServerReply</references>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a9eea40adb30e967a9fbebe61acb7ecf5" compoundref="_manager_8java" startline="121" endline="123">resources.ftpserver.Manager.getServer</references>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a760aae78030588d2f0d5b5898969de39" compoundref="_manager_8java" startline="133" endline="135">resources.ftpserver.Manager.getServerMutex</references>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1ftpserver_1_1_f_t_p_server_1aaae22be90f18fa0c827240ef0fc5b466" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Boolean</type>
+        <definition>Boolean resources.ftpserver.FTPServer.uploadFile</definition>
+        <argsstring>(String nameRemoteFile, InputStream uploadStream)</argsstring>
+        <name>uploadFile</name>
+        <param>
+          <type>String</type>
+          <declname>nameRemoteFile</declname>
+        </param>
+        <param>
+          <type>InputStream</type>
+          <declname>uploadStream</declname>
+        </param>
+        <briefdescription>
+<para>Carica un file dal client al server. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Il seguente metodo carica un file dal client al server</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nameRemoteFile</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Nome da assegnare al file salvato nella memoria del server </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>uploadStream</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Il file da caricare dal client al server</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Un valore booleano indicante il corretto caricamento del file dal client al server</para>
+</simplesect>
+<simplesect kind="pre"><para>Il login sul server deve essere già stato eseguito</para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a62e0c4cd4f0cda5fb8002edb6bcaec32" kindref="member">FTPServer.isLoggedIn</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ac87b529a62f626ab37e39d3086102305" kindref="member">FTPServer.manager</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a53efc9cad594b3f20e40c70ac21c3504" kindref="member">FTPServer.getAndPrintServerReply()</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" line="1068" column="20" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" bodystart="1068" bodyend="1121"/>
+        <references refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a53efc9cad594b3f20e40c70ac21c3504" compoundref="_f_t_p_server_8java" startline="1896" endline="1919">resources.ftpserver.FTPServer.getAndPrintServerReply</references>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a9eea40adb30e967a9fbebe61acb7ecf5" compoundref="_manager_8java" startline="121" endline="123">resources.ftpserver.Manager.getServer</references>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a760aae78030588d2f0d5b5898969de39" compoundref="_manager_8java" startline="133" endline="135">resources.ftpserver.Manager.getServerMutex</references>
+        <referencedby refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1ad2db5f6f733b3d6f9e1301d3c5097c14" compoundref="_interfaccia_principale_galataio_8java" startline="1523" endline="1561">guiGelataio.InterfacciaPrincipaleGalataio.jButtonConferma2ActionPerformed</referencedby>
+        <referencedby refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a5648ca5385ef5ad8b89e7bbfbc58207f" compoundref="_interfaccia_principale_galataio_8java" startline="1807" endline="1874">guiGelataio.InterfacciaPrincipaleGalataio.jButtonConfermaActionPerformed</referencedby>
+        <referencedby refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a12d9f4c60e04480a89b8bf1be456cda6" compoundref="_interfaccia_principale_galataio_8java" startline="1893" endline="1971">guiGelataio.InterfacciaPrincipaleGalataio.jButtonIndietro1ActionPerformed</referencedby>
+        <referencedby refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a63b28e86a185bdcff2251f9fd6097330" compoundref="_interfaccia_principale_galataio_8java" startline="1697" endline="1759">guiGelataio.InterfacciaPrincipaleGalataio.jButtonInoltroAlFattorinoActionPerformed</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_keeper_1a030e2156a7c720bcdc3f15e7cea92d3e" compoundref="_keeper_8java" startline="84" endline="135">resources.ftpserver.Keeper.run</referencedby>
+        <referencedby refid="classresources_1_1ordine_1_1_ordine_updater_1a3cbcc90da488f54195020d4fd0945d95" compoundref="_ordine_updater_8java" startline="120" endline="170">resources.ordine.OrdineUpdater.run</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ae68c9fbcb668eb1a3a21c100e87dcda9" compoundref="_f_t_p_server_8java" startline="1444" endline="1475">resources.ftpserver.FTPServer.updateFileAppending</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a2f9e7352518d43b67aa6d0c081b4e632" compoundref="_f_t_p_server_8java" startline="1502" endline="1536">resources.ftpserver.FTPServer.updateFileAppendingAM</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1ftpserver_1_1_f_t_p_server_1ac741e8d53f8a6d175e9e7b5b661e1bbe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void resources.ftpserver.FTPServer.uploadFileAM</definition>
+        <argsstring>(String nameRemoteFile, InputStream uploadStream)</argsstring>
+        <name>uploadFileAM</name>
+        <param>
+          <type>String</type>
+          <declname>nameRemoteFile</declname>
+        </param>
+        <param>
+          <type>InputStream</type>
+          <declname>uploadStream</declname>
+        </param>
+        <briefdescription>
+<para>Carica un file dal client al server. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Il seguente metodo carica un file dal client al server</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nameRemoteFile</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Nome da assegnare al file salvato nella memoria del server </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>uploadStream</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Il file da caricare dal client al server</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="pre"><para>Il login sul server deve essere già stato eseguito</para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a62e0c4cd4f0cda5fb8002edb6bcaec32" kindref="member">FTPServer.isLoggedIn</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ac87b529a62f626ab37e39d3086102305" kindref="member">FTPServer.manager</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a53efc9cad594b3f20e40c70ac21c3504" kindref="member">FTPServer.getAndPrintServerReply()</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" line="1197" column="17" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" bodystart="1197" bodyend="1252"/>
+        <references refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a53efc9cad594b3f20e40c70ac21c3504" compoundref="_f_t_p_server_8java" startline="1896" endline="1919">resources.ftpserver.FTPServer.getAndPrintServerReply</references>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a9eea40adb30e967a9fbebe61acb7ecf5" compoundref="_manager_8java" startline="121" endline="123">resources.ftpserver.Manager.getServer</references>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a760aae78030588d2f0d5b5898969de39" compoundref="_manager_8java" startline="133" endline="135">resources.ftpserver.Manager.getServerMutex</references>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1ftpserver_1_1_f_t_p_server_1aeed840d7a1f20b8b579203dc60a312d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Boolean</type>
+        <definition>Boolean resources.ftpserver.FTPServer.downloadFile</definition>
+        <argsstring>(String nameRemoteFile, OutputStream downloadStream)</argsstring>
+        <name>downloadFile</name>
+        <param>
+          <type>String</type>
+          <declname>nameRemoteFile</declname>
+        </param>
+        <param>
+          <type>OutputStream</type>
+          <declname>downloadStream</declname>
+        </param>
+        <briefdescription>
+<para>Scarica un file dal server al client. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Il seguente metodo scarica un file dal server al client</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nameRemoteFile</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Nome del file salvato nella memoria del server da scaricare nella memoria locale </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>downloadStream</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>File salvato nella memoria locale utilizzato come target per lo scaricamento dei dati</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Un valore booleano indicante il corretto scaricamento di un file dal server al client</para>
+</simplesect>
+<simplesect kind="pre"><para>Il login sul server deve essere già stato eseguito</para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a62e0c4cd4f0cda5fb8002edb6bcaec32" kindref="member">FTPServer.isLoggedIn</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ac87b529a62f626ab37e39d3086102305" kindref="member">FTPServer.manager</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a53efc9cad594b3f20e40c70ac21c3504" kindref="member">FTPServer.getAndPrintServerReply()</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" line="1274" column="20" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" bodystart="1274" bodyend="1323"/>
+        <references refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a53efc9cad594b3f20e40c70ac21c3504" compoundref="_f_t_p_server_8java" startline="1896" endline="1919">resources.ftpserver.FTPServer.getAndPrintServerReply</references>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a9eea40adb30e967a9fbebe61acb7ecf5" compoundref="_manager_8java" startline="121" endline="123">resources.ftpserver.Manager.getServer</references>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a760aae78030588d2f0d5b5898969de39" compoundref="_manager_8java" startline="133" endline="135">resources.ftpserver.Manager.getServerMutex</references>
+        <referencedby refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a62413514aa70becff967d21393308a3e" compoundref="_interfaccia_principale_galataio_8java" startline="2131" endline="2204">guiGelataio.InterfacciaPrincipaleGalataio.jButtonScaricaCronologiaOrdinazioniActionPerformed</referencedby>
+        <referencedby refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a03dfacb80fd3faa98d75ae460ade5c8f" compoundref="_interfaccia_principale_galataio_8java" startline="715" endline="893">guiGelataio.InterfacciaPrincipaleGalataio.loadFromServer</referencedby>
+        <referencedby refid="classresources_1_1ordine_1_1_ordine_updater_1a3cbcc90da488f54195020d4fd0945d95" compoundref="_ordine_updater_8java" startline="120" endline="170">resources.ordine.OrdineUpdater.run</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ae68c9fbcb668eb1a3a21c100e87dcda9" compoundref="_f_t_p_server_8java" startline="1444" endline="1475">resources.ftpserver.FTPServer.updateFileAppending</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a2f9e7352518d43b67aa6d0c081b4e632" compoundref="_f_t_p_server_8java" startline="1502" endline="1536">resources.ftpserver.FTPServer.updateFileAppendingAM</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1ftpserver_1_1_f_t_p_server_1a0aa2b7f023ab044bf8723b39aaca43a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void resources.ftpserver.FTPServer.downloadFileAM</definition>
+        <argsstring>(String nameRemoteFile, OutputStream downloadStream)</argsstring>
+        <name>downloadFileAM</name>
+        <param>
+          <type>String</type>
+          <declname>nameRemoteFile</declname>
+        </param>
+        <param>
+          <type>OutputStream</type>
+          <declname>downloadStream</declname>
+        </param>
+        <briefdescription>
+<para>Scarica un file dal server al client. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Il seguente metodo scarica un file dal server al client</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nameRemoteFile</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Nome del file salvato nella memoria del server da scaricare nella memoria locale </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>downloadStream</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>File salvato nella memoria locale utilizzato come target per lo scaricamento dei dati</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="pre"><para>Il login sul server deve essere già stato eseguito</para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a62e0c4cd4f0cda5fb8002edb6bcaec32" kindref="member">FTPServer.isLoggedIn</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ac87b529a62f626ab37e39d3086102305" kindref="member">FTPServer.manager</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a53efc9cad594b3f20e40c70ac21c3504" kindref="member">FTPServer.getAndPrintServerReply()</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" line="1342" column="17" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" bodystart="1342" bodyend="1414"/>
+        <references refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a53efc9cad594b3f20e40c70ac21c3504" compoundref="_f_t_p_server_8java" startline="1896" endline="1919">resources.ftpserver.FTPServer.getAndPrintServerReply</references>
+        <references refid="classresources_1_1ftpserver_1_1_f_t_p_server_1acf6cff62c6a86355a070f15d2d15bf84" compoundref="_f_t_p_server_8java" startline="802" endline="841">resources.ftpserver.FTPServer.getListElements</references>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a9eea40adb30e967a9fbebe61acb7ecf5" compoundref="_manager_8java" startline="121" endline="123">resources.ftpserver.Manager.getServer</references>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a760aae78030588d2f0d5b5898969de39" compoundref="_manager_8java" startline="133" endline="135">resources.ftpserver.Manager.getServerMutex</references>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1ftpserver_1_1_f_t_p_server_1ae68c9fbcb668eb1a3a21c100e87dcda9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Boolean</type>
+        <definition>Boolean resources.ftpserver.FTPServer.updateFileAppending</definition>
+        <argsstring>(String nameRemoteFile, InputStream uploadStream, OutputStream downloadStream, PrintWriter localWriteStream, String toAppend)</argsstring>
+        <name>updateFileAppending</name>
+        <param>
+          <type>String</type>
+          <declname>nameRemoteFile</declname>
+        </param>
+        <param>
+          <type>InputStream</type>
+          <declname>uploadStream</declname>
+        </param>
+        <param>
+          <type>OutputStream</type>
+          <declname>downloadStream</declname>
+        </param>
+        <param>
+          <type>PrintWriter</type>
+          <declname>localWriteStream</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>toAppend</declname>
+        </param>
+        <briefdescription>
+<para>Aggiorna un file nel server dal client al server. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Il seguente metodo effettua un aggiornamento di un file già presente nella memoria del server con le informazioni di un file locale presente nella memoria del client</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nameRemoteFile</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Nome del file salvato nella memoria del server da aggiornare </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>uploadStream</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Il file locale con le quali informazioni aggiornare il file salvato nella memoria del server </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>downloadStream</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>File salvato nella memoria locale utilizzato come target per lo scaricamento dei dati </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>localWriteStream</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Stream per effettuare la scrittura di un file in locale </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>toAppend</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Informazioni da scrivere nel file</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Un valore booleano indicante la corretta esecuzione dell&apos;aggiornamento del file nel server</para>
+</simplesect>
+<simplesect kind="pre"><para>Il login sul server deve essere già stato eseguito</para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a62e0c4cd4f0cda5fb8002edb6bcaec32" kindref="member">FTPServer.isLoggedIn</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1aeed840d7a1f20b8b579203dc60a312d2" kindref="member">FTPServer.downloadFile()</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1aaae22be90f18fa0c827240ef0fc5b466" kindref="member">FTPServer.uploadFile()</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" line="1444" column="20" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" bodystart="1444" bodyend="1475"/>
+        <references refid="classresources_1_1ftpserver_1_1_f_t_p_server_1aeed840d7a1f20b8b579203dc60a312d2" compoundref="_f_t_p_server_8java" startline="1274" endline="1323">resources.ftpserver.FTPServer.downloadFile</references>
+        <references refid="classresources_1_1ftpserver_1_1_f_t_p_server_1aaae22be90f18fa0c827240ef0fc5b466" compoundref="_f_t_p_server_8java" startline="1068" endline="1121">resources.ftpserver.FTPServer.uploadFile</references>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1ftpserver_1_1_f_t_p_server_1a2f9e7352518d43b67aa6d0c081b4e632" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void resources.ftpserver.FTPServer.updateFileAppendingAM</definition>
+        <argsstring>(String nameRemoteFile, InputStream uploadStream, OutputStream downloadStream, PrintWriter localWriteStream, String toAppend)</argsstring>
+        <name>updateFileAppendingAM</name>
+        <param>
+          <type>String</type>
+          <declname>nameRemoteFile</declname>
+        </param>
+        <param>
+          <type>InputStream</type>
+          <declname>uploadStream</declname>
+        </param>
+        <param>
+          <type>OutputStream</type>
+          <declname>downloadStream</declname>
+        </param>
+        <param>
+          <type>PrintWriter</type>
+          <declname>localWriteStream</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>toAppend</declname>
+        </param>
+        <briefdescription>
+<para>Aggiorna un file nel server dal client al server. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Il seguente metodo effettua un aggiornamento di un file già presente nella memoria del server con le informazioni di un file locale presente nella memoria del client</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nameRemoteFile</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Nome del file salvato nella memoria del server da aggiornare </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>uploadStream</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Il file locale con le quali informazioni aggiornare il file salvato nella memoria del server </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>downloadStream</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>File salvato nella memoria locale utilizzato come target per lo scaricamento dei dati </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>localWriteStream</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Stream per effettuare la scrittura di un file in locale </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>toAppend</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Informazioni da scrivere nel file</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="pre"><para>Il login sul server deve essere già stato eseguito</para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a62e0c4cd4f0cda5fb8002edb6bcaec32" kindref="member">FTPServer.isLoggedIn</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1aeed840d7a1f20b8b579203dc60a312d2" kindref="member">FTPServer.downloadFile()</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1aaae22be90f18fa0c827240ef0fc5b466" kindref="member">FTPServer.uploadFile()</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" line="1502" column="17" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" bodystart="1502" bodyend="1536"/>
+        <references refid="classresources_1_1ftpserver_1_1_f_t_p_server_1aeed840d7a1f20b8b579203dc60a312d2" compoundref="_f_t_p_server_8java" startline="1274" endline="1323">resources.ftpserver.FTPServer.downloadFile</references>
+        <references refid="classresources_1_1ftpserver_1_1_f_t_p_server_1aaae22be90f18fa0c827240ef0fc5b466" compoundref="_f_t_p_server_8java" startline="1068" endline="1121">resources.ftpserver.FTPServer.uploadFile</references>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1ftpserver_1_1_f_t_p_server_1ab2740547f1222dd15c12f2b3a43e2873" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Boolean</type>
+        <definition>Boolean resources.ftpserver.FTPServer.logout</definition>
+        <argsstring>()</argsstring>
+        <name>logout</name>
+        <briefdescription>
+<para>Tenta di effettuare il logout dal server. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Il seguente metodo tenta di effettuare il logout dal server</para>
+<para><simplesect kind="return"><para>Un valore booleano indicante la corretta esecuzione del tentativo di effettuare il logout dal server</para>
+</simplesect>
+<simplesect kind="pre"><para>Il login sul server deve essere già stato eseguito</para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ac87b529a62f626ab37e39d3086102305" kindref="member">FTPServer.manager</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a62e0c4cd4f0cda5fb8002edb6bcaec32" kindref="member">FTPServer.isLoggedIn()</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" line="1553" column="20" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" bodystart="1553" bodyend="1595"/>
+        <references refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a53efc9cad594b3f20e40c70ac21c3504" compoundref="_f_t_p_server_8java" startline="1896" endline="1919">resources.ftpserver.FTPServer.getAndPrintServerReply</references>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1ac7fc827ce92263108d8b6ac380e647af" compoundref="_manager_8java" startline="194" endline="196">resources.ftpserver.Manager.getIsLogBidirectional</references>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a9eea40adb30e967a9fbebe61acb7ecf5" compoundref="_manager_8java" startline="121" endline="123">resources.ftpserver.Manager.getServer</references>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a760aae78030588d2f0d5b5898969de39" compoundref="_manager_8java" startline="133" endline="135">resources.ftpserver.Manager.getServerMutex</references>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ac715abb38c9bb7ed27155d7ce200d2cb" compoundref="_f_t_p_server_8java" startline="1609" endline="1657">resources.ftpserver.FTPServer.logoutAM</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1ftpserver_1_1_f_t_p_server_1ac715abb38c9bb7ed27155d7ce200d2cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void resources.ftpserver.FTPServer.logoutAM</definition>
+        <argsstring>()</argsstring>
+        <name>logoutAM</name>
+        <briefdescription>
+<para>Tenta di effettuare il logout dal server. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Il seguente metodo tenta di effettuare il logout dal server</para>
+<para><simplesect kind="pre"><para>Il login sul server deve essere già stato eseguito</para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ac87b529a62f626ab37e39d3086102305" kindref="member">FTPServer.manager</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a62e0c4cd4f0cda5fb8002edb6bcaec32" kindref="member">FTPServer.isLoggedIn()</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" line="1609" column="17" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" bodystart="1609" bodyend="1657"/>
+        <references refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a53efc9cad594b3f20e40c70ac21c3504" compoundref="_f_t_p_server_8java" startline="1896" endline="1919">resources.ftpserver.FTPServer.getAndPrintServerReply</references>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1ac7fc827ce92263108d8b6ac380e647af" compoundref="_manager_8java" startline="194" endline="196">resources.ftpserver.Manager.getIsLogBidirectional</references>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a9eea40adb30e967a9fbebe61acb7ecf5" compoundref="_manager_8java" startline="121" endline="123">resources.ftpserver.Manager.getServer</references>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a760aae78030588d2f0d5b5898969de39" compoundref="_manager_8java" startline="133" endline="135">resources.ftpserver.Manager.getServerMutex</references>
+        <references refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ab2740547f1222dd15c12f2b3a43e2873" compoundref="_f_t_p_server_8java" startline="1553" endline="1595">resources.ftpserver.FTPServer.logout</references>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1ftpserver_1_1_f_t_p_server_1ad7b1c599ab1c0dd9a2f3b88cc1ca4f2b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Boolean</type>
+        <definition>Boolean resources.ftpserver.FTPServer.disconnect</definition>
+        <argsstring>()</argsstring>
+        <name>disconnect</name>
+        <briefdescription>
+<para>Tenta di effettuare la disconnesione dal server. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Il seguente metodo tenta di effattuare la disconnesione dal server</para>
+<para><simplesect kind="return"><para>Un valore booleano indicante la corretta esecuzione del tentativo di disconnessione dal server</para>
+</simplesect>
+<simplesect kind="pre"><para>La connessione con il server deve essere attiva</para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ac87b529a62f626ab37e39d3086102305" kindref="member">FTPServer.manager</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a62e0c4cd4f0cda5fb8002edb6bcaec32" kindref="member">FTPServer.isLoggedIn</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a53efc9cad594b3f20e40c70ac21c3504" kindref="member">FTPServer.getAndPrintServerReply()</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" line="1674" column="20" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" bodystart="1674" bodyend="1713"/>
+        <references refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a53efc9cad594b3f20e40c70ac21c3504" compoundref="_f_t_p_server_8java" startline="1896" endline="1919">resources.ftpserver.FTPServer.getAndPrintServerReply</references>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1ae743d882c2b3e7db928b39fc1b164750" compoundref="_manager_8java" startline="145" endline="147">resources.ftpserver.Manager.getIsConnected</references>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a9eea40adb30e967a9fbebe61acb7ecf5" compoundref="_manager_8java" startline="121" endline="123">resources.ftpserver.Manager.getServer</references>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a760aae78030588d2f0d5b5898969de39" compoundref="_manager_8java" startline="133" endline="135">resources.ftpserver.Manager.getServerMutex</references>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a24a30cecd1eb5c581bcec87d1b70f5a5" compoundref="_manager_8java" startline="158" endline="160">resources.ftpserver.Manager.setIsConnected</references>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1ftpserver_1_1_f_t_p_server_1ae7d54aaf3ba9136f829eaed4aab3b646" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void resources.ftpserver.FTPServer.disconnectAM</definition>
+        <argsstring>()</argsstring>
+        <name>disconnectAM</name>
+        <briefdescription>
+<para>Tenta di effettuare la disconnesione dal server. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Il seguente metodo tenta di effattuare la disconnesione dal server</para>
+<para><simplesect kind="pre"><para>La connessione con il server deve essere attiva</para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ac87b529a62f626ab37e39d3086102305" kindref="member">FTPServer.manager</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a62e0c4cd4f0cda5fb8002edb6bcaec32" kindref="member">FTPServer.isLoggedIn</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a53efc9cad594b3f20e40c70ac21c3504" kindref="member">FTPServer.getAndPrintServerReply()</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" line="1727" column="17" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" bodystart="1727" bodyend="1767"/>
+        <references refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a53efc9cad594b3f20e40c70ac21c3504" compoundref="_f_t_p_server_8java" startline="1896" endline="1919">resources.ftpserver.FTPServer.getAndPrintServerReply</references>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1ae743d882c2b3e7db928b39fc1b164750" compoundref="_manager_8java" startline="145" endline="147">resources.ftpserver.Manager.getIsConnected</references>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a9eea40adb30e967a9fbebe61acb7ecf5" compoundref="_manager_8java" startline="121" endline="123">resources.ftpserver.Manager.getServer</references>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a760aae78030588d2f0d5b5898969de39" compoundref="_manager_8java" startline="133" endline="135">resources.ftpserver.Manager.getServerMutex</references>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a24a30cecd1eb5c581bcec87d1b70f5a5" compoundref="_manager_8java" startline="158" endline="160">resources.ftpserver.Manager.setIsConnected</references>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1ftpserver_1_1_f_t_p_server_1a6cc5286e0f5e71f286b12df943499577" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Boolean</type>
+        <definition>Boolean resources.ftpserver.FTPServer.deleteFile</definition>
+        <argsstring>(String nameRemoteFile)</argsstring>
+        <name>deleteFile</name>
+        <param>
+          <type>String</type>
+          <declname>nameRemoteFile</declname>
+        </param>
+        <briefdescription>
+<para>Elimina un file dal server. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Il seguente metodo effettua l&apos;eliminazione di un file dalla memoria del server</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nameRemoteFile</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Nome del file salvato nella memoria del server da eliminare</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Un valore booleano indicante la corretta esecuzione dell&apos;eliminazione del file dalla memoria del server</para>
+</simplesect>
+<simplesect kind="pre"><para>Il login sul server deve essere già stato eseguito</para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a62e0c4cd4f0cda5fb8002edb6bcaec32" kindref="member">FTPServer.isLoggedIn</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ac87b529a62f626ab37e39d3086102305" kindref="member">FTPServer.manager</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" line="1787" column="20" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" bodystart="1787" bodyend="1823"/>
+        <references refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a53efc9cad594b3f20e40c70ac21c3504" compoundref="_f_t_p_server_8java" startline="1896" endline="1919">resources.ftpserver.FTPServer.getAndPrintServerReply</references>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a9eea40adb30e967a9fbebe61acb7ecf5" compoundref="_manager_8java" startline="121" endline="123">resources.ftpserver.Manager.getServer</references>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a760aae78030588d2f0d5b5898969de39" compoundref="_manager_8java" startline="133" endline="135">resources.ftpserver.Manager.getServerMutex</references>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a378bc314d9cd6300683c36443820a0c0" compoundref="_f_t_p_server_8java" startline="1840" endline="1881">resources.ftpserver.FTPServer.deleteFileAM</referencedby>
+        <referencedby refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a39cae8eaace69bbe3047518bc82e3cc9" compoundref="_interfaccia_principale_galataio_8java" startline="2206" endline="2222">guiGelataio.InterfacciaPrincipaleGalataio.jButtonEliminaCronologiaOrdinazioniActionPerformed</referencedby>
+        <referencedby refid="classresources_1_1ordine_1_1_ordine_updater_1a3cbcc90da488f54195020d4fd0945d95" compoundref="_ordine_updater_8java" startline="120" endline="170">resources.ordine.OrdineUpdater.run</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1ftpserver_1_1_f_t_p_server_1a378bc314d9cd6300683c36443820a0c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void resources.ftpserver.FTPServer.deleteFileAM</definition>
+        <argsstring>(String nameRemoteFile)</argsstring>
+        <name>deleteFileAM</name>
+        <param>
+          <type>String</type>
+          <declname>nameRemoteFile</declname>
+        </param>
+        <briefdescription>
+<para>Elimina un file dal server. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Il seguente metodo effettua l&apos;eliminazione di un file dalla memoria del server</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nameRemoteFile</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Nome del file salvato nella memoria del server da eliminare</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="pre"><para>Il login sul server deve essere già stato eseguito</para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a62e0c4cd4f0cda5fb8002edb6bcaec32" kindref="member">FTPServer.isLoggedIn</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ac87b529a62f626ab37e39d3086102305" kindref="member">FTPServer.manager</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" line="1840" column="17" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" bodystart="1840" bodyend="1881"/>
+        <references refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a6cc5286e0f5e71f286b12df943499577" compoundref="_f_t_p_server_8java" startline="1787" endline="1823">resources.ftpserver.FTPServer.deleteFile</references>
+        <references refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a53efc9cad594b3f20e40c70ac21c3504" compoundref="_f_t_p_server_8java" startline="1896" endline="1919">resources.ftpserver.FTPServer.getAndPrintServerReply</references>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a9eea40adb30e967a9fbebe61acb7ecf5" compoundref="_manager_8java" startline="121" endline="123">resources.ftpserver.Manager.getServer</references>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a760aae78030588d2f0d5b5898969de39" compoundref="_manager_8java" startline="133" endline="135">resources.ftpserver.Manager.getServerMutex</references>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1ftpserver_1_1_f_t_p_server_1a83b22a422f0084383570029df8c869ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String resources.ftpserver.FTPServer.getHost</definition>
+        <argsstring>()</argsstring>
+        <name>getHost</name>
+        <briefdescription>
+<para>Ritorna il valore dell&apos;attributo <ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1aa2cf870a50389845feeeb58864b66729" kindref="member">FTPServer.host</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Il valore dell&apos;attributo <ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1aa2cf870a50389845feeeb58864b66729" kindref="member">FTPServer.host</ref></para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1aa2cf870a50389845feeeb58864b66729" kindref="member">FTPServer.host</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" line="1928" column="19" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" bodystart="1928" bodyend="1930"/>
+        <references refid="classresources_1_1ftpserver_1_1_f_t_p_server_1aa2cf870a50389845feeeb58864b66729" compoundref="_f_t_p_server_8java" startline="91">resources.ftpserver.FTPServer.host</references>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1ftpserver_1_1_f_t_p_server_1a8f9b64e25bfbc724f82f077d1d961fb0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Integer</type>
+        <definition>Integer resources.ftpserver.FTPServer.getPort</definition>
+        <argsstring>()</argsstring>
+        <name>getPort</name>
+        <briefdescription>
+<para>Ritorna il valore dell&apos;attributo <ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a16ccf76c5751fdc1e8e35357d06ef901" kindref="member">FTPServer.port</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Il valore dell&apos;attributo <ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a16ccf76c5751fdc1e8e35357d06ef901" kindref="member">FTPServer.port</ref></para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a16ccf76c5751fdc1e8e35357d06ef901" kindref="member">FTPServer.port</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" line="1939" column="20" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" bodystart="1939" bodyend="1941"/>
+        <references refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a16ccf76c5751fdc1e8e35357d06ef901" compoundref="_f_t_p_server_8java" startline="98">resources.ftpserver.FTPServer.port</references>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1ftpserver_1_1_f_t_p_server_1acdf74c41af0de18af30a2b2e5b459fa0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Boolean</type>
+        <definition>Boolean resources.ftpserver.FTPServer.getIsLoggedIn</definition>
+        <argsstring>()</argsstring>
+        <name>getIsLoggedIn</name>
+        <briefdescription>
+<para>Ritorna il valore dell&apos;attributo <ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a62e0c4cd4f0cda5fb8002edb6bcaec32" kindref="member">FTPServer.isLoggedIn</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Il valore dell&apos;attributo <ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a62e0c4cd4f0cda5fb8002edb6bcaec32" kindref="member">FTPServer.isLoggedIn</ref></para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a62e0c4cd4f0cda5fb8002edb6bcaec32" kindref="member">FTPServer.isLoggedIn</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" line="1950" column="20" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" bodystart="1950" bodyend="1952"/>
+        <references refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a62e0c4cd4f0cda5fb8002edb6bcaec32" compoundref="_f_t_p_server_8java" startline="106">resources.ftpserver.FTPServer.isLoggedIn</references>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1ftpserver_1_1_f_t_p_server_1a8626bea24c8b8e903489cebffef30ef2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Boolean</type>
+        <definition>Boolean resources.ftpserver.FTPServer.getIsConnected</definition>
+        <argsstring>()</argsstring>
+        <name>getIsConnected</name>
+        <briefdescription>
+<para>Ritorna il valore ottenuto attraverso l&apos;invocazione del metodo <ref refid="classresources_1_1ftpserver_1_1_manager_1ae743d882c2b3e7db928b39fc1b164750" kindref="member">resources.ftpserver.Manager.getIsConnected()</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Il seguente metodo ritorna il valore ottenuto attraverso l&apos;invocazione del metodo <ref refid="classresources_1_1ftpserver_1_1_manager_1ae743d882c2b3e7db928b39fc1b164750" kindref="member">resources.ftpserver.Manager.getIsConnected()</ref></para>
+<para><simplesect kind="return"><para>Il valore ottenuto attraverso l&apos;invocazione del metodo <ref refid="classresources_1_1ftpserver_1_1_manager_1ae743d882c2b3e7db928b39fc1b164750" kindref="member">resources.ftpserver.Manager.getIsConnected()</ref></para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_manager" kindref="compound">resources.ftpserver.Manager</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ac87b529a62f626ab37e39d3086102305" kindref="member">FTPServer.manager</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" line="1968" column="20" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" bodystart="1968" bodyend="1970"/>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1ae743d882c2b3e7db928b39fc1b164750" compoundref="_manager_8java" startline="145" endline="147">resources.ftpserver.Manager.getIsConnected</references>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1ftpserver_1_1_f_t_p_server_1a11cf3fa1d1d7eb9e83dae58cdc9afdd1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Boolean</type>
+        <definition>Boolean resources.ftpserver.FTPServer.getIsNoOp</definition>
+        <argsstring>()</argsstring>
+        <name>getIsNoOp</name>
+        <briefdescription>
+<para>Ritorna il valore ottenuto attraverso l&apos;invocazione del metodo <ref refid="classresources_1_1ftpserver_1_1_manager_1a5c52f5769c89fb20b0bfc7520fc2d3b7" kindref="member">resources.ftpserver.Manager.getIsNoOp()</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Il seguente metodo ritorna il valore ottenuto attraverso l&apos;invocazione del metodo <ref refid="classresources_1_1ftpserver_1_1_manager_1a5c52f5769c89fb20b0bfc7520fc2d3b7" kindref="member">resources.ftpserver.Manager.getIsNoOp()</ref></para>
+<para><simplesect kind="return"><para>Il valore ottenuto attraverso l&apos;invocazione del metodo <ref refid="classresources_1_1ftpserver_1_1_manager_1a5c52f5769c89fb20b0bfc7520fc2d3b7" kindref="member">resources.ftpserver.Manager.getIsNoOp()</ref></para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_manager" kindref="compound">resources.ftpserver.Manager</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ac87b529a62f626ab37e39d3086102305" kindref="member">FTPServer.manager</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" line="1986" column="20" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" bodystart="1986" bodyend="1988"/>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a5c52f5769c89fb20b0bfc7520fc2d3b7" compoundref="_manager_8java" startline="170" endline="172">resources.ftpserver.Manager.getIsNoOp</references>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1ftpserver_1_1_f_t_p_server_1a36fb43ded9ef67aadabcd64ffd8a5b28" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Boolean</type>
+        <definition>Boolean resources.ftpserver.FTPServer.getShowServerReplies</definition>
+        <argsstring>()</argsstring>
+        <name>getShowServerReplies</name>
+        <briefdescription>
+<para>Ritorna il valore ottenuto attraverso l&apos;invocazione del metodo <ref refid="classresources_1_1ftpserver_1_1_manager_1a15422d664ec1762a2b98a86228099cd7" kindref="member">resources.ftpserver.Manager.getShowServerReplies()</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Il seguente metodo ritorna il valore ottenuto attraverso l&apos;invocazione del metodo <ref refid="classresources_1_1ftpserver_1_1_manager_1a15422d664ec1762a2b98a86228099cd7" kindref="member">resources.ftpserver.Manager.getShowServerReplies()</ref></para>
+<para><simplesect kind="return"><para>Il valore ottenuto attraverso l&apos;invocazione del metodo <ref refid="classresources_1_1ftpserver_1_1_manager_1a15422d664ec1762a2b98a86228099cd7" kindref="member">resources.ftpserver.Manager.getShowServerReplies()</ref></para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_manager" kindref="compound">resources.ftpserver.Manager</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ac87b529a62f626ab37e39d3086102305" kindref="member">FTPServer.manager</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" line="2004" column="20" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" bodystart="2004" bodyend="2006"/>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a15422d664ec1762a2b98a86228099cd7" compoundref="_manager_8java" startline="182" endline="184">resources.ftpserver.Manager.getShowServerReplies</references>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1ftpserver_1_1_f_t_p_server_1a471d37798cfc6fbe05c05cd90cd37b0b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>FTPClient</type>
+        <definition>FTPClient resources.ftpserver.FTPServer.getServerBackdoor</definition>
+        <argsstring>()</argsstring>
+        <name>getServerBackdoor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" line="2009" column="22" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" bodystart="2009" bodyend="2011"/>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a9eea40adb30e967a9fbebe61acb7ecf5" compoundref="_manager_8java" startline="121" endline="123">resources.ftpserver.Manager.getServer</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classresources_1_1ftpserver_1_1_f_t_p_server_1ac7157f46f1f3b4e9966451e6c07c18f2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void resources.ftpserver.FTPServer.startKeeper</definition>
+        <argsstring>()</argsstring>
+        <name>startKeeper</name>
+        <briefdescription>
+<para>Avvia il thread rappresentato dall&apos;oggetto <ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a21623ae06bcbe6245a7e1aab8abe332e" kindref="member">FTPServer.keeper</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Il seguente metodo è necessario per avviare il thread rappresentato dall&apos;oggetto <ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a21623ae06bcbe6245a7e1aab8abe332e" kindref="member">FTPServer.keeper</ref></para>
+<para><simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a15d6faedcb0c2d675640b0e8880b0c4c" kindref="member">FTPServer.timer</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a21623ae06bcbe6245a7e1aab8abe332e" kindref="member">FTPServer.keeper</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+<para>this.timer.schedule(keeper, 180000, 180000);</para>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" line="166" column="18" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" bodystart="166" bodyend="174"/>
+        <references refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a21623ae06bcbe6245a7e1aab8abe332e" compoundref="_f_t_p_server_8java" startline="61">resources.ftpserver.FTPServer.keeper</references>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a43a53e52889fdf1b7e43c6ff15688054" compoundref="_f_t_p_server_8java" startline="130" endline="153">resources.ftpserver.FTPServer.FTPServer</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1ftpserver_1_1_f_t_p_server_1a53efc9cad594b3f20e40c70ac21c3504" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void resources.ftpserver.FTPServer.getAndPrintServerReply</definition>
+        <argsstring>()</argsstring>
+        <name>getAndPrintServerReply</name>
+        <briefdescription>
+<para>Visualizza su console le eventuali risposte del server a comandi. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Il seguente metodo visualizza su console le eventuali risposte del server dopo lo svolgimento di azioni con esso. E&apos; consigliabile richiamare questo metodo dopo ogni comando inviato al server, in quanto eventuali messaggi generati da un comando sovrascrivono quelli precedenti</para>
+<para><simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ac87b529a62f626ab37e39d3086102305" kindref="member">FTPServer.manager</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a5f8b219e78c73bd998163d3298eec651" kindref="member">FTPServer.backupReplies</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" line="1896" column="18" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" bodystart="1896" bodyend="1919"/>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a9eea40adb30e967a9fbebe61acb7ecf5" compoundref="_manager_8java" startline="121" endline="123">resources.ftpserver.Manager.getServer</references>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a15422d664ec1762a2b98a86228099cd7" compoundref="_manager_8java" startline="182" endline="184">resources.ftpserver.Manager.getShowServerReplies</references>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a674fe9fc38ba3ecf4d779310489ef230" compoundref="_f_t_p_server_8java" startline="266" endline="326">resources.ftpserver.FTPServer.connect</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1adc106008f1f77d93d8189870b1d9ae81" compoundref="_f_t_p_server_8java" startline="342" endline="401">resources.ftpserver.FTPServer.connectAM</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a6cc5286e0f5e71f286b12df943499577" compoundref="_f_t_p_server_8java" startline="1787" endline="1823">resources.ftpserver.FTPServer.deleteFile</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a378bc314d9cd6300683c36443820a0c0" compoundref="_f_t_p_server_8java" startline="1840" endline="1881">resources.ftpserver.FTPServer.deleteFileAM</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ad7b1c599ab1c0dd9a2f3b88cc1ca4f2b" compoundref="_f_t_p_server_8java" startline="1674" endline="1713">resources.ftpserver.FTPServer.disconnect</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ae7d54aaf3ba9136f829eaed4aab3b646" compoundref="_f_t_p_server_8java" startline="1727" endline="1767">resources.ftpserver.FTPServer.disconnectAM</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1aeed840d7a1f20b8b579203dc60a312d2" compoundref="_f_t_p_server_8java" startline="1274" endline="1323">resources.ftpserver.FTPServer.downloadFile</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a0aa2b7f023ab044bf8723b39aaca43a6" compoundref="_f_t_p_server_8java" startline="1342" endline="1414">resources.ftpserver.FTPServer.downloadFileAM</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a97a1bef804fb89c035559e813083d9cf" compoundref="_f_t_p_server_8java" startline="571" endline="605">resources.ftpserver.FTPServer.getCurrentDirectory</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a36d4d5cb44e5aa899f60095dc26ce542" compoundref="_f_t_p_server_8java" startline="621" endline="657">resources.ftpserver.FTPServer.getCurrentDirectoryAM</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1acf6cff62c6a86355a070f15d2d15bf84" compoundref="_f_t_p_server_8java" startline="802" endline="841">resources.ftpserver.FTPServer.getListElements</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a71605cd701446bd0c6c72c8ff6dd7210" compoundref="_f_t_p_server_8java" startline="860" endline="901">resources.ftpserver.FTPServer.getListElementsAM</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a7250e1c8a1ee00b6550402cfac9b495a" compoundref="_f_t_p_server_8java" startline="423" endline="477">resources.ftpserver.FTPServer.login</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a2754c501b06fbad87a2fe9770bd2a866" compoundref="_f_t_p_server_8java" startline="496" endline="555">resources.ftpserver.FTPServer.loginAM</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ab2740547f1222dd15c12f2b3a43e2873" compoundref="_f_t_p_server_8java" startline="1553" endline="1595">resources.ftpserver.FTPServer.logout</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ac715abb38c9bb7ed27155d7ce200d2cb" compoundref="_f_t_p_server_8java" startline="1609" endline="1657">resources.ftpserver.FTPServer.logoutAM</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ab87c0e92af371c7034d82b026367b401" compoundref="_f_t_p_server_8java" startline="677" endline="721">resources.ftpserver.FTPServer.setCurrentDirectory</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1aa8db03d0dcb287d621a7909fa44e3a47" compoundref="_f_t_p_server_8java" startline="738" endline="783">resources.ftpserver.FTPServer.setCurrentDirectoryAM</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1aaae22be90f18fa0c827240ef0fc5b466" compoundref="_f_t_p_server_8java" startline="1068" endline="1121">resources.ftpserver.FTPServer.uploadFile</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ac741e8d53f8a6d175e9e7b5b661e1bbe" compoundref="_f_t_p_server_8java" startline="1197" endline="1252">resources.ftpserver.FTPServer.uploadFileAM</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a7c7887e959b30f623c3afa81b8eda93f" compoundref="_f_t_p_server_8java" startline="921" endline="975">resources.ftpserver.FTPServer.uploadUniqueFile</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a22b434ac642092b0e107a794ab039af3" compoundref="_f_t_p_server_8java" startline="992" endline="1047">resources.ftpserver.FTPServer.uploadUniqueFileAM</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="classresources_1_1ftpserver_1_1_f_t_p_server_1abab87b35980051614e04c19b2997c320" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Boolean</type>
+        <definition>static Boolean resources.ftpserver.FTPServer.uploadFile</definition>
+        <argsstring>(FTPClient server, String nameRemoteFile, InputStream uploadStream)</argsstring>
+        <name>uploadFile</name>
+        <param>
+          <type>FTPClient</type>
+          <declname>server</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>nameRemoteFile</declname>
+        </param>
+        <param>
+          <type>InputStream</type>
+          <declname>uploadStream</declname>
+        </param>
+        <briefdescription>
+<para>Carica un file dal client al server. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Il seguente metodo carica un file dal client al server</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>server</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Server </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nameRemoteFile</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Nome da assegnare al file salvato nella memoria del server </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>uploadStream</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Il file da caricare dal client al server</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="pre"><para>Il login sul server deve essere già stato eseguito</para>
+</simplesect>
+<simplesect kind="return"><para>Un valore booleano indicante il corretto caricamento del file dal client al server </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" line="1139" column="20" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" bodystart="1139" bodyend="1179"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Classe per la gestione della comunicazione con un server FTP. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Grandieri Andrea <ulink url="mailto:g.andreus02@gmail.com">g.andreus02@gmail.com</ulink> </para>
+</simplesect>
+<simplesect kind="author"><para>Barsotti Mirko <ulink url="mailto:bmirko1505@gmail.com">bmirko1505@gmail.com</ulink> </para>
+</simplesect>
+<simplesect kind="author"><para>Brambilla Mirko <ulink url="mailto:brambobilla01@gmail.com">brambobilla01@gmail.com</ulink></para>
+</simplesect>
+La seguente classe fornisce tutti i metodi necessari a stabilire una connessione e ad relazionarsi con un server FTP. </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>resources.ftpserver.FTPServer</label>
+        <link refid="classresources_1_1ftpserver_1_1_f_t_p_server"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>-keeper</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>-manager</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>-timer</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>FTPClient</label>
+      </node>
+      <node id="7">
+        <label>Timer</label>
+      </node>
+      <node id="4">
+        <label>resources.ftpserver.Manager</label>
+        <link refid="classresources_1_1ftpserver_1_1_manager"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>-server</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>-serverMutex</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>Semaphore</label>
+      </node>
+      <node id="3">
+        <label>TimerTask</label>
+      </node>
+      <node id="2">
+        <label>resources.ftpserver.Keeper</label>
+        <link refid="classresources_1_1ftpserver_1_1_keeper"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>-manager</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" line="35" column="7" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/FTPServer.java" bodystart="35" bodyend="2012"/>
+    <listofallmembers>
+      <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a5f8b219e78c73bd998163d3298eec651" prot="private" virt="non-virtual"><scope>resources::ftpserver::FTPServer</scope><name>backupReplies</name></member>
+      <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a674fe9fc38ba3ecf4d779310489ef230" prot="public" virt="non-virtual"><scope>resources::ftpserver::FTPServer</scope><name>connect</name></member>
+      <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1adc106008f1f77d93d8189870b1d9ae81" prot="public" virt="non-virtual"><scope>resources::ftpserver::FTPServer</scope><name>connectAM</name></member>
+      <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a6cc5286e0f5e71f286b12df943499577" prot="public" virt="non-virtual"><scope>resources::ftpserver::FTPServer</scope><name>deleteFile</name></member>
+      <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a378bc314d9cd6300683c36443820a0c0" prot="public" virt="non-virtual"><scope>resources::ftpserver::FTPServer</scope><name>deleteFileAM</name></member>
+      <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ad7b1c599ab1c0dd9a2f3b88cc1ca4f2b" prot="public" virt="non-virtual"><scope>resources::ftpserver::FTPServer</scope><name>disconnect</name></member>
+      <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ae7d54aaf3ba9136f829eaed4aab3b646" prot="public" virt="non-virtual"><scope>resources::ftpserver::FTPServer</scope><name>disconnectAM</name></member>
+      <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1aeed840d7a1f20b8b579203dc60a312d2" prot="public" virt="non-virtual"><scope>resources::ftpserver::FTPServer</scope><name>downloadFile</name></member>
+      <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a0aa2b7f023ab044bf8723b39aaca43a6" prot="public" virt="non-virtual"><scope>resources::ftpserver::FTPServer</scope><name>downloadFileAM</name></member>
+      <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a43a53e52889fdf1b7e43c6ff15688054" prot="public" virt="non-virtual"><scope>resources::ftpserver::FTPServer</scope><name>FTPServer</name></member>
+      <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a53efc9cad594b3f20e40c70ac21c3504" prot="private" virt="non-virtual"><scope>resources::ftpserver::FTPServer</scope><name>getAndPrintServerReply</name></member>
+      <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a97a1bef804fb89c035559e813083d9cf" prot="public" virt="non-virtual"><scope>resources::ftpserver::FTPServer</scope><name>getCurrentDirectory</name></member>
+      <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a36d4d5cb44e5aa899f60095dc26ce542" prot="public" virt="non-virtual"><scope>resources::ftpserver::FTPServer</scope><name>getCurrentDirectoryAM</name></member>
+      <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a83b22a422f0084383570029df8c869ee" prot="public" virt="non-virtual"><scope>resources::ftpserver::FTPServer</scope><name>getHost</name></member>
+      <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a8626bea24c8b8e903489cebffef30ef2" prot="public" virt="non-virtual"><scope>resources::ftpserver::FTPServer</scope><name>getIsConnected</name></member>
+      <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1acdf74c41af0de18af30a2b2e5b459fa0" prot="public" virt="non-virtual"><scope>resources::ftpserver::FTPServer</scope><name>getIsLoggedIn</name></member>
+      <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a11cf3fa1d1d7eb9e83dae58cdc9afdd1" prot="public" virt="non-virtual"><scope>resources::ftpserver::FTPServer</scope><name>getIsNoOp</name></member>
+      <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1acf6cff62c6a86355a070f15d2d15bf84" prot="public" virt="non-virtual"><scope>resources::ftpserver::FTPServer</scope><name>getListElements</name></member>
+      <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a71605cd701446bd0c6c72c8ff6dd7210" prot="public" virt="non-virtual"><scope>resources::ftpserver::FTPServer</scope><name>getListElementsAM</name></member>
+      <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a8f9b64e25bfbc724f82f077d1d961fb0" prot="public" virt="non-virtual"><scope>resources::ftpserver::FTPServer</scope><name>getPort</name></member>
+      <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a471d37798cfc6fbe05c05cd90cd37b0b" prot="public" virt="non-virtual"><scope>resources::ftpserver::FTPServer</scope><name>getServerBackdoor</name></member>
+      <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a36fb43ded9ef67aadabcd64ffd8a5b28" prot="public" virt="non-virtual"><scope>resources::ftpserver::FTPServer</scope><name>getShowServerReplies</name></member>
+      <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1aa2cf870a50389845feeeb58864b66729" prot="private" virt="non-virtual"><scope>resources::ftpserver::FTPServer</scope><name>host</name></member>
+      <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a62e0c4cd4f0cda5fb8002edb6bcaec32" prot="private" virt="non-virtual"><scope>resources::ftpserver::FTPServer</scope><name>isLoggedIn</name></member>
+      <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a21623ae06bcbe6245a7e1aab8abe332e" prot="private" virt="non-virtual"><scope>resources::ftpserver::FTPServer</scope><name>keeper</name></member>
+      <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a7250e1c8a1ee00b6550402cfac9b495a" prot="public" virt="non-virtual"><scope>resources::ftpserver::FTPServer</scope><name>login</name></member>
+      <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a2754c501b06fbad87a2fe9770bd2a866" prot="public" virt="non-virtual"><scope>resources::ftpserver::FTPServer</scope><name>loginAM</name></member>
+      <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ab2740547f1222dd15c12f2b3a43e2873" prot="public" virt="non-virtual"><scope>resources::ftpserver::FTPServer</scope><name>logout</name></member>
+      <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ac715abb38c9bb7ed27155d7ce200d2cb" prot="public" virt="non-virtual"><scope>resources::ftpserver::FTPServer</scope><name>logoutAM</name></member>
+      <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ac87b529a62f626ab37e39d3086102305" prot="private" virt="non-virtual"><scope>resources::ftpserver::FTPServer</scope><name>manager</name></member>
+      <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a16ccf76c5751fdc1e8e35357d06ef901" prot="private" virt="non-virtual"><scope>resources::ftpserver::FTPServer</scope><name>port</name></member>
+      <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ae9bf45f3284f3eefd4e65e75d77a77c6" prot="public" virt="non-virtual"><scope>resources::ftpserver::FTPServer</scope><name>setCoords</name></member>
+      <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a093946fe4f699687964567e9d3bc48e8" prot="public" virt="non-virtual"><scope>resources::ftpserver::FTPServer</scope><name>setCoordsAM</name></member>
+      <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ab87c0e92af371c7034d82b026367b401" prot="public" virt="non-virtual"><scope>resources::ftpserver::FTPServer</scope><name>setCurrentDirectory</name></member>
+      <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1aa8db03d0dcb287d621a7909fa44e3a47" prot="public" virt="non-virtual"><scope>resources::ftpserver::FTPServer</scope><name>setCurrentDirectoryAM</name></member>
+      <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ac7157f46f1f3b4e9966451e6c07c18f2" prot="private" virt="non-virtual"><scope>resources::ftpserver::FTPServer</scope><name>startKeeper</name></member>
+      <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a15d6faedcb0c2d675640b0e8880b0c4c" prot="private" virt="non-virtual"><scope>resources::ftpserver::FTPServer</scope><name>timer</name></member>
+      <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ae68c9fbcb668eb1a3a21c100e87dcda9" prot="public" virt="non-virtual"><scope>resources::ftpserver::FTPServer</scope><name>updateFileAppending</name></member>
+      <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a2f9e7352518d43b67aa6d0c081b4e632" prot="public" virt="non-virtual"><scope>resources::ftpserver::FTPServer</scope><name>updateFileAppendingAM</name></member>
+      <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1aaae22be90f18fa0c827240ef0fc5b466" prot="public" virt="non-virtual"><scope>resources::ftpserver::FTPServer</scope><name>uploadFile</name></member>
+      <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1abab87b35980051614e04c19b2997c320" prot="package" virt="non-virtual"><scope>resources::ftpserver::FTPServer</scope><name>uploadFile</name></member>
+      <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ac741e8d53f8a6d175e9e7b5b661e1bbe" prot="public" virt="non-virtual"><scope>resources::ftpserver::FTPServer</scope><name>uploadFileAM</name></member>
+      <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a7c7887e959b30f623c3afa81b8eda93f" prot="public" virt="non-virtual"><scope>resources::ftpserver::FTPServer</scope><name>uploadUniqueFile</name></member>
+      <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a22b434ac642092b0e107a794ab039af3" prot="public" virt="non-virtual"><scope>resources::ftpserver::FTPServer</scope><name>uploadUniqueFileAM</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

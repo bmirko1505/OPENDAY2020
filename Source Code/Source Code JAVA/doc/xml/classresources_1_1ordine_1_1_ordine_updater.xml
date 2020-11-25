@@ -1,0 +1,341 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="classresources_1_1ordine_1_1_ordine_updater" kind="class" language="Java" prot="public">
+    <compoundname>resources::ordine::OrdineUpdater</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">TimerTask</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classresources_1_1ordine_1_1_ordine_updater_1a7b205d05f50b7dc05b6357b546ad9941" prot="private" static="no" mutable="no">
+        <type>final <ref refid="classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine" kindref="compound">ParserXMLOrdine</ref></type>
+        <definition>final ParserXMLOrdine resources.ordine.OrdineUpdater.parserXMLOrdine</definition>
+        <argsstring></argsstring>
+        <name>parserXMLOrdine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Rappresenta il parser del file XML contenente la struttura &quot;Ordine&quot;</para>
+<para><simplesect kind="see"><para><ref refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a551a7fb66d6a87390271122b591b4331" kindref="member">InterfacciaPrincipaleGalataio.jListListaGustiVendita</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ordine_1_1_ordine" kindref="compound">resources.ordine.Ordine</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine" kindref="compound">resources.ordine.xml.parserxml.ParserXMLOrdine</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/OrdineUpdater.java" line="52" column="35" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/OrdineUpdater.java" bodystart="52" bodyend="-1"/>
+        <referencedby refid="classresources_1_1ordine_1_1_ordine_updater_1aff19d63303141e927df5aec25838a0b8" compoundref="_ordine_updater_8java" startline="95" endline="102">resources.ordine.OrdineUpdater.OrdineUpdater</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classresources_1_1ordine_1_1_ordine_updater_1a91995f4e8c979b48d21e94ddd52b3aef" prot="private" static="no" mutable="no">
+        <type>final DefaultListModel</type>
+        <definition>final DefaultListModel resources.ordine.OrdineUpdater.listaOrdiniModel</definition>
+        <argsstring></argsstring>
+        <name>listaOrdiniModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Rappresenta il modello lista della lista <ref refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a551a7fb66d6a87390271122b591b4331" kindref="member">InterfacciaPrincipaleGalataio.jListListaGustiVendita</ref></para>
+<para><simplesect kind="see"><para><ref refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a551a7fb66d6a87390271122b591b4331" kindref="member">InterfacciaPrincipaleGalataio.jListListaGustiVendita</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/OrdineUpdater.java" line="60" column="36" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/OrdineUpdater.java" bodystart="60" bodyend="-1"/>
+        <referencedby refid="classresources_1_1ordine_1_1_ordine_updater_1aff19d63303141e927df5aec25838a0b8" compoundref="_ordine_updater_8java" startline="95" endline="102">resources.ordine.OrdineUpdater.OrdineUpdater</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classresources_1_1ordine_1_1_ordine_updater_1aff0560d0a34ec52e64acf681192a55ca" prot="private" static="no" mutable="no">
+        <type>final <ref refid="classresources_1_1ftpserver_1_1_f_t_p_server" kindref="compound">FTPServer</ref></type>
+        <definition>final FTPServer resources.ordine.OrdineUpdater.server</definition>
+        <argsstring></argsstring>
+        <name>server</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Rappresenta l&apos;oggetto di classe FTPServer per permettere la comunicazione bidirezionale con il server FTP</para>
+<para><simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server" kindref="compound">resources.ftpserver.FTPServer</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/OrdineUpdater.java" line="68" column="29" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/OrdineUpdater.java" bodystart="68" bodyend="-1"/>
+        <referencedby refid="classresources_1_1ordine_1_1_ordine_updater_1aff19d63303141e927df5aec25838a0b8" compoundref="_ordine_updater_8java" startline="95" endline="102">resources.ordine.OrdineUpdater.OrdineUpdater</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classresources_1_1ordine_1_1_ordine_updater_1ad524b5903677c0d402b05801db487800" prot="private" static="no" mutable="no">
+        <type>ArrayList&lt; <ref refid="classresources_1_1ordine_1_1_ordine" kindref="compound">Ordine</ref> &gt;</type>
+        <definition>ArrayList&lt;Ordine&gt; resources.ordine.OrdineUpdater.parsingResult</definition>
+        <argsstring></argsstring>
+        <name>parsingResult</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Lista di oggetti convertiti da &quot;nodi dell&apos;albero DOM&quot; </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/OrdineUpdater.java" line="73" column="23" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/OrdineUpdater.java" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classresources_1_1ordine_1_1_ordine_updater_1a265726979f1e0e490de0a9788e1deccc" prot="private" static="no" mutable="no">
+        <type>final <ref refid="classresources_1_1ordine_1_1xml_1_1generatorxml_1_1_generator_x_m_l_ordine" kindref="compound">GeneratorXMLOrdine</ref></type>
+        <definition>final GeneratorXMLOrdine resources.ordine.OrdineUpdater.generatorXMLOrdine</definition>
+        <argsstring></argsstring>
+        <name>generatorXMLOrdine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/OrdineUpdater.java" line="74" column="38" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/OrdineUpdater.java" bodystart="74" bodyend="-1"/>
+        <referencedby refid="classresources_1_1ordine_1_1_ordine_updater_1aff19d63303141e927df5aec25838a0b8" compoundref="_ordine_updater_8java" startline="95" endline="102">resources.ordine.OrdineUpdater.OrdineUpdater</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classresources_1_1ordine_1_1_ordine_updater_1aff19d63303141e927df5aec25838a0b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>resources.ordine.OrdineUpdater.OrdineUpdater</definition>
+        <argsstring>(FTPServer server, ParserXMLOrdine parserXMLOrdine, DefaultListModel listaOrdiniModel, GeneratorXMLOrdine generatorXMLOrdine)</argsstring>
+        <name>OrdineUpdater</name>
+        <param>
+          <type><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server" kindref="compound">FTPServer</ref></type>
+          <declname>server</declname>
+        </param>
+        <param>
+          <type><ref refid="classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine" kindref="compound">ParserXMLOrdine</ref></type>
+          <declname>parserXMLOrdine</declname>
+        </param>
+        <param>
+          <type>DefaultListModel</type>
+          <declname>listaOrdiniModel</declname>
+        </param>
+        <param>
+          <type><ref refid="classresources_1_1ordine_1_1xml_1_1generatorxml_1_1_generator_x_m_l_ordine" kindref="compound">GeneratorXMLOrdine</ref></type>
+          <declname>generatorXMLOrdine</declname>
+        </param>
+        <briefdescription>
+<para>Costruttore. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Inizializza tutte le risorse necessarie ad un oggetto di questa classe</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>server</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>L&apos;oggetto di classe FTPServer per permettere la comunicazione bidirezionale con il server FTP </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>parserXMLOrdine</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Il parser del file XML contenente la struttura &quot;Ordine&quot; </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>listaOrdiniModel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Il modello lista della lista <ref refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a551a7fb66d6a87390271122b591b4331" kindref="member">InterfacciaPrincipaleGalataio.jListListaGustiVendita</ref> </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>generatorXMLOrdine</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Il generator del file XML contenente la struttura &quot;Ordine&quot;</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="classresources_1_1ordine_1_1_ordine_updater_1aff0560d0a34ec52e64acf681192a55ca" kindref="member">OrdineUpdater.server</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ordine_1_1_ordine_updater_1a7b205d05f50b7dc05b6357b546ad9941" kindref="member">OrdineUpdater.parserXMLOrdine</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ordine_1_1_ordine_updater_1a91995f4e8c979b48d21e94ddd52b3aef" kindref="member">OrdineUpdater.listaOrdiniModel</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ordine_1_1_ordine_updater_1ad524b5903677c0d402b05801db487800" kindref="member">OrdineUpdater.parsingResult</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/OrdineUpdater.java" line="95" column="12" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/OrdineUpdater.java" bodystart="95" bodyend="102"/>
+        <references refid="classresources_1_1ordine_1_1_ordine_updater_1a265726979f1e0e490de0a9788e1deccc" compoundref="_ordine_updater_8java" startline="74">resources.ordine.OrdineUpdater.generatorXMLOrdine</references>
+        <references refid="classresources_1_1ordine_1_1_ordine_updater_1a91995f4e8c979b48d21e94ddd52b3aef" compoundref="_ordine_updater_8java" startline="60">resources.ordine.OrdineUpdater.listaOrdiniModel</references>
+        <references refid="classresources_1_1ordine_1_1_ordine_updater_1a7b205d05f50b7dc05b6357b546ad9941" compoundref="_ordine_updater_8java" startline="52">resources.ordine.OrdineUpdater.parserXMLOrdine</references>
+        <references refid="classresources_1_1ordine_1_1_ordine_updater_1aff0560d0a34ec52e64acf681192a55ca" compoundref="_ordine_updater_8java" startline="68">resources.ordine.OrdineUpdater.server</references>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1ordine_1_1_ordine_updater_1a3cbcc90da488f54195020d4fd0945d95" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void resources.ordine.OrdineUpdater.run</definition>
+        <argsstring>()</argsstring>
+        <name>run</name>
+        <briefdescription>
+<para>Codice eseguito dal thread. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Il seguente metodo controlla l&apos;eventuale presenza di nuove ordinazioni nel server in attesa di essere scaricate e caricate localmente nella lista <ref refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a551a7fb66d6a87390271122b591b4331" kindref="member">InterfacciaPrincipaleGalataio.jListListaGustiVendita</ref>. Se presenti, le scarica, le carica nella lista <ref refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a551a7fb66d6a87390271122b591b4331" kindref="member">InterfacciaPrincipaleGalataio.jListListaGustiVendita</ref> e infine le elimina dal server.</para>
+<para><simplesect kind="see"><para><ref refid="classresources_1_1ordine_1_1_ordine_updater_1aff0560d0a34ec52e64acf681192a55ca" kindref="member">OrdineUpdater.server</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ordine_1_1_ordine_updater_1a7b205d05f50b7dc05b6357b546ad9941" kindref="member">OrdineUpdater.parserXMLOrdine</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ordine_1_1_ordine_updater_1a91995f4e8c979b48d21e94ddd52b3aef" kindref="member">OrdineUpdater.listaOrdiniModel</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ordine_1_1_ordine_updater_1ad524b5903677c0d402b05801db487800" kindref="member">OrdineUpdater.parsingResult</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/OrdineUpdater.java" line="120" column="17" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/OrdineUpdater.java" bodystart="120" bodyend="170"/>
+        <references refid="classresources_1_1ordine_1_1xml_1_1generatorxml_1_1_generator_x_m_l_ordine_1af95ba9a2a56fa35bf088245bd5946ef6" compoundref="_generator_x_m_l_ordine_8java" startline="332" endline="361">resources.ordine.xml.generatorxml.GeneratorXMLOrdine.applyDOMonXMLFile</references>
+        <references refid="classresources_1_1ordine_1_1xml_1_1generatorxml_1_1_generator_x_m_l_ordine_1a0467e69c8f59a9ad1ab8957af55a3d9a" compoundref="_generator_x_m_l_ordine_8java" startline="96" endline="135">resources.ordine.xml.generatorxml.GeneratorXMLOrdine.createDOMTree</references>
+        <references refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a6cc5286e0f5e71f286b12df943499577" compoundref="_f_t_p_server_8java" startline="1787" endline="1823">resources.ftpserver.FTPServer.deleteFile</references>
+        <references refid="classresources_1_1ftpserver_1_1_f_t_p_server_1aeed840d7a1f20b8b579203dc60a312d2" compoundref="_f_t_p_server_8java" startline="1274" endline="1323">resources.ftpserver.FTPServer.downloadFile</references>
+        <references refid="classresources_1_1ftpserver_1_1_f_t_p_server_1acf6cff62c6a86355a070f15d2d15bf84" compoundref="_f_t_p_server_8java" startline="802" endline="841">resources.ftpserver.FTPServer.getListElements</references>
+        <references refid="classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine_1aa730d79aa207eef84cca50a5ee1b4c07" compoundref="_parser_x_m_l_ordine_8java" startline="94" endline="169">resources.ordine.xml.parserxml.ParserXMLOrdine.parseDocument</references>
+        <references refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ab87c0e92af371c7034d82b026367b401" compoundref="_f_t_p_server_8java" startline="677" endline="721">resources.ftpserver.FTPServer.setCurrentDirectory</references>
+        <references refid="classresources_1_1ftpserver_1_1_f_t_p_server_1aaae22be90f18fa0c827240ef0fc5b466" compoundref="_f_t_p_server_8java" startline="1068" endline="1121">resources.ftpserver.FTPServer.uploadFile</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Classe per garantire un aggiornamento automatico e continuo della lista delle ordinazioni in arrivo. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Grandieri Andrea <ulink url="mailto:g.andreus02@gmail.com">g.andreus02@gmail.com</ulink> </para>
+</simplesect>
+<simplesect kind="author"><para>Barsotti Mirko <ulink url="mailto:bmirko1505@gmail.com">bmirko1505@gmail.com</ulink> </para>
+</simplesect>
+<simplesect kind="author"><para>Brambilla Mirko <ulink url="mailto:brambobilla01@gmail.com">brambobilla01@gmail.com</ulink></para>
+</simplesect>
+La seguente classe rappresenta un thread daemon per garantire un aggiornamento automatico e continuo della lista delle ordinazioni in arrivo. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>resources.ordine.OrdineUpdater</label>
+        <link refid="classresources_1_1ordine_1_1_ordine_updater"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>TimerTask</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="8">
+        <label>resources.ordine.xml.generatorxml.GeneratorXMLOrdine</label>
+        <link refid="classresources_1_1ordine_1_1xml_1_1generatorxml_1_1_generator_x_m_l_ordine"/>
+        <childnode refid="9" relation="usage">
+          <edgelabel>-document</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>resources.ordine.OrdineUpdater</label>
+        <link refid="classresources_1_1ordine_1_1_ordine_updater"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>-listaOrdiniModel</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>-parserXMLOrdine</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>-parsingResult</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>-generatorXMLOrdine</edgelabel>
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>-server</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>ArrayList</label>
+      </node>
+      <node id="10">
+        <label>resources.ftpserver.FTPServer</label>
+        <link refid="classresources_1_1ftpserver_1_1_f_t_p_server"/>
+        <childnode refid="11" relation="usage">
+          <edgelabel>-keeper</edgelabel>
+        </childnode>
+        <childnode refid="12" relation="usage">
+          <edgelabel>-manager</edgelabel>
+        </childnode>
+        <childnode refid="15" relation="usage">
+          <edgelabel>-timer</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>resources.ordine.xml.parserxml.ParserXMLOrdine</label>
+        <link refid="classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>-parsingResult</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>-jListListaPredefinitaGusti</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>DefaultListModel</label>
+      </node>
+      <node id="7">
+        <label>JList</label>
+      </node>
+      <node id="13">
+        <label>FTPClient</label>
+      </node>
+      <node id="15">
+        <label>Timer</label>
+      </node>
+      <node id="12">
+        <label>resources.ftpserver.Manager</label>
+        <link refid="classresources_1_1ftpserver_1_1_manager"/>
+        <childnode refid="13" relation="usage">
+          <edgelabel>-server</edgelabel>
+        </childnode>
+        <childnode refid="14" relation="usage">
+          <edgelabel>-serverMutex</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>ArrayList&lt; resources.ordine.Ordine &gt;</label>
+        <childnode refid="6" relation="template-instance">
+          <edgelabel>&lt; resources::ordine::Ordine &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="14">
+        <label>Semaphore</label>
+      </node>
+      <node id="2">
+        <label>TimerTask</label>
+      </node>
+      <node id="9">
+        <label>Document</label>
+      </node>
+      <node id="11">
+        <label>resources.ftpserver.Keeper</label>
+        <link refid="classresources_1_1ftpserver_1_1_keeper"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="12" relation="usage">
+          <edgelabel>-manager</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/OrdineUpdater.java" line="43" column="7" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/OrdineUpdater.java" bodystart="43" bodyend="171"/>
+    <listofallmembers>
+      <member refid="classresources_1_1ordine_1_1_ordine_updater_1a265726979f1e0e490de0a9788e1deccc" prot="private" virt="non-virtual"><scope>resources::ordine::OrdineUpdater</scope><name>generatorXMLOrdine</name></member>
+      <member refid="classresources_1_1ordine_1_1_ordine_updater_1a91995f4e8c979b48d21e94ddd52b3aef" prot="private" virt="non-virtual"><scope>resources::ordine::OrdineUpdater</scope><name>listaOrdiniModel</name></member>
+      <member refid="classresources_1_1ordine_1_1_ordine_updater_1aff19d63303141e927df5aec25838a0b8" prot="public" virt="non-virtual"><scope>resources::ordine::OrdineUpdater</scope><name>OrdineUpdater</name></member>
+      <member refid="classresources_1_1ordine_1_1_ordine_updater_1a7b205d05f50b7dc05b6357b546ad9941" prot="private" virt="non-virtual"><scope>resources::ordine::OrdineUpdater</scope><name>parserXMLOrdine</name></member>
+      <member refid="classresources_1_1ordine_1_1_ordine_updater_1ad524b5903677c0d402b05801db487800" prot="private" virt="non-virtual"><scope>resources::ordine::OrdineUpdater</scope><name>parsingResult</name></member>
+      <member refid="classresources_1_1ordine_1_1_ordine_updater_1a3cbcc90da488f54195020d4fd0945d95" prot="public" virt="non-virtual"><scope>resources::ordine::OrdineUpdater</scope><name>run</name></member>
+      <member refid="classresources_1_1ordine_1_1_ordine_updater_1aff0560d0a34ec52e64acf681192a55ca" prot="private" virt="non-virtual"><scope>resources::ordine::OrdineUpdater</scope><name>server</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,14 @@
+var searchData=
+[
+  ['server_555',['server',['../classgui_gelataio_1_1_interfaccia_principale_galataio.html#a0d8b3ef9b0e6f7a475bf56d23a2a52c7',1,'guiGelataio.InterfacciaPrincipaleGalataio.server()'],['../classresources_1_1cronology_1_1_cronology_updater.html#a0de12e3701e50773237d10c608ff7be0',1,'resources.cronology.CronologyUpdater.server()'],['../classresources_1_1ftpserver_1_1_manager.html#a0e1523ea05f5c2e3fbc39727e671a906',1,'resources.ftpserver.Manager.server()'],['../classresources_1_1ordine_1_1_ordine_updater.html#aff0560d0a34ec52e64acf681192a55ca',1,'resources.ordine.OrdineUpdater.server()']]],
+  ['servermutex_556',['serverMutex',['../classresources_1_1ftpserver_1_1_manager.html#ae01a1e451410a78d56d80adf077e5b58',1,'resources::ftpserver::Manager']]],
+  ['showserverreplies_557',['showServerReplies',['../classresources_1_1ftpserver_1_1_manager.html#a94a12ecd20f3b00b689e240d148e1ba6',1,'resources::ftpserver::Manager']]],
+  ['simpledateformat_558',['simpleDateFormat',['../classresources_1_1currenttime_1_1_current_time.html#a58e538e0aee4e86cc8dea84d93a6c435',1,'resources.currenttime.CurrentTime.simpleDateFormat()'],['../classresources_1_1orariodelnegozio_1_1_orario_del_negozio.html#abeda21e393ea1f02dc9c05dafc73a583',1,'resources.orariodelnegozio.OrarioDelNegozio.simpleDateFormat()']]],
+  ['spinneroradiaperturabackupblankmodel_559',['spinnerOraDiAperturaBackupBlankModel',['../classgui_gelataio_1_1_interfaccia_principale_galataio.html#aff2323488debdfc2e18cc1d4b92fcdc3',1,'guiGelataio::InterfacciaPrincipaleGalataio']]],
+  ['spinneroradiaperturamodel_560',['spinnerOraDiAperturaModel',['../classgui_gelataio_1_1_interfaccia_principale_galataio.html#a8fa02d2a4d9b0cc8d3f9111f6df53c9e',1,'guiGelataio::InterfacciaPrincipaleGalataio']]],
+  ['spinneroradichiusurabackupblankmodel_561',['spinnerOraDiChiusuraBackupBlankModel',['../classgui_gelataio_1_1_interfaccia_principale_galataio.html#a2c030f1703ddbed8b8e4476881fdb7f3',1,'guiGelataio::InterfacciaPrincipaleGalataio']]],
+  ['spinneroradichiusuramodel_562',['spinnerOraDiChiusuraModel',['../classgui_gelataio_1_1_interfaccia_principale_galataio.html#a3f94db921e82f428e9b9317bfc38e8de',1,'guiGelataio::InterfacciaPrincipaleGalataio']]],
+  ['spinnervaschettagrandemodel_563',['spinnerVaschettaGrandeModel',['../classgui_gelataio_1_1_interfaccia_principale_galataio.html#ae627ff3de801680b52dda60b13b9b3ba',1,'guiGelataio::InterfacciaPrincipaleGalataio']]],
+  ['spinnervaschettamediamodel_564',['spinnerVaschettaMediaModel',['../classgui_gelataio_1_1_interfaccia_principale_galataio.html#a25127f1c1586a8254bb838eb68b63f6e',1,'guiGelataio::InterfacciaPrincipaleGalataio']]],
+  ['spinnervaschettapiccolamodel_565',['spinnerVaschettaPiccolaModel',['../classgui_gelataio_1_1_interfaccia_principale_galataio.html#a98a699f53921333e34838792e8af59ec',1,'guiGelataio::InterfacciaPrincipaleGalataio']]]
+];

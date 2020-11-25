@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="classresources_1_1ftpserver_1_1_keeper" kind="class" language="Java" prot="public">
+    <compoundname>resources::ftpserver::Keeper</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">TimerTask</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classresources_1_1ftpserver_1_1_keeper_1a8a557b82da2df0817386966138b67f8f" prot="private" static="no" mutable="no">
+        <type>final <ref refid="classresources_1_1ftpserver_1_1_manager" kindref="compound">Manager</ref></type>
+        <definition>final Manager resources.ftpserver.Keeper.manager</definition>
+        <argsstring></argsstring>
+        <name>manager</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Rappresenta un oggetto di classe <ref refid="classresources_1_1ftpserver_1_1_manager" kindref="compound">resources.ftpserver.Manager</ref>, classe contenente dati condivisi tra le classi <ref refid="classresources_1_1ftpserver_1_1_f_t_p_server" kindref="compound">resources.ftpserver.FTPServer</ref> e <ref refid="classresources_1_1ftpserver_1_1_keeper" kindref="compound">resources.ftpserver.Keeper</ref></para>
+<para><simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server" kindref="compound">resources.ftpserver.FTPServer</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_manager" kindref="compound">resources.ftpserver.Manager</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_keeper" kindref="compound">resources.ftpserver.Keeper</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/Keeper.java" line="47" column="27" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/Keeper.java" bodystart="47" bodyend="-1"/>
+        <referencedby refid="classresources_1_1ftpserver_1_1_keeper_1ae9dda470dc68012b3f278af19edafb40" compoundref="_keeper_8java" startline="69" endline="72">resources.ftpserver.Keeper.Keeper</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classresources_1_1ftpserver_1_1_keeper_1a486565c9c81d6bc75ece2f60afbfa8c3" prot="private" static="no" mutable="no">
+        <type>Boolean</type>
+        <definition>Boolean resources.ftpserver.Keeper.uploadFile</definition>
+        <argsstring></argsstring>
+        <name>uploadFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Rappresenta un flag booleano per indicare lo stato di upload del file di noop </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/Keeper.java" line="55" column="21" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/Keeper.java" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="classresources_1_1ftpserver_1_1_keeper_1ae9dda470dc68012b3f278af19edafb40" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>resources.ftpserver.Keeper.Keeper</definition>
+        <argsstring>(Manager manager)</argsstring>
+        <name>Keeper</name>
+        <param>
+          <type><ref refid="classresources_1_1ftpserver_1_1_manager" kindref="compound">Manager</ref></type>
+          <declname>manager</declname>
+        </param>
+        <briefdescription>
+<para>Costruttore. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Inizializza tutte le risorse necessarie ad un oggetto di questa classe</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>manager</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Oggetto di classe <ref refid="classresources_1_1ftpserver_1_1_manager" kindref="compound">resources.ftpserver.Manager</ref>, classe contenente dati condivisi tra le classi <ref refid="classresources_1_1ftpserver_1_1_f_t_p_server" kindref="compound">resources.ftpserver.FTPServer</ref> e <ref refid="classresources_1_1ftpserver_1_1_keeper" kindref="compound">resources.ftpserver.Keeper</ref></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_keeper_1a8a557b82da2df0817386966138b67f8f" kindref="member">Keeper.manager</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/Keeper.java" line="69" column="5" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/Keeper.java" bodystart="69" bodyend="72"/>
+        <references refid="classresources_1_1ftpserver_1_1_keeper_1a8a557b82da2df0817386966138b67f8f" compoundref="_keeper_8java" startline="47">resources.ftpserver.Keeper.manager</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classresources_1_1ftpserver_1_1_keeper_1a030e2156a7c720bcdc3f15e7cea92d3e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void resources.ftpserver.Keeper.run</definition>
+        <argsstring>()</argsstring>
+        <name>run</name>
+        <briefdescription>
+<para>Codice eseguito dal thread. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Il seguente metodo è l&apos;implementazione del servizio keep alive</para>
+<para><simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_keeper_1a8a557b82da2df0817386966138b67f8f" kindref="member">Keeper.manager</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_keeper_1a486565c9c81d6bc75ece2f60afbfa8c3" kindref="member">Keeper.uploadFile</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server_1aaae22be90f18fa0c827240ef0fc5b466" kindref="member">FTPServer.uploadFile()</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/Keeper.java" line="84" column="17" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/Keeper.java" bodystart="84" bodyend="135"/>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1ae743d882c2b3e7db928b39fc1b164750" compoundref="_manager_8java" startline="145" endline="147">resources.ftpserver.Manager.getIsConnected</references>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a5c52f5769c89fb20b0bfc7520fc2d3b7" compoundref="_manager_8java" startline="170" endline="172">resources.ftpserver.Manager.getIsNoOp</references>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a9eea40adb30e967a9fbebe61acb7ecf5" compoundref="_manager_8java" startline="121" endline="123">resources.ftpserver.Manager.getServer</references>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a760aae78030588d2f0d5b5898969de39" compoundref="_manager_8java" startline="133" endline="135">resources.ftpserver.Manager.getServerMutex</references>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a15422d664ec1762a2b98a86228099cd7" compoundref="_manager_8java" startline="182" endline="184">resources.ftpserver.Manager.getShowServerReplies</references>
+        <references refid="classresources_1_1ftpserver_1_1_f_t_p_server_1aaae22be90f18fa0c827240ef0fc5b466" compoundref="_f_t_p_server_8java" startline="1068" endline="1121">resources.ftpserver.FTPServer.uploadFile</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Classe per la gestione del servizio keep alive. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Grandieri Andrea <ulink url="mailto:g.andreus02@gmail.com">g.andreus02@gmail.com</ulink> </para>
+</simplesect>
+<simplesect kind="author"><para>Barsotti Mirko <ulink url="mailto:bmirko1505@gmail.com">bmirko1505@gmail.com</ulink> </para>
+</simplesect>
+<simplesect kind="author"><para>Brambilla Mirko <ulink url="mailto:brambobilla01@gmail.com">brambobilla01@gmail.com</ulink></para>
+</simplesect>
+La seguente classe rappresenta un thread daemon per fornire il servizio keep alive. Il servizio keep alive permettere di mantenere una connessione con il server anche quando non avviene uno scambio di informazioni client-server per un periodo di tempo prolungato. Dunque, il servizio keep alive garantisce la connessione anche in sessioni idle. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>TimerTask</label>
+      </node>
+      <node id="1">
+        <label>resources.ftpserver.Keeper</label>
+        <link refid="classresources_1_1ftpserver_1_1_keeper"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>FTPClient</label>
+      </node>
+      <node id="3">
+        <label>resources.ftpserver.Manager</label>
+        <link refid="classresources_1_1ftpserver_1_1_manager"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>-server</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>-serverMutex</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Semaphore</label>
+      </node>
+      <node id="2">
+        <label>TimerTask</label>
+      </node>
+      <node id="1">
+        <label>resources.ftpserver.Keeper</label>
+        <link refid="classresources_1_1ftpserver_1_1_keeper"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>-manager</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/Keeper.java" line="34" column="7" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/Keeper.java" bodystart="34" bodyend="137"/>
+    <listofallmembers>
+      <member refid="classresources_1_1ftpserver_1_1_keeper_1ae9dda470dc68012b3f278af19edafb40" prot="package" virt="non-virtual"><scope>resources::ftpserver::Keeper</scope><name>Keeper</name></member>
+      <member refid="classresources_1_1ftpserver_1_1_keeper_1a8a557b82da2df0817386966138b67f8f" prot="private" virt="non-virtual"><scope>resources::ftpserver::Keeper</scope><name>manager</name></member>
+      <member refid="classresources_1_1ftpserver_1_1_keeper_1a030e2156a7c720bcdc3f15e7cea92d3e" prot="public" virt="non-virtual"><scope>resources::ftpserver::Keeper</scope><name>run</name></member>
+      <member refid="classresources_1_1ftpserver_1_1_keeper_1a486565c9c81d6bc75ece2f60afbfa8c3" prot="private" virt="non-virtual"><scope>resources::ftpserver::Keeper</scope><name>uploadFile</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,7 @@
+<map id="resources.ftpserver.FTPServer.uploadUniqueFile" name="resources.ftpserver.FTPServer.uploadUniqueFile">
+<area shape="rect" id="node1" title="Carica un file con nome unico dal client al server." alt="" coords="5,64,243,105"/>
+<area shape="rect" id="node2" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#a53efc9cad594b3f20e40c70ac21c3504" title="Visualizza su console le eventuali risposte del server a comandi." alt="" coords="291,64,508,105"/>
+<area shape="rect" id="node3" href="$classresources_1_1ftpserver_1_1_manager.html#a9eea40adb30e967a9fbebe61acb7ecf5" title="Ritorna il valore dell&#39;attributo Manager.server." alt="" coords="556,5,763,47"/>
+<area shape="rect" id="node5" href="$classresources_1_1ftpserver_1_1_manager.html#a760aae78030588d2f0d5b5898969de39" title="Ritorna il valore dell&#39;attributo Manager.serverMutex." alt="" coords="296,129,503,171"/>
+<area shape="rect" id="node4" href="$classresources_1_1ftpserver_1_1_manager.html#a15422d664ec1762a2b98a86228099cd7" title="Ritorna il valore dell&#39;attributo Manager.showServerReplies." alt="" coords="556,71,763,112"/>
+</map>

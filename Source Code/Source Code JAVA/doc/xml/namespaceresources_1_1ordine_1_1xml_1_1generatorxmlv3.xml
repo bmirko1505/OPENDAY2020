@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="namespaceresources_1_1ordine_1_1xml_1_1generatorxmlv3" kind="namespace" language="Java">
+    <compoundname>resources::ordine::xml::generatorxmlv3</compoundname>
+    <innerclass refid="classresources_1_1ordine_1_1xml_1_1generatorxmlv3_1_1_generator_x_m_l_ordinev3" prot="public">resources::ordine::xml::generatorxmlv3::GeneratorXMLOrdinev3</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/xml/generatorxmlv3/GeneratorXMLOrdinev3.java" line="1" column="15"/>
+  </compounddef>
+</doxygen>

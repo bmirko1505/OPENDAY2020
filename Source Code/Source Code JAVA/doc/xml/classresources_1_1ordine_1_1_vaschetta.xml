@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="classresources_1_1ordine_1_1_vaschetta" kind="class" language="Java" prot="public">
+    <compoundname>resources::ordine::Vaschetta</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classresources_1_1ordine_1_1_vaschetta_1ab2fe2f4341cc7547fbeb613767d959eb" prot="private" static="no" mutable="no">
+        <type>final String[]</type>
+        <definition>final String [] resources.ordine.Vaschetta.cibi</definition>
+        <argsstring></argsstring>
+        <name>cibi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Rappresenta una lista di gusti contenuti all&apos;interno della vaschetta </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/Vaschetta.java" line="30" column="26" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/Vaschetta.java" bodystart="30" bodyend="-1"/>
+        <referencedby refid="classresources_1_1ordine_1_1_vaschetta_1ad11350d1f315cf9f87b1f01997ca7b72" compoundref="_vaschetta_8java" startline="41" endline="44">resources.ordine.Vaschetta.Vaschetta</referencedby>
+        <referencedby refid="classresources_1_1ordine_1_1_vaschetta_1a741b5c09bc8b665169c1dab0d12dbc54" compoundref="_vaschetta_8java" startline="53" endline="55">resources.ordine.Vaschetta.getCibi</referencedby>
+        <referencedby refid="classresources_1_1ordine_1_1_vaschetta_1aaa5a56b1d5c6f405277f92f4d69b52ed" compoundref="_vaschetta_8java" startline="70" endline="88">resources.ordine.Vaschetta.equals</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classresources_1_1ordine_1_1_vaschetta_1a8526c83e9e5765a7b628b53a7f13d078" prot="private" static="no" mutable="no">
+        <type>final String[]</type>
+        <definition>final String [] resources.ordine.Vaschetta.bevande</definition>
+        <argsstring></argsstring>
+        <name>bevande</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/Vaschetta.java" line="31" column="26" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/Vaschetta.java" bodystart="31" bodyend="-1"/>
+        <referencedby refid="classresources_1_1ordine_1_1_vaschetta_1ad11350d1f315cf9f87b1f01997ca7b72" compoundref="_vaschetta_8java" startline="41" endline="44">resources.ordine.Vaschetta.Vaschetta</referencedby>
+        <referencedby refid="classresources_1_1ordine_1_1_vaschetta_1a4796f20f551cc1995e2c91943a61c742" compoundref="_vaschetta_8java" startline="57" endline="59">resources.ordine.Vaschetta.getBevande</referencedby>
+        <referencedby refid="classresources_1_1ordine_1_1_vaschetta_1aaa5a56b1d5c6f405277f92f4d69b52ed" compoundref="_vaschetta_8java" startline="70" endline="88">resources.ordine.Vaschetta.equals</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classresources_1_1ordine_1_1_vaschetta_1ad11350d1f315cf9f87b1f01997ca7b72" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>resources.ordine.Vaschetta.Vaschetta</definition>
+        <argsstring>(String[] cibi, String[] bevande)</argsstring>
+        <name>Vaschetta</name>
+        <param>
+          <type>String[]</type>
+          <declname>cibi</declname>
+        </param>
+        <param>
+          <type>String[]</type>
+          <declname>bevande</declname>
+        </param>
+        <briefdescription>
+<para>Costruttore. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Inizializza tutte le risorse necessarie ad un oggetto di questa classe</para>
+<para><simplesect kind="see"><para>Vaschetta.gustoGelato </para>
+</simplesect>
+<simplesect kind="see"><para>Vaschetta.Dimensioni.dimensioni </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/Vaschetta.java" line="41" column="12" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/Vaschetta.java" bodystart="41" bodyend="44"/>
+        <references refid="classresources_1_1ordine_1_1_vaschetta_1a8526c83e9e5765a7b628b53a7f13d078" compoundref="_vaschetta_8java" startline="31">resources.ordine.Vaschetta.bevande</references>
+        <references refid="classresources_1_1ordine_1_1_vaschetta_1ab2fe2f4341cc7547fbeb613767d959eb" compoundref="_vaschetta_8java" startline="30">resources.ordine.Vaschetta.cibi</references>
+        <referencedby refid="classresources_1_1ordine_1_1_vaschetta_1aaa5a56b1d5c6f405277f92f4d69b52ed" compoundref="_vaschetta_8java" startline="70" endline="88">resources.ordine.Vaschetta.equals</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1ordine_1_1_vaschetta_1a741b5c09bc8b665169c1dab0d12dbc54" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String[]</type>
+        <definition>String [] resources.ordine.Vaschetta.getCibi</definition>
+        <argsstring>()</argsstring>
+        <name>getCibi</name>
+        <briefdescription>
+<para>Ritorna il valore dell&apos;attributo Vaschetta.gustoGelato. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Il valore dell&apos;attributo <ref refid="classresources_1_1ordine_1_1_vaschetta_1ab2fe2f4341cc7547fbeb613767d959eb" kindref="member">Vaschetta.cibi</ref></para>
+</simplesect>
+<simplesect kind="see"><para>Vaschetta.gustoGelato </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/Vaschetta.java" line="53" column="19" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/Vaschetta.java" bodystart="53" bodyend="55"/>
+        <references refid="classresources_1_1ordine_1_1_vaschetta_1ab2fe2f4341cc7547fbeb613767d959eb" compoundref="_vaschetta_8java" startline="30">resources.ordine.Vaschetta.cibi</references>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1ordine_1_1_vaschetta_1a4796f20f551cc1995e2c91943a61c742" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String[]</type>
+        <definition>String [] resources.ordine.Vaschetta.getBevande</definition>
+        <argsstring>()</argsstring>
+        <name>getBevande</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/Vaschetta.java" line="57" column="19" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/Vaschetta.java" bodystart="57" bodyend="59"/>
+        <references refid="classresources_1_1ordine_1_1_vaschetta_1a8526c83e9e5765a7b628b53a7f13d078" compoundref="_vaschetta_8java" startline="31">resources.ordine.Vaschetta.bevande</references>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1ordine_1_1_vaschetta_1a5b17e5caff517175c96ea16bb2e6defa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int resources.ordine.Vaschetta.hashCode</definition>
+        <argsstring>()</argsstring>
+        <name>hashCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/Vaschetta.java" line="62" column="16" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/Vaschetta.java" bodystart="62" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1ordine_1_1_vaschetta_1aaa5a56b1d5c6f405277f92f4d69b52ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean resources.ordine.Vaschetta.equals</definition>
+        <argsstring>(Object obj)</argsstring>
+        <name>equals</name>
+        <param>
+          <type>Object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/Vaschetta.java" line="70" column="20" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/Vaschetta.java" bodystart="70" bodyend="88"/>
+        <references refid="classresources_1_1ordine_1_1_vaschetta_1a8526c83e9e5765a7b628b53a7f13d078" compoundref="_vaschetta_8java" startline="31">resources.ordine.Vaschetta.bevande</references>
+        <references refid="classresources_1_1ordine_1_1_vaschetta_1ab2fe2f4341cc7547fbeb613767d959eb" compoundref="_vaschetta_8java" startline="30">resources.ordine.Vaschetta.cibi</references>
+        <references refid="classresources_1_1ordine_1_1_vaschetta_1ad11350d1f315cf9f87b1f01997ca7b72" compoundref="_vaschetta_8java" startline="41" endline="44">resources.ordine.Vaschetta.Vaschetta</references>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1ordine_1_1_vaschetta_1a5ad672e37ec5e839607a1ebadce88311" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String resources.ordine.Vaschetta.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <briefdescription>
+<para>Genera e ritorna il toString di questa classe. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Il toString di questa classe</para>
+</simplesect>
+<simplesect kind="see"><para>Vaschetta.gustoGelato </para>
+</simplesect>
+<simplesect kind="see"><para>Vaschetta.dimensioni </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/Vaschetta.java" line="99" column="19" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/Vaschetta.java" bodystart="99" bodyend="106"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Classe che rappresenta una vaschetta. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Grandieri Andrea <ulink url="mailto:g.andreus02@gmail.com">g.andreus02@gmail.com</ulink> </para>
+</simplesect>
+<simplesect kind="author"><para>Barsotti Mirko <ulink url="mailto:bmirko1505@gmail.com">bmirko1505@gmail.com</ulink> </para>
+</simplesect>
+<simplesect kind="author"><para>Brambilla Mirko <ulink url="mailto:brambobilla01@gmail.com">brambobilla01@gmail.com</ulink></para>
+</simplesect>
+La seguente classe rappresenta un&apos;astrazione di una vaschetta fisica, componente costituente un ordine </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>resources.ordine.Vaschetta</label>
+        <link refid="classresources_1_1ordine_1_1_vaschetta"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/Vaschetta.java" line="25" column="7" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/Vaschetta.java" bodystart="25" bodyend="108"/>
+    <listofallmembers>
+      <member refid="classresources_1_1ordine_1_1_vaschetta_1a8526c83e9e5765a7b628b53a7f13d078" prot="private" virt="non-virtual"><scope>resources::ordine::Vaschetta</scope><name>bevande</name></member>
+      <member refid="classresources_1_1ordine_1_1_vaschetta_1ab2fe2f4341cc7547fbeb613767d959eb" prot="private" virt="non-virtual"><scope>resources::ordine::Vaschetta</scope><name>cibi</name></member>
+      <member refid="classresources_1_1ordine_1_1_vaschetta_1aaa5a56b1d5c6f405277f92f4d69b52ed" prot="public" virt="non-virtual"><scope>resources::ordine::Vaschetta</scope><name>equals</name></member>
+      <member refid="classresources_1_1ordine_1_1_vaschetta_1a4796f20f551cc1995e2c91943a61c742" prot="public" virt="non-virtual"><scope>resources::ordine::Vaschetta</scope><name>getBevande</name></member>
+      <member refid="classresources_1_1ordine_1_1_vaschetta_1a741b5c09bc8b665169c1dab0d12dbc54" prot="public" virt="non-virtual"><scope>resources::ordine::Vaschetta</scope><name>getCibi</name></member>
+      <member refid="classresources_1_1ordine_1_1_vaschetta_1a5b17e5caff517175c96ea16bb2e6defa" prot="public" virt="non-virtual"><scope>resources::ordine::Vaschetta</scope><name>hashCode</name></member>
+      <member refid="classresources_1_1ordine_1_1_vaschetta_1a5ad672e37ec5e839607a1ebadce88311" prot="public" virt="non-virtual"><scope>resources::ordine::Vaschetta</scope><name>toString</name></member>
+      <member refid="classresources_1_1ordine_1_1_vaschetta_1ad11350d1f315cf9f87b1f01997ca7b72" prot="public" virt="non-virtual"><scope>resources::ordine::Vaschetta</scope><name>Vaschetta</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

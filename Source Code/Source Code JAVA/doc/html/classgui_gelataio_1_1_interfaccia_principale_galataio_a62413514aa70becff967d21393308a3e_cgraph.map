@@ -1,0 +1,14 @@
+<map id="guiGelataio.InterfacciaPrincipaleGalataio.jButtonScaricaCronologiaOrdinazioniActionPerformed" name="guiGelataio.InterfacciaPrincipaleGalataio.jButtonScaricaCronologiaOrdinazioniActionPerformed">
+<area shape="rect" id="node1" title=" " alt="" coords="5,151,291,207"/>
+<area shape="rect" id="node2" href="$classresources_1_1ordine_1_1xml_1_1generatorxmlv3_1_1_generator_x_m_l_ordinev3.html#adef835c07a007110a89118de9801edda" title="Crea l&#39;effettivo file XML sulla base dell&#39;albero DOM." alt="" coords="339,5,617,47"/>
+<area shape="rect" id="node3" href="$classresources_1_1ordine_1_1xml_1_1generatorxmlv3_1_1_generator_x_m_l_ordinev3.html#a3c1b477417a000543dda431b98011d3b" title="Crea l&#39;albero DOM." alt="" coords="353,71,603,112"/>
+<area shape="rect" id="node4" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#aeed840d7a1f20b8b579203dc60a312d2" title="Scarica un file dal server al client." alt="" coords="341,137,615,163"/>
+<area shape="rect" id="node9" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#acf6cff62c6a86355a070f15d2d15bf84" title="Ottiene una lista di elementi presenti nella directory di lavoro corrente." alt="" coords="369,188,587,229"/>
+<area shape="rect" id="node10" href="$classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine.html#aa730d79aa207eef84cca50a5ee1b4c07" title="Effettua il parsing del documento XML di cui viene specificato il path." alt="" coords="369,332,587,373"/>
+<area shape="rect" id="node12" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#ab87c0e92af371c7034d82b026367b401" title="Cambia la directory di lavoro corrente." alt="" coords="369,253,587,295"/>
+<area shape="rect" id="node5" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#a53efc9cad594b3f20e40c70ac21c3504" title="Visualizza su console le eventuali risposte del server a comandi." alt="" coords="665,240,883,281"/>
+<area shape="rect" id="node6" href="$classresources_1_1ftpserver_1_1_manager.html#a9eea40adb30e967a9fbebe61acb7ecf5" title="Ritorna il valore dell&#39;attributo Manager.server." alt="" coords="931,145,1137,187"/>
+<area shape="rect" id="node8" href="$classresources_1_1ftpserver_1_1_manager.html#a760aae78030588d2f0d5b5898969de39" title="Ritorna il valore dell&#39;attributo Manager.serverMutex." alt="" coords="671,175,877,216"/>
+<area shape="rect" id="node7" href="$classresources_1_1ftpserver_1_1_manager.html#a15422d664ec1762a2b98a86228099cd7" title="Ritorna il valore dell&#39;attributo Manager.showServerReplies." alt="" coords="931,240,1137,281"/>
+<area shape="rect" id="node11" href="$classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine.html#a83cead9d33a5d8fdc38adaf8394a630f" title="Converte un &quot;nodo dell&#39;albero DOM&quot; in oggetto." alt="" coords="670,357,878,399"/>
+</map>

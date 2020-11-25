@@ -1,0 +1,233 @@
+\hypertarget{classresources_1_1currenttime_1_1_current_time}{}\doxysection{resources.\+currenttime.\+Current\+Time Class Reference}
+\label{classresources_1_1currenttime_1_1_current_time}\index{resources.currenttime.CurrentTime@{resources.currenttime.CurrentTime}}
+
+
+Classe per mantenere \char`\"{}corrente\char`\"{} e visualizzare correttamente l\textquotesingle{}ora nelle interfacce del software.  
+
+
+
+
+Inheritance diagram for resources.\+currenttime.\+Current\+Time\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=247pt]{classresources_1_1currenttime_1_1_current_time__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for resources.\+currenttime.\+Current\+Time\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresources_1_1currenttime_1_1_current_time__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classresources_1_1currenttime_1_1_current_time_a43fbe0ca8aec47ac559e4a069b95a44b}{Current\+Time}} (J\+Label \mbox{\hyperlink{classresources_1_1currenttime_1_1_current_time_a99bc9a2b01a760de5846fe09f19282f0}{j\+Label\+Ora\+Corrente}}, J\+Label \mbox{\hyperlink{classresources_1_1currenttime_1_1_current_time_a69773ca89e760dac72fa82098a3c50d5}{j\+Label\+Ora\+Corrente5}}, J\+Label \mbox{\hyperlink{classresources_1_1currenttime_1_1_current_time_a42b9b188dbddd1faf449ad1acc6b7462}{j\+Label\+Ora\+Corrente1}}, J\+Label \mbox{\hyperlink{classresources_1_1currenttime_1_1_current_time_a4ccb68c8c9d15793f158e8b0b4091aac}{j\+Label\+Ora\+Corrente2}}, J\+Label \mbox{\hyperlink{classresources_1_1currenttime_1_1_current_time_a5ec0d8a98376ec9392f29747db3cc4be}{j\+Label\+Ora\+Corrente3}})
+\begin{DoxyCompactList}\small\item\em Costruttore. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classresources_1_1currenttime_1_1_current_time_affec9cbcc42854f1a6583e2ec752ea20}{run}} ()
+\begin{DoxyCompactList}\small\item\em Codice eseguito dal thread. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Calendar \mbox{\hyperlink{classresources_1_1currenttime_1_1_current_time_a9b6d2c22a4791ea9608fb152f42c42de}{calendar}}
+\item 
+final Simple\+Date\+Format \mbox{\hyperlink{classresources_1_1currenttime_1_1_current_time_a58e538e0aee4e86cc8dea84d93a6c435}{simple\+Date\+Format}}
+\item 
+final J\+Label \mbox{\hyperlink{classresources_1_1currenttime_1_1_current_time_a99bc9a2b01a760de5846fe09f19282f0}{j\+Label\+Ora\+Corrente}}
+\item 
+final J\+Label \mbox{\hyperlink{classresources_1_1currenttime_1_1_current_time_a69773ca89e760dac72fa82098a3c50d5}{j\+Label\+Ora\+Corrente5}}
+\item 
+final J\+Label \mbox{\hyperlink{classresources_1_1currenttime_1_1_current_time_a42b9b188dbddd1faf449ad1acc6b7462}{j\+Label\+Ora\+Corrente1}}
+\item 
+final J\+Label \mbox{\hyperlink{classresources_1_1currenttime_1_1_current_time_a4ccb68c8c9d15793f158e8b0b4091aac}{j\+Label\+Ora\+Corrente2}}
+\item 
+final J\+Label \mbox{\hyperlink{classresources_1_1currenttime_1_1_current_time_a5ec0d8a98376ec9392f29747db3cc4be}{j\+Label\+Ora\+Corrente3}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Classe per mantenere \char`\"{}corrente\char`\"{} e visualizzare correttamente l\textquotesingle{}ora nelle interfacce del software. 
+
+\begin{DoxyAuthor}{Author}
+Grandieri Andrea \href{mailto:g.andreus02@gmail.com}{\texttt{ g.\+andreus02@gmail.\+com}} 
+
+Barsotti Mirko \href{mailto:bmirko1505@gmail.com}{\texttt{ bmirko1505@gmail.\+com}} 
+
+Brambilla Mirko \href{mailto:brambobilla01@gmail.com}{\texttt{ brambobilla01@gmail.\+com}}
+\end{DoxyAuthor}
+La seguente classe rappresenta un thread daemon per mantenere sincronizzata l\textquotesingle{}ora visualizzata nelle interfacce del software con l\textquotesingle{}ora del sistema operativo. Inoltre, permette di visualizzare in modo corretto quest\textquotesingle{}ultima. 
+
+Definition at line 31 of file Current\+Time.\+java.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classresources_1_1currenttime_1_1_current_time_a43fbe0ca8aec47ac559e4a069b95a44b}\label{classresources_1_1currenttime_1_1_current_time_a43fbe0ca8aec47ac559e4a069b95a44b}} 
+\index{resources.currenttime.CurrentTime@{resources.currenttime.CurrentTime}!CurrentTime@{CurrentTime}}
+\index{CurrentTime@{CurrentTime}!resources.currenttime.CurrentTime@{resources.currenttime.CurrentTime}}
+\doxysubsubsection{\texorpdfstring{CurrentTime()}{CurrentTime()}}
+{\footnotesize\ttfamily resources.\+currenttime.\+Current\+Time.\+Current\+Time (\begin{DoxyParamCaption}\item[{J\+Label}]{j\+Label\+Ora\+Corrente,  }\item[{J\+Label}]{j\+Label\+Ora\+Corrente5,  }\item[{J\+Label}]{j\+Label\+Ora\+Corrente1,  }\item[{J\+Label}]{j\+Label\+Ora\+Corrente2,  }\item[{J\+Label}]{j\+Label\+Ora\+Corrente3 }\end{DoxyParamCaption})}
+
+
+
+Costruttore. 
+
+Inizializza tutte le risorse necessarie ad un oggetto di questa classe
+
+
+\begin{DoxyParams}{Parameters}
+{\em j\+Label\+Ora\+Corrente} & Zona di visualizzazione dell\textquotesingle{}ora corrente nelle interfacce del software \\
+\hline
+{\em j\+Label\+Ora\+Corrente5} & Zona di visualizzazione dell\textquotesingle{}ora corrente nelle interfacce del software \\
+\hline
+{\em j\+Label\+Ora\+Corrente4} & Zona di visualizzazione dell\textquotesingle{}ora corrente nelle interfacce del software \\
+\hline
+{\em j\+Label\+Ora\+Corrente1} & Zona di visualizzazione dell\textquotesingle{}ora corrente nelle interfacce del software \\
+\hline
+{\em j\+Label\+Ora\+Corrente2} & Zona di visualizzazione dell\textquotesingle{}ora corrente nelle interfacce del software \\
+\hline
+{\em j\+Label\+Ora\+Corrente3} & Zona di visualizzazione dell\textquotesingle{}ora corrente nelle interfacce del software\\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1currenttime_1_1_current_time_a99bc9a2b01a760de5846fe09f19282f0}{Current\+Time.\+j\+Label\+Ora\+Corrente}} 
+
+\mbox{\hyperlink{classresources_1_1currenttime_1_1_current_time_a69773ca89e760dac72fa82098a3c50d5}{Current\+Time.\+j\+Label\+Ora\+Corrente5}} 
+
+Current\+Time.\+j\+Label\+Ora\+Corrente4 
+
+\mbox{\hyperlink{classresources_1_1currenttime_1_1_current_time_a42b9b188dbddd1faf449ad1acc6b7462}{Current\+Time.\+j\+Label\+Ora\+Corrente1}} 
+
+\mbox{\hyperlink{classresources_1_1currenttime_1_1_current_time_a4ccb68c8c9d15793f158e8b0b4091aac}{Current\+Time.\+j\+Label\+Ora\+Corrente2}} 
+
+\mbox{\hyperlink{classresources_1_1currenttime_1_1_current_time_a5ec0d8a98376ec9392f29747db3cc4be}{Current\+Time.\+j\+Label\+Ora\+Corrente3}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 106 of file Current\+Time.\+java.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classresources_1_1currenttime_1_1_current_time_affec9cbcc42854f1a6583e2ec752ea20}\label{classresources_1_1currenttime_1_1_current_time_affec9cbcc42854f1a6583e2ec752ea20}} 
+\index{resources.currenttime.CurrentTime@{resources.currenttime.CurrentTime}!run@{run}}
+\index{run@{run}!resources.currenttime.CurrentTime@{resources.currenttime.CurrentTime}}
+\doxysubsubsection{\texorpdfstring{run()}{run()}}
+{\footnotesize\ttfamily void resources.\+currenttime.\+Current\+Time.\+run (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Codice eseguito dal thread. 
+
+Il seguente metodo ottiene l\textquotesingle{}ora corrente dal sistema operativo, la formatta e la visualizza nelle rispettive interfacce
+
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1currenttime_1_1_current_time_a99bc9a2b01a760de5846fe09f19282f0}{Current\+Time.\+j\+Label\+Ora\+Corrente}} 
+
+\mbox{\hyperlink{classresources_1_1currenttime_1_1_current_time_a69773ca89e760dac72fa82098a3c50d5}{Current\+Time.\+j\+Label\+Ora\+Corrente5}} 
+
+Current\+Time.\+j\+Label\+Ora\+Corrente4 
+
+\mbox{\hyperlink{classresources_1_1currenttime_1_1_current_time_a42b9b188dbddd1faf449ad1acc6b7462}{Current\+Time.\+j\+Label\+Ora\+Corrente1}} 
+
+\mbox{\hyperlink{classresources_1_1currenttime_1_1_current_time_a4ccb68c8c9d15793f158e8b0b4091aac}{Current\+Time.\+j\+Label\+Ora\+Corrente2}} 
+
+\mbox{\hyperlink{classresources_1_1currenttime_1_1_current_time_a5ec0d8a98376ec9392f29747db3cc4be}{Current\+Time.\+j\+Label\+Ora\+Corrente3}} 
+
+\mbox{\hyperlink{classresources_1_1currenttime_1_1_current_time_a9b6d2c22a4791ea9608fb152f42c42de}{Current\+Time.\+calendar}} 
+
+\mbox{\hyperlink{classresources_1_1currenttime_1_1_current_time_a58e538e0aee4e86cc8dea84d93a6c435}{Current\+Time.\+simple\+Date\+Format}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 138 of file Current\+Time.\+java.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classresources_1_1currenttime_1_1_current_time_a9b6d2c22a4791ea9608fb152f42c42de}\label{classresources_1_1currenttime_1_1_current_time_a9b6d2c22a4791ea9608fb152f42c42de}} 
+\index{resources.currenttime.CurrentTime@{resources.currenttime.CurrentTime}!calendar@{calendar}}
+\index{calendar@{calendar}!resources.currenttime.CurrentTime@{resources.currenttime.CurrentTime}}
+\doxysubsubsection{\texorpdfstring{calendar}{calendar}}
+{\footnotesize\ttfamily Calendar resources.\+currenttime.\+Current\+Time.\+calendar\hspace{0.3cm}{\ttfamily [private]}}
+
+Rappresenta un oggetto di classe Calendar per ottenere l\textquotesingle{}ora corrente del sistema operativo 
+
+Definition at line 37 of file Current\+Time.\+java.
+
+\mbox{\Hypertarget{classresources_1_1currenttime_1_1_current_time_a99bc9a2b01a760de5846fe09f19282f0}\label{classresources_1_1currenttime_1_1_current_time_a99bc9a2b01a760de5846fe09f19282f0}} 
+\index{resources.currenttime.CurrentTime@{resources.currenttime.CurrentTime}!jLabelOraCorrente@{jLabelOraCorrente}}
+\index{jLabelOraCorrente@{jLabelOraCorrente}!resources.currenttime.CurrentTime@{resources.currenttime.CurrentTime}}
+\doxysubsubsection{\texorpdfstring{jLabelOraCorrente}{jLabelOraCorrente}}
+{\footnotesize\ttfamily final J\+Label resources.\+currenttime.\+Current\+Time.\+j\+Label\+Ora\+Corrente\hspace{0.3cm}{\ttfamily [private]}}
+
+Rappresenta una zona di visualizzazione dell\textquotesingle{}ora corrente nelle interfacce del software 
+
+Definition at line 53 of file Current\+Time.\+java.
+
+\mbox{\Hypertarget{classresources_1_1currenttime_1_1_current_time_a42b9b188dbddd1faf449ad1acc6b7462}\label{classresources_1_1currenttime_1_1_current_time_a42b9b188dbddd1faf449ad1acc6b7462}} 
+\index{resources.currenttime.CurrentTime@{resources.currenttime.CurrentTime}!jLabelOraCorrente1@{jLabelOraCorrente1}}
+\index{jLabelOraCorrente1@{jLabelOraCorrente1}!resources.currenttime.CurrentTime@{resources.currenttime.CurrentTime}}
+\doxysubsubsection{\texorpdfstring{jLabelOraCorrente1}{jLabelOraCorrente1}}
+{\footnotesize\ttfamily final J\+Label resources.\+currenttime.\+Current\+Time.\+j\+Label\+Ora\+Corrente1\hspace{0.3cm}{\ttfamily [private]}}
+
+Rappresenta una zona di visualizzazione dell\textquotesingle{}ora corrente nelle interfacce del software 
+
+Definition at line 67 of file Current\+Time.\+java.
+
+\mbox{\Hypertarget{classresources_1_1currenttime_1_1_current_time_a4ccb68c8c9d15793f158e8b0b4091aac}\label{classresources_1_1currenttime_1_1_current_time_a4ccb68c8c9d15793f158e8b0b4091aac}} 
+\index{resources.currenttime.CurrentTime@{resources.currenttime.CurrentTime}!jLabelOraCorrente2@{jLabelOraCorrente2}}
+\index{jLabelOraCorrente2@{jLabelOraCorrente2}!resources.currenttime.CurrentTime@{resources.currenttime.CurrentTime}}
+\doxysubsubsection{\texorpdfstring{jLabelOraCorrente2}{jLabelOraCorrente2}}
+{\footnotesize\ttfamily final J\+Label resources.\+currenttime.\+Current\+Time.\+j\+Label\+Ora\+Corrente2\hspace{0.3cm}{\ttfamily [private]}}
+
+Rappresenta una zona di visualizzazione dell\textquotesingle{}ora corrente nelle interfacce del software 
+
+Definition at line 73 of file Current\+Time.\+java.
+
+\mbox{\Hypertarget{classresources_1_1currenttime_1_1_current_time_a5ec0d8a98376ec9392f29747db3cc4be}\label{classresources_1_1currenttime_1_1_current_time_a5ec0d8a98376ec9392f29747db3cc4be}} 
+\index{resources.currenttime.CurrentTime@{resources.currenttime.CurrentTime}!jLabelOraCorrente3@{jLabelOraCorrente3}}
+\index{jLabelOraCorrente3@{jLabelOraCorrente3}!resources.currenttime.CurrentTime@{resources.currenttime.CurrentTime}}
+\doxysubsubsection{\texorpdfstring{jLabelOraCorrente3}{jLabelOraCorrente3}}
+{\footnotesize\ttfamily final J\+Label resources.\+currenttime.\+Current\+Time.\+j\+Label\+Ora\+Corrente3\hspace{0.3cm}{\ttfamily [private]}}
+
+Rappresenta una zona di visualizzazione dell\textquotesingle{}ora corrente nelle interfacce del software 
+
+Definition at line 79 of file Current\+Time.\+java.
+
+\mbox{\Hypertarget{classresources_1_1currenttime_1_1_current_time_a69773ca89e760dac72fa82098a3c50d5}\label{classresources_1_1currenttime_1_1_current_time_a69773ca89e760dac72fa82098a3c50d5}} 
+\index{resources.currenttime.CurrentTime@{resources.currenttime.CurrentTime}!jLabelOraCorrente5@{jLabelOraCorrente5}}
+\index{jLabelOraCorrente5@{jLabelOraCorrente5}!resources.currenttime.CurrentTime@{resources.currenttime.CurrentTime}}
+\doxysubsubsection{\texorpdfstring{jLabelOraCorrente5}{jLabelOraCorrente5}}
+{\footnotesize\ttfamily final J\+Label resources.\+currenttime.\+Current\+Time.\+j\+Label\+Ora\+Corrente5\hspace{0.3cm}{\ttfamily [private]}}
+
+Rappresenta una zona di visualizzazione dell\textquotesingle{}ora corrente nelle interfacce del software 
+
+Definition at line 59 of file Current\+Time.\+java.
+
+\mbox{\Hypertarget{classresources_1_1currenttime_1_1_current_time_a58e538e0aee4e86cc8dea84d93a6c435}\label{classresources_1_1currenttime_1_1_current_time_a58e538e0aee4e86cc8dea84d93a6c435}} 
+\index{resources.currenttime.CurrentTime@{resources.currenttime.CurrentTime}!simpleDateFormat@{simpleDateFormat}}
+\index{simpleDateFormat@{simpleDateFormat}!resources.currenttime.CurrentTime@{resources.currenttime.CurrentTime}}
+\doxysubsubsection{\texorpdfstring{simpleDateFormat}{simpleDateFormat}}
+{\footnotesize\ttfamily final Simple\+Date\+Format resources.\+currenttime.\+Current\+Time.\+simple\+Date\+Format\hspace{0.3cm}{\ttfamily [private]}}
+
+Rappresenta un oggetto di classe Simple\+Date\+Format per formattare l\textquotesingle{}informazione ottenuta dall\textquotesingle{}oggetto \mbox{\hyperlink{classresources_1_1currenttime_1_1_current_time_a9b6d2c22a4791ea9608fb152f42c42de}{Current\+Time.\+calendar}} per permettere una corretta visualizzazione dell\textquotesingle{}ora corrente nelle interfacce del software
+
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1currenttime_1_1_current_time_a9b6d2c22a4791ea9608fb152f42c42de}{Current\+Time.\+calendar}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 47 of file Current\+Time.\+java.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/gandr/\+Desktop/\+Interfaccia\+Gelataio/src/resources/currenttime/\mbox{\hyperlink{_current_time_8java}{Current\+Time.\+java}}\end{DoxyCompactItemize}

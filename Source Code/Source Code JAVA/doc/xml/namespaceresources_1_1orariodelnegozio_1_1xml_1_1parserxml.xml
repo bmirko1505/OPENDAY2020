@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="namespaceresources_1_1orariodelnegozio_1_1xml_1_1parserxml" kind="namespace" language="Java">
+    <compoundname>resources::orariodelnegozio::xml::parserxml</compoundname>
+    <innerclass refid="classresources_1_1orariodelnegozio_1_1xml_1_1parserxml_1_1_parser_x_m_l_modifica_orario_del_negozio" prot="public">resources::orariodelnegozio::xml::parserxml::ParserXMLModificaOrarioDelNegozio</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/orariodelnegozio/xml/parserxml/ParserXMLModificaOrarioDelNegozio.java" line="1" column="15"/>
+  </compounddef>
+</doxygen>

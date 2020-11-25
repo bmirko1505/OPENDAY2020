@@ -1,0 +1,7 @@
+<map id="resources.orariodelnegozio.xml.parserxml.ParserXMLModificaOrarioDelNegozio.put" name="resources.orariodelnegozio.xml.parserxml.ParserXMLModificaOrarioDelNegozio.put">
+<area shape="rect" id="node1" title="Converte un &quot;nodo dell&#39;albero DOM&quot; in oggetto." alt="" coords="1179,5,1445,47"/>
+<area shape="rect" id="node2" href="$classresources_1_1orariodelnegozio_1_1xml_1_1parserxml_1_1_parser_x_m_l_modifica_orario_del_negozio.html#a83fcad4bc1303f005548034b0cb0bb57" title="Effettua il parsing del documento XML di cui viene specificato il path." alt="" coords="801,5,1131,47"/>
+<area shape="rect" id="node3" href="$classgui_gelataio_1_1_interfaccia_principale_galataio.html#a03dfacb80fd3faa98d75ae460ade5c8f" title="Recupera informazioni necessarie dal server." alt="" coords="547,5,753,47"/>
+<area shape="rect" id="node4" href="$classgui_gelataio_1_1_interfaccia_principale_galataio.html#a6c05e9d7c45210225160936679546306" title="Inizializzatore stabile." alt="" coords="292,5,499,47"/>
+<area shape="rect" id="node5" href="$classgui_gelataio_1_1_interfaccia_principale_galataio.html#ad28db3222d7369871d6b679c1a6c1782" title="Costruttore." alt="" coords="5,5,244,47"/>
+</map>

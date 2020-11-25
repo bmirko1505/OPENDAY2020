@@ -1,0 +1,10 @@
+<map id="guiGelataio.InterfacciaPrincipaleGalataio.jButtonEliminaCronologiaOrdinazioniActionPerformed" name="guiGelataio.InterfacciaPrincipaleGalataio.jButtonEliminaCronologiaOrdinazioniActionPerformed">
+<area shape="rect" id="node1" title=" " alt="" coords="5,95,289,151"/>
+<area shape="rect" id="node2" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#a6cc5286e0f5e71f286b12df943499577" title="Elimina un file dal server." alt="" coords="337,109,592,136"/>
+<area shape="rect" id="node7" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#acf6cff62c6a86355a070f15d2d15bf84" title="Ottiene una lista di elementi presenti nella directory di lavoro corrente." alt="" coords="356,161,573,202"/>
+<area shape="rect" id="node8" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#ab87c0e92af371c7034d82b026367b401" title="Cambia la directory di lavoro corrente." alt="" coords="356,43,573,85"/>
+<area shape="rect" id="node3" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#a53efc9cad594b3f20e40c70ac21c3504" title="Visualizza su console le eventuali risposte del server a comandi." alt="" coords="640,43,857,85"/>
+<area shape="rect" id="node4" href="$classresources_1_1ftpserver_1_1_manager.html#a9eea40adb30e967a9fbebe61acb7ecf5" title="Ritorna il valore dell&#39;attributo Manager.server." alt="" coords="905,102,1112,143"/>
+<area shape="rect" id="node6" href="$classresources_1_1ftpserver_1_1_manager.html#a760aae78030588d2f0d5b5898969de39" title="Ritorna il valore dell&#39;attributo Manager.serverMutex." alt="" coords="645,161,852,202"/>
+<area shape="rect" id="node5" href="$classresources_1_1ftpserver_1_1_manager.html#a15422d664ec1762a2b98a86228099cd7" title="Ritorna il valore dell&#39;attributo Manager.showServerReplies." alt="" coords="905,37,1112,78"/>
+</map>

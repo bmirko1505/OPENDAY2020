@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_60fcd318f1e1e3a87b5fa69f6dba13bb" kind="dir">
+    <compoundname>C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/orariodelnegozio</compoundname>
+    <innerdir refid="dir_612e0c4f3a31037981ed766eb3f076f1">C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/orariodelnegozio/xml</innerdir>
+    <innerfile refid="_orario_del_negozio_8java">OrarioDelNegozio.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/orariodelnegozio/"/>
+  </compounddef>
+</doxygen>

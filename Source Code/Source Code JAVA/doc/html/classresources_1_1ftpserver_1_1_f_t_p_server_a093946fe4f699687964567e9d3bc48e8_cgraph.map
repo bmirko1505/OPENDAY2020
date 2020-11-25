@@ -1,0 +1,4 @@
+<map id="resources.ftpserver.FTPServer.setCoordsAM" name="resources.ftpserver.FTPServer.setCoordsAM">
+<area shape="rect" id="node1" title="Imposta le coordinate del server FTP con il quale comunicare." alt="" coords="5,5,223,47"/>
+<area shape="rect" id="node2" href="$classresources_1_1ftpserver_1_1_manager.html#ae743d882c2b3e7db928b39fc1b164750" title="Ritorna il valore dell&#39;attributo Manager.isConnected." alt="" coords="271,5,477,47"/>
+</map>

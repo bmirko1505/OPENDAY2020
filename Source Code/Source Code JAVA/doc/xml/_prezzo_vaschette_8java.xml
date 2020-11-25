@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="_prezzo_vaschette_8java" kind="file" language="Java">
+    <compoundname>PrezzoVaschette.java</compoundname>
+    <innerclass refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette" prot="public">resources::prezzovaschette::PrezzoVaschette</innerclass>
+    <innernamespace refid="namespaceresources_1_1prezzovaschette">resources::prezzovaschette</innernamespace>
+    <briefdescription>
+<para>Classe che rappresenta la struttura &quot;PrezzoVaschette&quot;. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Grandieri Andrea <ulink url="mailto:g.andreus02@gmail.com">g.andreus02@gmail.com</ulink> </para>
+</simplesect>
+<simplesect kind="author"><para>Barsotti Mirko <ulink url="mailto:bmirko1505@gmail.com">bmirko1505@gmail.com</ulink> </para>
+</simplesect>
+<simplesect kind="author"><para>Brambilla Mirko <ulink url="mailto:brambobilla01@gmail.com">brambobilla01@gmail.com</ulink> </para>
+</simplesect>
+<simplesect kind="version"><para>1.0 </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespaceresources_1_1prezzovaschette" refkind="compound"><highlight class="keyword">package<sp/></highlight><highlight class="normal">resources.prezzovaschette;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette" refkind="compound"><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette" kindref="compound">PrezzoVaschette</ref><sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1acb427ea075e904a3ea64d12c0be0faed" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">final</highlight><highlight class="normal"><sp/>Float<sp/><ref refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1acb427ea075e904a3ea64d12c0be0faed" kindref="member">prezzoVaschettaPiccola</ref>;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1a8298edee52afd08351f18343567723b1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">final</highlight><highlight class="normal"><sp/>Float<sp/><ref refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1a8298edee52afd08351f18343567723b1" kindref="member">prezzoVaschettaMedia</ref>;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1a0f8da2ffb54c85e21d8ed57590804df9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">final</highlight><highlight class="normal"><sp/>Float<sp/><ref refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1a0f8da2ffb54c85e21d8ed57590804df9" kindref="member">prezzoVaschettaGrande</ref>;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1a1b35895973a22ba0495fdb0ebe7e3631" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1a1b35895973a22ba0495fdb0ebe7e3631" kindref="member">PrezzoVaschette</ref>(Float<sp/><ref refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1acb427ea075e904a3ea64d12c0be0faed" kindref="member">prezzoVaschettaPiccola</ref>,<sp/>Float<sp/><ref refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1a8298edee52afd08351f18343567723b1" kindref="member">prezzoVaschettaMedia</ref>,<sp/>Float<sp/><ref refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1a0f8da2ffb54c85e21d8ed57590804df9" kindref="member">prezzoVaschettaGrande</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.prezzoVaschettaPiccola<sp/>=<sp/><ref refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1acb427ea075e904a3ea64d12c0be0faed" kindref="member">prezzoVaschettaPiccola</ref>;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.prezzoVaschettaMedia<sp/>=<sp/><ref refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1a8298edee52afd08351f18343567723b1" kindref="member">prezzoVaschettaMedia</ref>;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.prezzoVaschettaGrande<sp/>=<sp/><ref refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1a0f8da2ffb54c85e21d8ed57590804df9" kindref="member">prezzoVaschettaGrande</ref>;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1aaa7c83ff61d8ae119edfa4a92cef07c8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Float<sp/><ref refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1aaa7c83ff61d8ae119edfa4a92cef07c8" kindref="member">getPrezzoVaschettaPiccola</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1acb427ea075e904a3ea64d12c0be0faed" kindref="member">prezzoVaschettaPiccola</ref>;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1aa6db40b4079c763ce624ae31c866bc78" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Float<sp/><ref refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1aa6db40b4079c763ce624ae31c866bc78" kindref="member">getPrezzoVaschettaMedia</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1a8298edee52afd08351f18343567723b1" kindref="member">prezzoVaschettaMedia</ref>;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96" refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1a410f59ea6b805dacc5aaa107a5833d5f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Float<sp/><ref refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1a410f59ea6b805dacc5aaa107a5833d5f" kindref="member">getPrezzoVaschettaGrande</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1a0f8da2ffb54c85e21d8ed57590804df9" kindref="member">prezzoVaschettaGrande</ref>;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="99"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/prezzovaschette/PrezzoVaschette.java"/>
+  </compounddef>
+</doxygen>

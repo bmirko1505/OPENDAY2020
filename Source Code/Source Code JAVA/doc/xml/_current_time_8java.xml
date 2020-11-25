@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="_current_time_8java" kind="file" language="Java">
+    <compoundname>CurrentTime.java</compoundname>
+    <innerclass refid="classresources_1_1currenttime_1_1_current_time" prot="public">resources::currenttime::CurrentTime</innerclass>
+    <innernamespace refid="namespaceresources_1_1currenttime">resources::currenttime</innernamespace>
+    <briefdescription>
+<para>Classe per mantenere &quot;corrente&quot; e visualizzare correttamente l&apos;ora nelle interfacce del software. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Grandieri Andrea <ulink url="mailto:g.andreus02@gmail.com">g.andreus02@gmail.com</ulink> </para>
+</simplesect>
+<simplesect kind="author"><para>Barsotti Mirko <ulink url="mailto:bmirko1505@gmail.com">bmirko1505@gmail.com</ulink> </para>
+</simplesect>
+<simplesect kind="author"><para>Brambilla Mirko <ulink url="mailto:brambobilla01@gmail.com">brambobilla01@gmail.com</ulink> </para>
+</simplesect>
+<simplesect kind="version"><para>1.0 </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespaceresources_1_1currenttime" refkind="compound"><highlight class="keyword">package<sp/></highlight><highlight class="normal">resources.currenttime;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.text.SimpleDateFormat;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.util.Calendar;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.util.TimerTask;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>javax.swing.JLabel;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="classresources_1_1currenttime_1_1_current_time" refkind="compound"><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classresources_1_1currenttime_1_1_current_time" kindref="compound">CurrentTime</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/>TimerTask<sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="classresources_1_1currenttime_1_1_current_time_1a9b6d2c22a4791ea9608fb152f42c42de" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>Calendar<sp/><ref refid="classresources_1_1currenttime_1_1_current_time_1a9b6d2c22a4791ea9608fb152f42c42de" kindref="member">calendar</ref>;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="classresources_1_1currenttime_1_1_current_time_1a58e538e0aee4e86cc8dea84d93a6c435" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">final</highlight><highlight class="normal"><sp/>SimpleDateFormat<sp/><ref refid="classresources_1_1currenttime_1_1_current_time_1a58e538e0aee4e86cc8dea84d93a6c435" kindref="member">simpleDateFormat</ref>;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="classresources_1_1currenttime_1_1_current_time_1a99bc9a2b01a760de5846fe09f19282f0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">final</highlight><highlight class="normal"><sp/>JLabel<sp/><ref refid="classresources_1_1currenttime_1_1_current_time_1a99bc9a2b01a760de5846fe09f19282f0" kindref="member">jLabelOraCorrente</ref>;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="classresources_1_1currenttime_1_1_current_time_1a69773ca89e760dac72fa82098a3c50d5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">final</highlight><highlight class="normal"><sp/>JLabel<sp/><ref refid="classresources_1_1currenttime_1_1_current_time_1a69773ca89e760dac72fa82098a3c50d5" kindref="member">jLabelOraCorrente5</ref>;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="classresources_1_1currenttime_1_1_current_time_1a42b9b188dbddd1faf449ad1acc6b7462" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">final</highlight><highlight class="normal"><sp/>JLabel<sp/><ref refid="classresources_1_1currenttime_1_1_current_time_1a42b9b188dbddd1faf449ad1acc6b7462" kindref="member">jLabelOraCorrente1</ref>;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="classresources_1_1currenttime_1_1_current_time_1a4ccb68c8c9d15793f158e8b0b4091aac" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">final</highlight><highlight class="normal"><sp/>JLabel<sp/><ref refid="classresources_1_1currenttime_1_1_current_time_1a4ccb68c8c9d15793f158e8b0b4091aac" kindref="member">jLabelOraCorrente2</ref>;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="classresources_1_1currenttime_1_1_current_time_1a5ec0d8a98376ec9392f29747db3cc4be" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">final</highlight><highlight class="normal"><sp/>JLabel<sp/><ref refid="classresources_1_1currenttime_1_1_current_time_1a5ec0d8a98376ec9392f29747db3cc4be" kindref="member">jLabelOraCorrente3</ref>;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106" refid="classresources_1_1currenttime_1_1_current_time_1a43fbe0ca8aec47ac559e4a069b95a44b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classresources_1_1currenttime_1_1_current_time_1a43fbe0ca8aec47ac559e4a069b95a44b" kindref="member">CurrentTime</ref>(JLabel<sp/><ref refid="classresources_1_1currenttime_1_1_current_time_1a99bc9a2b01a760de5846fe09f19282f0" kindref="member">jLabelOraCorrente</ref>,</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>JLabel<sp/><ref refid="classresources_1_1currenttime_1_1_current_time_1a69773ca89e760dac72fa82098a3c50d5" kindref="member">jLabelOraCorrente5</ref>,</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>JLabel<sp/><ref refid="classresources_1_1currenttime_1_1_current_time_1a42b9b188dbddd1faf449ad1acc6b7462" kindref="member">jLabelOraCorrente1</ref>,</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>JLabel<sp/><ref refid="classresources_1_1currenttime_1_1_current_time_1a4ccb68c8c9d15793f158e8b0b4091aac" kindref="member">jLabelOraCorrente2</ref>,</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>JLabel<sp/><ref refid="classresources_1_1currenttime_1_1_current_time_1a5ec0d8a98376ec9392f29747db3cc4be" kindref="member">jLabelOraCorrente3</ref></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.calendar<sp/>=<sp/></highlight><highlight class="keyword">null</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.simpleDateFormat<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>SimpleDateFormat(</highlight><highlight class="stringliteral">&quot;HH:mm&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.jLabelOraCorrente<sp/>=<sp/><ref refid="classresources_1_1currenttime_1_1_current_time_1a99bc9a2b01a760de5846fe09f19282f0" kindref="member">jLabelOraCorrente</ref>;</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.jLabelOraCorrente1<sp/>=<sp/><ref refid="classresources_1_1currenttime_1_1_current_time_1a42b9b188dbddd1faf449ad1acc6b7462" kindref="member">jLabelOraCorrente1</ref>;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.jLabelOraCorrente2<sp/>=<sp/><ref refid="classresources_1_1currenttime_1_1_current_time_1a4ccb68c8c9d15793f158e8b0b4091aac" kindref="member">jLabelOraCorrente2</ref>;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.jLabelOraCorrente3<sp/>=<sp/><ref refid="classresources_1_1currenttime_1_1_current_time_1a5ec0d8a98376ec9392f29747db3cc4be" kindref="member">jLabelOraCorrente3</ref>;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.jLabelOraCorrente5<sp/>=<sp/><ref refid="classresources_1_1currenttime_1_1_current_time_1a69773ca89e760dac72fa82098a3c50d5" kindref="member">jLabelOraCorrente5</ref>;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/>@Override</highlight></codeline>
+<codeline lineno="138" refid="classresources_1_1currenttime_1_1_current_time_1affec9cbcc42854f1a6583e2ec752ea20" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classresources_1_1currenttime_1_1_current_time_1affec9cbcc42854f1a6583e2ec752ea20" kindref="member">run</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.calendar<sp/>=<sp/>Calendar.getInstance();</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classresources_1_1currenttime_1_1_current_time_1a99bc9a2b01a760de5846fe09f19282f0" kindref="member">jLabelOraCorrente</ref>.setText(<ref refid="classresources_1_1currenttime_1_1_current_time_1a58e538e0aee4e86cc8dea84d93a6c435" kindref="member">simpleDateFormat</ref>.format(<ref refid="classresources_1_1currenttime_1_1_current_time_1a9b6d2c22a4791ea9608fb152f42c42de" kindref="member">calendar</ref>.getTime()));</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classresources_1_1currenttime_1_1_current_time_1a69773ca89e760dac72fa82098a3c50d5" kindref="member">jLabelOraCorrente5</ref>.setText(<ref refid="classresources_1_1currenttime_1_1_current_time_1a58e538e0aee4e86cc8dea84d93a6c435" kindref="member">simpleDateFormat</ref>.format(<ref refid="classresources_1_1currenttime_1_1_current_time_1a9b6d2c22a4791ea9608fb152f42c42de" kindref="member">calendar</ref>.getTime()));</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classresources_1_1currenttime_1_1_current_time_1a4ccb68c8c9d15793f158e8b0b4091aac" kindref="member">jLabelOraCorrente2</ref>.setText(<ref refid="classresources_1_1currenttime_1_1_current_time_1a58e538e0aee4e86cc8dea84d93a6c435" kindref="member">simpleDateFormat</ref>.format(<ref refid="classresources_1_1currenttime_1_1_current_time_1a9b6d2c22a4791ea9608fb152f42c42de" kindref="member">calendar</ref>.getTime()));</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classresources_1_1currenttime_1_1_current_time_1a42b9b188dbddd1faf449ad1acc6b7462" kindref="member">jLabelOraCorrente1</ref>.setText(<ref refid="classresources_1_1currenttime_1_1_current_time_1a58e538e0aee4e86cc8dea84d93a6c435" kindref="member">simpleDateFormat</ref>.format(<ref refid="classresources_1_1currenttime_1_1_current_time_1a9b6d2c22a4791ea9608fb152f42c42de" kindref="member">calendar</ref>.getTime()));</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classresources_1_1currenttime_1_1_current_time_1a5ec0d8a98376ec9392f29747db3cc4be" kindref="member">jLabelOraCorrente3</ref>.setText(<ref refid="classresources_1_1currenttime_1_1_current_time_1a58e538e0aee4e86cc8dea84d93a6c435" kindref="member">simpleDateFormat</ref>.format(<ref refid="classresources_1_1currenttime_1_1_current_time_1a9b6d2c22a4791ea9608fb152f42c42de" kindref="member">calendar</ref>.getTime()));</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="148"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/currenttime/CurrentTime.java"/>
+  </compounddef>
+</doxygen>

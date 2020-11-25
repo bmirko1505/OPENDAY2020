@@ -1,0 +1,158 @@
+\hypertarget{classresources_1_1cronology_1_1_cronology_updater}{}\doxysection{resources.\+cronology.\+Cronology\+Updater Class Reference}
+\label{classresources_1_1cronology_1_1_cronology_updater}\index{resources.cronology.CronologyUpdater@{resources.cronology.CronologyUpdater}}
+
+
+Classe per garantire un aggiornamento automatico e continuo del conteggio dei frammenti cronologici degli ordini evasi.  
+
+
+
+
+Inheritance diagram for resources.\+cronology.\+Cronology\+Updater\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=231pt]{classresources_1_1cronology_1_1_cronology_updater__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for resources.\+cronology.\+Cronology\+Updater\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classresources_1_1cronology_1_1_cronology_updater__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classresources_1_1cronology_1_1_cronology_updater_a848b51eece7eb98337a865a64f2f0633}{Cronology\+Updater}} (\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server}{F\+T\+P\+Server}} \mbox{\hyperlink{classresources_1_1cronology_1_1_cronology_updater_a0de12e3701e50773237d10c608ff7be0}{server}}, J\+Label \mbox{\hyperlink{classresources_1_1cronology_1_1_cronology_updater_a739c0247888a0098c4162b3b02aa5fe8}{print\+Label}})
+\begin{DoxyCompactList}\small\item\em Costruttore. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classresources_1_1cronology_1_1_cronology_updater_a9894bb0596657375bc888de39c019834}{run}} ()
+\begin{DoxyCompactList}\small\item\em Codice eseguito dal thread. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final J\+Label \mbox{\hyperlink{classresources_1_1cronology_1_1_cronology_updater_a739c0247888a0098c4162b3b02aa5fe8}{print\+Label}}
+\item 
+final \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server}{F\+T\+P\+Server}} \mbox{\hyperlink{classresources_1_1cronology_1_1_cronology_updater_a0de12e3701e50773237d10c608ff7be0}{server}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Classe per garantire un aggiornamento automatico e continuo del conteggio dei frammenti cronologici degli ordini evasi. 
+
+\begin{DoxyAuthor}{Author}
+Grandieri Andrea \href{mailto:g.andreus02@gmail.com}{\texttt{ g.\+andreus02@gmail.\+com}} 
+
+Barsotti Mirko \href{mailto:bmirko1505@gmail.com}{\texttt{ bmirko1505@gmail.\+com}} 
+
+Brambilla Mirko \href{mailto:brambobilla01@gmail.com}{\texttt{ brambobilla01@gmail.\+com}}
+\end{DoxyAuthor}
+La seguente classe rappresenta un thread daemon per garantire un aggiornamento automatico e continuo del conteggio dei frammenti cronologici degli ordini evasi. 
+
+Definition at line 31 of file Cronology\+Updater.\+java.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classresources_1_1cronology_1_1_cronology_updater_a848b51eece7eb98337a865a64f2f0633}\label{classresources_1_1cronology_1_1_cronology_updater_a848b51eece7eb98337a865a64f2f0633}} 
+\index{resources.cronology.CronologyUpdater@{resources.cronology.CronologyUpdater}!CronologyUpdater@{CronologyUpdater}}
+\index{CronologyUpdater@{CronologyUpdater}!resources.cronology.CronologyUpdater@{resources.cronology.CronologyUpdater}}
+\doxysubsubsection{\texorpdfstring{CronologyUpdater()}{CronologyUpdater()}}
+{\footnotesize\ttfamily resources.\+cronology.\+Cronology\+Updater.\+Cronology\+Updater (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server}{F\+T\+P\+Server}}}]{server,  }\item[{J\+Label}]{print\+Label }\end{DoxyParamCaption})}
+
+
+
+Costruttore. 
+
+Inizializza tutte le risorse necessarie ad un oggetto di questa classe
+
+
+\begin{DoxyParams}{Parameters}
+{\em server} & L\textquotesingle{}oggetto di classe F\+T\+P\+Server per permettere la comunicazione bidirezionale con il server F\+TP \\
+\hline
+{\em print\+Label} & L\textquotesingle{}oggetto di classe label sul quale visualizzare il valore del conteggio aggiornato\\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+resources.\+cronologyupdater.\+server 
+
+resources.\+cronologyupdater.\+print\+Label 
+\end{DoxySeeAlso}
+
+
+Definition at line 62 of file Cronology\+Updater.\+java.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classresources_1_1cronology_1_1_cronology_updater_a9894bb0596657375bc888de39c019834}\label{classresources_1_1cronology_1_1_cronology_updater_a9894bb0596657375bc888de39c019834}} 
+\index{resources.cronology.CronologyUpdater@{resources.cronology.CronologyUpdater}!run@{run}}
+\index{run@{run}!resources.cronology.CronologyUpdater@{resources.cronology.CronologyUpdater}}
+\doxysubsubsection{\texorpdfstring{run()}{run()}}
+{\footnotesize\ttfamily void resources.\+cronology.\+Cronology\+Updater.\+run (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Codice eseguito dal thread. 
+
+Il seguente metodo conta il numero di frammenti cronologici degli ordini evasi presenti nella directory \char`\"{}/update07/cronologia\char`\"{} del server. Questi frammenti vengono utilizzati quando si scarica il database degli ordini durante il processo della sua ricostruzione. Un numero di frammenti troppo elevato potrebbe rendere il processo di ricostruzione lento e lungo, dunque si consiglia di tenere osservato il conteggio di frammenti ed effettuare un\textquotesingle{}eliminazione di questi ultimi se ritenuta necessaria.
+
+\begin{DoxySeeAlso}{See also}
+resources.\+cronologyupdater.\+Cronology\+Updater.\+server 
+
+resources.\+cronologyupdater.\+Cronology\+Updater.\+print\+Label 
+\end{DoxySeeAlso}
+
+
+Definition at line 82 of file Cronology\+Updater.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresources_1_1cronology_1_1_cronology_updater_a9894bb0596657375bc888de39c019834_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classresources_1_1cronology_1_1_cronology_updater_a739c0247888a0098c4162b3b02aa5fe8}\label{classresources_1_1cronology_1_1_cronology_updater_a739c0247888a0098c4162b3b02aa5fe8}} 
+\index{resources.cronology.CronologyUpdater@{resources.cronology.CronologyUpdater}!printLabel@{printLabel}}
+\index{printLabel@{printLabel}!resources.cronology.CronologyUpdater@{resources.cronology.CronologyUpdater}}
+\doxysubsubsection{\texorpdfstring{printLabel}{printLabel}}
+{\footnotesize\ttfamily final J\+Label resources.\+cronology.\+Cronology\+Updater.\+print\+Label\hspace{0.3cm}{\ttfamily [private]}}
+
+Rappresenta la label sulla quale visualizzare il valore aggiornato del conteggio
+
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classgui_gelataio_1_1_interfaccia_principale_galataio_a8be4b7e33abdef9baad0322db3e0fbac}{Interfaccia\+Principale\+Galataio.\+j\+Label\+Frammenti\+Cronologici}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 39 of file Cronology\+Updater.\+java.
+
+\mbox{\Hypertarget{classresources_1_1cronology_1_1_cronology_updater_a0de12e3701e50773237d10c608ff7be0}\label{classresources_1_1cronology_1_1_cronology_updater_a0de12e3701e50773237d10c608ff7be0}} 
+\index{resources.cronology.CronologyUpdater@{resources.cronology.CronologyUpdater}!server@{server}}
+\index{server@{server}!resources.cronology.CronologyUpdater@{resources.cronology.CronologyUpdater}}
+\doxysubsubsection{\texorpdfstring{server}{server}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server}{F\+T\+P\+Server}} resources.\+cronology.\+Cronology\+Updater.\+server\hspace{0.3cm}{\ttfamily [private]}}
+
+Rappresenta l\textquotesingle{}oggetto di classe F\+T\+P\+Server per permettere la comunicazione bidirezionale con il server F\+TP
+
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server}{resources.\+ftpserver.\+F\+T\+P\+Server}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 47 of file Cronology\+Updater.\+java.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/gandr/\+Desktop/\+Interfaccia\+Gelataio/src/resources/cronology/\mbox{\hyperlink{_cronology_updater_8java}{Cronology\+Updater.\+java}}\end{DoxyCompactItemize}

@@ -1,0 +1,5 @@
+<map id="resources.ftpserver.FTPServer.getAndPrintServerReply" name="resources.ftpserver.FTPServer.getAndPrintServerReply">
+<area shape="rect" id="node1" title="Visualizza su console le eventuali risposte del server a comandi." alt="" coords="5,39,223,80"/>
+<area shape="rect" id="node2" href="$classresources_1_1ftpserver_1_1_manager.html#a9eea40adb30e967a9fbebe61acb7ecf5" title="Ritorna il valore dell&#39;attributo Manager.server." alt="" coords="271,5,477,47"/>
+<area shape="rect" id="node3" href="$classresources_1_1ftpserver_1_1_manager.html#a15422d664ec1762a2b98a86228099cd7" title="Ritorna il valore dell&#39;attributo Manager.showServerReplies." alt="" coords="271,71,477,112"/>
+</map>

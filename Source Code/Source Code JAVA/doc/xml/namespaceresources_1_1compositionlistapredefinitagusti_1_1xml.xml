@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="namespaceresources_1_1compositionlistapredefinitagusti_1_1xml" kind="namespace" language="Java">
+    <compoundname>resources::compositionlistapredefinitagusti::xml</compoundname>
+    <innernamespace refid="namespaceresources_1_1compositionlistapredefinitagusti_1_1xml_1_1generatorxml">resources::compositionlistapredefinitagusti::xml::generatorxml</innernamespace>
+    <innernamespace refid="namespaceresources_1_1compositionlistapredefinitagusti_1_1xml_1_1parserxml">resources::compositionlistapredefinitagusti::xml::parserxml</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="[generated]" line="1" column="1"/>
+  </compounddef>
+</doxygen>

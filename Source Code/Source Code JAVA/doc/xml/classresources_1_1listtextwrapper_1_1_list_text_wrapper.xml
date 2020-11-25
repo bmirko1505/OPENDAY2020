@@ -1,0 +1,243 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="classresources_1_1listtextwrapper_1_1_list_text_wrapper" kind="class" language="Java" prot="public">
+    <compoundname>resources::listtextwrapper::ListTextWrapper</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">DefaultListCellRenderer</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classresources_1_1listtextwrapper_1_1_list_text_wrapper_1a0d64ff09958e44d4af742e5bed275db5" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String resources.listtextwrapper.ListTextWrapper.HTML_1</definition>
+        <argsstring></argsstring>
+        <name>HTML_1</name>
+        <initializer>= &quot;&lt;html&gt;&lt;body style=&apos;width: &quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Rappresenta un parametro di formattazione stilistica </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/listtextwrapper/ListTextWrapper.java" line="36" column="32" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/listtextwrapper/ListTextWrapper.java" bodystart="36" bodyend="-1"/>
+        <referencedby refid="classresources_1_1listtextwrapper_1_1_list_text_wrapper_1a6ccac0ff1761f73a2d6e69fdaf65dd51" compoundref="_list_text_wrapper_8java" startline="86" endline="92">resources.listtextwrapper.ListTextWrapper.getListCellRendererComponent</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classresources_1_1listtextwrapper_1_1_list_text_wrapper_1a475a12442894b3c85bdd03430739f963" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String resources.listtextwrapper.ListTextWrapper.HTML_2</definition>
+        <argsstring></argsstring>
+        <name>HTML_2</name>
+        <initializer>= &quot;px&apos;&gt;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Rappresenta un parametro di formattazione stilistica </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/listtextwrapper/ListTextWrapper.java" line="41" column="32" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/listtextwrapper/ListTextWrapper.java" bodystart="41" bodyend="-1"/>
+        <referencedby refid="classresources_1_1listtextwrapper_1_1_list_text_wrapper_1a6ccac0ff1761f73a2d6e69fdaf65dd51" compoundref="_list_text_wrapper_8java" startline="86" endline="92">resources.listtextwrapper.ListTextWrapper.getListCellRendererComponent</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classresources_1_1listtextwrapper_1_1_list_text_wrapper_1af7abeac720bd481b6a33f185c1c39af3" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String resources.listtextwrapper.ListTextWrapper.HTML_3</definition>
+        <argsstring></argsstring>
+        <name>HTML_3</name>
+        <initializer>= &quot;&lt;/html&gt;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Rappresenta un parametro di formattazione stilistica </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/listtextwrapper/ListTextWrapper.java" line="46" column="32" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/listtextwrapper/ListTextWrapper.java" bodystart="46" bodyend="-1"/>
+        <referencedby refid="classresources_1_1listtextwrapper_1_1_list_text_wrapper_1a6ccac0ff1761f73a2d6e69fdaf65dd51" compoundref="_list_text_wrapper_8java" startline="86" endline="92">resources.listtextwrapper.ListTextWrapper.getListCellRendererComponent</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classresources_1_1listtextwrapper_1_1_list_text_wrapper_1ac7693f04e87e4c158b6d5ddba3cc77cf" prot="private" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int resources.listtextwrapper.ListTextWrapper.width</definition>
+        <argsstring></argsstring>
+        <name>width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Rappresenta un parametro di formattazione stilistica </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/listtextwrapper/ListTextWrapper.java" line="51" column="23" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/listtextwrapper/ListTextWrapper.java" bodystart="51" bodyend="-1"/>
+        <referencedby refid="classresources_1_1listtextwrapper_1_1_list_text_wrapper_1a9d4cb91fe860a2ee0511d2e8c586d6ca" compoundref="_list_text_wrapper_8java" startline="63" endline="65">resources.listtextwrapper.ListTextWrapper.ListTextWrapper</referencedby>
+        <referencedby refid="classresources_1_1listtextwrapper_1_1_list_text_wrapper_1a6ccac0ff1761f73a2d6e69fdaf65dd51" compoundref="_list_text_wrapper_8java" startline="86" endline="92">resources.listtextwrapper.ListTextWrapper.getListCellRendererComponent</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classresources_1_1listtextwrapper_1_1_list_text_wrapper_1a9d4cb91fe860a2ee0511d2e8c586d6ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>resources.listtextwrapper.ListTextWrapper.ListTextWrapper</definition>
+        <argsstring>(int width)</argsstring>
+        <name>ListTextWrapper</name>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <briefdescription>
+<para>Costruttore. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Inizializza tutte le risorse necessarie ad un oggetto di questa classe</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>width</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Larghezza in pixel della zona destinata a visualizzare le informazioni formattate</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="classresources_1_1listtextwrapper_1_1_list_text_wrapper_1ac7693f04e87e4c158b6d5ddba3cc77cf" kindref="member">ListTextWrapper.width</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/listtextwrapper/ListTextWrapper.java" line="63" column="12" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/listtextwrapper/ListTextWrapper.java" bodystart="63" bodyend="65"/>
+        <references refid="classresources_1_1listtextwrapper_1_1_list_text_wrapper_1ac7693f04e87e4c158b6d5ddba3cc77cf" compoundref="_list_text_wrapper_8java" startline="51">resources.listtextwrapper.ListTextWrapper.width</references>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1listtextwrapper_1_1_list_text_wrapper_1a6ccac0ff1761f73a2d6e69fdaf65dd51" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Component</type>
+        <definition>Component resources.listtextwrapper.ListTextWrapper.getListCellRendererComponent</definition>
+        <argsstring>(JList list, Object value, int index, boolean isSelected, boolean cellHasFocus)</argsstring>
+        <name>getListCellRendererComponent</name>
+        <param>
+          <type>JList</type>
+          <declname>list</declname>
+        </param>
+        <param>
+          <type>Object</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>isSelected</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>cellHasFocus</declname>
+        </param>
+        <briefdescription>
+<para>Effettua l&apos;effettiva formattazione delle informazioni. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Il seguente metodo effettua effettivamente la formattazione delle informazioni destinate alla visualizzazione</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>list</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The JList we&apos;re painting </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value returned by list.getModel().getElementAt(index) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The cells index </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>isSelected</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>True if the specified cell was selected </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cellHasFocus</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>True if the specified cell has the focus </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A component whose paint() method will render the specified value</para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1listtextwrapper_1_1_list_text_wrapper_1ac7693f04e87e4c158b6d5ddba3cc77cf" kindref="member">ListTextWrapper.width</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1listtextwrapper_1_1_list_text_wrapper_1a0d64ff09958e44d4af742e5bed275db5" kindref="member">ListTextWrapper.HTML_1</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1listtextwrapper_1_1_list_text_wrapper_1a475a12442894b3c85bdd03430739f963" kindref="member">ListTextWrapper.HTML_2</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1listtextwrapper_1_1_list_text_wrapper_1af7abeac720bd481b6a33f185c1c39af3" kindref="member">ListTextWrapper.HTML_3</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/listtextwrapper/ListTextWrapper.java" line="86" column="22" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/listtextwrapper/ListTextWrapper.java" bodystart="86" bodyend="92"/>
+        <references refid="classresources_1_1listtextwrapper_1_1_list_text_wrapper_1a0d64ff09958e44d4af742e5bed275db5" compoundref="_list_text_wrapper_8java" startline="36">resources.listtextwrapper.ListTextWrapper.HTML_1</references>
+        <references refid="classresources_1_1listtextwrapper_1_1_list_text_wrapper_1a475a12442894b3c85bdd03430739f963" compoundref="_list_text_wrapper_8java" startline="41">resources.listtextwrapper.ListTextWrapper.HTML_2</references>
+        <references refid="classresources_1_1listtextwrapper_1_1_list_text_wrapper_1af7abeac720bd481b6a33f185c1c39af3" compoundref="_list_text_wrapper_8java" startline="46">resources.listtextwrapper.ListTextWrapper.HTML_3</references>
+        <references refid="classresources_1_1listtextwrapper_1_1_list_text_wrapper_1ac7693f04e87e4c158b6d5ddba3cc77cf" compoundref="_list_text_wrapper_8java" startline="51">resources.listtextwrapper.ListTextWrapper.width</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Classe per formattare e visualizzare correttamente un elemento della lista InterfacciaPrincipaleGelataio.jListOrdini. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Grandieri Andrea <ulink url="mailto:g.andreus02@gmail.com">g.andreus02@gmail.com</ulink> </para>
+</simplesect>
+<simplesect kind="author"><para>Barsotti Mirko <ulink url="mailto:bmirko1505@gmail.com">bmirko1505@gmail.com</ulink> </para>
+</simplesect>
+<simplesect kind="author"><para>Brambilla Mirko <ulink url="mailto:brambobilla01@gmail.com">brambobilla01@gmail.com</ulink></para>
+</simplesect>
+La seguente classe effettua una formattazione delle informazioni da visualizzare nella lista InterfacciaPrincipaleGelataio.jListOrdini di un suo elemento. Questo permette una visualizzazione di quest&apos;ultime informazioni più ordinata e accattivante. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>DefaultListCellRenderer</label>
+      </node>
+      <node id="1">
+        <label>resources.listtextwrapper.ListTextWrapper</label>
+        <link refid="classresources_1_1listtextwrapper_1_1_list_text_wrapper"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>DefaultListCellRenderer</label>
+      </node>
+      <node id="1">
+        <label>resources.listtextwrapper.ListTextWrapper</label>
+        <link refid="classresources_1_1listtextwrapper_1_1_list_text_wrapper"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/listtextwrapper/ListTextWrapper.java" line="31" column="7" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/listtextwrapper/ListTextWrapper.java" bodystart="31" bodyend="94"/>
+    <listofallmembers>
+      <member refid="classresources_1_1listtextwrapper_1_1_list_text_wrapper_1a6ccac0ff1761f73a2d6e69fdaf65dd51" prot="public" virt="non-virtual"><scope>resources::listtextwrapper::ListTextWrapper</scope><name>getListCellRendererComponent</name></member>
+      <member refid="classresources_1_1listtextwrapper_1_1_list_text_wrapper_1a0d64ff09958e44d4af742e5bed275db5" prot="public" virt="non-virtual"><scope>resources::listtextwrapper::ListTextWrapper</scope><name>HTML_1</name></member>
+      <member refid="classresources_1_1listtextwrapper_1_1_list_text_wrapper_1a475a12442894b3c85bdd03430739f963" prot="public" virt="non-virtual"><scope>resources::listtextwrapper::ListTextWrapper</scope><name>HTML_2</name></member>
+      <member refid="classresources_1_1listtextwrapper_1_1_list_text_wrapper_1af7abeac720bd481b6a33f185c1c39af3" prot="public" virt="non-virtual"><scope>resources::listtextwrapper::ListTextWrapper</scope><name>HTML_3</name></member>
+      <member refid="classresources_1_1listtextwrapper_1_1_list_text_wrapper_1a9d4cb91fe860a2ee0511d2e8c586d6ca" prot="public" virt="non-virtual"><scope>resources::listtextwrapper::ListTextWrapper</scope><name>ListTextWrapper</name></member>
+      <member refid="classresources_1_1listtextwrapper_1_1_list_text_wrapper_1ac7693f04e87e4c158b6d5ddba3cc77cf" prot="private" virt="non-virtual"><scope>resources::listtextwrapper::ListTextWrapper</scope><name>width</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,9 @@
+<map id="resources.ftpserver.FTPServer.logoutAM" name="resources.ftpserver.FTPServer.logoutAM">
+<area shape="rect" id="node1" title="Tenta di effettuare il logout dal server." alt="" coords="5,108,260,135"/>
+<area shape="rect" id="node2" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#a53efc9cad594b3f20e40c70ac21c3504" title="Visualizza su console le eventuali risposte del server a comandi." alt="" coords="591,157,808,198"/>
+<area shape="rect" id="node3" href="$classresources_1_1ftpserver_1_1_manager.html#a9eea40adb30e967a9fbebe61acb7ecf5" title="Ritorna il valore dell&#39;attributo Manager.server." alt="" coords="856,94,1063,135"/>
+<area shape="rect" id="node5" href="$classresources_1_1ftpserver_1_1_manager.html#ac7fc827ce92263108d8b6ac380e647af" title="Ritorna il valore dell&#39;attributo Manager.isLogBidirectional." alt="" coords="596,39,803,81"/>
+<area shape="rect" id="node6" href="$classresources_1_1ftpserver_1_1_manager.html#a760aae78030588d2f0d5b5898969de39" title="Ritorna il valore dell&#39;attributo Manager.serverMutex." alt="" coords="596,222,803,263"/>
+<area shape="rect" id="node7" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#ab2740547f1222dd15c12f2b3a43e2873" title="Tenta di effettuare il logout dal server." alt="" coords="308,108,543,135"/>
+<area shape="rect" id="node4" href="$classresources_1_1ftpserver_1_1_manager.html#a15422d664ec1762a2b98a86228099cd7" title="Ritorna il valore dell&#39;attributo Manager.showServerReplies." alt="" coords="856,159,1063,201"/>
+</map>

@@ -1,0 +1,39 @@
+<map id="resources.ftpserver.FTPServer.getAndPrintServerReply" name="resources.ftpserver.FTPServer.getAndPrintServerReply">
+<area shape="rect" id="node1" title="Visualizza su console le eventuali risposte del server a comandi." alt="" coords="1211,790,1428,831"/>
+<area shape="rect" id="node2" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#a674fe9fc38ba3ecf4d779310489ef230" title="Tenta di stabilire una connessione con il server FTP." alt="" coords="567,5,812,32"/>
+<area shape="rect" id="node5" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#adc106008f1f77d93d8189870b1d9ae81" title="Tenta di stabilire una connessione con il server FTP." alt="" coords="889,823,1154,849"/>
+<area shape="rect" id="node6" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#a6cc5286e0f5e71f286b12df943499577" title="Elimina un file dal server." alt="" coords="894,240,1149,267"/>
+<area shape="rect" id="node7" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#a378bc314d9cd6300683c36443820a0c0" title="Elimina un file dal server." alt="" coords="572,57,807,98"/>
+<area shape="rect" id="node10" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#ad7b1c599ab1c0dd9a2f3b88cc1ca4f2b" title="Tenta di effettuare la disconnesione dal server." alt="" coords="890,873,1153,900"/>
+<area shape="rect" id="node11" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#ae7d54aaf3ba9136f829eaed4aab3b646" title="Tenta di effettuare la disconnesione dal server." alt="" coords="880,924,1163,951"/>
+<area shape="rect" id="node12" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#aeed840d7a1f20b8b579203dc60a312d2" title="Scarica un file dal server al client." alt="" coords="884,476,1159,503"/>
+<area shape="rect" id="node17" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#a0aa2b7f023ab044bf8723b39aaca43a6" title="Scarica un file dal server al client." alt="" coords="563,122,816,163"/>
+<area shape="rect" id="node18" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#a97a1bef804fb89c035559e813083d9cf" title="Ottiene la directory di lavoro corrente." alt="" coords="913,975,1130,1017"/>
+<area shape="rect" id="node19" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#a36d4d5cb44e5aa899f60095dc26ce542" title="Ottiene la directory di lavoro corrente." alt="" coords="913,1041,1130,1082"/>
+<area shape="rect" id="node20" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#acf6cff62c6a86355a070f15d2d15bf84" title="Ottiene una lista di elementi presenti nella directory di lavoro corrente." alt="" coords="913,298,1130,339"/>
+<area shape="rect" id="node22" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#a71605cd701446bd0c6c72c8ff6dd7210" title="Ottiene una lista di elementi presenti nella directory di lavoro corrente." alt="" coords="913,1106,1130,1147"/>
+<area shape="rect" id="node23" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#a7250e1c8a1ee00b6550402cfac9b495a" title="Tenta di effettuare il login sul server FTP." alt="" coords="908,721,1135,748"/>
+<area shape="rect" id="node24" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#a2754c501b06fbad87a2fe9770bd2a866" title="Tenta di effettuare il login sul server FTP." alt="" coords="566,1040,813,1067"/>
+<area shape="rect" id="node25" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#ab2740547f1222dd15c12f2b3a43e2873" title="Tenta di effettuare il logout dal server." alt="" coords="904,1223,1139,1249"/>
+<area shape="rect" id="node26" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#ac715abb38c9bb7ed27155d7ce200d2cb" title="Tenta di effettuare il logout dal server." alt="" coords="562,1197,817,1224"/>
+<area shape="rect" id="node27" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#ab87c0e92af371c7034d82b026367b401" title="Cambia la directory di lavoro corrente." alt="" coords="913,531,1130,573"/>
+<area shape="rect" id="node32" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#aa8db03d0dcb287d621a7909fa44e3a47" title="Cambia la directory di lavoro corrente." alt="" coords="913,1274,1130,1315"/>
+<area shape="rect" id="node33" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#aaae22be90f18fa0c827240ef0fc5b466" title="Carica un file dal client al server." alt="" coords="892,604,1151,631"/>
+<area shape="rect" id="node35" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#ac741e8d53f8a6d175e9e7b5b661e1bbe" title="Carica un file dal client al server." alt="" coords="903,1339,1140,1381"/>
+<area shape="rect" id="node36" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#a7c7887e959b30f623c3afa81b8eda93f" title="Carica un file con nome unico dal client al server." alt="" coords="903,655,1140,697"/>
+<area shape="rect" id="node37" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#a22b434ac642092b0e107a794ab039af3" title="Carica un file con nome unico dal client al server." alt="" coords="903,1405,1140,1446"/>
+<area shape="rect" id="node3" href="$classgui_gelataio_1_1_interfaccia_principale_galataio.html#a6c05e9d7c45210225160936679546306" title="Inizializzatore stabile." alt="" coords="292,466,499,507"/>
+<area shape="rect" id="node4" href="$classgui_gelataio_1_1_interfaccia_principale_galataio.html#ad28db3222d7369871d6b679c1a6c1782" title="Costruttore." alt="" coords="5,466,244,507"/>
+<area shape="rect" id="node8" href="$classgui_gelataio_1_1_interfaccia_principale_galataio.html#a39cae8eaace69bbe3047518bc82e3cc9" title=" " alt="" coords="547,188,831,244"/>
+<area shape="rect" id="node9" href="$classresources_1_1ordine_1_1_ordine_updater.html#a3cbcc90da488f54195020d4fd0945d95" title="Codice eseguito dal thread." alt="" coords="576,335,803,361"/>
+<area shape="rect" id="node13" href="$classgui_gelataio_1_1_interfaccia_principale_galataio.html#a62413514aa70becff967d21393308a3e" title=" " alt="" coords="547,385,832,441"/>
+<area shape="rect" id="node14" href="$classgui_gelataio_1_1_interfaccia_principale_galataio.html#a03dfacb80fd3faa98d75ae460ade5c8f" title="Recupera informazioni necessarie dal server." alt="" coords="586,466,793,507"/>
+<area shape="rect" id="node15" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#ae68c9fbcb668eb1a3a21c100e87dcda9" title="Aggiorna un file nel server dal client al server." alt="" coords="570,531,809,573"/>
+<area shape="rect" id="node16" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#a2f9e7352518d43b67aa6d0c081b4e632" title="Aggiorna un file nel server dal client al server." alt="" coords="570,597,809,638"/>
+<area shape="rect" id="node21" href="$classresources_1_1cronology_1_1_cronology_updater.html#a9894bb0596657375bc888de39c019834" title="Codice eseguito dal thread." alt="" coords="589,269,790,310"/>
+<area shape="rect" id="node28" href="$classgui_gelataio_1_1_interfaccia_principale_galataio.html#ad2db5f6f733b3d6f9e1301d3c5097c14" title="Bottone conferma dell&#39;interfaccia &quot;Modifica Lista Gusti In Vendita&quot;." alt="" coords="553,662,826,703"/>
+<area shape="rect" id="node29" href="$classgui_gelataio_1_1_interfaccia_principale_galataio.html#a5648ca5385ef5ad8b89e7bbfbc58207f" title="Bottone conferma dell&#39;interfaccia &quot;Modifica Orario Negozio&quot;." alt="" coords="556,727,823,769"/>
+<area shape="rect" id="node30" href="$classgui_gelataio_1_1_interfaccia_principale_galataio.html#a12d9f4c60e04480a89b8bf1be456cda6" title="Bottone indietro dell&#39;interfaccia &quot;Modifica Lista Predefinita&quot;." alt="" coords="559,793,819,834"/>
+<area shape="rect" id="node31" href="$classgui_gelataio_1_1_interfaccia_principale_galataio.html#a63b28e86a185bdcff2251f9fd6097330" title="Bottone inoltro al fattorino dell&#39;interfaccia &quot;Main&quot;." alt="" coords="564,859,815,915"/>
+<area shape="rect" id="node34" href="$classresources_1_1ftpserver_1_1_keeper.html#a030e2156a7c720bcdc3f15e7cea92d3e" title="Codice eseguito dal thread." alt="" coords="590,939,789,965"/>
+</map>

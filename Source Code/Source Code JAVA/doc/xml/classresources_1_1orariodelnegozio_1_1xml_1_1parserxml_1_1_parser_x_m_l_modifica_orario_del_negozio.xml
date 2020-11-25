@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="classresources_1_1orariodelnegozio_1_1xml_1_1parserxml_1_1_parser_x_m_l_modifica_orario_del_negozio" kind="class" language="Java" prot="public">
+    <compoundname>resources::orariodelnegozio::xml::parserxml::ParserXMLModificaOrarioDelNegozio</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classresources_1_1orariodelnegozio_1_1xml_1_1parserxml_1_1_parser_x_m_l_modifica_orario_del_negozio_1ae1280a074d614f1eda11867eb5e32ea0" prot="private" static="no" mutable="no">
+        <type>final ArrayList&lt; <ref refid="classresources_1_1orariodelnegozio_1_1_orario_del_negozio" kindref="compound">OrarioDelNegozio</ref> &gt;</type>
+        <definition>final ArrayList&lt;OrarioDelNegozio&gt; resources.orariodelnegozio.xml.parserxml.ParserXMLModificaOrarioDelNegozio.parsingResult</definition>
+        <argsstring></argsstring>
+        <name>parsingResult</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Lista di oggetti convertiti da &quot;nodi dell&apos;albero DOM&quot; </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/orariodelnegozio/xml/parserxml/ParserXMLModificaOrarioDelNegozio.java" line="41" column="29" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/orariodelnegozio/xml/parserxml/ParserXMLModificaOrarioDelNegozio.java" bodystart="41" bodyend="-1"/>
+        <referencedby refid="classresources_1_1orariodelnegozio_1_1xml_1_1parserxml_1_1_parser_x_m_l_modifica_orario_del_negozio_1a83fcad4bc1303f005548034b0cb0bb57" compoundref="_parser_x_m_l_modifica_orario_del_negozio_8java" startline="74" endline="145">resources.orariodelnegozio.xml.parserxml.ParserXMLModificaOrarioDelNegozio.parseDocument</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classresources_1_1orariodelnegozio_1_1xml_1_1parserxml_1_1_parser_x_m_l_modifica_orario_del_negozio_1adb3b5ce0d782340a375c6480faf481e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>resources.orariodelnegozio.xml.parserxml.ParserXMLModificaOrarioDelNegozio.ParserXMLModificaOrarioDelNegozio</definition>
+        <argsstring>()</argsstring>
+        <name>ParserXMLModificaOrarioDelNegozio</name>
+        <briefdescription>
+<para>Costruttore. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Inizializza tutte le risorse necessarie ad un oggetto di questa classe</para>
+<para><simplesect kind="see"><para><ref refid="classresources_1_1orariodelnegozio_1_1xml_1_1parserxml_1_1_parser_x_m_l_modifica_orario_del_negozio_1ae1280a074d614f1eda11867eb5e32ea0" kindref="member">ParserXMLModificaOrarioDelNegozio.parsingResult</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/orariodelnegozio/xml/parserxml/ParserXMLModificaOrarioDelNegozio.java" line="51" column="12" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/orariodelnegozio/xml/parserxml/ParserXMLModificaOrarioDelNegozio.java" bodystart="51" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1orariodelnegozio_1_1xml_1_1parserxml_1_1_parser_x_m_l_modifica_orario_del_negozio_1a83fcad4bc1303f005548034b0cb0bb57" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ArrayList&lt; <ref refid="classresources_1_1orariodelnegozio_1_1_orario_del_negozio" kindref="compound">OrarioDelNegozio</ref> &gt;</type>
+        <definition>ArrayList&lt;OrarioDelNegozio&gt; resources.orariodelnegozio.xml.parserxml.ParserXMLModificaOrarioDelNegozio.parseDocument</definition>
+        <argsstring>(String path)</argsstring>
+        <name>parseDocument</name>
+        <param>
+          <type>String</type>
+          <declname>path</declname>
+        </param>
+        <exceptions> throws ParserConfigurationException, SAXException, IOException, ParseException </exceptions>
+        <briefdescription>
+<para>Effettua il parsing del documento XML di cui viene specificato il path. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Path del file XML del quale effettuare il parsing</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Lista di oggetti convertiti da &quot;nodi dell&apos;albero DOM&quot;</para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>ParserConfigurationException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>SAXException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>IOException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ParseException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="classresources_1_1orariodelnegozio_1_1xml_1_1parserxml_1_1_parser_x_m_l_modifica_orario_del_negozio_1ae1280a074d614f1eda11867eb5e32ea0" kindref="member">ParserXMLModificaOrarioDelNegozio.parsingResult</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/orariodelnegozio/xml/parserxml/ParserXMLModificaOrarioDelNegozio.java" line="74" column="22" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/orariodelnegozio/xml/parserxml/ParserXMLModificaOrarioDelNegozio.java" bodystart="74" bodyend="145"/>
+        <references refid="classresources_1_1orariodelnegozio_1_1xml_1_1parserxml_1_1_parser_x_m_l_modifica_orario_del_negozio_1ae1280a074d614f1eda11867eb5e32ea0" compoundref="_parser_x_m_l_modifica_orario_del_negozio_8java" startline="41">resources.orariodelnegozio.xml.parserxml.ParserXMLModificaOrarioDelNegozio.parsingResult</references>
+        <references refid="classresources_1_1orariodelnegozio_1_1xml_1_1parserxml_1_1_parser_x_m_l_modifica_orario_del_negozio_1a14a11f4a80843af5c96bd4dcbde0f71c" compoundref="_parser_x_m_l_modifica_orario_del_negozio_8java" startline="158" endline="179">resources.orariodelnegozio.xml.parserxml.ParserXMLModificaOrarioDelNegozio.put</references>
+        <referencedby refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a03dfacb80fd3faa98d75ae460ade5c8f" compoundref="_interfaccia_principale_galataio_8java" startline="715" endline="893">guiGelataio.InterfacciaPrincipaleGalataio.loadFromServer</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classresources_1_1orariodelnegozio_1_1xml_1_1parserxml_1_1_parser_x_m_l_modifica_orario_del_negozio_1a14a11f4a80843af5c96bd4dcbde0f71c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void resources.orariodelnegozio.xml.parserxml.ParserXMLModificaOrarioDelNegozio.put</definition>
+        <argsstring>(Element singleTag)</argsstring>
+        <name>put</name>
+        <param>
+          <type>Element</type>
+          <declname>singleTag</declname>
+        </param>
+        <exceptions> throws ParseException </exceptions>
+        <briefdescription>
+<para>Converte un &quot;nodo dell&apos;albero DOM&quot; in oggetto. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>singleTag</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Nodo dell&apos;albero DOM da convertire in oggetto</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>ParseException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="classresources_1_1orariodelnegozio_1_1xml_1_1parserxml_1_1_parser_x_m_l_modifica_orario_del_negozio_1ae1280a074d614f1eda11867eb5e32ea0" kindref="member">ParserXMLModificaOrarioDelNegozio.parsingResult</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/orariodelnegozio/xml/parserxml/ParserXMLModificaOrarioDelNegozio.java" line="158" column="18" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/orariodelnegozio/xml/parserxml/ParserXMLModificaOrarioDelNegozio.java" bodystart="158" bodyend="179"/>
+        <referencedby refid="classresources_1_1orariodelnegozio_1_1xml_1_1parserxml_1_1_parser_x_m_l_modifica_orario_del_negozio_1a83fcad4bc1303f005548034b0cb0bb57" compoundref="_parser_x_m_l_modifica_orario_del_negozio_8java" startline="74" endline="145">resources.orariodelnegozio.xml.parserxml.ParserXMLModificaOrarioDelNegozio.parseDocument</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Classe parser per i file XML con struttura &quot;OrarioDelNegozio&quot;. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Grandieri Andrea <ulink url="mailto:g.andreus02@gmail.com">g.andreus02@gmail.com</ulink> </para>
+</simplesect>
+<simplesect kind="author"><para>Barsotti Mirko <ulink url="mailto:bmirko1505@gmail.com">bmirko1505@gmail.com</ulink> </para>
+</simplesect>
+<simplesect kind="author"><para>Brambilla Mirko <ulink url="mailto:brambobilla01@gmail.com">brambobilla01@gmail.com</ulink></para>
+</simplesect>
+La seguente classe fornisce un parser di file XML con struttura &quot;OrarioDelNegozio&quot; </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>ArrayList</label>
+      </node>
+      <node id="2">
+        <label>ArrayList&lt; resources.orariodelnegozio.OrarioDelNegozio &gt;</label>
+        <childnode refid="3" relation="template-instance">
+          <edgelabel>&lt; resources::orariodelnegozio::OrarioDelNegozio &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>resources.orariodelnegozio.xml.parserxml.ParserXMLModificaOrarioDelNegozio</label>
+        <link refid="classresources_1_1orariodelnegozio_1_1xml_1_1parserxml_1_1_parser_x_m_l_modifica_orario_del_negozio"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>-parsingResult</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/orariodelnegozio/xml/parserxml/ParserXMLModificaOrarioDelNegozio.java" line="34" column="7" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/orariodelnegozio/xml/parserxml/ParserXMLModificaOrarioDelNegozio.java" bodystart="34" bodyend="180"/>
+    <listofallmembers>
+      <member refid="classresources_1_1orariodelnegozio_1_1xml_1_1parserxml_1_1_parser_x_m_l_modifica_orario_del_negozio_1a83fcad4bc1303f005548034b0cb0bb57" prot="public" virt="non-virtual"><scope>resources::orariodelnegozio::xml::parserxml::ParserXMLModificaOrarioDelNegozio</scope><name>parseDocument</name></member>
+      <member refid="classresources_1_1orariodelnegozio_1_1xml_1_1parserxml_1_1_parser_x_m_l_modifica_orario_del_negozio_1adb3b5ce0d782340a375c6480faf481e7" prot="public" virt="non-virtual"><scope>resources::orariodelnegozio::xml::parserxml::ParserXMLModificaOrarioDelNegozio</scope><name>ParserXMLModificaOrarioDelNegozio</name></member>
+      <member refid="classresources_1_1orariodelnegozio_1_1xml_1_1parserxml_1_1_parser_x_m_l_modifica_orario_del_negozio_1ae1280a074d614f1eda11867eb5e32ea0" prot="private" virt="non-virtual"><scope>resources::orariodelnegozio::xml::parserxml::ParserXMLModificaOrarioDelNegozio</scope><name>parsingResult</name></member>
+      <member refid="classresources_1_1orariodelnegozio_1_1xml_1_1parserxml_1_1_parser_x_m_l_modifica_orario_del_negozio_1a14a11f4a80843af5c96bd4dcbde0f71c" prot="private" virt="non-virtual"><scope>resources::orariodelnegozio::xml::parserxml::ParserXMLModificaOrarioDelNegozio</scope><name>put</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

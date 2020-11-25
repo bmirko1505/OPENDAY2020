@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_d30599d7b4d53bc435de786d886b5a31" kind="dir">
+    <compoundname>C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/prezzovaschette/xml/generatorxml</compoundname>
+    <innerfile refid="_generator_x_m_l_modifica_prezzo_vaschette_8java">GeneratorXMLModificaPrezzoVaschette.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/prezzovaschette/xml/generatorxml/"/>
+  </compounddef>
+</doxygen>

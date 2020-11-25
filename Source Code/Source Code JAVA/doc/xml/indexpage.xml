@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="indexpage" kind="page">
+    <compoundname>index</compoundname>
+    <title>InterfacciaPrincipaleBarista di damimmo</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<sect1 id="index_1Introduzione">
+<title>Introduzione</title>
+<para>Questa è la documentazione del codice sorgente InterfacciaPrincipaleBarista di damimmo. Questa è l&apos;interfaccia principale per il batista, alla quale esso farà riferimento in ogni momento per controllare le ordinazioni in arrivo e, successivamente evaderle. Inoltre potrà modificare varie impostazioni di sistema. </para>
+</sect1>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

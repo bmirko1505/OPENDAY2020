@@ -1,0 +1,377 @@
+\hypertarget{classresources_1_1ftpserver_1_1_manager}{}\doxysection{resources.\+ftpserver.\+Manager Class Reference}
+\label{classresources_1_1ftpserver_1_1_manager}\index{resources.ftpserver.Manager@{resources.ftpserver.Manager}}
+
+
+Classe contenente dati condivisi tra le classi \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server}{resources.\+ftpserver.\+F\+T\+P\+Server}} e \mbox{\hyperlink{classresources_1_1ftpserver_1_1_keeper}{resources.\+ftpserver.\+Keeper}}.  
+
+
+
+
+Collaboration diagram for resources.\+ftpserver.\+Manager\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=238pt]{classresources_1_1ftpserver_1_1_manager__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Package Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_a85ab397588a9903419b7dc9ed4eda7c0}{Manager}} (final Boolean \mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_a94a12ecd20f3b00b689e240d148e1ba6}{show\+Server\+Replies}}, final Boolean \mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_a35a8f59c67d57503fd7fdf01fa7be316}{is\+No\+Op}}, final Boolean \mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_a4ff811aeaa38bb4e3c823a42fe2ca6d9}{is\+Log\+Bidirectional}})
+\begin{DoxyCompactList}\small\item\em Costruttore. \end{DoxyCompactList}\item 
+F\+T\+P\+Client \mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_a9eea40adb30e967a9fbebe61acb7ecf5}{get\+Server}} ()
+\begin{DoxyCompactList}\small\item\em Ritorna il valore dell\textquotesingle{}attributo \mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_a0e1523ea05f5c2e3fbc39727e671a906}{Manager.\+server}}. \end{DoxyCompactList}\item 
+Semaphore \mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_a760aae78030588d2f0d5b5898969de39}{get\+Server\+Mutex}} ()
+\begin{DoxyCompactList}\small\item\em Ritorna il valore dell\textquotesingle{}attributo \mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_ae01a1e451410a78d56d80adf077e5b58}{Manager.\+server\+Mutex}}. \end{DoxyCompactList}\item 
+Boolean \mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_ae743d882c2b3e7db928b39fc1b164750}{get\+Is\+Connected}} ()
+\begin{DoxyCompactList}\small\item\em Ritorna il valore dell\textquotesingle{}attributo \mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_a99027b1c7083a184d7e1ec316a9100e3}{Manager.\+is\+Connected}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_a24a30cecd1eb5c581bcec87d1b70f5a5}{set\+Is\+Connected}} (Boolean \mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_a99027b1c7083a184d7e1ec316a9100e3}{is\+Connected}})
+\begin{DoxyCompactList}\small\item\em Imposta il valore dell\textquotesingle{}attributo \mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_a99027b1c7083a184d7e1ec316a9100e3}{Manager.\+is\+Connected}}. \end{DoxyCompactList}\item 
+Boolean \mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_a5c52f5769c89fb20b0bfc7520fc2d3b7}{get\+Is\+No\+Op}} ()
+\begin{DoxyCompactList}\small\item\em Ritorna il valore dell\textquotesingle{}attributo \mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_a35a8f59c67d57503fd7fdf01fa7be316}{Manager.\+is\+No\+Op}}. \end{DoxyCompactList}\item 
+Boolean \mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_a15422d664ec1762a2b98a86228099cd7}{get\+Show\+Server\+Replies}} ()
+\begin{DoxyCompactList}\small\item\em Ritorna il valore dell\textquotesingle{}attributo \mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_a94a12ecd20f3b00b689e240d148e1ba6}{Manager.\+show\+Server\+Replies}}. \end{DoxyCompactList}\item 
+Boolean \mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_ac7fc827ce92263108d8b6ac380e647af}{get\+Is\+Log\+Bidirectional}} ()
+\begin{DoxyCompactList}\small\item\em Ritorna il valore dell\textquotesingle{}attributo \mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_a4ff811aeaa38bb4e3c823a42fe2ca6d9}{Manager.\+is\+Log\+Bidirectional}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final F\+T\+P\+Client \mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_a0e1523ea05f5c2e3fbc39727e671a906}{server}}
+\item 
+final Semaphore \mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_ae01a1e451410a78d56d80adf077e5b58}{server\+Mutex}}
+\item 
+Boolean \mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_a99027b1c7083a184d7e1ec316a9100e3}{is\+Connected}}
+\item 
+final Boolean \mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_a94a12ecd20f3b00b689e240d148e1ba6}{show\+Server\+Replies}}
+\item 
+final Boolean \mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_a35a8f59c67d57503fd7fdf01fa7be316}{is\+No\+Op}}
+\item 
+final Boolean \mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_a4ff811aeaa38bb4e3c823a42fe2ca6d9}{is\+Log\+Bidirectional}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Classe contenente dati condivisi tra le classi \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server}{resources.\+ftpserver.\+F\+T\+P\+Server}} e \mbox{\hyperlink{classresources_1_1ftpserver_1_1_keeper}{resources.\+ftpserver.\+Keeper}}. 
+
+\begin{DoxyAuthor}{Author}
+Grandieri Andrea \href{mailto:g.andreus02@gmail.com}{\texttt{ g.\+andreus02@gmail.\+com}} 
+
+Barsotti Mirko \href{mailto:bmirko1505@gmail.com}{\texttt{ bmirko1505@gmail.\+com}} 
+
+Brambilla Mirko \href{mailto:brambobilla01@gmail.com}{\texttt{ brambobilla01@gmail.\+com}}
+\end{DoxyAuthor}
+La seguente classe contiene dati condivisi tra le classi \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server}{resources.\+ftpserver.\+F\+T\+P\+Server}} e \mbox{\hyperlink{classresources_1_1ftpserver_1_1_keeper}{resources.\+ftpserver.\+Keeper}}. Fornisce, inoltre, la gestione della concorrenza a codesti dati condivisi. 
+
+Definition at line 29 of file Manager.\+java.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classresources_1_1ftpserver_1_1_manager_a85ab397588a9903419b7dc9ed4eda7c0}\label{classresources_1_1ftpserver_1_1_manager_a85ab397588a9903419b7dc9ed4eda7c0}} 
+\index{resources.ftpserver.Manager@{resources.ftpserver.Manager}!Manager@{Manager}}
+\index{Manager@{Manager}!resources.ftpserver.Manager@{resources.ftpserver.Manager}}
+\doxysubsubsection{\texorpdfstring{Manager()}{Manager()}}
+{\footnotesize\ttfamily resources.\+ftpserver.\+Manager.\+Manager (\begin{DoxyParamCaption}\item[{final Boolean}]{show\+Server\+Replies,  }\item[{final Boolean}]{is\+No\+Op,  }\item[{final Boolean}]{is\+Log\+Bidirectional }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [package]}}
+
+
+
+Costruttore. 
+
+Inizializza tutte le risorse necessarie ad un oggetto di questa classe
+
+
+\begin{DoxyParams}{Parameters}
+{\em show\+Server\+Replies} & Flag booleano indicante se o se non visualizzare le risposte del server su console \\
+\hline
+{\em is\+No\+Op} & Flag booleano indicante se o se non il server supporta la funzione keep alive tramite comandi \char`\"{}noop\char`\"{} \\
+\hline
+{\em is\+Log\+Bidirectional} & Flag booleano indicante se o se non il server supporta il logout con possibile login successivo senza disconnessione\\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_a0e1523ea05f5c2e3fbc39727e671a906}{Manager.\+server}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_ae01a1e451410a78d56d80adf077e5b58}{Manager.\+server\+Mutex}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_a99027b1c7083a184d7e1ec316a9100e3}{Manager.\+is\+Connected}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_a94a12ecd20f3b00b689e240d148e1ba6}{Manager.\+show\+Server\+Replies}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_a35a8f59c67d57503fd7fdf01fa7be316}{Manager.\+is\+No\+Op}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_a4ff811aeaa38bb4e3c823a42fe2ca6d9}{Manager.\+is\+Log\+Bidirectional}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 103 of file Manager.\+java.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classresources_1_1ftpserver_1_1_manager_ae743d882c2b3e7db928b39fc1b164750}\label{classresources_1_1ftpserver_1_1_manager_ae743d882c2b3e7db928b39fc1b164750}} 
+\index{resources.ftpserver.Manager@{resources.ftpserver.Manager}!getIsConnected@{getIsConnected}}
+\index{getIsConnected@{getIsConnected}!resources.ftpserver.Manager@{resources.ftpserver.Manager}}
+\doxysubsubsection{\texorpdfstring{getIsConnected()}{getIsConnected()}}
+{\footnotesize\ttfamily Boolean resources.\+ftpserver.\+Manager.\+get\+Is\+Connected (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [package]}}
+
+
+
+Ritorna il valore dell\textquotesingle{}attributo \mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_a99027b1c7083a184d7e1ec316a9100e3}{Manager.\+is\+Connected}}. 
+
+\begin{DoxyReturn}{Returns}
+Il valore dell\textquotesingle{}attributo \mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_a99027b1c7083a184d7e1ec316a9100e3}{Manager.\+is\+Connected}}
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_a99027b1c7083a184d7e1ec316a9100e3}{Manager.\+is\+Connected}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 145 of file Manager.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresources_1_1ftpserver_1_1_manager_ae743d882c2b3e7db928b39fc1b164750_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classresources_1_1ftpserver_1_1_manager_ac7fc827ce92263108d8b6ac380e647af}\label{classresources_1_1ftpserver_1_1_manager_ac7fc827ce92263108d8b6ac380e647af}} 
+\index{resources.ftpserver.Manager@{resources.ftpserver.Manager}!getIsLogBidirectional@{getIsLogBidirectional}}
+\index{getIsLogBidirectional@{getIsLogBidirectional}!resources.ftpserver.Manager@{resources.ftpserver.Manager}}
+\doxysubsubsection{\texorpdfstring{getIsLogBidirectional()}{getIsLogBidirectional()}}
+{\footnotesize\ttfamily Boolean resources.\+ftpserver.\+Manager.\+get\+Is\+Log\+Bidirectional (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [package]}}
+
+
+
+Ritorna il valore dell\textquotesingle{}attributo \mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_a4ff811aeaa38bb4e3c823a42fe2ca6d9}{Manager.\+is\+Log\+Bidirectional}}. 
+
+\begin{DoxyReturn}{Returns}
+Il valore dell\textquotesingle{}attributo \mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_a4ff811aeaa38bb4e3c823a42fe2ca6d9}{Manager.\+is\+Log\+Bidirectional}}
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_a4ff811aeaa38bb4e3c823a42fe2ca6d9}{Manager.\+is\+Log\+Bidirectional}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 194 of file Manager.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresources_1_1ftpserver_1_1_manager_ac7fc827ce92263108d8b6ac380e647af_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classresources_1_1ftpserver_1_1_manager_a5c52f5769c89fb20b0bfc7520fc2d3b7}\label{classresources_1_1ftpserver_1_1_manager_a5c52f5769c89fb20b0bfc7520fc2d3b7}} 
+\index{resources.ftpserver.Manager@{resources.ftpserver.Manager}!getIsNoOp@{getIsNoOp}}
+\index{getIsNoOp@{getIsNoOp}!resources.ftpserver.Manager@{resources.ftpserver.Manager}}
+\doxysubsubsection{\texorpdfstring{getIsNoOp()}{getIsNoOp()}}
+{\footnotesize\ttfamily Boolean resources.\+ftpserver.\+Manager.\+get\+Is\+No\+Op (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [package]}}
+
+
+
+Ritorna il valore dell\textquotesingle{}attributo \mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_a35a8f59c67d57503fd7fdf01fa7be316}{Manager.\+is\+No\+Op}}. 
+
+\begin{DoxyReturn}{Returns}
+Il valore dell\textquotesingle{}attributo \mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_a35a8f59c67d57503fd7fdf01fa7be316}{Manager.\+is\+No\+Op}}
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_a35a8f59c67d57503fd7fdf01fa7be316}{Manager.\+is\+No\+Op}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 170 of file Manager.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresources_1_1ftpserver_1_1_manager_a5c52f5769c89fb20b0bfc7520fc2d3b7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classresources_1_1ftpserver_1_1_manager_a9eea40adb30e967a9fbebe61acb7ecf5}\label{classresources_1_1ftpserver_1_1_manager_a9eea40adb30e967a9fbebe61acb7ecf5}} 
+\index{resources.ftpserver.Manager@{resources.ftpserver.Manager}!getServer@{getServer}}
+\index{getServer@{getServer}!resources.ftpserver.Manager@{resources.ftpserver.Manager}}
+\doxysubsubsection{\texorpdfstring{getServer()}{getServer()}}
+{\footnotesize\ttfamily F\+T\+P\+Client resources.\+ftpserver.\+Manager.\+get\+Server (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [package]}}
+
+
+
+Ritorna il valore dell\textquotesingle{}attributo \mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_a0e1523ea05f5c2e3fbc39727e671a906}{Manager.\+server}}. 
+
+\begin{DoxyReturn}{Returns}
+Il valore dell\textquotesingle{}attributo \mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_a0e1523ea05f5c2e3fbc39727e671a906}{Manager.\+server}}
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_a0e1523ea05f5c2e3fbc39727e671a906}{Manager.\+server}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 121 of file Manager.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresources_1_1ftpserver_1_1_manager_a9eea40adb30e967a9fbebe61acb7ecf5_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classresources_1_1ftpserver_1_1_manager_a760aae78030588d2f0d5b5898969de39}\label{classresources_1_1ftpserver_1_1_manager_a760aae78030588d2f0d5b5898969de39}} 
+\index{resources.ftpserver.Manager@{resources.ftpserver.Manager}!getServerMutex@{getServerMutex}}
+\index{getServerMutex@{getServerMutex}!resources.ftpserver.Manager@{resources.ftpserver.Manager}}
+\doxysubsubsection{\texorpdfstring{getServerMutex()}{getServerMutex()}}
+{\footnotesize\ttfamily Semaphore resources.\+ftpserver.\+Manager.\+get\+Server\+Mutex (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [package]}}
+
+
+
+Ritorna il valore dell\textquotesingle{}attributo \mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_ae01a1e451410a78d56d80adf077e5b58}{Manager.\+server\+Mutex}}. 
+
+\begin{DoxyReturn}{Returns}
+Il valore dell\textquotesingle{}attributo \mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_ae01a1e451410a78d56d80adf077e5b58}{Manager.\+server\+Mutex}}
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_ae01a1e451410a78d56d80adf077e5b58}{Manager.\+server\+Mutex}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 133 of file Manager.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresources_1_1ftpserver_1_1_manager_a760aae78030588d2f0d5b5898969de39_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classresources_1_1ftpserver_1_1_manager_a15422d664ec1762a2b98a86228099cd7}\label{classresources_1_1ftpserver_1_1_manager_a15422d664ec1762a2b98a86228099cd7}} 
+\index{resources.ftpserver.Manager@{resources.ftpserver.Manager}!getShowServerReplies@{getShowServerReplies}}
+\index{getShowServerReplies@{getShowServerReplies}!resources.ftpserver.Manager@{resources.ftpserver.Manager}}
+\doxysubsubsection{\texorpdfstring{getShowServerReplies()}{getShowServerReplies()}}
+{\footnotesize\ttfamily Boolean resources.\+ftpserver.\+Manager.\+get\+Show\+Server\+Replies (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [package]}}
+
+
+
+Ritorna il valore dell\textquotesingle{}attributo \mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_a94a12ecd20f3b00b689e240d148e1ba6}{Manager.\+show\+Server\+Replies}}. 
+
+\begin{DoxyReturn}{Returns}
+Il valore dell\textquotesingle{}attributo \mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_a94a12ecd20f3b00b689e240d148e1ba6}{Manager.\+show\+Server\+Replies}}
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_a94a12ecd20f3b00b689e240d148e1ba6}{Manager.\+show\+Server\+Replies}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 182 of file Manager.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresources_1_1ftpserver_1_1_manager_a15422d664ec1762a2b98a86228099cd7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classresources_1_1ftpserver_1_1_manager_a24a30cecd1eb5c581bcec87d1b70f5a5}\label{classresources_1_1ftpserver_1_1_manager_a24a30cecd1eb5c581bcec87d1b70f5a5}} 
+\index{resources.ftpserver.Manager@{resources.ftpserver.Manager}!setIsConnected@{setIsConnected}}
+\index{setIsConnected@{setIsConnected}!resources.ftpserver.Manager@{resources.ftpserver.Manager}}
+\doxysubsubsection{\texorpdfstring{setIsConnected()}{setIsConnected()}}
+{\footnotesize\ttfamily void resources.\+ftpserver.\+Manager.\+set\+Is\+Connected (\begin{DoxyParamCaption}\item[{Boolean}]{is\+Connected }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [package]}}
+
+
+
+Imposta il valore dell\textquotesingle{}attributo \mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_a99027b1c7083a184d7e1ec316a9100e3}{Manager.\+is\+Connected}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em is\+Connected} & Il valore da assegnare all\textquotesingle{}attributo \mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_a99027b1c7083a184d7e1ec316a9100e3}{Manager.\+is\+Connected}}\\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_a99027b1c7083a184d7e1ec316a9100e3}{Manager.\+is\+Connected}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 158 of file Manager.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresources_1_1ftpserver_1_1_manager_a24a30cecd1eb5c581bcec87d1b70f5a5_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classresources_1_1ftpserver_1_1_manager_a99027b1c7083a184d7e1ec316a9100e3}\label{classresources_1_1ftpserver_1_1_manager_a99027b1c7083a184d7e1ec316a9100e3}} 
+\index{resources.ftpserver.Manager@{resources.ftpserver.Manager}!isConnected@{isConnected}}
+\index{isConnected@{isConnected}!resources.ftpserver.Manager@{resources.ftpserver.Manager}}
+\doxysubsubsection{\texorpdfstring{isConnected}{isConnected}}
+{\footnotesize\ttfamily Boolean resources.\+ftpserver.\+Manager.\+is\+Connected\hspace{0.3cm}{\ttfamily [private]}}
+
+Rappresenta un flag booleano indicante se o se non si è connessi al server 
+
+Definition at line 54 of file Manager.\+java.
+
+\mbox{\Hypertarget{classresources_1_1ftpserver_1_1_manager_a4ff811aeaa38bb4e3c823a42fe2ca6d9}\label{classresources_1_1ftpserver_1_1_manager_a4ff811aeaa38bb4e3c823a42fe2ca6d9}} 
+\index{resources.ftpserver.Manager@{resources.ftpserver.Manager}!isLogBidirectional@{isLogBidirectional}}
+\index{isLogBidirectional@{isLogBidirectional}!resources.ftpserver.Manager@{resources.ftpserver.Manager}}
+\doxysubsubsection{\texorpdfstring{isLogBidirectional}{isLogBidirectional}}
+{\footnotesize\ttfamily final Boolean resources.\+ftpserver.\+Manager.\+is\+Log\+Bidirectional\hspace{0.3cm}{\ttfamily [private]}}
+
+Rappresenta un flag booleano indicante se o se non il server supporta il logout con possibile login successivo senza disconnessione 
+
+Definition at line 81 of file Manager.\+java.
+
+\mbox{\Hypertarget{classresources_1_1ftpserver_1_1_manager_a35a8f59c67d57503fd7fdf01fa7be316}\label{classresources_1_1ftpserver_1_1_manager_a35a8f59c67d57503fd7fdf01fa7be316}} 
+\index{resources.ftpserver.Manager@{resources.ftpserver.Manager}!isNoOp@{isNoOp}}
+\index{isNoOp@{isNoOp}!resources.ftpserver.Manager@{resources.ftpserver.Manager}}
+\doxysubsubsection{\texorpdfstring{isNoOp}{isNoOp}}
+{\footnotesize\ttfamily final Boolean resources.\+ftpserver.\+Manager.\+is\+No\+Op\hspace{0.3cm}{\ttfamily [private]}}
+
+Rappresenta un flag booleano indicante se o se non il server supporta la funzione keep alive tramite comandi \char`\"{}noop\char`\"{} 
+
+Definition at line 72 of file Manager.\+java.
+
+\mbox{\Hypertarget{classresources_1_1ftpserver_1_1_manager_a0e1523ea05f5c2e3fbc39727e671a906}\label{classresources_1_1ftpserver_1_1_manager_a0e1523ea05f5c2e3fbc39727e671a906}} 
+\index{resources.ftpserver.Manager@{resources.ftpserver.Manager}!server@{server}}
+\index{server@{server}!resources.ftpserver.Manager@{resources.ftpserver.Manager}}
+\doxysubsubsection{\texorpdfstring{server}{server}}
+{\footnotesize\ttfamily final F\+T\+P\+Client resources.\+ftpserver.\+Manager.\+server\hspace{0.3cm}{\ttfamily [private]}}
+
+Rappresenta un oggetto di classe F\+T\+P\+Client, la quale fornisce vari servizi per la comunicazione con un server F\+TP 
+
+Definition at line 38 of file Manager.\+java.
+
+\mbox{\Hypertarget{classresources_1_1ftpserver_1_1_manager_ae01a1e451410a78d56d80adf077e5b58}\label{classresources_1_1ftpserver_1_1_manager_ae01a1e451410a78d56d80adf077e5b58}} 
+\index{resources.ftpserver.Manager@{resources.ftpserver.Manager}!serverMutex@{serverMutex}}
+\index{serverMutex@{serverMutex}!resources.ftpserver.Manager@{resources.ftpserver.Manager}}
+\doxysubsubsection{\texorpdfstring{serverMutex}{serverMutex}}
+{\footnotesize\ttfamily final Semaphore resources.\+ftpserver.\+Manager.\+server\+Mutex\hspace{0.3cm}{\ttfamily [private]}}
+
+Rappresenta un oggetto di classe Semaphore per gestire la concorrenza nell\textquotesingle{}accesso alla risorsa \mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager_a0e1523ea05f5c2e3fbc39727e671a906}{Manager.\+server}} 
+
+Definition at line 46 of file Manager.\+java.
+
+\mbox{\Hypertarget{classresources_1_1ftpserver_1_1_manager_a94a12ecd20f3b00b689e240d148e1ba6}\label{classresources_1_1ftpserver_1_1_manager_a94a12ecd20f3b00b689e240d148e1ba6}} 
+\index{resources.ftpserver.Manager@{resources.ftpserver.Manager}!showServerReplies@{showServerReplies}}
+\index{showServerReplies@{showServerReplies}!resources.ftpserver.Manager@{resources.ftpserver.Manager}}
+\doxysubsubsection{\texorpdfstring{showServerReplies}{showServerReplies}}
+{\footnotesize\ttfamily final Boolean resources.\+ftpserver.\+Manager.\+show\+Server\+Replies\hspace{0.3cm}{\ttfamily [private]}}
+
+Rappresenta un flag booleano indicante se o se non visualizzare le risposte del server su console 
+
+Definition at line 63 of file Manager.\+java.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/gandr/\+Desktop/\+Interfaccia\+Gelataio/src/resources/ftpserver/\mbox{\hyperlink{_manager_8java}{Manager.\+java}}\end{DoxyCompactItemize}

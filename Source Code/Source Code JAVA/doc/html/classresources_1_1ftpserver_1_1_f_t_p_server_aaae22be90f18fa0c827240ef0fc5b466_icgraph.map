@@ -1,0 +1,11 @@
+<map id="resources.ftpserver.FTPServer.uploadFile" name="resources.ftpserver.FTPServer.uploadFile">
+<area shape="rect" id="node1" title="Carica un file dal client al server." alt="" coords="327,250,585,277"/>
+<area shape="rect" id="node2" href="$classgui_gelataio_1_1_interfaccia_principale_galataio.html#ad2db5f6f733b3d6f9e1301d3c5097c14" title="Bottone conferma dell&#39;interfaccia &quot;Modifica Lista Gusti In Vendita&quot;." alt="" coords="5,5,279,47"/>
+<area shape="rect" id="node3" href="$classgui_gelataio_1_1_interfaccia_principale_galataio.html#a5648ca5385ef5ad8b89e7bbfbc58207f" title="Bottone conferma dell&#39;interfaccia &quot;Modifica Orario Negozio&quot;." alt="" coords="9,71,275,112"/>
+<area shape="rect" id="node4" href="$classgui_gelataio_1_1_interfaccia_principale_galataio.html#a12d9f4c60e04480a89b8bf1be456cda6" title="Bottone indietro dell&#39;interfaccia &quot;Modifica Lista Predefinita&quot;." alt="" coords="12,136,272,177"/>
+<area shape="rect" id="node5" href="$classgui_gelataio_1_1_interfaccia_principale_galataio.html#a63b28e86a185bdcff2251f9fd6097330" title="Bottone inoltro al fattorino dell&#39;interfaccia &quot;Main&quot;." alt="" coords="17,202,267,258"/>
+<area shape="rect" id="node6" href="$classresources_1_1ftpserver_1_1_keeper.html#a030e2156a7c720bcdc3f15e7cea92d3e" title="Codice eseguito dal thread." alt="" coords="43,282,241,309"/>
+<area shape="rect" id="node7" href="$classresources_1_1ordine_1_1_ordine_updater.html#a3cbcc90da488f54195020d4fd0945d95" title="Codice eseguito dal thread." alt="" coords="29,333,255,359"/>
+<area shape="rect" id="node8" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#ae68c9fbcb668eb1a3a21c100e87dcda9" title="Aggiorna un file nel server dal client al server." alt="" coords="23,384,261,425"/>
+<area shape="rect" id="node9" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#a2f9e7352518d43b67aa6d0c081b4e632" title="Aggiorna un file nel server dal client al server." alt="" coords="23,449,261,491"/>
+</map>

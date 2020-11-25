@@ -1,0 +1,158 @@
+\hypertarget{classresources_1_1ftpserver_1_1_keeper}{}\doxysection{resources.\+ftpserver.\+Keeper Class Reference}
+\label{classresources_1_1ftpserver_1_1_keeper}\index{resources.ftpserver.Keeper@{resources.ftpserver.Keeper}}
+
+
+Classe per la gestione del servizio keep alive.  
+
+
+
+
+Inheritance diagram for resources.\+ftpserver.\+Keeper\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=212pt]{classresources_1_1ftpserver_1_1_keeper__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for resources.\+ftpserver.\+Keeper\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=317pt]{classresources_1_1ftpserver_1_1_keeper__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classresources_1_1ftpserver_1_1_keeper_a030e2156a7c720bcdc3f15e7cea92d3e}{run}} ()
+\begin{DoxyCompactList}\small\item\em Codice eseguito dal thread. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Package Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_keeper_ae9dda470dc68012b3f278af19edafb40}{Keeper}} (\mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager}{Manager}} \mbox{\hyperlink{classresources_1_1ftpserver_1_1_keeper_a8a557b82da2df0817386966138b67f8f}{manager}})
+\begin{DoxyCompactList}\small\item\em Costruttore. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final \mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager}{Manager}} \mbox{\hyperlink{classresources_1_1ftpserver_1_1_keeper_a8a557b82da2df0817386966138b67f8f}{manager}}
+\item 
+Boolean \mbox{\hyperlink{classresources_1_1ftpserver_1_1_keeper_a486565c9c81d6bc75ece2f60afbfa8c3}{upload\+File}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Classe per la gestione del servizio keep alive. 
+
+\begin{DoxyAuthor}{Author}
+Grandieri Andrea \href{mailto:g.andreus02@gmail.com}{\texttt{ g.\+andreus02@gmail.\+com}} 
+
+Barsotti Mirko \href{mailto:bmirko1505@gmail.com}{\texttt{ bmirko1505@gmail.\+com}} 
+
+Brambilla Mirko \href{mailto:brambobilla01@gmail.com}{\texttt{ brambobilla01@gmail.\+com}}
+\end{DoxyAuthor}
+La seguente classe rappresenta un thread daemon per fornire il servizio keep alive. Il servizio keep alive permettere di mantenere una connessione con il server anche quando non avviene uno scambio di informazioni client-\/server per un periodo di tempo prolungato. Dunque, il servizio keep alive garantisce la connessione anche in sessioni idle. 
+
+Definition at line 34 of file Keeper.\+java.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classresources_1_1ftpserver_1_1_keeper_ae9dda470dc68012b3f278af19edafb40}\label{classresources_1_1ftpserver_1_1_keeper_ae9dda470dc68012b3f278af19edafb40}} 
+\index{resources.ftpserver.Keeper@{resources.ftpserver.Keeper}!Keeper@{Keeper}}
+\index{Keeper@{Keeper}!resources.ftpserver.Keeper@{resources.ftpserver.Keeper}}
+\doxysubsubsection{\texorpdfstring{Keeper()}{Keeper()}}
+{\footnotesize\ttfamily resources.\+ftpserver.\+Keeper.\+Keeper (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager}{Manager}}}]{manager }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [package]}}
+
+
+
+Costruttore. 
+
+Inizializza tutte le risorse necessarie ad un oggetto di questa classe
+
+
+\begin{DoxyParams}{Parameters}
+{\em manager} & Oggetto di classe \mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager}{resources.\+ftpserver.\+Manager}}, classe contenente dati condivisi tra le classi \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server}{resources.\+ftpserver.\+F\+T\+P\+Server}} e \mbox{\hyperlink{classresources_1_1ftpserver_1_1_keeper}{resources.\+ftpserver.\+Keeper}}\\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_keeper_a8a557b82da2df0817386966138b67f8f}{Keeper.\+manager}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 69 of file Keeper.\+java.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classresources_1_1ftpserver_1_1_keeper_a030e2156a7c720bcdc3f15e7cea92d3e}\label{classresources_1_1ftpserver_1_1_keeper_a030e2156a7c720bcdc3f15e7cea92d3e}} 
+\index{resources.ftpserver.Keeper@{resources.ftpserver.Keeper}!run@{run}}
+\index{run@{run}!resources.ftpserver.Keeper@{resources.ftpserver.Keeper}}
+\doxysubsubsection{\texorpdfstring{run()}{run()}}
+{\footnotesize\ttfamily void resources.\+ftpserver.\+Keeper.\+run (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Codice eseguito dal thread. 
+
+Il seguente metodo è l\textquotesingle{}implementazione del servizio keep alive
+
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_keeper_a8a557b82da2df0817386966138b67f8f}{Keeper.\+manager}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_keeper_a486565c9c81d6bc75ece2f60afbfa8c3}{Keeper.\+upload\+File}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server_aaae22be90f18fa0c827240ef0fc5b466}{F\+T\+P\+Server.\+upload\+File()}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 84 of file Keeper.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresources_1_1ftpserver_1_1_keeper_a030e2156a7c720bcdc3f15e7cea92d3e_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classresources_1_1ftpserver_1_1_keeper_a8a557b82da2df0817386966138b67f8f}\label{classresources_1_1ftpserver_1_1_keeper_a8a557b82da2df0817386966138b67f8f}} 
+\index{resources.ftpserver.Keeper@{resources.ftpserver.Keeper}!manager@{manager}}
+\index{manager@{manager}!resources.ftpserver.Keeper@{resources.ftpserver.Keeper}}
+\doxysubsubsection{\texorpdfstring{manager}{manager}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager}{Manager}} resources.\+ftpserver.\+Keeper.\+manager\hspace{0.3cm}{\ttfamily [private]}}
+
+Rappresenta un oggetto di classe \mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager}{resources.\+ftpserver.\+Manager}}, classe contenente dati condivisi tra le classi \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server}{resources.\+ftpserver.\+F\+T\+P\+Server}} e \mbox{\hyperlink{classresources_1_1ftpserver_1_1_keeper}{resources.\+ftpserver.\+Keeper}}
+
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server}{resources.\+ftpserver.\+F\+T\+P\+Server}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_manager}{resources.\+ftpserver.\+Manager}} 
+
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_keeper}{resources.\+ftpserver.\+Keeper}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 47 of file Keeper.\+java.
+
+\mbox{\Hypertarget{classresources_1_1ftpserver_1_1_keeper_a486565c9c81d6bc75ece2f60afbfa8c3}\label{classresources_1_1ftpserver_1_1_keeper_a486565c9c81d6bc75ece2f60afbfa8c3}} 
+\index{resources.ftpserver.Keeper@{resources.ftpserver.Keeper}!uploadFile@{uploadFile}}
+\index{uploadFile@{uploadFile}!resources.ftpserver.Keeper@{resources.ftpserver.Keeper}}
+\doxysubsubsection{\texorpdfstring{uploadFile}{uploadFile}}
+{\footnotesize\ttfamily Boolean resources.\+ftpserver.\+Keeper.\+upload\+File\hspace{0.3cm}{\ttfamily [private]}}
+
+Rappresenta un flag booleano per indicare lo stato di upload del file di noop 
+
+Definition at line 55 of file Keeper.\+java.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/gandr/\+Desktop/\+Interfaccia\+Gelataio/src/resources/ftpserver/\mbox{\hyperlink{_keeper_8java}{Keeper.\+java}}\end{DoxyCompactItemize}

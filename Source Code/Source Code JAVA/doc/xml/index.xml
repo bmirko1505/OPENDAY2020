@@ -1,0 +1,505 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.18">
+  <compound refid="classresources_1_1compositionlistapredefinitagusti_1_1_composition_lista_predefinita_gusti" kind="class"><name>resources::compositionlistapredefinitagusti::CompositionListaPredefinitaGusti</name>
+    <member refid="classresources_1_1compositionlistapredefinitagusti_1_1_composition_lista_predefinita_gusti_1a709c1de88b12eb7f44faedf00120ac29" kind="variable"><name>gusto</name></member>
+    <member refid="classresources_1_1compositionlistapredefinitagusti_1_1_composition_lista_predefinita_gusti_1aeb54dfb827e76627dde2a92580e5dbb7" kind="variable"><name>tipo</name></member>
+    <member refid="classresources_1_1compositionlistapredefinitagusti_1_1_composition_lista_predefinita_gusti_1a31c10668ebccd8d2d510d41616bc850c" kind="variable"><name>prezzo</name></member>
+    <member refid="classresources_1_1compositionlistapredefinitagusti_1_1_composition_lista_predefinita_gusti_1a0cf963329af94ddb070cc9da3626bfda" kind="function"><name>CompositionListaPredefinitaGusti</name></member>
+    <member refid="classresources_1_1compositionlistapredefinitagusti_1_1_composition_lista_predefinita_gusti_1acee202561671f4cb28790686ce4ee4d8" kind="function"><name>getGusto</name></member>
+    <member refid="classresources_1_1compositionlistapredefinitagusti_1_1_composition_lista_predefinita_gusti_1a29f9b8a8174e2f9222f580589c7c8025" kind="function"><name>getTipo</name></member>
+    <member refid="classresources_1_1compositionlistapredefinitagusti_1_1_composition_lista_predefinita_gusti_1ad4b63c69890924709d2dcd4b819a2c28" kind="function"><name>getPrezzo</name></member>
+    <member refid="classresources_1_1compositionlistapredefinitagusti_1_1_composition_lista_predefinita_gusti_1a13d0e236677557f5aa8cce500abb1460" kind="function"><name>toString</name></member>
+  </compound>
+  <compound refid="classresources_1_1cronology_1_1_cronology_updater" kind="class"><name>resources::cronology::CronologyUpdater</name>
+    <member refid="classresources_1_1cronology_1_1_cronology_updater_1a739c0247888a0098c4162b3b02aa5fe8" kind="variable"><name>printLabel</name></member>
+    <member refid="classresources_1_1cronology_1_1_cronology_updater_1a0de12e3701e50773237d10c608ff7be0" kind="variable"><name>server</name></member>
+    <member refid="classresources_1_1cronology_1_1_cronology_updater_1a848b51eece7eb98337a865a64f2f0633" kind="function"><name>CronologyUpdater</name></member>
+    <member refid="classresources_1_1cronology_1_1_cronology_updater_1a9894bb0596657375bc888de39c019834" kind="function"><name>run</name></member>
+  </compound>
+  <compound refid="classresources_1_1currenttime_1_1_current_time" kind="class"><name>resources::currenttime::CurrentTime</name>
+    <member refid="classresources_1_1currenttime_1_1_current_time_1a9b6d2c22a4791ea9608fb152f42c42de" kind="variable"><name>calendar</name></member>
+    <member refid="classresources_1_1currenttime_1_1_current_time_1a58e538e0aee4e86cc8dea84d93a6c435" kind="variable"><name>simpleDateFormat</name></member>
+    <member refid="classresources_1_1currenttime_1_1_current_time_1a99bc9a2b01a760de5846fe09f19282f0" kind="variable"><name>jLabelOraCorrente</name></member>
+    <member refid="classresources_1_1currenttime_1_1_current_time_1a69773ca89e760dac72fa82098a3c50d5" kind="variable"><name>jLabelOraCorrente5</name></member>
+    <member refid="classresources_1_1currenttime_1_1_current_time_1a42b9b188dbddd1faf449ad1acc6b7462" kind="variable"><name>jLabelOraCorrente1</name></member>
+    <member refid="classresources_1_1currenttime_1_1_current_time_1a4ccb68c8c9d15793f158e8b0b4091aac" kind="variable"><name>jLabelOraCorrente2</name></member>
+    <member refid="classresources_1_1currenttime_1_1_current_time_1a5ec0d8a98376ec9392f29747db3cc4be" kind="variable"><name>jLabelOraCorrente3</name></member>
+    <member refid="classresources_1_1currenttime_1_1_current_time_1a43fbe0ca8aec47ac559e4a069b95a44b" kind="function"><name>CurrentTime</name></member>
+    <member refid="classresources_1_1currenttime_1_1_current_time_1affec9cbcc42854f1a6583e2ec752ea20" kind="function"><name>run</name></member>
+  </compound>
+  <compound refid="classresources_1_1ftpserver_1_1_f_t_p_server" kind="class"><name>resources::ftpserver::FTPServer</name>
+    <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ac87b529a62f626ab37e39d3086102305" kind="variable"><name>manager</name></member>
+    <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a21623ae06bcbe6245a7e1aab8abe332e" kind="variable"><name>keeper</name></member>
+    <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a15d6faedcb0c2d675640b0e8880b0c4c" kind="variable"><name>timer</name></member>
+    <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a5f8b219e78c73bd998163d3298eec651" kind="variable"><name>backupReplies</name></member>
+    <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1aa2cf870a50389845feeeb58864b66729" kind="variable"><name>host</name></member>
+    <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a16ccf76c5751fdc1e8e35357d06ef901" kind="variable"><name>port</name></member>
+    <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a62e0c4cd4f0cda5fb8002edb6bcaec32" kind="variable"><name>isLoggedIn</name></member>
+    <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a43a53e52889fdf1b7e43c6ff15688054" kind="function"><name>FTPServer</name></member>
+    <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ae9bf45f3284f3eefd4e65e75d77a77c6" kind="function"><name>setCoords</name></member>
+    <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a093946fe4f699687964567e9d3bc48e8" kind="function"><name>setCoordsAM</name></member>
+    <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a674fe9fc38ba3ecf4d779310489ef230" kind="function"><name>connect</name></member>
+    <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1adc106008f1f77d93d8189870b1d9ae81" kind="function"><name>connectAM</name></member>
+    <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a7250e1c8a1ee00b6550402cfac9b495a" kind="function"><name>login</name></member>
+    <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a2754c501b06fbad87a2fe9770bd2a866" kind="function"><name>loginAM</name></member>
+    <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a97a1bef804fb89c035559e813083d9cf" kind="function"><name>getCurrentDirectory</name></member>
+    <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a36d4d5cb44e5aa899f60095dc26ce542" kind="function"><name>getCurrentDirectoryAM</name></member>
+    <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ab87c0e92af371c7034d82b026367b401" kind="function"><name>setCurrentDirectory</name></member>
+    <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1aa8db03d0dcb287d621a7909fa44e3a47" kind="function"><name>setCurrentDirectoryAM</name></member>
+    <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1acf6cff62c6a86355a070f15d2d15bf84" kind="function"><name>getListElements</name></member>
+    <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a71605cd701446bd0c6c72c8ff6dd7210" kind="function"><name>getListElementsAM</name></member>
+    <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a7c7887e959b30f623c3afa81b8eda93f" kind="function"><name>uploadUniqueFile</name></member>
+    <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a22b434ac642092b0e107a794ab039af3" kind="function"><name>uploadUniqueFileAM</name></member>
+    <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1aaae22be90f18fa0c827240ef0fc5b466" kind="function"><name>uploadFile</name></member>
+    <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ac741e8d53f8a6d175e9e7b5b661e1bbe" kind="function"><name>uploadFileAM</name></member>
+    <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1aeed840d7a1f20b8b579203dc60a312d2" kind="function"><name>downloadFile</name></member>
+    <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a0aa2b7f023ab044bf8723b39aaca43a6" kind="function"><name>downloadFileAM</name></member>
+    <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ae68c9fbcb668eb1a3a21c100e87dcda9" kind="function"><name>updateFileAppending</name></member>
+    <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a2f9e7352518d43b67aa6d0c081b4e632" kind="function"><name>updateFileAppendingAM</name></member>
+    <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ab2740547f1222dd15c12f2b3a43e2873" kind="function"><name>logout</name></member>
+    <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ac715abb38c9bb7ed27155d7ce200d2cb" kind="function"><name>logoutAM</name></member>
+    <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ad7b1c599ab1c0dd9a2f3b88cc1ca4f2b" kind="function"><name>disconnect</name></member>
+    <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ae7d54aaf3ba9136f829eaed4aab3b646" kind="function"><name>disconnectAM</name></member>
+    <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a6cc5286e0f5e71f286b12df943499577" kind="function"><name>deleteFile</name></member>
+    <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a378bc314d9cd6300683c36443820a0c0" kind="function"><name>deleteFileAM</name></member>
+    <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a83b22a422f0084383570029df8c869ee" kind="function"><name>getHost</name></member>
+    <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a8f9b64e25bfbc724f82f077d1d961fb0" kind="function"><name>getPort</name></member>
+    <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1acdf74c41af0de18af30a2b2e5b459fa0" kind="function"><name>getIsLoggedIn</name></member>
+    <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a8626bea24c8b8e903489cebffef30ef2" kind="function"><name>getIsConnected</name></member>
+    <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a11cf3fa1d1d7eb9e83dae58cdc9afdd1" kind="function"><name>getIsNoOp</name></member>
+    <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a36fb43ded9ef67aadabcd64ffd8a5b28" kind="function"><name>getShowServerReplies</name></member>
+    <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a471d37798cfc6fbe05c05cd90cd37b0b" kind="function"><name>getServerBackdoor</name></member>
+    <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ac7157f46f1f3b4e9966451e6c07c18f2" kind="function"><name>startKeeper</name></member>
+    <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a53efc9cad594b3f20e40c70ac21c3504" kind="function"><name>getAndPrintServerReply</name></member>
+    <member refid="classresources_1_1ftpserver_1_1_f_t_p_server_1abab87b35980051614e04c19b2997c320" kind="function"><name>uploadFile</name></member>
+  </compound>
+  <compound refid="classresources_1_1compositionlistapredefinitagusti_1_1xml_1_1generatorxml_1_1_generator_x_m_l_co6c72f51d9d15509b0205bb0db7af9881" kind="class"><name>resources::compositionlistapredefinitagusti::xml::generatorxml::GeneratorXMLCompositionListaPredefinitaGusti</name>
+    <member refid="classresources_1_1compositionlistapredefinitagusti_1_1xml_1_1generatorxml_1_1_generator_x_m_l_co6c72f51d9d15509b0205bb0db7af9881_1a5cfd5aa8c36f4c78e01943855f289147" kind="variable"><name>document</name></member>
+    <member refid="classresources_1_1compositionlistapredefinitagusti_1_1xml_1_1generatorxml_1_1_generator_x_m_l_co6c72f51d9d15509b0205bb0db7af9881_1aaa77d0c284e882aa035f43aad8610d36" kind="function"><name>GeneratorXMLCompositionListaPredefinitaGusti</name></member>
+    <member refid="classresources_1_1compositionlistapredefinitagusti_1_1xml_1_1generatorxml_1_1_generator_x_m_l_co6c72f51d9d15509b0205bb0db7af9881_1a2cc63b39ce02d5742bf294b20c02cb0e" kind="function"><name>createDOMTree</name></member>
+    <member refid="classresources_1_1compositionlistapredefinitagusti_1_1xml_1_1generatorxml_1_1_generator_x_m_l_co6c72f51d9d15509b0205bb0db7af9881_1a85d0b1a7c716a766c80aeca5270b117a" kind="function"><name>applyDOMonXMLFile</name></member>
+    <member refid="classresources_1_1compositionlistapredefinitagusti_1_1xml_1_1generatorxml_1_1_generator_x_m_l_co6c72f51d9d15509b0205bb0db7af9881_1a02db5f7b39bfdaa91ddf77a876d3fd9d" kind="function"><name>createDocument</name></member>
+    <member refid="classresources_1_1compositionlistapredefinitagusti_1_1xml_1_1generatorxml_1_1_generator_x_m_l_co6c72f51d9d15509b0205bb0db7af9881_1a1417a8f98758d4e120f1d985fe9016a1" kind="function"><name>get</name></member>
+  </compound>
+  <compound refid="classresources_1_1orariodelnegozio_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_orario_del_negozio" kind="class"><name>resources::orariodelnegozio::xml::generatorxml::GeneratorXMLModificaOrarioDelNegozio</name>
+    <member refid="classresources_1_1orariodelnegozio_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_orario_del_negozio_1af122e296541d4d081d71124168f36bdb" kind="variable"><name>document</name></member>
+    <member refid="classresources_1_1orariodelnegozio_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_orario_del_negozio_1ada96a10c845038da553b139f1311f1d4" kind="function"><name>GeneratorXMLModificaOrarioDelNegozio</name></member>
+    <member refid="classresources_1_1orariodelnegozio_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_orario_del_negozio_1a2bc6028579dbc81a02622da49482b7b0" kind="function"><name>createDOMTree</name></member>
+    <member refid="classresources_1_1orariodelnegozio_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_orario_del_negozio_1ae7a13330ad3be206fe8c7e43ef646343" kind="function"><name>applyDOMonXMLFile</name></member>
+    <member refid="classresources_1_1orariodelnegozio_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_orario_del_negozio_1ad954510fb015782b25c60bf127bb00bd" kind="function"><name>createDocument</name></member>
+    <member refid="classresources_1_1orariodelnegozio_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_orario_del_negozio_1ae723d0ef0a2d190183bb26498456d379" kind="function"><name>get</name></member>
+  </compound>
+  <compound refid="classresources_1_1prezzovaschette_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_prezzo_vaschette" kind="class"><name>resources::prezzovaschette::xml::generatorxml::GeneratorXMLModificaPrezzoVaschette</name>
+    <member refid="classresources_1_1prezzovaschette_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_prezzo_vaschette_1a5d2dea4aca3d4121d6263f1ee44ed9fa" kind="variable"><name>document</name></member>
+    <member refid="classresources_1_1prezzovaschette_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_prezzo_vaschette_1af0fd657c61b59764383400bd83ad644a" kind="function"><name>GeneratorXMLModificaPrezzoVaschette</name></member>
+    <member refid="classresources_1_1prezzovaschette_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_prezzo_vaschette_1a411d2863790708fba37872ba37f9a17a" kind="function"><name>createDOMTree</name></member>
+    <member refid="classresources_1_1prezzovaschette_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_prezzo_vaschette_1a2a0c86959e7d063636c1cd8da4b7089c" kind="function"><name>applyDOMonXMLFile</name></member>
+    <member refid="classresources_1_1prezzovaschette_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_prezzo_vaschette_1aae1b8f6bb2d03a929713c5c71be339b5" kind="function"><name>createDocument</name></member>
+    <member refid="classresources_1_1prezzovaschette_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_prezzo_vaschette_1a55d91b6bbcfa1af275c69e9c6926c319" kind="function"><name>get</name></member>
+  </compound>
+  <compound refid="classresources_1_1ordine_1_1xml_1_1generatorxml_1_1_generator_x_m_l_ordine" kind="class"><name>resources::ordine::xml::generatorxml::GeneratorXMLOrdine</name>
+    <member refid="classresources_1_1ordine_1_1xml_1_1generatorxml_1_1_generator_x_m_l_ordine_1a70a1de151f13ce7cb5e07a6e51e219d5" kind="variable"><name>document</name></member>
+    <member refid="classresources_1_1ordine_1_1xml_1_1generatorxml_1_1_generator_x_m_l_ordine_1af71146c7de23d594e8193c1f4cc56db8" kind="function"><name>GeneratorXMLOrdine</name></member>
+    <member refid="classresources_1_1ordine_1_1xml_1_1generatorxml_1_1_generator_x_m_l_ordine_1a0467e69c8f59a9ad1ab8957af55a3d9a" kind="function"><name>createDOMTree</name></member>
+    <member refid="classresources_1_1ordine_1_1xml_1_1generatorxml_1_1_generator_x_m_l_ordine_1af95ba9a2a56fa35bf088245bd5946ef6" kind="function"><name>applyDOMonXMLFile</name></member>
+    <member refid="classresources_1_1ordine_1_1xml_1_1generatorxml_1_1_generator_x_m_l_ordine_1abc701b28dcf44fd8cbaa562f3c42d95e" kind="function"><name>createDocument</name></member>
+    <member refid="classresources_1_1ordine_1_1xml_1_1generatorxml_1_1_generator_x_m_l_ordine_1ab6ef5984ca86057faa9ba1e05bcc3f9a" kind="function"><name>get</name></member>
+  </compound>
+  <compound refid="classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2" kind="class"><name>resources::ordine::xml::generatorxmlv2::GeneratorXMLOrdinev2</name>
+    <member refid="classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2_1a5f597c65fbef8b80879b2254d460a910" kind="variable"><name>document</name></member>
+    <member refid="classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2_1aa26f91c71b7684d79fd95f481e9d3082" kind="function"><name>GeneratorXMLOrdinev2</name></member>
+    <member refid="classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2_1a67b2141929744fa3aea5694b5a5673e6" kind="function"><name>createDOMTree</name></member>
+    <member refid="classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2_1a57be40c3b048116dc243071c2af10c38" kind="function"><name>applyDOMonXMLFile</name></member>
+    <member refid="classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2_1a5bdbc3789d4435b468bca35e1b9070b7" kind="function"><name>createDocument</name></member>
+    <member refid="classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2_1a87bbb78dc0ca5e5155c5234690548b06" kind="function"><name>get</name></member>
+  </compound>
+  <compound refid="classresources_1_1ordine_1_1xml_1_1generatorxmlv3_1_1_generator_x_m_l_ordinev3" kind="class"><name>resources::ordine::xml::generatorxmlv3::GeneratorXMLOrdinev3</name>
+    <member refid="classresources_1_1ordine_1_1xml_1_1generatorxmlv3_1_1_generator_x_m_l_ordinev3_1a00498810188b428a06102bb2b8000245" kind="variable"><name>document</name></member>
+    <member refid="classresources_1_1ordine_1_1xml_1_1generatorxmlv3_1_1_generator_x_m_l_ordinev3_1ad9ec9c2a5560657821bae41e8eb1503e" kind="function"><name>GeneratorXMLOrdinev3</name></member>
+    <member refid="classresources_1_1ordine_1_1xml_1_1generatorxmlv3_1_1_generator_x_m_l_ordinev3_1a3c1b477417a000543dda431b98011d3b" kind="function"><name>createDOMTree</name></member>
+    <member refid="classresources_1_1ordine_1_1xml_1_1generatorxmlv3_1_1_generator_x_m_l_ordinev3_1adef835c07a007110a89118de9801edda" kind="function"><name>applyDOMonXMLFile</name></member>
+    <member refid="classresources_1_1ordine_1_1xml_1_1generatorxmlv3_1_1_generator_x_m_l_ordinev3_1a640d716293ac2006e016ecb645cf5b9c" kind="function"><name>get</name></member>
+  </compound>
+  <compound refid="classgui_gelataio_1_1_interfaccia_principale_galataio" kind="class"><name>guiGelataio::InterfacciaPrincipaleGalataio</name>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a85b7912d2dbab0938e5efce0e5dfb5b0" kind="variable"><name>pathLogo</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a3260be9bb3b27a951cf49364342a52ab" kind="variable"><name>logo</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1acc0ab3736b7ebb9eafd8e1a67dddd3f6" kind="variable"><name>listaPredefinitaGustiModel</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1abc4d3054dcd513748aab36795d822327" kind="variable"><name>listaGustiVenditaModel</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1ab69c89be22358bb3085bf9b54aece1df" kind="variable"><name>listaGustiVenditaModelBackup</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1acc8895a08e5a45dd2dd3e9a8c1724350" kind="variable"><name>currentTime</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a5797e4a8b59930ccb38d5d9af03a60a8" kind="variable"><name>timerCurrentTime</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a98a699f53921333e34838792e8af59ec" kind="variable"><name>spinnerVaschettaPiccolaModel</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a25127f1c1586a8254bb838eb68b63f6e" kind="variable"><name>spinnerVaschettaMediaModel</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1ae627ff3de801680b52dda60b13b9b3ba" kind="variable"><name>spinnerVaschettaGrandeModel</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a43711c68049c18cca6452fd00093af50" kind="variable"><name>jSpinnerVaschettaPiccolaBackup</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a8bc97dff496e63975e4c7fcb4f5a7a30" kind="variable"><name>jSpinnerVaschettaMediaBackup</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a77088e97689c116cb2e7998cf8cd1061" kind="variable"><name>jSpinnerVaschettaGrandeBackup</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a8fa02d2a4d9b0cc8d3f9111f6df53c9e" kind="variable"><name>spinnerOraDiAperturaModel</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a3f94db921e82f428e9b9317bfc38e8de" kind="variable"><name>spinnerOraDiChiusuraModel</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1aff2323488debdfc2e18cc1d4b92fcdc3" kind="variable"><name>spinnerOraDiAperturaBackupBlankModel</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a2c030f1703ddbed8b8e4476881fdb7f3" kind="variable"><name>spinnerOraDiChiusuraBackupBlankModel</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a808cc888c4732c6a62a0b6ca13ac5e06" kind="variable"><name>jSpinnerOraDiAperturaBackup</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1abecb8c362663471f68be8b84e3116301" kind="variable"><name>jSpinnerOraDiChiusuraBackup</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1aa0bdb754c93f40c208a1c56c1b245ff7" kind="variable"><name>currentDateAndTime</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a963e3e18f31e858b9f88cfc3bb343f55" kind="variable"><name>parserXMLModificaOrarioDelNegozio</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1ad7322d24bf30c94ff432f06865ad2ca7" kind="variable"><name>generatorXMLModificaOrarioDelNegozio</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1ac56a8b0986519698a66dc2cba9ed0848" kind="variable"><name>generatorXMLModificaPrezzoVaschette</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a0982e4260a90fdde155b44fed2c64b49" kind="variable"><name>parserXMLModificaPrezzoVaschette</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1afd504412caa801f158f2dc262b3fe779" kind="variable"><name>parserXMLOrdine</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a7be2b32f5ab58f19e673af7c5a3b89eb" kind="variable"><name>generatorXMLOrdine</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1aeec9d6bd3f8e4c7988c05e7ff323f95b" kind="variable"><name>parserXMLCompositionListaPredefinitaGusti</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a5f1b301e4ed35fce59bed9f69e0af908" kind="variable"><name>generatorXMLCompositionListaPredefinitaGusti</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a5a065150439ae9e5f0e8e98ff59034cb" kind="variable"><name>listaOrdiniModel</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1aa5f45ce40bacf54aee13babe441ae24f" kind="variable"><name>ordineUpdater</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1aacd7f07581bd5442a666092918a458b0" kind="variable"><name>timerOrdineUpdater</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a73df54270534d76f266aeada02afae6c" kind="variable"><name>listTextWrapper</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a0d8b3ef9b0e6f7a475bf56d23a2a52c7" kind="variable"><name>server</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1aaf6a31152f665c573bc993fb9432427b" kind="variable"><name>generatorXMLOrdinev2</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1aadc55886de9446c6f6bd310bec0dd73e" kind="variable"><name>generatorXMLOrdinev3</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a4c04943d1f44ab74a642f452d33b5222" kind="variable"><name>resultOrdiniNonEvasi</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a6891ba642a1612008e4900474fbdb588" kind="variable"><name>flusher</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1afffd44d54fddf400052a59df17e3b9dc" kind="variable"><name>cronologyUpdater</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a76c693f8f0a360fe70b9fd4e49de6e04" kind="variable"><name>timerCronologyUpdater</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a784e357609bf340b21720d1ff14d95d8" kind="variable"><name>jButtonAggiungi</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1abcff435837d565be61afb3257bd6f96f" kind="variable"><name>jButtonAnnulla</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1af0bb23ed2201786a10b51845f5b8a378" kind="variable"><name>jButtonAnnulla2</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a23387329ae360a52c7c4ab8ae8286059" kind="variable"><name>jButtonConferma</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a0878f400ca49286933942e29a132b0bd" kind="variable"><name>jButtonConferma2</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1ae747493a53a409057c51c9030bc5b185" kind="variable"><name>jButtonEliminaCronologiaOrdinazioni</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a103fd6578f21641c55919e755073499c" kind="variable"><name>jButtonImpostazioni</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a7a3ac9e9e19bbfe77fa19779f6a90959" kind="variable"><name>jButtonIndietro</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a850273feb32d62646e96db4b4b087fc0" kind="variable"><name>jButtonIndietro1</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1af8d2dc674f92b794429c4b9c4690b835" kind="variable"><name>jButtonInoltroAlFattorino</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1af7cfd97364048dd1330173bf485eabf1" kind="variable"><name>jButtonInserisci</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1ac1bad6687450235a2ae3a057285d05c3" kind="variable"><name>jButtonModificaListaGustiInVendita</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a0145488449f890c7aaace63405da4b4e" kind="variable"><name>jButtonModificaListaPredefinitaGusti</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1af228c80e19b829fdec543e3bb1eed99a" kind="variable"><name>jButtonModificaOrarioNegozio</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1ac1160d091e58baf30260440ae85e232a" kind="variable"><name>jButtonRimuovi</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a2a332e634392899476b14dfa05c0f6cb" kind="variable"><name>jButtonRimuovi1</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a181fa2d2a0dcb4508b5ce7ea63910426" kind="variable"><name>jButtonScaricaCronologiaOrdinazioni</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a0f9feb43cb4a2fb7b7a361736e051ffe" kind="variable"><name>jComboBoxTipo</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a8be4b7e33abdef9baad0322db3e0fbac" kind="variable"><name>jLabelFrammentiCronologici</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a0898d6c67a873c492337207e82154c8f" kind="variable"><name>jLabelListaGustiVendita</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a4de71c4ed0705734c2c9a3758f9f8bd7" kind="variable"><name>jLabelListaPredefinitaGusti</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1ab592b23a2f069dce8fe6e1b0073f4fe6" kind="variable"><name>jLabelListaPredefinitaGusti1</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a954b3280ad2398f27f6349befc7d4d87" kind="variable"><name>jLabelLogo</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1ab6ae4bbc7ec1c5d9dad00bb69eb96f64" kind="variable"><name>jLabelLogo1</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a09c1db4eae99caad154b56aed9f686a9" kind="variable"><name>jLabelLogo2</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1ad068a8d958d3f5cca1efb8725d1c9faa" kind="variable"><name>jLabelLogo3</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1abd89a6b78b33c4c67276a95a5454f781" kind="variable"><name>jLabelLogo5</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a385200dcdf86dfad7efd2cb05f32fe9d" kind="variable"><name>jLabelOraCorrente</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a3fc3f7fb78189cd8ce66af120a790528" kind="variable"><name>jLabelOraCorrente1</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a899bea7ef978529738ec64409bbb89da" kind="variable"><name>jLabelOraCorrente2</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a96d8d7e461021f2cebea7b632cab95c1" kind="variable"><name>jLabelOraCorrente3</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1aa86f1b7648081c7864b7220826f01cfc" kind="variable"><name>jLabelOraCorrente5</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a4cdb92af790f996828a80319cf9e3578" kind="variable"><name>jLabelOraDiApertura</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a3d74279f1f368cfc21d5a0406b22f8b2" kind="variable"><name>jLabelOraDiChiusura</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1afeb2ced94e069de62936740e602654a5" kind="variable"><name>jLabelOrdini</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a551a7fb66d6a87390271122b591b4331" kind="variable"><name>jListListaGustiVendita</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1ada6437e0f3e7256b7adc087f72be5b79" kind="variable"><name>jListListaPredefinitaGusti</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a9469b72277f46f4fb7850999b2bd15ac" kind="variable"><name>jListListaPredefinitaGusti1</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a2221daceaa776eb913f614eb551489fb" kind="variable"><name>jListOrdini</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1abc9116cbff239a672899bf4d9d2ce7f5" kind="variable"><name>jPanelImpostazioni</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a7768c8b280db707023b9f2da68f909c7" kind="variable"><name>jPanelInterfacciaPrincipaleGelataio</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a516685d47b79f7f7bf563ee2c45caab9" kind="variable"><name>jPanelMenu</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a190ef7da15cd8d1a687e60dd0c577605" kind="variable"><name>jPanelModificaListaGustiInVendita</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1abbf07fc12915e9c1b72a636efa1bcf21" kind="variable"><name>jPanelModificaListaPredefinita</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a14f10c9f00112872cddad3c22cfd41e3" kind="variable"><name>jPanelModificaOrarioNegozio</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a05ae4e59f8eafdbba89ca5a75310ff49" kind="variable"><name>jScrollPane</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a154d9571f31e1dd57457afe1c304e7aa" kind="variable"><name>jScrollPane1</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a3b0f2d03de879b86ca4e5dda8d753f38" kind="variable"><name>jScrollPane2</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1af54bd9a3079b9f1ee9dce13d5101f802" kind="variable"><name>jScrollPane3</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1aaa3be253f0274f1d897dbd3e9b24e2c9" kind="variable"><name>jSpinnerOraDiApertura</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a60bb6e7886383aec1be17daa3de98a16" kind="variable"><name>jSpinnerOraDiChiusura</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a4216a0b7e7ea434b4be6fe2488e256e9" kind="variable"><name>jSpinnerPrezzo</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1ab2c6228b69067515c3be039504d5deb6" kind="variable"><name>jTabbedPaneImpostazioni</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a819e4ee1411a8766a753b953303f29cb" kind="variable"><name>jTabbedPaneMain</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1ad654c1d3b08010b163a4d42bd5134bdc" kind="variable"><name>jTextFieldGustoListaPredefinita</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1ad28db3222d7369871d6b679c1a6c1782" kind="function"><name>InterfacciaPrincipaleGalataio</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a6c05e9d7c45210225160936679546306" kind="function"><name>stableState</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a03dfacb80fd3faa98d75ae460ade5c8f" kind="function"><name>loadFromServer</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1acfb3925bbdec35ba8666bc227dc7da76" kind="function"><name>initComponents</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a91631c2362a494dfd59473341989430c" kind="function"><name>jButtonAnnulla2ActionPerformed</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1ad2db5f6f733b3d6f9e1301d3c5097c14" kind="function"><name>jButtonConferma2ActionPerformed</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a9db725053446c337a9dcaa1fcd645a29" kind="function"><name>jButtonRimuovi1ActionPerformed</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a2bd67c31395cbef4eb0fd65f65d65204" kind="function"><name>jButtonInserisciActionPerformed</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1ae0b72dc0f637352b4d4d312d8d4936f3" kind="function"><name>jButtonImpostazioniActionPerformed</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1aafeca11f5667553bbb53ecf0954122c1" kind="function"><name>jButtonModificaListaGustiInVenditaActionPerformed</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a63b28e86a185bdcff2251f9fd6097330" kind="function"><name>jButtonInoltroAlFattorinoActionPerformed</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1aa6b0cf3b9a0afcd43de77d7b09d2d71a" kind="function"><name>jButtonAnnullaActionPerformed</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a5648ca5385ef5ad8b89e7bbfbc58207f" kind="function"><name>jButtonConfermaActionPerformed</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a12d9f4c60e04480a89b8bf1be456cda6" kind="function"><name>jButtonIndietro1ActionPerformed</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a28ee2cb1c7db57dce4a9a3c6d51a7248" kind="function"><name>jButtonRimuoviActionPerformed</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a163262372fd2a538c2756554dd20adba" kind="function"><name>jButtonAggiungiActionPerformed</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1ae8de5ebcb1cde1caaa78da9556a79047" kind="function"><name>jButtonIndietroActionPerformed</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a5fd9262424ca517097d387d64f7f4afd" kind="function"><name>jButtonModificaOrarioNegozioActionPerformed</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a071eab265add554588599072f978a732" kind="function"><name>jButtonModificaListaPredefinitaGustiActionPerformed</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a62413514aa70becff967d21393308a3e" kind="function"><name>jButtonScaricaCronologiaOrdinazioniActionPerformed</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a39cae8eaace69bbe3047518bc82e3cc9" kind="function"><name>jButtonEliminaCronologiaOrdinazioniActionPerformed</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a5cf2101895623f9bf589db8eb0299d8b" kind="function"><name>spinnerValueCopy</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a0ada62e2e40b339c4cd3c28569f539b3" kind="function"><name>defaultListModelCopy</name></member>
+    <member refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a44856c75a604b0986d72f0a635eb8e9f" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="classresources_1_1ftpserver_1_1_keeper" kind="class"><name>resources::ftpserver::Keeper</name>
+    <member refid="classresources_1_1ftpserver_1_1_keeper_1a8a557b82da2df0817386966138b67f8f" kind="variable"><name>manager</name></member>
+    <member refid="classresources_1_1ftpserver_1_1_keeper_1a486565c9c81d6bc75ece2f60afbfa8c3" kind="variable"><name>uploadFile</name></member>
+    <member refid="classresources_1_1ftpserver_1_1_keeper_1ae9dda470dc68012b3f278af19edafb40" kind="function"><name>Keeper</name></member>
+    <member refid="classresources_1_1ftpserver_1_1_keeper_1a030e2156a7c720bcdc3f15e7cea92d3e" kind="function"><name>run</name></member>
+  </compound>
+  <compound refid="classresources_1_1listtextwrapper_1_1_list_text_wrapper" kind="class"><name>resources::listtextwrapper::ListTextWrapper</name>
+    <member refid="classresources_1_1listtextwrapper_1_1_list_text_wrapper_1a0d64ff09958e44d4af742e5bed275db5" kind="variable"><name>HTML_1</name></member>
+    <member refid="classresources_1_1listtextwrapper_1_1_list_text_wrapper_1a475a12442894b3c85bdd03430739f963" kind="variable"><name>HTML_2</name></member>
+    <member refid="classresources_1_1listtextwrapper_1_1_list_text_wrapper_1af7abeac720bd481b6a33f185c1c39af3" kind="variable"><name>HTML_3</name></member>
+    <member refid="classresources_1_1listtextwrapper_1_1_list_text_wrapper_1ac7693f04e87e4c158b6d5ddba3cc77cf" kind="variable"><name>width</name></member>
+    <member refid="classresources_1_1listtextwrapper_1_1_list_text_wrapper_1a9d4cb91fe860a2ee0511d2e8c586d6ca" kind="function"><name>ListTextWrapper</name></member>
+    <member refid="classresources_1_1listtextwrapper_1_1_list_text_wrapper_1a6ccac0ff1761f73a2d6e69fdaf65dd51" kind="function"><name>getListCellRendererComponent</name></member>
+  </compound>
+  <compound refid="classresources_1_1ftpserver_1_1_manager" kind="class"><name>resources::ftpserver::Manager</name>
+    <member refid="classresources_1_1ftpserver_1_1_manager_1a0e1523ea05f5c2e3fbc39727e671a906" kind="variable"><name>server</name></member>
+    <member refid="classresources_1_1ftpserver_1_1_manager_1ae01a1e451410a78d56d80adf077e5b58" kind="variable"><name>serverMutex</name></member>
+    <member refid="classresources_1_1ftpserver_1_1_manager_1a99027b1c7083a184d7e1ec316a9100e3" kind="variable"><name>isConnected</name></member>
+    <member refid="classresources_1_1ftpserver_1_1_manager_1a94a12ecd20f3b00b689e240d148e1ba6" kind="variable"><name>showServerReplies</name></member>
+    <member refid="classresources_1_1ftpserver_1_1_manager_1a35a8f59c67d57503fd7fdf01fa7be316" kind="variable"><name>isNoOp</name></member>
+    <member refid="classresources_1_1ftpserver_1_1_manager_1a4ff811aeaa38bb4e3c823a42fe2ca6d9" kind="variable"><name>isLogBidirectional</name></member>
+    <member refid="classresources_1_1ftpserver_1_1_manager_1a85ab397588a9903419b7dc9ed4eda7c0" kind="function"><name>Manager</name></member>
+    <member refid="classresources_1_1ftpserver_1_1_manager_1a9eea40adb30e967a9fbebe61acb7ecf5" kind="function"><name>getServer</name></member>
+    <member refid="classresources_1_1ftpserver_1_1_manager_1a760aae78030588d2f0d5b5898969de39" kind="function"><name>getServerMutex</name></member>
+    <member refid="classresources_1_1ftpserver_1_1_manager_1ae743d882c2b3e7db928b39fc1b164750" kind="function"><name>getIsConnected</name></member>
+    <member refid="classresources_1_1ftpserver_1_1_manager_1a24a30cecd1eb5c581bcec87d1b70f5a5" kind="function"><name>setIsConnected</name></member>
+    <member refid="classresources_1_1ftpserver_1_1_manager_1a5c52f5769c89fb20b0bfc7520fc2d3b7" kind="function"><name>getIsNoOp</name></member>
+    <member refid="classresources_1_1ftpserver_1_1_manager_1a15422d664ec1762a2b98a86228099cd7" kind="function"><name>getShowServerReplies</name></member>
+    <member refid="classresources_1_1ftpserver_1_1_manager_1ac7fc827ce92263108d8b6ac380e647af" kind="function"><name>getIsLogBidirectional</name></member>
+  </compound>
+  <compound refid="classresources_1_1orariodelnegozio_1_1_orario_del_negozio" kind="class"><name>resources::orariodelnegozio::OrarioDelNegozio</name>
+    <member refid="classresources_1_1orariodelnegozio_1_1_orario_del_negozio_1a91809348af3ab07ea3e29d2a5a8b2239" kind="variable"><name>oraDiApertura</name></member>
+    <member refid="classresources_1_1orariodelnegozio_1_1_orario_del_negozio_1a3863a8752de2a14470504c916ccb6986" kind="variable"><name>oraDiChiusura</name></member>
+    <member refid="classresources_1_1orariodelnegozio_1_1_orario_del_negozio_1abeda21e393ea1f02dc9c05dafc73a583" kind="variable"><name>simpleDateFormat</name></member>
+    <member refid="classresources_1_1orariodelnegozio_1_1_orario_del_negozio_1a3eb089eaa7f1b98c2bbc9faf326dada4" kind="function"><name>OrarioDelNegozio</name></member>
+    <member refid="classresources_1_1orariodelnegozio_1_1_orario_del_negozio_1a46be1b7f954027bb34836c9fc59982a5" kind="function"><name>OrarioDelNegozio</name></member>
+    <member refid="classresources_1_1orariodelnegozio_1_1_orario_del_negozio_1a9f3c511055e616b18441da5a899ce7b8" kind="function"><name>getOraDiApertura</name></member>
+    <member refid="classresources_1_1orariodelnegozio_1_1_orario_del_negozio_1af6608fee46a1b5b10299ade0a99d10ae" kind="function"><name>getOraDiChiusura</name></member>
+    <member refid="classresources_1_1orariodelnegozio_1_1_orario_del_negozio_1a21ab037d52acbe8037fecf1daca0307d" kind="function"><name>getOraDiAperturaDate</name></member>
+    <member refid="classresources_1_1orariodelnegozio_1_1_orario_del_negozio_1a9bef4d940a3590de6fb725bd33275dad" kind="function"><name>getOraDiChiusuraDate</name></member>
+  </compound>
+  <compound refid="classresources_1_1ordine_1_1_ordine" kind="class"><name>resources::ordine::Ordine</name>
+    <member refid="classresources_1_1ordine_1_1_ordine_1abb49a0f3375e4ad6365d484b03c42233" kind="variable"><name>cibi</name></member>
+    <member refid="classresources_1_1ordine_1_1_ordine_1a9b9944829a6c995efaebcc9bcc715851" kind="variable"><name>bevande</name></member>
+    <member refid="classresources_1_1ordine_1_1_ordine_1a9f4d30f67c3e696316df1da65d65b15b" kind="variable"><name>numeroTelefonico</name></member>
+    <member refid="classresources_1_1ordine_1_1_ordine_1a5a676025cc2f298ac9e50783c28c1c7e" kind="variable"><name>indirizzoConsegna</name></member>
+    <member refid="classresources_1_1ordine_1_1_ordine_1ad8d81b5e25f85f463e46d53048fa23f1" kind="variable"><name>piano</name></member>
+    <member refid="classresources_1_1ordine_1_1_ordine_1ab0c14d82732c7e41d223a3a86a366cac" kind="variable"><name>orarioConsegna</name></member>
+    <member refid="classresources_1_1ordine_1_1_ordine_1a8c5d1f512adb8c2818476bc6974ee124" kind="variable"><name>prezzoTotale</name></member>
+    <member refid="classresources_1_1ordine_1_1_ordine_1afca6e9896230fe2c8b2d79925a064d72" kind="variable"><name>jListListaPredefinitaGusti</name></member>
+    <member refid="classresources_1_1ordine_1_1_ordine_1a666e3033673e72d631d52fa342bc199b" kind="function"><name>Ordine</name></member>
+    <member refid="classresources_1_1ordine_1_1_ordine_1acc272527cc5724f22fbf61b2d193376b" kind="function"><name>getNumeroTelefonico</name></member>
+    <member refid="classresources_1_1ordine_1_1_ordine_1aa83b08e2f510d89aef792008639411d3" kind="function"><name>getIndirizzoConsegna</name></member>
+    <member refid="classresources_1_1ordine_1_1_ordine_1acda2ef7930fb55064587096029779ad9" kind="function"><name>getOrarioConsegna</name></member>
+    <member refid="classresources_1_1ordine_1_1_ordine_1a8c20e24f82ca3e545474529bd081e554" kind="function"><name>getPrezzoTotale</name></member>
+    <member refid="classresources_1_1ordine_1_1_ordine_1a32f583f428c1f9c2a0c142a4cfe4dfad" kind="function"><name>getCibi</name></member>
+    <member refid="classresources_1_1ordine_1_1_ordine_1a455d468d4f02b60a9769bea15df859d8" kind="function"><name>getBevande</name></member>
+    <member refid="classresources_1_1ordine_1_1_ordine_1ab3d97714f7c6a8ab9f6eb5fbcbea30b0" kind="function"><name>getPiano</name></member>
+    <member refid="classresources_1_1ordine_1_1_ordine_1a808c8591578bb8bc3506e7f44f7cae35" kind="function"><name>hashCode</name></member>
+    <member refid="classresources_1_1ordine_1_1_ordine_1a3cb0e2e2ea8e7b033128d8220f966959" kind="function"><name>equals</name></member>
+    <member refid="classresources_1_1ordine_1_1_ordine_1a5420b898533191f8da149d77d4e09aae" kind="function"><name>toString</name></member>
+    <member refid="classresources_1_1ordine_1_1_ordine_1aa7ee04f71d02c4b1f93c6492986c602d" kind="function"><name>calcolaPrezzo</name></member>
+  </compound>
+  <compound refid="classresources_1_1ordine_1_1_ordine_updater" kind="class"><name>resources::ordine::OrdineUpdater</name>
+    <member refid="classresources_1_1ordine_1_1_ordine_updater_1a7b205d05f50b7dc05b6357b546ad9941" kind="variable"><name>parserXMLOrdine</name></member>
+    <member refid="classresources_1_1ordine_1_1_ordine_updater_1a91995f4e8c979b48d21e94ddd52b3aef" kind="variable"><name>listaOrdiniModel</name></member>
+    <member refid="classresources_1_1ordine_1_1_ordine_updater_1aff0560d0a34ec52e64acf681192a55ca" kind="variable"><name>server</name></member>
+    <member refid="classresources_1_1ordine_1_1_ordine_updater_1ad524b5903677c0d402b05801db487800" kind="variable"><name>parsingResult</name></member>
+    <member refid="classresources_1_1ordine_1_1_ordine_updater_1a265726979f1e0e490de0a9788e1deccc" kind="variable"><name>generatorXMLOrdine</name></member>
+    <member refid="classresources_1_1ordine_1_1_ordine_updater_1aff19d63303141e927df5aec25838a0b8" kind="function"><name>OrdineUpdater</name></member>
+    <member refid="classresources_1_1ordine_1_1_ordine_updater_1a3cbcc90da488f54195020d4fd0945d95" kind="function"><name>run</name></member>
+  </compound>
+  <compound refid="classresources_1_1compositionlistapredefinitagusti_1_1xml_1_1parserxml_1_1_parser_x_m_l_composition_lista_predefinita_gusti" kind="class"><name>resources::compositionlistapredefinitagusti::xml::parserxml::ParserXMLCompositionListaPredefinitaGusti</name>
+    <member refid="classresources_1_1compositionlistapredefinitagusti_1_1xml_1_1parserxml_1_1_parser_x_m_l_composition_lista_predefinita_gusti_1ae1844bfaed10fb89271739409cffe6c9" kind="variable"><name>parsingResult</name></member>
+    <member refid="classresources_1_1compositionlistapredefinitagusti_1_1xml_1_1parserxml_1_1_parser_x_m_l_composition_lista_predefinita_gusti_1a41c2c2649743bea8dcd056cb61d77019" kind="function"><name>ParserXMLCompositionListaPredefinitaGusti</name></member>
+    <member refid="classresources_1_1compositionlistapredefinitagusti_1_1xml_1_1parserxml_1_1_parser_x_m_l_composition_lista_predefinita_gusti_1a79c159b5edf6bf6c5f42a06f2290e37f" kind="function"><name>parseDocument</name></member>
+    <member refid="classresources_1_1compositionlistapredefinitagusti_1_1xml_1_1parserxml_1_1_parser_x_m_l_composition_lista_predefinita_gusti_1af6301443b1731977343c412d9d5acb4a" kind="function"><name>put</name></member>
+  </compound>
+  <compound refid="classresources_1_1orariodelnegozio_1_1xml_1_1parserxml_1_1_parser_x_m_l_modifica_orario_del_negozio" kind="class"><name>resources::orariodelnegozio::xml::parserxml::ParserXMLModificaOrarioDelNegozio</name>
+    <member refid="classresources_1_1orariodelnegozio_1_1xml_1_1parserxml_1_1_parser_x_m_l_modifica_orario_del_negozio_1ae1280a074d614f1eda11867eb5e32ea0" kind="variable"><name>parsingResult</name></member>
+    <member refid="classresources_1_1orariodelnegozio_1_1xml_1_1parserxml_1_1_parser_x_m_l_modifica_orario_del_negozio_1adb3b5ce0d782340a375c6480faf481e7" kind="function"><name>ParserXMLModificaOrarioDelNegozio</name></member>
+    <member refid="classresources_1_1orariodelnegozio_1_1xml_1_1parserxml_1_1_parser_x_m_l_modifica_orario_del_negozio_1a83fcad4bc1303f005548034b0cb0bb57" kind="function"><name>parseDocument</name></member>
+    <member refid="classresources_1_1orariodelnegozio_1_1xml_1_1parserxml_1_1_parser_x_m_l_modifica_orario_del_negozio_1a14a11f4a80843af5c96bd4dcbde0f71c" kind="function"><name>put</name></member>
+  </compound>
+  <compound refid="classresources_1_1prezzovaschette_1_1xml_1_1parserxml_1_1_parser_x_m_l_modifica_prezzo_vaschette" kind="class"><name>resources::prezzovaschette::xml::parserxml::ParserXMLModificaPrezzoVaschette</name>
+    <member refid="classresources_1_1prezzovaschette_1_1xml_1_1parserxml_1_1_parser_x_m_l_modifica_prezzo_vaschette_1a23871d39dabd1e147e251dc971a3d8af" kind="variable"><name>parsingResult</name></member>
+    <member refid="classresources_1_1prezzovaschette_1_1xml_1_1parserxml_1_1_parser_x_m_l_modifica_prezzo_vaschette_1a73e0e57de77cc5512f37311bce4dbd8b" kind="function"><name>ParserXMLModificaPrezzoVaschette</name></member>
+    <member refid="classresources_1_1prezzovaschette_1_1xml_1_1parserxml_1_1_parser_x_m_l_modifica_prezzo_vaschette_1aae5a714a41373e3d975d6ad4b1ef0c2f" kind="function"><name>parseDocument</name></member>
+    <member refid="classresources_1_1prezzovaschette_1_1xml_1_1parserxml_1_1_parser_x_m_l_modifica_prezzo_vaschette_1a6d36968f08deb880624c86cb0243d74b" kind="function"><name>put</name></member>
+  </compound>
+  <compound refid="classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine" kind="class"><name>resources::ordine::xml::parserxml::ParserXMLOrdine</name>
+    <member refid="classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine_1a5c4b2b2d01e2dba275220b276eda3803" kind="variable"><name>parsingResult</name></member>
+    <member refid="classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine_1ac429dc5fac21743a7b71102772c82fef" kind="variable"><name>jListListaPredefinitaGusti</name></member>
+    <member refid="classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine_1a840e57b044e8370bdd95cf42871ada7a" kind="function"><name>ParserXMLOrdine</name></member>
+    <member refid="classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine_1aa730d79aa207eef84cca50a5ee1b4c07" kind="function"><name>parseDocument</name></member>
+    <member refid="classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine_1a83cead9d33a5d8fdc38adaf8394a630f" kind="function"><name>put</name></member>
+  </compound>
+  <compound refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette" kind="class"><name>resources::prezzovaschette::PrezzoVaschette</name>
+    <member refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1acb427ea075e904a3ea64d12c0be0faed" kind="variable"><name>prezzoVaschettaPiccola</name></member>
+    <member refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1a8298edee52afd08351f18343567723b1" kind="variable"><name>prezzoVaschettaMedia</name></member>
+    <member refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1a0f8da2ffb54c85e21d8ed57590804df9" kind="variable"><name>prezzoVaschettaGrande</name></member>
+    <member refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1a1b35895973a22ba0495fdb0ebe7e3631" kind="function"><name>PrezzoVaschette</name></member>
+    <member refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1aaa7c83ff61d8ae119edfa4a92cef07c8" kind="function"><name>getPrezzoVaschettaPiccola</name></member>
+    <member refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1aa6db40b4079c763ce624ae31c866bc78" kind="function"><name>getPrezzoVaschettaMedia</name></member>
+    <member refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1a410f59ea6b805dacc5aaa107a5833d5f" kind="function"><name>getPrezzoVaschettaGrande</name></member>
+  </compound>
+  <compound refid="classresources_1_1ordine_1_1_vaschetta" kind="class"><name>resources::ordine::Vaschetta</name>
+    <member refid="classresources_1_1ordine_1_1_vaschetta_1ab2fe2f4341cc7547fbeb613767d959eb" kind="variable"><name>cibi</name></member>
+    <member refid="classresources_1_1ordine_1_1_vaschetta_1a8526c83e9e5765a7b628b53a7f13d078" kind="variable"><name>bevande</name></member>
+    <member refid="classresources_1_1ordine_1_1_vaschetta_1ad11350d1f315cf9f87b1f01997ca7b72" kind="function"><name>Vaschetta</name></member>
+    <member refid="classresources_1_1ordine_1_1_vaschetta_1a741b5c09bc8b665169c1dab0d12dbc54" kind="function"><name>getCibi</name></member>
+    <member refid="classresources_1_1ordine_1_1_vaschetta_1a4796f20f551cc1995e2c91943a61c742" kind="function"><name>getBevande</name></member>
+    <member refid="classresources_1_1ordine_1_1_vaschetta_1a5b17e5caff517175c96ea16bb2e6defa" kind="function"><name>hashCode</name></member>
+    <member refid="classresources_1_1ordine_1_1_vaschetta_1aaa5a56b1d5c6f405277f92f4d69b52ed" kind="function"><name>equals</name></member>
+    <member refid="classresources_1_1ordine_1_1_vaschetta_1a5ad672e37ec5e839607a1ebadce88311" kind="function"><name>toString</name></member>
+  </compound>
+  <compound refid="namespacegui_gelataio" kind="namespace"><name>guiGelataio</name>
+  </compound>
+  <compound refid="namespaceresources" kind="namespace"><name>resources</name>
+  </compound>
+  <compound refid="namespaceresources_1_1compositionlistapredefinitagusti" kind="namespace"><name>resources::compositionlistapredefinitagusti</name>
+  </compound>
+  <compound refid="namespaceresources_1_1compositionlistapredefinitagusti_1_1xml" kind="namespace"><name>resources::compositionlistapredefinitagusti::xml</name>
+  </compound>
+  <compound refid="namespaceresources_1_1compositionlistapredefinitagusti_1_1xml_1_1generatorxml" kind="namespace"><name>resources::compositionlistapredefinitagusti::xml::generatorxml</name>
+  </compound>
+  <compound refid="namespaceresources_1_1compositionlistapredefinitagusti_1_1xml_1_1parserxml" kind="namespace"><name>resources::compositionlistapredefinitagusti::xml::parserxml</name>
+  </compound>
+  <compound refid="namespaceresources_1_1cronology" kind="namespace"><name>resources::cronology</name>
+  </compound>
+  <compound refid="namespaceresources_1_1currenttime" kind="namespace"><name>resources::currenttime</name>
+  </compound>
+  <compound refid="namespaceresources_1_1ftpserver" kind="namespace"><name>resources::ftpserver</name>
+  </compound>
+  <compound refid="namespaceresources_1_1listtextwrapper" kind="namespace"><name>resources::listtextwrapper</name>
+  </compound>
+  <compound refid="namespaceresources_1_1orariodelnegozio" kind="namespace"><name>resources::orariodelnegozio</name>
+  </compound>
+  <compound refid="namespaceresources_1_1orariodelnegozio_1_1xml" kind="namespace"><name>resources::orariodelnegozio::xml</name>
+  </compound>
+  <compound refid="namespaceresources_1_1orariodelnegozio_1_1xml_1_1generatorxml" kind="namespace"><name>resources::orariodelnegozio::xml::generatorxml</name>
+  </compound>
+  <compound refid="namespaceresources_1_1orariodelnegozio_1_1xml_1_1parserxml" kind="namespace"><name>resources::orariodelnegozio::xml::parserxml</name>
+  </compound>
+  <compound refid="namespaceresources_1_1ordine" kind="namespace"><name>resources::ordine</name>
+  </compound>
+  <compound refid="namespaceresources_1_1ordine_1_1xml" kind="namespace"><name>resources::ordine::xml</name>
+  </compound>
+  <compound refid="namespaceresources_1_1ordine_1_1xml_1_1generatorxml" kind="namespace"><name>resources::ordine::xml::generatorxml</name>
+  </compound>
+  <compound refid="namespaceresources_1_1ordine_1_1xml_1_1generatorxmlv2" kind="namespace"><name>resources::ordine::xml::generatorxmlv2</name>
+  </compound>
+  <compound refid="namespaceresources_1_1ordine_1_1xml_1_1generatorxmlv3" kind="namespace"><name>resources::ordine::xml::generatorxmlv3</name>
+  </compound>
+  <compound refid="namespaceresources_1_1ordine_1_1xml_1_1parserxml" kind="namespace"><name>resources::ordine::xml::parserxml</name>
+  </compound>
+  <compound refid="namespaceresources_1_1prezzovaschette" kind="namespace"><name>resources::prezzovaschette</name>
+  </compound>
+  <compound refid="namespaceresources_1_1prezzovaschette_1_1xml" kind="namespace"><name>resources::prezzovaschette::xml</name>
+  </compound>
+  <compound refid="namespaceresources_1_1prezzovaschette_1_1xml_1_1generatorxml" kind="namespace"><name>resources::prezzovaschette::xml::generatorxml</name>
+  </compound>
+  <compound refid="namespaceresources_1_1prezzovaschette_1_1xml_1_1parserxml" kind="namespace"><name>resources::prezzovaschette::xml::parserxml</name>
+  </compound>
+  <compound refid="_interfaccia_principale_galataio_8java" kind="file"><name>InterfacciaPrincipaleGalataio.java</name>
+  </compound>
+  <compound refid="_composition_lista_predefinita_gusti_8java" kind="file"><name>CompositionListaPredefinitaGusti.java</name>
+  </compound>
+  <compound refid="_generator_x_m_l_composition_lista_predefinita_gusti_8java" kind="file"><name>GeneratorXMLCompositionListaPredefinitaGusti.java</name>
+  </compound>
+  <compound refid="_parser_x_m_l_composition_lista_predefinita_gusti_8java" kind="file"><name>ParserXMLCompositionListaPredefinitaGusti.java</name>
+  </compound>
+  <compound refid="_cronology_updater_8java" kind="file"><name>CronologyUpdater.java</name>
+  </compound>
+  <compound refid="_current_time_8java" kind="file"><name>CurrentTime.java</name>
+  </compound>
+  <compound refid="_f_t_p_server_8java" kind="file"><name>FTPServer.java</name>
+  </compound>
+  <compound refid="_keeper_8java" kind="file"><name>Keeper.java</name>
+  </compound>
+  <compound refid="_manager_8java" kind="file"><name>Manager.java</name>
+  </compound>
+  <compound refid="_list_text_wrapper_8java" kind="file"><name>ListTextWrapper.java</name>
+  </compound>
+  <compound refid="_orario_del_negozio_8java" kind="file"><name>OrarioDelNegozio.java</name>
+  </compound>
+  <compound refid="_generator_x_m_l_modifica_orario_del_negozio_8java" kind="file"><name>GeneratorXMLModificaOrarioDelNegozio.java</name>
+  </compound>
+  <compound refid="_parser_x_m_l_modifica_orario_del_negozio_8java" kind="file"><name>ParserXMLModificaOrarioDelNegozio.java</name>
+  </compound>
+  <compound refid="_ordine_8java" kind="file"><name>Ordine.java</name>
+  </compound>
+  <compound refid="_ordine_updater_8java" kind="file"><name>OrdineUpdater.java</name>
+  </compound>
+  <compound refid="_vaschetta_8java" kind="file"><name>Vaschetta.java</name>
+  </compound>
+  <compound refid="_generator_x_m_l_ordine_8java" kind="file"><name>GeneratorXMLOrdine.java</name>
+  </compound>
+  <compound refid="_generator_x_m_l_ordinev2_8java" kind="file"><name>GeneratorXMLOrdinev2.java</name>
+  </compound>
+  <compound refid="_generator_x_m_l_ordinev3_8java" kind="file"><name>GeneratorXMLOrdinev3.java</name>
+  </compound>
+  <compound refid="_parser_x_m_l_ordine_8java" kind="file"><name>ParserXMLOrdine.java</name>
+  </compound>
+  <compound refid="_prezzo_vaschette_8java" kind="file"><name>PrezzoVaschette.java</name>
+  </compound>
+  <compound refid="_generator_x_m_l_modifica_prezzo_vaschette_8java" kind="file"><name>GeneratorXMLModificaPrezzoVaschette.java</name>
+  </compound>
+  <compound refid="_parser_x_m_l_modifica_prezzo_vaschette_8java" kind="file"><name>ParserXMLModificaPrezzoVaschette.java</name>
+  </compound>
+  <compound refid="dir_42706dbdbfbf40b97ce2ae33dca351cc" kind="dir"><name>C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/compositionlistapredefinitagusti</name>
+  </compound>
+  <compound refid="dir_10af375220c3f3e7fcb5ba3409b0dc80" kind="dir"><name>C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/cronology</name>
+  </compound>
+  <compound refid="dir_c636ed5c429b8496dda1c1ed7a0ab736" kind="dir"><name>C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/currenttime</name>
+  </compound>
+  <compound refid="dir_38f3b576b2a67c6d94cb3ffeddc206f2" kind="dir"><name>C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver</name>
+  </compound>
+  <compound refid="dir_24535f961cb40eb2f8eacfe460a19db2" kind="dir"><name>C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/xml/generatorxml</name>
+  </compound>
+  <compound refid="dir_7a724fcb59121fb3aa05431bee711431" kind="dir"><name>C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/compositionlistapredefinitagusti/xml/generatorxml</name>
+  </compound>
+  <compound refid="dir_d30599d7b4d53bc435de786d886b5a31" kind="dir"><name>C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/prezzovaschette/xml/generatorxml</name>
+  </compound>
+  <compound refid="dir_a6ca5245adf312e08bbf77069529cb7c" kind="dir"><name>C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/orariodelnegozio/xml/generatorxml</name>
+  </compound>
+  <compound refid="dir_c4a52c70a6152638d798462e88091bca" kind="dir"><name>C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/xml/generatorxmlv2</name>
+  </compound>
+  <compound refid="dir_a9de406763dd1dd6723145c9912430b0" kind="dir"><name>C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/xml/generatorxmlv3</name>
+  </compound>
+  <compound refid="dir_2912042b513435e5c3d62719b3693198" kind="dir"><name>C:/Users/gandr/Desktop/InterfacciaGelataio/src/guiGelataio</name>
+  </compound>
+  <compound refid="dir_2131fe1c72f877324bb908673102a11d" kind="dir"><name>C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/listtextwrapper</name>
+  </compound>
+  <compound refid="dir_60fcd318f1e1e3a87b5fa69f6dba13bb" kind="dir"><name>C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/orariodelnegozio</name>
+  </compound>
+  <compound refid="dir_9c3b7bca5ce21a8bab4feb559398ee6e" kind="dir"><name>C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine</name>
+  </compound>
+  <compound refid="dir_6a628c8d8280504e05c4fb93fa287dc7" kind="dir"><name>C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/orariodelnegozio/xml/parserxml</name>
+  </compound>
+  <compound refid="dir_57c7b5ab718cf44cf86d977e35ccd833" kind="dir"><name>C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/prezzovaschette/xml/parserxml</name>
+  </compound>
+  <compound refid="dir_97dc51a14a11f9cf31afd6e19268eda8" kind="dir"><name>C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/xml/parserxml</name>
+  </compound>
+  <compound refid="dir_0991c6172c3dcda6b0a6ac12b1c4f84c" kind="dir"><name>C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/compositionlistapredefinitagusti/xml/parserxml</name>
+  </compound>
+  <compound refid="dir_88dfeed5f5229f8a7acba86a9f7a0974" kind="dir"><name>C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/prezzovaschette</name>
+  </compound>
+  <compound refid="dir_fa3b942b33b04fef8622e6ed9abffc5c" kind="dir"><name>C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources</name>
+  </compound>
+  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>C:/Users/gandr/Desktop/InterfacciaGelataio/src</name>
+  </compound>
+  <compound refid="dir_75fd3e4ac92dc55a059aee12259cbdb3" kind="dir"><name>C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/prezzovaschette/xml</name>
+  </compound>
+  <compound refid="dir_5966d45b012aa8456af797876bf842b4" kind="dir"><name>C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/compositionlistapredefinitagusti/xml</name>
+  </compound>
+  <compound refid="dir_855eb9abc81b9354f7e2950398cab6b6" kind="dir"><name>C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/xml</name>
+  </compound>
+  <compound refid="dir_612e0c4f3a31037981ed766eb3f076f1" kind="dir"><name>C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/orariodelnegozio/xml</name>
+  </compound>
+  <compound refid="indexpage" kind="page"><name>index</name>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,234 @@
+\hypertarget{classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2}{}\doxysection{resources.\+ordine.\+xml.\+generatorxmlv2.\+Generator\+X\+M\+L\+Ordinev2 Class Reference}
+\label{classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2}\index{resources.ordine.xml.generatorxmlv2.GeneratorXMLOrdinev2@{resources.ordine.xml.generatorxmlv2.GeneratorXMLOrdinev2}}
+
+
+Classe generator per i file X\+ML con struttura \char`\"{}\+Ordine\char`\"{}.  
+
+
+
+
+Collaboration diagram for resources.\+ordine.\+xml.\+generatorxmlv2.\+Generator\+X\+M\+L\+Ordinev2\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=259pt]{classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2_aa26f91c71b7684d79fd95f481e9d3082}{Generator\+X\+M\+L\+Ordinev2}} ()
+\begin{DoxyCompactList}\small\item\em Costruttore. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2_a67b2141929744fa3aea5694b5a5673e6}{create\+D\+O\+M\+Tree}} (Array\+List$<$ \mbox{\hyperlink{classresources_1_1ordine_1_1_ordine}{Ordine}} $>$ data)  throws Parser\+Configuration\+Exception 
+\begin{DoxyCompactList}\small\item\em Crea l\textquotesingle{}albero D\+OM. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2_a57be40c3b048116dc243071c2af10c38}{apply\+D\+O\+Mon\+X\+M\+L\+File}} (String filename\+Npath)  throws Transformer\+Configuration\+Exception, Transformer\+Exception 
+\begin{DoxyCompactList}\small\item\em Crea l\textquotesingle{}effettivo file X\+ML sulla base dell\textquotesingle{}albero D\+OM. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2_a5bdbc3789d4435b468bca35e1b9070b7}{create\+Document}} ()  throws Parser\+Configuration\+Exception 
+\begin{DoxyCompactList}\small\item\em Crea il documento \char`\"{}virtuale\char`\"{} supporto per il nostro albero D\+OM. \end{DoxyCompactList}\item 
+Element \mbox{\hyperlink{classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2_a87bbb78dc0ca5e5155c5234690548b06}{get}} (\mbox{\hyperlink{classresources_1_1ordine_1_1_ordine}{Ordine}} single\+Element)
+\begin{DoxyCompactList}\small\item\em Converte un oggetto in \char`\"{}nodo dell\textquotesingle{}albero D\+O\+M\char`\"{}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Document \mbox{\hyperlink{classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2_a5f597c65fbef8b80879b2254d460a910}{document}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Classe generator per i file X\+ML con struttura \char`\"{}\+Ordine\char`\"{}. 
+
+\begin{DoxyAuthor}{Author}
+Grandieri Andrea \href{mailto:g.andreus02@gmail.com}{\texttt{ g.\+andreus02@gmail.\+com}} 
+
+Barsotti Mirko \href{mailto:bmirko1505@gmail.com}{\texttt{ bmirko1505@gmail.\+com}} 
+
+Brambilla Mirko \href{mailto:brambobilla01@gmail.com}{\texttt{ brambobilla01@gmail.\+com}}
+\end{DoxyAuthor}
+La seguente classe fornisce un generatore di file X\+ML con struttura \char`\"{}\+Ordine\char`\"{} 
+
+Definition at line 37 of file Generator\+X\+M\+L\+Ordinev2.\+java.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2_aa26f91c71b7684d79fd95f481e9d3082}\label{classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2_aa26f91c71b7684d79fd95f481e9d3082}} 
+\index{resources.ordine.xml.generatorxmlv2.GeneratorXMLOrdinev2@{resources.ordine.xml.generatorxmlv2.GeneratorXMLOrdinev2}!GeneratorXMLOrdinev2@{GeneratorXMLOrdinev2}}
+\index{GeneratorXMLOrdinev2@{GeneratorXMLOrdinev2}!resources.ordine.xml.generatorxmlv2.GeneratorXMLOrdinev2@{resources.ordine.xml.generatorxmlv2.GeneratorXMLOrdinev2}}
+\doxysubsubsection{\texorpdfstring{GeneratorXMLOrdinev2()}{GeneratorXMLOrdinev2()}}
+{\footnotesize\ttfamily resources.\+ordine.\+xml.\+generatorxmlv2.\+Generator\+X\+M\+L\+Ordinev2.\+Generator\+X\+M\+L\+Ordinev2 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Costruttore. 
+
+Inizializza tutte le risorse necessarie ad un oggetto di questa classe
+
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2_a5f597c65fbef8b80879b2254d460a910}{Generator\+X\+M\+L\+Ordinev2.\+document}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 60 of file Generator\+X\+M\+L\+Ordinev2.\+java.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2_a57be40c3b048116dc243071c2af10c38}\label{classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2_a57be40c3b048116dc243071c2af10c38}} 
+\index{resources.ordine.xml.generatorxmlv2.GeneratorXMLOrdinev2@{resources.ordine.xml.generatorxmlv2.GeneratorXMLOrdinev2}!applyDOMonXMLFile@{applyDOMonXMLFile}}
+\index{applyDOMonXMLFile@{applyDOMonXMLFile}!resources.ordine.xml.generatorxmlv2.GeneratorXMLOrdinev2@{resources.ordine.xml.generatorxmlv2.GeneratorXMLOrdinev2}}
+\doxysubsubsection{\texorpdfstring{applyDOMonXMLFile()}{applyDOMonXMLFile()}}
+{\footnotesize\ttfamily void resources.\+ordine.\+xml.\+generatorxmlv2.\+Generator\+X\+M\+L\+Ordinev2.\+apply\+D\+O\+Mon\+X\+M\+L\+File (\begin{DoxyParamCaption}\item[{String}]{filename\+Npath }\end{DoxyParamCaption}) throws Transformer\+Configuration\+Exception, Transformer\+Exception}
+
+
+
+Crea l\textquotesingle{}effettivo file X\+ML sulla base dell\textquotesingle{}albero D\+OM. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em filename\+Npath} & Path del file X\+ML di salvataggio\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Transformer\+Configuration\+Exception} & \\
+\hline
+{\em Transformer\+Exception} & \\
+\hline
+\end{DoxyExceptions}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2_a5f597c65fbef8b80879b2254d460a910}{Generator\+X\+M\+L\+Ordinev2.\+document}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 314 of file Generator\+X\+M\+L\+Ordinev2.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2_a57be40c3b048116dc243071c2af10c38_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2_a5bdbc3789d4435b468bca35e1b9070b7}\label{classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2_a5bdbc3789d4435b468bca35e1b9070b7}} 
+\index{resources.ordine.xml.generatorxmlv2.GeneratorXMLOrdinev2@{resources.ordine.xml.generatorxmlv2.GeneratorXMLOrdinev2}!createDocument@{createDocument}}
+\index{createDocument@{createDocument}!resources.ordine.xml.generatorxmlv2.GeneratorXMLOrdinev2@{resources.ordine.xml.generatorxmlv2.GeneratorXMLOrdinev2}}
+\doxysubsubsection{\texorpdfstring{createDocument()}{createDocument()}}
+{\footnotesize\ttfamily void resources.\+ordine.\+xml.\+generatorxmlv2.\+Generator\+X\+M\+L\+Ordinev2.\+create\+Document (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws Parser\+Configuration\+Exception\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Crea il documento \char`\"{}virtuale\char`\"{} supporto per il nostro albero D\+OM. 
+
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Parser\+Configuration\+Exception} & \\
+\hline
+\end{DoxyExceptions}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2_a5f597c65fbef8b80879b2254d460a910}{Generator\+X\+M\+L\+Ordinev2.\+document}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 75 of file Generator\+X\+M\+L\+Ordinev2.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2_a5bdbc3789d4435b468bca35e1b9070b7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2_a67b2141929744fa3aea5694b5a5673e6}\label{classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2_a67b2141929744fa3aea5694b5a5673e6}} 
+\index{resources.ordine.xml.generatorxmlv2.GeneratorXMLOrdinev2@{resources.ordine.xml.generatorxmlv2.GeneratorXMLOrdinev2}!createDOMTree@{createDOMTree}}
+\index{createDOMTree@{createDOMTree}!resources.ordine.xml.generatorxmlv2.GeneratorXMLOrdinev2@{resources.ordine.xml.generatorxmlv2.GeneratorXMLOrdinev2}}
+\doxysubsubsection{\texorpdfstring{createDOMTree()}{createDOMTree()}}
+{\footnotesize\ttfamily void resources.\+ordine.\+xml.\+generatorxmlv2.\+Generator\+X\+M\+L\+Ordinev2.\+create\+D\+O\+M\+Tree (\begin{DoxyParamCaption}\item[{Array\+List$<$ \mbox{\hyperlink{classresources_1_1ordine_1_1_ordine}{Ordine}} $>$}]{data }\end{DoxyParamCaption}) throws Parser\+Configuration\+Exception}
+
+
+
+Crea l\textquotesingle{}albero D\+OM. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & Lista di oggetti da convertire in \char`\"{}nodi dell\textquotesingle{}albero D\+O\+M\char`\"{}\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Parser\+Configuration\+Exception} & \\
+\hline
+\end{DoxyExceptions}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2_a5bdbc3789d4435b468bca35e1b9070b7}{Generator\+X\+M\+L\+Ordinev2.\+create\+Document()}} 
+
+\mbox{\hyperlink{classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2_a5f597c65fbef8b80879b2254d460a910}{Generator\+X\+M\+L\+Ordinev2.\+document}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 96 of file Generator\+X\+M\+L\+Ordinev2.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2_a67b2141929744fa3aea5694b5a5673e6_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2_a67b2141929744fa3aea5694b5a5673e6_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2_a87bbb78dc0ca5e5155c5234690548b06}\label{classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2_a87bbb78dc0ca5e5155c5234690548b06}} 
+\index{resources.ordine.xml.generatorxmlv2.GeneratorXMLOrdinev2@{resources.ordine.xml.generatorxmlv2.GeneratorXMLOrdinev2}!get@{get}}
+\index{get@{get}!resources.ordine.xml.generatorxmlv2.GeneratorXMLOrdinev2@{resources.ordine.xml.generatorxmlv2.GeneratorXMLOrdinev2}}
+\doxysubsubsection{\texorpdfstring{get()}{get()}}
+{\footnotesize\ttfamily Element resources.\+ordine.\+xml.\+generatorxmlv2.\+Generator\+X\+M\+L\+Ordinev2.\+get (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classresources_1_1ordine_1_1_ordine}{Ordine}}}]{single\+Element }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Converte un oggetto in \char`\"{}nodo dell\textquotesingle{}albero D\+O\+M\char`\"{}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em single\+Element} & L\textquotesingle{}oggetto da convertire in \char`\"{}nodo dell\textquotesingle{}albero D\+O\+M\char`\"{}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Il nodo dell\textquotesingle{}albero D\+OM (L\textquotesingle{}oggetto convertito in)
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2_a5f597c65fbef8b80879b2254d460a910}{Generator\+X\+M\+L\+Ordinev2.\+document}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 148 of file Generator\+X\+M\+L\+Ordinev2.\+java.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2_a5f597c65fbef8b80879b2254d460a910}\label{classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2_a5f597c65fbef8b80879b2254d460a910}} 
+\index{resources.ordine.xml.generatorxmlv2.GeneratorXMLOrdinev2@{resources.ordine.xml.generatorxmlv2.GeneratorXMLOrdinev2}!document@{document}}
+\index{document@{document}!resources.ordine.xml.generatorxmlv2.GeneratorXMLOrdinev2@{resources.ordine.xml.generatorxmlv2.GeneratorXMLOrdinev2}}
+\doxysubsubsection{\texorpdfstring{document}{document}}
+{\footnotesize\ttfamily Document resources.\+ordine.\+xml.\+generatorxmlv2.\+Generator\+X\+M\+L\+Ordinev2.\+document\hspace{0.3cm}{\ttfamily [private]}}
+
+Rappresenta il documento \char`\"{}virtuale\char`\"{} sul quale andremo a creare il nostro albero D\+OM 
+
+Definition at line 50 of file Generator\+X\+M\+L\+Ordinev2.\+java.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/gandr/\+Desktop/\+Interfaccia\+Gelataio/src/resources/ordine/xml/generatorxmlv2/\mbox{\hyperlink{_generator_x_m_l_ordinev2_8java}{Generator\+X\+M\+L\+Ordinev2.\+java}}\end{DoxyCompactItemize}

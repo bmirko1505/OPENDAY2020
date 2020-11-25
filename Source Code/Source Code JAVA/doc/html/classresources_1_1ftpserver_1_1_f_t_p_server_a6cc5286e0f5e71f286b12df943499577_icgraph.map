@@ -1,0 +1,6 @@
+<map id="resources.ftpserver.FTPServer.deleteFile" name="resources.ftpserver.FTPServer.deleteFile">
+<area shape="rect" id="node1" title="Elimina un file dal server." alt="" coords="337,86,592,113"/>
+<area shape="rect" id="node2" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#a378bc314d9cd6300683c36443820a0c0" title="Elimina un file dal server." alt="" coords="30,5,265,47"/>
+<area shape="rect" id="node3" href="$classgui_gelataio_1_1_interfaccia_principale_galataio.html#a39cae8eaace69bbe3047518bc82e3cc9" title=" " alt="" coords="5,71,289,127"/>
+<area shape="rect" id="node4" href="$classresources_1_1ordine_1_1_ordine_updater.html#a3cbcc90da488f54195020d4fd0945d95" title="Codice eseguito dal thread." alt="" coords="34,151,261,178"/>
+</map>

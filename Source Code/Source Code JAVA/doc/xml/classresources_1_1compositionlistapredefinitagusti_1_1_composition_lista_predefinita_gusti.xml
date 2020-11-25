@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="classresources_1_1compositionlistapredefinitagusti_1_1_composition_lista_predefinita_gusti" kind="class" language="Java" prot="public">
+    <compoundname>resources::compositionlistapredefinitagusti::CompositionListaPredefinitaGusti</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classresources_1_1compositionlistapredefinitagusti_1_1_composition_lista_predefinita_gusti_1a709c1de88b12eb7f44faedf00120ac29" prot="private" static="no" mutable="no">
+        <type>final String</type>
+        <definition>final String resources.compositionlistapredefinitagusti.CompositionListaPredefinitaGusti.gusto</definition>
+        <argsstring></argsstring>
+        <name>gusto</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Rappresenta il gusto; rappresenta l&apos;elemento testuale che compone l&apos;elemento stesso della lista </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/compositionlistapredefinitagusti/CompositionListaPredefinitaGusti.java" line="35" column="26" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/compositionlistapredefinitagusti/CompositionListaPredefinitaGusti.java" bodystart="35" bodyend="-1"/>
+        <referencedby refid="classresources_1_1compositionlistapredefinitagusti_1_1_composition_lista_predefinita_gusti_1a0cf963329af94ddb070cc9da3626bfda" compoundref="_composition_lista_predefinita_gusti_8java" startline="49" endline="53">resources.compositionlistapredefinitagusti.CompositionListaPredefinitaGusti.CompositionListaPredefinitaGusti</referencedby>
+        <referencedby refid="classresources_1_1compositionlistapredefinitagusti_1_1_composition_lista_predefinita_gusti_1acee202561671f4cb28790686ce4ee4d8" compoundref="_composition_lista_predefinita_gusti_8java" startline="63" endline="65">resources.compositionlistapredefinitagusti.CompositionListaPredefinitaGusti.getGusto</referencedby>
+        <referencedby refid="classresources_1_1compositionlistapredefinitagusti_1_1_composition_lista_predefinita_gusti_1a13d0e236677557f5aa8cce500abb1460" compoundref="_composition_lista_predefinita_gusti_8java" startline="76" endline="78">resources.compositionlistapredefinitagusti.CompositionListaPredefinitaGusti.toString</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classresources_1_1compositionlistapredefinitagusti_1_1_composition_lista_predefinita_gusti_1aeb54dfb827e76627dde2a92580e5dbb7" prot="private" static="no" mutable="no">
+        <type>final String</type>
+        <definition>final String resources.compositionlistapredefinitagusti.CompositionListaPredefinitaGusti.tipo</definition>
+        <argsstring></argsstring>
+        <name>tipo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/compositionlistapredefinitagusti/CompositionListaPredefinitaGusti.java" line="36" column="26" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/compositionlistapredefinitagusti/CompositionListaPredefinitaGusti.java" bodystart="36" bodyend="-1"/>
+        <referencedby refid="classresources_1_1compositionlistapredefinitagusti_1_1_composition_lista_predefinita_gusti_1a0cf963329af94ddb070cc9da3626bfda" compoundref="_composition_lista_predefinita_gusti_8java" startline="49" endline="53">resources.compositionlistapredefinitagusti.CompositionListaPredefinitaGusti.CompositionListaPredefinitaGusti</referencedby>
+        <referencedby refid="classresources_1_1compositionlistapredefinitagusti_1_1_composition_lista_predefinita_gusti_1a29f9b8a8174e2f9222f580589c7c8025" compoundref="_composition_lista_predefinita_gusti_8java" startline="67" endline="69">resources.compositionlistapredefinitagusti.CompositionListaPredefinitaGusti.getTipo</referencedby>
+        <referencedby refid="classresources_1_1compositionlistapredefinitagusti_1_1_composition_lista_predefinita_gusti_1a13d0e236677557f5aa8cce500abb1460" compoundref="_composition_lista_predefinita_gusti_8java" startline="76" endline="78">resources.compositionlistapredefinitagusti.CompositionListaPredefinitaGusti.toString</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classresources_1_1compositionlistapredefinitagusti_1_1_composition_lista_predefinita_gusti_1a31c10668ebccd8d2d510d41616bc850c" prot="private" static="no" mutable="no">
+        <type>final Float</type>
+        <definition>final Float resources.compositionlistapredefinitagusti.CompositionListaPredefinitaGusti.prezzo</definition>
+        <argsstring></argsstring>
+        <name>prezzo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/compositionlistapredefinitagusti/CompositionListaPredefinitaGusti.java" line="37" column="25" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/compositionlistapredefinitagusti/CompositionListaPredefinitaGusti.java" bodystart="37" bodyend="-1"/>
+        <referencedby refid="classresources_1_1compositionlistapredefinitagusti_1_1_composition_lista_predefinita_gusti_1a0cf963329af94ddb070cc9da3626bfda" compoundref="_composition_lista_predefinita_gusti_8java" startline="49" endline="53">resources.compositionlistapredefinitagusti.CompositionListaPredefinitaGusti.CompositionListaPredefinitaGusti</referencedby>
+        <referencedby refid="classresources_1_1compositionlistapredefinitagusti_1_1_composition_lista_predefinita_gusti_1ad4b63c69890924709d2dcd4b819a2c28" compoundref="_composition_lista_predefinita_gusti_8java" startline="71" endline="73">resources.compositionlistapredefinitagusti.CompositionListaPredefinitaGusti.getPrezzo</referencedby>
+        <referencedby refid="classresources_1_1compositionlistapredefinitagusti_1_1_composition_lista_predefinita_gusti_1a13d0e236677557f5aa8cce500abb1460" compoundref="_composition_lista_predefinita_gusti_8java" startline="76" endline="78">resources.compositionlistapredefinitagusti.CompositionListaPredefinitaGusti.toString</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classresources_1_1compositionlistapredefinitagusti_1_1_composition_lista_predefinita_gusti_1a0cf963329af94ddb070cc9da3626bfda" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>resources.compositionlistapredefinitagusti.CompositionListaPredefinitaGusti.CompositionListaPredefinitaGusti</definition>
+        <argsstring>(String gusto, String tipo, Float prezzo)</argsstring>
+        <name>CompositionListaPredefinitaGusti</name>
+        <param>
+          <type>String</type>
+          <declname>gusto</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>tipo</declname>
+        </param>
+        <param>
+          <type>Float</type>
+          <declname>prezzo</declname>
+        </param>
+        <briefdescription>
+<para>Costruttore. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Inizializza tutte le risorse necessarie ad un oggetto di questa classe</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>gusto</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Il valore con il quale inizializzare l&apos;attributo <ref refid="classresources_1_1compositionlistapredefinitagusti_1_1_composition_lista_predefinita_gusti_1a709c1de88b12eb7f44faedf00120ac29" kindref="member">CompositionListaPredefinitaGusti.gusto</ref></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="classresources_1_1compositionlistapredefinitagusti_1_1_composition_lista_predefinita_gusti_1a709c1de88b12eb7f44faedf00120ac29" kindref="member">CompositionListaPredefinitaGusti.gusto</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/compositionlistapredefinitagusti/CompositionListaPredefinitaGusti.java" line="49" column="12" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/compositionlistapredefinitagusti/CompositionListaPredefinitaGusti.java" bodystart="49" bodyend="53"/>
+        <references refid="classresources_1_1compositionlistapredefinitagusti_1_1_composition_lista_predefinita_gusti_1a709c1de88b12eb7f44faedf00120ac29" compoundref="_composition_lista_predefinita_gusti_8java" startline="35">resources.compositionlistapredefinitagusti.CompositionListaPredefinitaGusti.gusto</references>
+        <references refid="classresources_1_1compositionlistapredefinitagusti_1_1_composition_lista_predefinita_gusti_1a31c10668ebccd8d2d510d41616bc850c" compoundref="_composition_lista_predefinita_gusti_8java" startline="37">resources.compositionlistapredefinitagusti.CompositionListaPredefinitaGusti.prezzo</references>
+        <references refid="classresources_1_1compositionlistapredefinitagusti_1_1_composition_lista_predefinita_gusti_1aeb54dfb827e76627dde2a92580e5dbb7" compoundref="_composition_lista_predefinita_gusti_8java" startline="36">resources.compositionlistapredefinitagusti.CompositionListaPredefinitaGusti.tipo</references>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1compositionlistapredefinitagusti_1_1_composition_lista_predefinita_gusti_1acee202561671f4cb28790686ce4ee4d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String resources.compositionlistapredefinitagusti.CompositionListaPredefinitaGusti.getGusto</definition>
+        <argsstring>()</argsstring>
+        <name>getGusto</name>
+        <briefdescription>
+<para>Ritorna il valore dell&apos;attributo <ref refid="classresources_1_1compositionlistapredefinitagusti_1_1_composition_lista_predefinita_gusti_1a709c1de88b12eb7f44faedf00120ac29" kindref="member">CompositionListaPredefinitaGusti.gusto</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Il valore dell&apos;attributo <ref refid="classresources_1_1compositionlistapredefinitagusti_1_1_composition_lista_predefinita_gusti_1a709c1de88b12eb7f44faedf00120ac29" kindref="member">CompositionListaPredefinitaGusti.gusto</ref></para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1compositionlistapredefinitagusti_1_1_composition_lista_predefinita_gusti_1a709c1de88b12eb7f44faedf00120ac29" kindref="member">CompositionListaPredefinitaGusti.gusto</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/compositionlistapredefinitagusti/CompositionListaPredefinitaGusti.java" line="63" column="19" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/compositionlistapredefinitagusti/CompositionListaPredefinitaGusti.java" bodystart="63" bodyend="65"/>
+        <references refid="classresources_1_1compositionlistapredefinitagusti_1_1_composition_lista_predefinita_gusti_1a709c1de88b12eb7f44faedf00120ac29" compoundref="_composition_lista_predefinita_gusti_8java" startline="35">resources.compositionlistapredefinitagusti.CompositionListaPredefinitaGusti.gusto</references>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1compositionlistapredefinitagusti_1_1_composition_lista_predefinita_gusti_1a29f9b8a8174e2f9222f580589c7c8025" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String resources.compositionlistapredefinitagusti.CompositionListaPredefinitaGusti.getTipo</definition>
+        <argsstring>()</argsstring>
+        <name>getTipo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/compositionlistapredefinitagusti/CompositionListaPredefinitaGusti.java" line="67" column="19" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/compositionlistapredefinitagusti/CompositionListaPredefinitaGusti.java" bodystart="67" bodyend="69"/>
+        <references refid="classresources_1_1compositionlistapredefinitagusti_1_1_composition_lista_predefinita_gusti_1aeb54dfb827e76627dde2a92580e5dbb7" compoundref="_composition_lista_predefinita_gusti_8java" startline="36">resources.compositionlistapredefinitagusti.CompositionListaPredefinitaGusti.tipo</references>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1compositionlistapredefinitagusti_1_1_composition_lista_predefinita_gusti_1ad4b63c69890924709d2dcd4b819a2c28" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Float</type>
+        <definition>Float resources.compositionlistapredefinitagusti.CompositionListaPredefinitaGusti.getPrezzo</definition>
+        <argsstring>()</argsstring>
+        <name>getPrezzo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/compositionlistapredefinitagusti/CompositionListaPredefinitaGusti.java" line="71" column="18" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/compositionlistapredefinitagusti/CompositionListaPredefinitaGusti.java" bodystart="71" bodyend="73"/>
+        <references refid="classresources_1_1compositionlistapredefinitagusti_1_1_composition_lista_predefinita_gusti_1a31c10668ebccd8d2d510d41616bc850c" compoundref="_composition_lista_predefinita_gusti_8java" startline="37">resources.compositionlistapredefinitagusti.CompositionListaPredefinitaGusti.prezzo</references>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1compositionlistapredefinitagusti_1_1_composition_lista_predefinita_gusti_1a13d0e236677557f5aa8cce500abb1460" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String resources.compositionlistapredefinitagusti.CompositionListaPredefinitaGusti.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/compositionlistapredefinitagusti/CompositionListaPredefinitaGusti.java" line="76" column="19" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/compositionlistapredefinitagusti/CompositionListaPredefinitaGusti.java" bodystart="76" bodyend="78"/>
+        <references refid="classresources_1_1compositionlistapredefinitagusti_1_1_composition_lista_predefinita_gusti_1a709c1de88b12eb7f44faedf00120ac29" compoundref="_composition_lista_predefinita_gusti_8java" startline="35">resources.compositionlistapredefinitagusti.CompositionListaPredefinitaGusti.gusto</references>
+        <references refid="classresources_1_1compositionlistapredefinitagusti_1_1_composition_lista_predefinita_gusti_1a31c10668ebccd8d2d510d41616bc850c" compoundref="_composition_lista_predefinita_gusti_8java" startline="37">resources.compositionlistapredefinitagusti.CompositionListaPredefinitaGusti.prezzo</references>
+        <references refid="classresources_1_1compositionlistapredefinitagusti_1_1_composition_lista_predefinita_gusti_1aeb54dfb827e76627dde2a92580e5dbb7" compoundref="_composition_lista_predefinita_gusti_8java" startline="36">resources.compositionlistapredefinitagusti.CompositionListaPredefinitaGusti.tipo</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Classe per la gestione degli elementi della lista InterfacciaPrincipaleGalataio.jListListaPredefinitaGusti e InterfacciaPrincipaleGalataio.jListListaPredefinitaGusti1. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Grandieri Andrea <ulink url="mailto:g.andreus02@gmail.com">g.andreus02@gmail.com</ulink> </para>
+</simplesect>
+<simplesect kind="author"><para>Barsotti Mirko <ulink url="mailto:bmirko1505@gmail.com">bmirko1505@gmail.com</ulink> </para>
+</simplesect>
+<simplesect kind="author"><para>Brambilla Mirko <ulink url="mailto:brambobilla01@gmail.com">brambobilla01@gmail.com</ulink></para>
+</simplesect>
+La seguente classe rappresenta un elemento della lista InterfacciaPrincipaleGalataio.jListListaPredefinitaGusti e InterfacciaPrincipaleGalataio.jListListaPredefinitaGusti1necessari e permette una corretta visualizzazione di quest&apos;ultimo nel contesto della lista. </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>resources.compositionlistapredefinitagusti.CompositionListaPredefinitaGusti</label>
+        <link refid="classresources_1_1compositionlistapredefinitagusti_1_1_composition_lista_predefinita_gusti"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/compositionlistapredefinitagusti/CompositionListaPredefinitaGusti.java" line="29" column="7" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/compositionlistapredefinitagusti/CompositionListaPredefinitaGusti.java" bodystart="29" bodyend="87"/>
+    <listofallmembers>
+      <member refid="classresources_1_1compositionlistapredefinitagusti_1_1_composition_lista_predefinita_gusti_1a0cf963329af94ddb070cc9da3626bfda" prot="public" virt="non-virtual"><scope>resources::compositionlistapredefinitagusti::CompositionListaPredefinitaGusti</scope><name>CompositionListaPredefinitaGusti</name></member>
+      <member refid="classresources_1_1compositionlistapredefinitagusti_1_1_composition_lista_predefinita_gusti_1acee202561671f4cb28790686ce4ee4d8" prot="public" virt="non-virtual"><scope>resources::compositionlistapredefinitagusti::CompositionListaPredefinitaGusti</scope><name>getGusto</name></member>
+      <member refid="classresources_1_1compositionlistapredefinitagusti_1_1_composition_lista_predefinita_gusti_1ad4b63c69890924709d2dcd4b819a2c28" prot="public" virt="non-virtual"><scope>resources::compositionlistapredefinitagusti::CompositionListaPredefinitaGusti</scope><name>getPrezzo</name></member>
+      <member refid="classresources_1_1compositionlistapredefinitagusti_1_1_composition_lista_predefinita_gusti_1a29f9b8a8174e2f9222f580589c7c8025" prot="public" virt="non-virtual"><scope>resources::compositionlistapredefinitagusti::CompositionListaPredefinitaGusti</scope><name>getTipo</name></member>
+      <member refid="classresources_1_1compositionlistapredefinitagusti_1_1_composition_lista_predefinita_gusti_1a709c1de88b12eb7f44faedf00120ac29" prot="private" virt="non-virtual"><scope>resources::compositionlistapredefinitagusti::CompositionListaPredefinitaGusti</scope><name>gusto</name></member>
+      <member refid="classresources_1_1compositionlistapredefinitagusti_1_1_composition_lista_predefinita_gusti_1a31c10668ebccd8d2d510d41616bc850c" prot="private" virt="non-virtual"><scope>resources::compositionlistapredefinitagusti::CompositionListaPredefinitaGusti</scope><name>prezzo</name></member>
+      <member refid="classresources_1_1compositionlistapredefinitagusti_1_1_composition_lista_predefinita_gusti_1aeb54dfb827e76627dde2a92580e5dbb7" prot="private" virt="non-virtual"><scope>resources::compositionlistapredefinitagusti::CompositionListaPredefinitaGusti</scope><name>tipo</name></member>
+      <member refid="classresources_1_1compositionlistapredefinitagusti_1_1_composition_lista_predefinita_gusti_1a13d0e236677557f5aa8cce500abb1460" prot="public" virt="non-virtual"><scope>resources::compositionlistapredefinitagusti::CompositionListaPredefinitaGusti</scope><name>toString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,259 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine" kind="class" language="Java" prot="public">
+    <compoundname>resources::ordine::xml::parserxml::ParserXMLOrdine</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine_1a5c4b2b2d01e2dba275220b276eda3803" prot="private" static="no" mutable="no">
+        <type>ArrayList&lt; <ref refid="classresources_1_1ordine_1_1_ordine" kindref="compound">Ordine</ref> &gt;</type>
+        <definition>ArrayList&lt;Ordine&gt; resources.ordine.xml.parserxml.ParserXMLOrdine.parsingResult</definition>
+        <argsstring></argsstring>
+        <name>parsingResult</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Lista di oggetti convertiti da &quot;nodi dell&apos;albero DOM&quot; </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/xml/parserxml/ParserXMLOrdine.java" line="42" column="23" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/xml/parserxml/ParserXMLOrdine.java" bodystart="42" bodyend="-1"/>
+        <referencedby refid="classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine_1aa730d79aa207eef84cca50a5ee1b4c07" compoundref="_parser_x_m_l_ordine_8java" startline="94" endline="169">resources.ordine.xml.parserxml.ParserXMLOrdine.parseDocument</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine_1ac429dc5fac21743a7b71102772c82fef" prot="private" static="no" mutable="no">
+        <type>final JList</type>
+        <definition>final JList resources.ordine.xml.parserxml.ParserXMLOrdine.jListListaPredefinitaGusti</definition>
+        <argsstring></argsstring>
+        <name>jListListaPredefinitaGusti</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/xml/parserxml/ParserXMLOrdine.java" line="44" column="25" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/xml/parserxml/ParserXMLOrdine.java" bodystart="44" bodyend="-1"/>
+        <referencedby refid="classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine_1a840e57b044e8370bdd95cf42871ada7a" compoundref="_parser_x_m_l_ordine_8java" startline="70" endline="75">resources.ordine.xml.parserxml.ParserXMLOrdine.ParserXMLOrdine</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine_1a840e57b044e8370bdd95cf42871ada7a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>resources.ordine.xml.parserxml.ParserXMLOrdine.ParserXMLOrdine</definition>
+        <argsstring>(JList jListListaPredefinitaGusti)</argsstring>
+        <name>ParserXMLOrdine</name>
+        <param>
+          <type>JList</type>
+          <declname>jListListaPredefinitaGusti</declname>
+        </param>
+        <briefdescription>
+<para>Costruttore. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Inizializza tutte le risorse necessarie ad un oggetto di questa classe</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>jSpinnerVaschettaPiccola</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Riferimento allo spinner InterfacciaPrincipaleGelataio.jSpinnerVaschettaPiccola per ottenere il prezzo delle vaschette piccole per procedere con il calcolo del <ref refid="classresources_1_1ordine_1_1_ordine_1a8c5d1f512adb8c2818476bc6974ee124" kindref="member">Ordine.prezzoTotale</ref> </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>jSpinnerVaschettaMedia</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Riferimento allo spinner InterfacciaPrincipaleGelataio.jSpinnerVaschettaMedia per ottenere il prezzo delle vaschette medie per procedere con il calcolo del <ref refid="classresources_1_1ordine_1_1_ordine_1a8c5d1f512adb8c2818476bc6974ee124" kindref="member">Ordine.prezzoTotale</ref> </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>jSpinnerVaschettaGrande</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Riferimento allo spinner InterfacciaPrincipaleGelataio.jSpinnerVaschettaGrande per ottenere il prezzo delle vaschette grandi per procedere con il calcolo del <ref refid="classresources_1_1ordine_1_1_ordine_1a8c5d1f512adb8c2818476bc6974ee124" kindref="member">Ordine.prezzoTotale</ref></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine_1a5c4b2b2d01e2dba275220b276eda3803" kindref="member">ParserXMLOrdine.parsingResult</ref> </para>
+</simplesect>
+<simplesect kind="see"><para>ParserXMLOrdine.jSpinnerVaschettaPiccola </para>
+</simplesect>
+<simplesect kind="see"><para>ParserXMLOrdine.jSpinnerVaschettaMedia </para>
+</simplesect>
+<simplesect kind="see"><para>ParserXMLOrdine.jSpinnerVaschettaGrande </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/xml/parserxml/ParserXMLOrdine.java" line="70" column="12" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/xml/parserxml/ParserXMLOrdine.java" bodystart="70" bodyend="75"/>
+        <references refid="classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine_1ac429dc5fac21743a7b71102772c82fef" compoundref="_parser_x_m_l_ordine_8java" startline="44">resources.ordine.xml.parserxml.ParserXMLOrdine.jListListaPredefinitaGusti</references>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine_1aa730d79aa207eef84cca50a5ee1b4c07" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ArrayList&lt; <ref refid="classresources_1_1ordine_1_1_ordine" kindref="compound">Ordine</ref> &gt;</type>
+        <definition>ArrayList&lt;Ordine&gt; resources.ordine.xml.parserxml.ParserXMLOrdine.parseDocument</definition>
+        <argsstring>(String path)</argsstring>
+        <name>parseDocument</name>
+        <param>
+          <type>String</type>
+          <declname>path</declname>
+        </param>
+        <exceptions> throws ParserConfigurationException, SAXException, IOException, ParseException </exceptions>
+        <briefdescription>
+<para>Effettua il parsing del documento XML di cui viene specificato il path. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Path del file XML del quale effettuare il parsing</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Lista di oggetti convertiti da &quot;nodi dell&apos;albero DOM&quot;</para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>ParserConfigurationException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>SAXException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>IOException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ParseException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine_1a5c4b2b2d01e2dba275220b276eda3803" kindref="member">ParserXMLOrdine.parsingResult</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/xml/parserxml/ParserXMLOrdine.java" line="94" column="22" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/xml/parserxml/ParserXMLOrdine.java" bodystart="94" bodyend="169"/>
+        <references refid="classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine_1a5c4b2b2d01e2dba275220b276eda3803" compoundref="_parser_x_m_l_ordine_8java" startline="42">resources.ordine.xml.parserxml.ParserXMLOrdine.parsingResult</references>
+        <references refid="classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine_1a83cead9d33a5d8fdc38adaf8394a630f" compoundref="_parser_x_m_l_ordine_8java" startline="182" endline="266">resources.ordine.xml.parserxml.ParserXMLOrdine.put</references>
+        <referencedby refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a62413514aa70becff967d21393308a3e" compoundref="_interfaccia_principale_galataio_8java" startline="2131" endline="2204">guiGelataio.InterfacciaPrincipaleGalataio.jButtonScaricaCronologiaOrdinazioniActionPerformed</referencedby>
+        <referencedby refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a03dfacb80fd3faa98d75ae460ade5c8f" compoundref="_interfaccia_principale_galataio_8java" startline="715" endline="893">guiGelataio.InterfacciaPrincipaleGalataio.loadFromServer</referencedby>
+        <referencedby refid="classresources_1_1ordine_1_1_ordine_updater_1a3cbcc90da488f54195020d4fd0945d95" compoundref="_ordine_updater_8java" startline="120" endline="170">resources.ordine.OrdineUpdater.run</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine_1a83cead9d33a5d8fdc38adaf8394a630f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void resources.ordine.xml.parserxml.ParserXMLOrdine.put</definition>
+        <argsstring>(Document document, Element rootTag, Element singleTag)</argsstring>
+        <name>put</name>
+        <param>
+          <type>Document</type>
+          <declname>document</declname>
+        </param>
+        <param>
+          <type>Element</type>
+          <declname>rootTag</declname>
+        </param>
+        <param>
+          <type>Element</type>
+          <declname>singleTag</declname>
+        </param>
+        <exceptions> throws ParseException </exceptions>
+        <briefdescription>
+<para>Converte un &quot;nodo dell&apos;albero DOM&quot; in oggetto. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>singleTag</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Nodo dell&apos;albero DOM da convertire in oggetto</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>ParseException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine_1a5c4b2b2d01e2dba275220b276eda3803" kindref="member">ParserXMLOrdine.parsingResult</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/xml/parserxml/ParserXMLOrdine.java" line="182" column="18" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/xml/parserxml/ParserXMLOrdine.java" bodystart="182" bodyend="266"/>
+        <referencedby refid="classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine_1aa730d79aa207eef84cca50a5ee1b4c07" compoundref="_parser_x_m_l_ordine_8java" startline="94" endline="169">resources.ordine.xml.parserxml.ParserXMLOrdine.parseDocument</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Classe parser per i file XML con struttura &quot;Ordine&quot;. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Grandieri Andrea <ulink url="mailto:g.andreus02@gmail.com">g.andreus02@gmail.com</ulink> </para>
+</simplesect>
+<simplesect kind="author"><para>Barsotti Mirko <ulink url="mailto:bmirko1505@gmail.com">bmirko1505@gmail.com</ulink> </para>
+</simplesect>
+<simplesect kind="author"><para>Brambilla Mirko <ulink url="mailto:brambobilla01@gmail.com">brambobilla01@gmail.com</ulink></para>
+</simplesect>
+La seguente classe fornisce un parser di file XML con struttura &quot;Ordine&quot; </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>ArrayList</label>
+      </node>
+      <node id="1">
+        <label>resources.ordine.xml.parserxml.ParserXMLOrdine</label>
+        <link refid="classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>-parsingResult</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>-jListListaPredefinitaGusti</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>JList</label>
+      </node>
+      <node id="2">
+        <label>ArrayList&lt; resources.ordine.Ordine &gt;</label>
+        <childnode refid="3" relation="template-instance">
+          <edgelabel>&lt; resources::ordine::Ordine &gt;</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/xml/parserxml/ParserXMLOrdine.java" line="35" column="7" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/xml/parserxml/ParserXMLOrdine.java" bodystart="35" bodyend="267"/>
+    <listofallmembers>
+      <member refid="classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine_1ac429dc5fac21743a7b71102772c82fef" prot="private" virt="non-virtual"><scope>resources::ordine::xml::parserxml::ParserXMLOrdine</scope><name>jListListaPredefinitaGusti</name></member>
+      <member refid="classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine_1aa730d79aa207eef84cca50a5ee1b4c07" prot="public" virt="non-virtual"><scope>resources::ordine::xml::parserxml::ParserXMLOrdine</scope><name>parseDocument</name></member>
+      <member refid="classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine_1a840e57b044e8370bdd95cf42871ada7a" prot="public" virt="non-virtual"><scope>resources::ordine::xml::parserxml::ParserXMLOrdine</scope><name>ParserXMLOrdine</name></member>
+      <member refid="classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine_1a5c4b2b2d01e2dba275220b276eda3803" prot="private" virt="non-virtual"><scope>resources::ordine::xml::parserxml::ParserXMLOrdine</scope><name>parsingResult</name></member>
+      <member refid="classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine_1a83cead9d33a5d8fdc38adaf8394a630f" prot="private" virt="non-virtual"><scope>resources::ordine::xml::parserxml::ParserXMLOrdine</scope><name>put</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

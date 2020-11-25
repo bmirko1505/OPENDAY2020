@@ -1,0 +1,234 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2" kind="class" language="Java" prot="public">
+    <compoundname>resources::ordine::xml::generatorxmlv2::GeneratorXMLOrdinev2</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2_1a5f597c65fbef8b80879b2254d460a910" prot="private" static="no" mutable="no">
+        <type>Document</type>
+        <definition>Document resources.ordine.xml.generatorxmlv2.GeneratorXMLOrdinev2.document</definition>
+        <argsstring></argsstring>
+        <name>document</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Rappresenta il documento &quot;virtuale&quot; sul quale andremo a creare il nostro albero DOM </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/xml/generatorxmlv2/GeneratorXMLOrdinev2.java" line="50" column="22" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/xml/generatorxmlv2/GeneratorXMLOrdinev2.java" bodystart="50" bodyend="-1"/>
+        <referencedby refid="classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2_1a67b2141929744fa3aea5694b5a5673e6" compoundref="_generator_x_m_l_ordinev2_8java" startline="96" endline="135">resources.ordine.xml.generatorxmlv2.GeneratorXMLOrdinev2.createDOMTree</referencedby>
+        <referencedby refid="classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2_1a87bbb78dc0ca5e5155c5234690548b06" compoundref="_generator_x_m_l_ordinev2_8java" startline="148" endline="301">resources.ordine.xml.generatorxmlv2.GeneratorXMLOrdinev2.get</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2_1aa26f91c71b7684d79fd95f481e9d3082" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>resources.ordine.xml.generatorxmlv2.GeneratorXMLOrdinev2.GeneratorXMLOrdinev2</definition>
+        <argsstring>()</argsstring>
+        <name>GeneratorXMLOrdinev2</name>
+        <briefdescription>
+<para>Costruttore. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Inizializza tutte le risorse necessarie ad un oggetto di questa classe</para>
+<para><simplesect kind="see"><para><ref refid="classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2_1a5f597c65fbef8b80879b2254d460a910" kindref="member">GeneratorXMLOrdinev2.document</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/xml/generatorxmlv2/GeneratorXMLOrdinev2.java" line="60" column="12" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/xml/generatorxmlv2/GeneratorXMLOrdinev2.java" bodystart="60" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2_1a67b2141929744fa3aea5694b5a5673e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void resources.ordine.xml.generatorxmlv2.GeneratorXMLOrdinev2.createDOMTree</definition>
+        <argsstring>(ArrayList&lt; Ordine &gt; data)</argsstring>
+        <name>createDOMTree</name>
+        <param>
+          <type>ArrayList&lt; <ref refid="classresources_1_1ordine_1_1_ordine" kindref="compound">Ordine</ref> &gt;</type>
+          <declname>data</declname>
+        </param>
+        <exceptions> throws ParserConfigurationException </exceptions>
+        <briefdescription>
+<para>Crea l&apos;albero DOM. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista di oggetti da convertire in &quot;nodi dell&apos;albero DOM&quot;</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>ParserConfigurationException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2_1a5bdbc3789d4435b468bca35e1b9070b7" kindref="member">GeneratorXMLOrdinev2.createDocument()</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2_1a5f597c65fbef8b80879b2254d460a910" kindref="member">GeneratorXMLOrdinev2.document</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/xml/generatorxmlv2/GeneratorXMLOrdinev2.java" line="96" column="17" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/xml/generatorxmlv2/GeneratorXMLOrdinev2.java" bodystart="96" bodyend="135"/>
+        <references refid="classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2_1a5bdbc3789d4435b468bca35e1b9070b7" compoundref="_generator_x_m_l_ordinev2_8java" startline="75" endline="83">resources.ordine.xml.generatorxmlv2.GeneratorXMLOrdinev2.createDocument</references>
+        <references refid="classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2_1a5f597c65fbef8b80879b2254d460a910" compoundref="_generator_x_m_l_ordinev2_8java" startline="50">resources.ordine.xml.generatorxmlv2.GeneratorXMLOrdinev2.document</references>
+        <referencedby refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a63b28e86a185bdcff2251f9fd6097330" compoundref="_interfaccia_principale_galataio_8java" startline="1697" endline="1759">guiGelataio.InterfacciaPrincipaleGalataio.jButtonInoltroAlFattorinoActionPerformed</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2_1a57be40c3b048116dc243071c2af10c38" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void resources.ordine.xml.generatorxmlv2.GeneratorXMLOrdinev2.applyDOMonXMLFile</definition>
+        <argsstring>(String filenameNpath)</argsstring>
+        <name>applyDOMonXMLFile</name>
+        <param>
+          <type>String</type>
+          <declname>filenameNpath</declname>
+        </param>
+        <exceptions> throws TransformerConfigurationException, TransformerException </exceptions>
+        <briefdescription>
+<para>Crea l&apos;effettivo file XML sulla base dell&apos;albero DOM. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>filenameNpath</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Path del file XML di salvataggio</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>TransformerConfigurationException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>TransformerException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2_1a5f597c65fbef8b80879b2254d460a910" kindref="member">GeneratorXMLOrdinev2.document</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/xml/generatorxmlv2/GeneratorXMLOrdinev2.java" line="314" column="17" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/xml/generatorxmlv2/GeneratorXMLOrdinev2.java" bodystart="314" bodyend="343"/>
+        <referencedby refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a63b28e86a185bdcff2251f9fd6097330" compoundref="_interfaccia_principale_galataio_8java" startline="1697" endline="1759">guiGelataio.InterfacciaPrincipaleGalataio.jButtonInoltroAlFattorinoActionPerformed</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2_1a5bdbc3789d4435b468bca35e1b9070b7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void resources.ordine.xml.generatorxmlv2.GeneratorXMLOrdinev2.createDocument</definition>
+        <argsstring>()</argsstring>
+        <name>createDocument</name>
+        <exceptions> throws ParserConfigurationException </exceptions>
+        <briefdescription>
+<para>Crea il documento &quot;virtuale&quot; supporto per il nostro albero DOM. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>ParserConfigurationException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2_1a5f597c65fbef8b80879b2254d460a910" kindref="member">GeneratorXMLOrdinev2.document</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/xml/generatorxmlv2/GeneratorXMLOrdinev2.java" line="75" column="18" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/xml/generatorxmlv2/GeneratorXMLOrdinev2.java" bodystart="75" bodyend="83"/>
+        <referencedby refid="classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2_1a67b2141929744fa3aea5694b5a5673e6" compoundref="_generator_x_m_l_ordinev2_8java" startline="96" endline="135">resources.ordine.xml.generatorxmlv2.GeneratorXMLOrdinev2.createDOMTree</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2_1a87bbb78dc0ca5e5155c5234690548b06" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Element</type>
+        <definition>Element resources.ordine.xml.generatorxmlv2.GeneratorXMLOrdinev2.get</definition>
+        <argsstring>(Ordine singleElement)</argsstring>
+        <name>get</name>
+        <param>
+          <type><ref refid="classresources_1_1ordine_1_1_ordine" kindref="compound">Ordine</ref></type>
+          <declname>singleElement</declname>
+        </param>
+        <briefdescription>
+<para>Converte un oggetto in &quot;nodo dell&apos;albero DOM&quot;. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>singleElement</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>L&apos;oggetto da convertire in &quot;nodo dell&apos;albero DOM&quot;</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Il nodo dell&apos;albero DOM (L&apos;oggetto convertito in)</para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2_1a5f597c65fbef8b80879b2254d460a910" kindref="member">GeneratorXMLOrdinev2.document</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/xml/generatorxmlv2/GeneratorXMLOrdinev2.java" line="148" column="21" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/xml/generatorxmlv2/GeneratorXMLOrdinev2.java" bodystart="148" bodyend="301"/>
+        <references refid="classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2_1a5f597c65fbef8b80879b2254d460a910" compoundref="_generator_x_m_l_ordinev2_8java" startline="50">resources.ordine.xml.generatorxmlv2.GeneratorXMLOrdinev2.document</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Classe generator per i file XML con struttura &quot;Ordine&quot;. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Grandieri Andrea <ulink url="mailto:g.andreus02@gmail.com">g.andreus02@gmail.com</ulink> </para>
+</simplesect>
+<simplesect kind="author"><para>Barsotti Mirko <ulink url="mailto:bmirko1505@gmail.com">bmirko1505@gmail.com</ulink> </para>
+</simplesect>
+<simplesect kind="author"><para>Brambilla Mirko <ulink url="mailto:brambobilla01@gmail.com">brambobilla01@gmail.com</ulink></para>
+</simplesect>
+La seguente classe fornisce un generatore di file XML con struttura &quot;Ordine&quot; </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>resources.ordine.xml.generatorxmlv2.GeneratorXMLOrdinev2</label>
+        <link refid="classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>-document</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Document</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/xml/generatorxmlv2/GeneratorXMLOrdinev2.java" line="37" column="7" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ordine/xml/generatorxmlv2/GeneratorXMLOrdinev2.java" bodystart="37" bodyend="344"/>
+    <listofallmembers>
+      <member refid="classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2_1a57be40c3b048116dc243071c2af10c38" prot="public" virt="non-virtual"><scope>resources::ordine::xml::generatorxmlv2::GeneratorXMLOrdinev2</scope><name>applyDOMonXMLFile</name></member>
+      <member refid="classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2_1a5bdbc3789d4435b468bca35e1b9070b7" prot="private" virt="non-virtual"><scope>resources::ordine::xml::generatorxmlv2::GeneratorXMLOrdinev2</scope><name>createDocument</name></member>
+      <member refid="classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2_1a67b2141929744fa3aea5694b5a5673e6" prot="public" virt="non-virtual"><scope>resources::ordine::xml::generatorxmlv2::GeneratorXMLOrdinev2</scope><name>createDOMTree</name></member>
+      <member refid="classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2_1a5f597c65fbef8b80879b2254d460a910" prot="private" virt="non-virtual"><scope>resources::ordine::xml::generatorxmlv2::GeneratorXMLOrdinev2</scope><name>document</name></member>
+      <member refid="classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2_1aa26f91c71b7684d79fd95f481e9d3082" prot="public" virt="non-virtual"><scope>resources::ordine::xml::generatorxmlv2::GeneratorXMLOrdinev2</scope><name>GeneratorXMLOrdinev2</name></member>
+      <member refid="classresources_1_1ordine_1_1xml_1_1generatorxmlv2_1_1_generator_x_m_l_ordinev2_1a87bbb78dc0ca5e5155c5234690548b06" prot="private" virt="non-virtual"><scope>resources::ordine::xml::generatorxmlv2::GeneratorXMLOrdinev2</scope><name>get</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

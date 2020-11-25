@@ -1,0 +1,10 @@
+<map id="resources.ftpserver.Keeper.run" name="resources.ftpserver.Keeper.run">
+<area shape="rect" id="node1" title="Codice eseguito dal thread." alt="" coords="5,162,204,189"/>
+<area shape="rect" id="node2" href="$classresources_1_1ftpserver_1_1_manager.html#ae743d882c2b3e7db928b39fc1b164750" title="Ritorna il valore dell&#39;attributo Manager.isConnected." alt="" coords="278,5,485,47"/>
+<area shape="rect" id="node3" href="$classresources_1_1ftpserver_1_1_manager.html#a5c52f5769c89fb20b0bfc7520fc2d3b7" title="Ritorna il valore dell&#39;attributo Manager.isNoOp." alt="" coords="278,71,485,112"/>
+<area shape="rect" id="node4" href="$classresources_1_1ftpserver_1_1_manager.html#a9eea40adb30e967a9fbebe61acb7ecf5" title="Ritorna il valore dell&#39;attributo Manager.server." alt="" coords="824,312,1031,353"/>
+<area shape="rect" id="node5" href="$classresources_1_1ftpserver_1_1_manager.html#a760aae78030588d2f0d5b5898969de39" title="Ritorna il valore dell&#39;attributo Manager.serverMutex." alt="" coords="564,188,771,229"/>
+<area shape="rect" id="node6" href="$classresources_1_1ftpserver_1_1_manager.html#a15422d664ec1762a2b98a86228099cd7" title="Ritorna il valore dell&#39;attributo Manager.showServerReplies." alt="" coords="824,188,1031,229"/>
+<area shape="rect" id="node7" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#aaae22be90f18fa0c827240ef0fc5b466" title="Carica un file dal client al server." alt="" coords="252,249,511,275"/>
+<area shape="rect" id="node8" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#a53efc9cad594b3f20e40c70ac21c3504" title="Visualizza su console le eventuali risposte del server a comandi." alt="" coords="559,253,776,295"/>
+</map>

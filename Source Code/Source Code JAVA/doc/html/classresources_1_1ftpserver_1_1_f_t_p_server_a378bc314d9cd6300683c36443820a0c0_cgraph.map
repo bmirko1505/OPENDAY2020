@@ -1,0 +1,8 @@
+<map id="resources.ftpserver.FTPServer.deleteFileAM" name="resources.ftpserver.FTPServer.deleteFileAM">
+<area shape="rect" id="node1" title="Elimina un file dal server." alt="" coords="5,96,240,137"/>
+<area shape="rect" id="node2" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#a6cc5286e0f5e71f286b12df943499577" title="Elimina un file dal server." alt="" coords="288,77,543,103"/>
+<area shape="rect" id="node3" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#a53efc9cad594b3f20e40c70ac21c3504" title="Visualizza su console le eventuali risposte del server a comandi." alt="" coords="591,8,808,49"/>
+<area shape="rect" id="node4" href="$classresources_1_1ftpserver_1_1_manager.html#a9eea40adb30e967a9fbebe61acb7ecf5" title="Ritorna il valore dell&#39;attributo Manager.server." alt="" coords="856,71,1063,112"/>
+<area shape="rect" id="node6" href="$classresources_1_1ftpserver_1_1_manager.html#a760aae78030588d2f0d5b5898969de39" title="Ritorna il valore dell&#39;attributo Manager.serverMutex." alt="" coords="596,125,803,167"/>
+<area shape="rect" id="node5" href="$classresources_1_1ftpserver_1_1_manager.html#a15422d664ec1762a2b98a86228099cd7" title="Ritorna il valore dell&#39;attributo Manager.showServerReplies." alt="" coords="856,5,1063,47"/>
+</map>

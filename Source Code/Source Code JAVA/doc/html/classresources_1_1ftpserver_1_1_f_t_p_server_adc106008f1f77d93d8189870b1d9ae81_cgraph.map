@@ -1,0 +1,9 @@
+<map id="resources.ftpserver.FTPServer.connectAM" name="resources.ftpserver.FTPServer.connectAM">
+<area shape="rect" id="node1" title="Tenta di stabilire una connessione con il server FTP." alt="" coords="5,137,271,163"/>
+<area shape="rect" id="node2" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#a53efc9cad594b3f20e40c70ac21c3504" title="Visualizza su console le eventuali risposte del server a comandi." alt="" coords="319,64,536,105"/>
+<area shape="rect" id="node3" href="$classresources_1_1ftpserver_1_1_manager.html#a9eea40adb30e967a9fbebe61acb7ecf5" title="Ritorna il valore dell&#39;attributo Manager.server." alt="" coords="584,5,791,47"/>
+<area shape="rect" id="node5" href="$classresources_1_1ftpserver_1_1_manager.html#ae743d882c2b3e7db928b39fc1b164750" title="Ritorna il valore dell&#39;attributo Manager.isConnected." alt="" coords="324,129,531,171"/>
+<area shape="rect" id="node6" href="$classresources_1_1ftpserver_1_1_manager.html#a760aae78030588d2f0d5b5898969de39" title="Ritorna il valore dell&#39;attributo Manager.serverMutex." alt="" coords="324,195,531,236"/>
+<area shape="rect" id="node7" href="$classresources_1_1ftpserver_1_1_manager.html#a24a30cecd1eb5c581bcec87d1b70f5a5" title="Imposta il valore dell&#39;attributo Manager.isConnected." alt="" coords="324,260,531,301"/>
+<area shape="rect" id="node4" href="$classresources_1_1ftpserver_1_1_manager.html#a15422d664ec1762a2b98a86228099cd7" title="Ritorna il valore dell&#39;attributo Manager.showServerReplies." alt="" coords="584,71,791,112"/>
+</map>

@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="classresources_1_1cronology_1_1_cronology_updater" kind="class" language="Java" prot="public">
+    <compoundname>resources::cronology::CronologyUpdater</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">TimerTask</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classresources_1_1cronology_1_1_cronology_updater_1a739c0247888a0098c4162b3b02aa5fe8" prot="private" static="no" mutable="no">
+        <type>final JLabel</type>
+        <definition>final JLabel resources.cronology.CronologyUpdater.printLabel</definition>
+        <argsstring></argsstring>
+        <name>printLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Rappresenta la label sulla quale visualizzare il valore aggiornato del conteggio</para>
+<para><simplesect kind="see"><para><ref refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a8be4b7e33abdef9baad0322db3e0fbac" kindref="member">InterfacciaPrincipaleGalataio.jLabelFrammentiCronologici</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/cronology/CronologyUpdater.java" line="39" column="26" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/cronology/CronologyUpdater.java" bodystart="39" bodyend="-1"/>
+        <referencedby refid="classresources_1_1cronology_1_1_cronology_updater_1a848b51eece7eb98337a865a64f2f0633" compoundref="_cronology_updater_8java" startline="62" endline="65">resources.cronology.CronologyUpdater.CronologyUpdater</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classresources_1_1cronology_1_1_cronology_updater_1a0de12e3701e50773237d10c608ff7be0" prot="private" static="no" mutable="no">
+        <type>final <ref refid="classresources_1_1ftpserver_1_1_f_t_p_server" kindref="compound">FTPServer</ref></type>
+        <definition>final FTPServer resources.cronology.CronologyUpdater.server</definition>
+        <argsstring></argsstring>
+        <name>server</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Rappresenta l&apos;oggetto di classe FTPServer per permettere la comunicazione bidirezionale con il server FTP</para>
+<para><simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server" kindref="compound">resources.ftpserver.FTPServer</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/cronology/CronologyUpdater.java" line="47" column="29" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/cronology/CronologyUpdater.java" bodystart="47" bodyend="-1"/>
+        <referencedby refid="classresources_1_1cronology_1_1_cronology_updater_1a848b51eece7eb98337a865a64f2f0633" compoundref="_cronology_updater_8java" startline="62" endline="65">resources.cronology.CronologyUpdater.CronologyUpdater</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classresources_1_1cronology_1_1_cronology_updater_1a848b51eece7eb98337a865a64f2f0633" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>resources.cronology.CronologyUpdater.CronologyUpdater</definition>
+        <argsstring>(FTPServer server, JLabel printLabel)</argsstring>
+        <name>CronologyUpdater</name>
+        <param>
+          <type><ref refid="classresources_1_1ftpserver_1_1_f_t_p_server" kindref="compound">FTPServer</ref></type>
+          <declname>server</declname>
+        </param>
+        <param>
+          <type>JLabel</type>
+          <declname>printLabel</declname>
+        </param>
+        <briefdescription>
+<para>Costruttore. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Inizializza tutte le risorse necessarie ad un oggetto di questa classe</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>server</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>L&apos;oggetto di classe FTPServer per permettere la comunicazione bidirezionale con il server FTP </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>printLabel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>L&apos;oggetto di classe label sul quale visualizzare il valore del conteggio aggiornato</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para>resources.cronologyupdater.server </para>
+</simplesect>
+<simplesect kind="see"><para>resources.cronologyupdater.printLabel </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/cronology/CronologyUpdater.java" line="62" column="12" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/cronology/CronologyUpdater.java" bodystart="62" bodyend="65"/>
+        <references refid="classresources_1_1cronology_1_1_cronology_updater_1a739c0247888a0098c4162b3b02aa5fe8" compoundref="_cronology_updater_8java" startline="39">resources.cronology.CronologyUpdater.printLabel</references>
+        <references refid="classresources_1_1cronology_1_1_cronology_updater_1a0de12e3701e50773237d10c608ff7be0" compoundref="_cronology_updater_8java" startline="47">resources.cronology.CronologyUpdater.server</references>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1cronology_1_1_cronology_updater_1a9894bb0596657375bc888de39c019834" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void resources.cronology.CronologyUpdater.run</definition>
+        <argsstring>()</argsstring>
+        <name>run</name>
+        <briefdescription>
+<para>Codice eseguito dal thread. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Il seguente metodo conta il numero di frammenti cronologici degli ordini evasi presenti nella directory &quot;/update07/cronologia&quot; del server. Questi frammenti vengono utilizzati quando si scarica il database degli ordini durante il processo della sua ricostruzione. Un numero di frammenti troppo elevato potrebbe rendere il processo di ricostruzione lento e lungo, dunque si consiglia di tenere osservato il conteggio di frammenti ed effettuare un&apos;eliminazione di questi ultimi se ritenuta necessaria.</para>
+<para><simplesect kind="see"><para>resources.cronologyupdater.CronologyUpdater.server </para>
+</simplesect>
+<simplesect kind="see"><para>resources.cronologyupdater.CronologyUpdater.printLabel </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/cronology/CronologyUpdater.java" line="82" column="17" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/cronology/CronologyUpdater.java" bodystart="82" bodyend="93"/>
+        <references refid="classresources_1_1ftpserver_1_1_f_t_p_server_1acf6cff62c6a86355a070f15d2d15bf84" compoundref="_f_t_p_server_8java" startline="802" endline="841">resources.ftpserver.FTPServer.getListElements</references>
+        <references refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ab87c0e92af371c7034d82b026367b401" compoundref="_f_t_p_server_8java" startline="677" endline="721">resources.ftpserver.FTPServer.setCurrentDirectory</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Classe per garantire un aggiornamento automatico e continuo del conteggio dei frammenti cronologici degli ordini evasi. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Grandieri Andrea <ulink url="mailto:g.andreus02@gmail.com">g.andreus02@gmail.com</ulink> </para>
+</simplesect>
+<simplesect kind="author"><para>Barsotti Mirko <ulink url="mailto:bmirko1505@gmail.com">bmirko1505@gmail.com</ulink> </para>
+</simplesect>
+<simplesect kind="author"><para>Brambilla Mirko <ulink url="mailto:brambobilla01@gmail.com">brambobilla01@gmail.com</ulink></para>
+</simplesect>
+La seguente classe rappresenta un thread daemon per garantire un aggiornamento automatico e continuo del conteggio dei frammenti cronologici degli ordini evasi. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>resources.cronology.CronologyUpdater</label>
+        <link refid="classresources_1_1cronology_1_1_cronology_updater"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>TimerTask</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>JLabel</label>
+      </node>
+      <node id="4">
+        <label>resources.ftpserver.FTPServer</label>
+        <link refid="classresources_1_1ftpserver_1_1_f_t_p_server"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>-keeper</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>-manager</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>-timer</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>resources.cronology.CronologyUpdater</label>
+        <link refid="classresources_1_1cronology_1_1_cronology_updater"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>-printLabel</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>-server</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>FTPClient</label>
+      </node>
+      <node id="9">
+        <label>Timer</label>
+      </node>
+      <node id="6">
+        <label>resources.ftpserver.Manager</label>
+        <link refid="classresources_1_1ftpserver_1_1_manager"/>
+        <childnode refid="7" relation="usage">
+          <edgelabel>-server</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>-serverMutex</edgelabel>
+        </childnode>
+      </node>
+      <node id="8">
+        <label>Semaphore</label>
+      </node>
+      <node id="2">
+        <label>TimerTask</label>
+      </node>
+      <node id="5">
+        <label>resources.ftpserver.Keeper</label>
+        <link refid="classresources_1_1ftpserver_1_1_keeper"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>-manager</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/cronology/CronologyUpdater.java" line="31" column="7" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/cronology/CronologyUpdater.java" bodystart="31" bodyend="94"/>
+    <listofallmembers>
+      <member refid="classresources_1_1cronology_1_1_cronology_updater_1a848b51eece7eb98337a865a64f2f0633" prot="public" virt="non-virtual"><scope>resources::cronology::CronologyUpdater</scope><name>CronologyUpdater</name></member>
+      <member refid="classresources_1_1cronology_1_1_cronology_updater_1a739c0247888a0098c4162b3b02aa5fe8" prot="private" virt="non-virtual"><scope>resources::cronology::CronologyUpdater</scope><name>printLabel</name></member>
+      <member refid="classresources_1_1cronology_1_1_cronology_updater_1a9894bb0596657375bc888de39c019834" prot="public" virt="non-virtual"><scope>resources::cronology::CronologyUpdater</scope><name>run</name></member>
+      <member refid="classresources_1_1cronology_1_1_cronology_updater_1a0de12e3701e50773237d10c608ff7be0" prot="private" virt="non-virtual"><scope>resources::cronology::CronologyUpdater</scope><name>server</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

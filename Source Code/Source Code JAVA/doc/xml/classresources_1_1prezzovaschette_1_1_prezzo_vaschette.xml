@@ -1,0 +1,216 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="classresources_1_1prezzovaschette_1_1_prezzo_vaschette" kind="class" language="Java" prot="public">
+    <compoundname>resources::prezzovaschette::PrezzoVaschette</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1acb427ea075e904a3ea64d12c0be0faed" prot="private" static="no" mutable="no">
+        <type>final Float</type>
+        <definition>final Float resources.prezzovaschette.PrezzoVaschette.prezzoVaschettaPiccola</definition>
+        <argsstring></argsstring>
+        <name>prezzoVaschettaPiccola</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Rappresenta il prezzo di una vaschetta piccola </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/prezzovaschette/PrezzoVaschette.java" line="33" column="25" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/prezzovaschette/PrezzoVaschette.java" bodystart="33" bodyend="-1"/>
+        <referencedby refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1a1b35895973a22ba0495fdb0ebe7e3631" compoundref="_prezzo_vaschette_8java" startline="58" endline="62">resources.prezzovaschette.PrezzoVaschette.PrezzoVaschette</referencedby>
+        <referencedby refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1aaa7c83ff61d8ae119edfa4a92cef07c8" compoundref="_prezzo_vaschette_8java" startline="72" endline="74">resources.prezzovaschette.PrezzoVaschette.getPrezzoVaschettaPiccola</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1a8298edee52afd08351f18343567723b1" prot="private" static="no" mutable="no">
+        <type>final Float</type>
+        <definition>final Float resources.prezzovaschette.PrezzoVaschette.prezzoVaschettaMedia</definition>
+        <argsstring></argsstring>
+        <name>prezzoVaschettaMedia</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Rappresenta il prezzo di una vaschetta media </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/prezzovaschette/PrezzoVaschette.java" line="38" column="25" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/prezzovaschette/PrezzoVaschette.java" bodystart="38" bodyend="-1"/>
+        <referencedby refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1a1b35895973a22ba0495fdb0ebe7e3631" compoundref="_prezzo_vaschette_8java" startline="58" endline="62">resources.prezzovaschette.PrezzoVaschette.PrezzoVaschette</referencedby>
+        <referencedby refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1aa6db40b4079c763ce624ae31c866bc78" compoundref="_prezzo_vaschette_8java" startline="84" endline="86">resources.prezzovaschette.PrezzoVaschette.getPrezzoVaschettaMedia</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1a0f8da2ffb54c85e21d8ed57590804df9" prot="private" static="no" mutable="no">
+        <type>final Float</type>
+        <definition>final Float resources.prezzovaschette.PrezzoVaschette.prezzoVaschettaGrande</definition>
+        <argsstring></argsstring>
+        <name>prezzoVaschettaGrande</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Rappresenta il prezzo di una vaschetta grande </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/prezzovaschette/PrezzoVaschette.java" line="43" column="25" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/prezzovaschette/PrezzoVaschette.java" bodystart="43" bodyend="-1"/>
+        <referencedby refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1a1b35895973a22ba0495fdb0ebe7e3631" compoundref="_prezzo_vaschette_8java" startline="58" endline="62">resources.prezzovaschette.PrezzoVaschette.PrezzoVaschette</referencedby>
+        <referencedby refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1a410f59ea6b805dacc5aaa107a5833d5f" compoundref="_prezzo_vaschette_8java" startline="96" endline="98">resources.prezzovaschette.PrezzoVaschette.getPrezzoVaschettaGrande</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1a1b35895973a22ba0495fdb0ebe7e3631" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>resources.prezzovaschette.PrezzoVaschette.PrezzoVaschette</definition>
+        <argsstring>(Float prezzoVaschettaPiccola, Float prezzoVaschettaMedia, Float prezzoVaschettaGrande)</argsstring>
+        <name>PrezzoVaschette</name>
+        <param>
+          <type>Float</type>
+          <declname>prezzoVaschettaPiccola</declname>
+        </param>
+        <param>
+          <type>Float</type>
+          <declname>prezzoVaschettaMedia</declname>
+        </param>
+        <param>
+          <type>Float</type>
+          <declname>prezzoVaschettaGrande</declname>
+        </param>
+        <briefdescription>
+<para>Costruttore. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Inizializza tutte le risorse necessarie ad un oggetto di questa classe</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>prezzoVaschettaPiccola</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Il prezzo di una vaschetta piccola </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>prezzoVaschettaMedia</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Il prezzo di una vaschetta media </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>prezzoVaschettaGrande</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Il prezzo di una vaschetta grande</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1acb427ea075e904a3ea64d12c0be0faed" kindref="member">PrezzoVaschette.prezzoVaschettaPiccola</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1a8298edee52afd08351f18343567723b1" kindref="member">PrezzoVaschette.prezzoVaschettaMedia</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1a0f8da2ffb54c85e21d8ed57590804df9" kindref="member">PrezzoVaschette.prezzoVaschettaGrande</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/prezzovaschette/PrezzoVaschette.java" line="58" column="12" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/prezzovaschette/PrezzoVaschette.java" bodystart="58" bodyend="62"/>
+        <references refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1a0f8da2ffb54c85e21d8ed57590804df9" compoundref="_prezzo_vaschette_8java" startline="43">resources.prezzovaschette.PrezzoVaschette.prezzoVaschettaGrande</references>
+        <references refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1a8298edee52afd08351f18343567723b1" compoundref="_prezzo_vaschette_8java" startline="38">resources.prezzovaschette.PrezzoVaschette.prezzoVaschettaMedia</references>
+        <references refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1acb427ea075e904a3ea64d12c0be0faed" compoundref="_prezzo_vaschette_8java" startline="33">resources.prezzovaschette.PrezzoVaschette.prezzoVaschettaPiccola</references>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1aaa7c83ff61d8ae119edfa4a92cef07c8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Float</type>
+        <definition>Float resources.prezzovaschette.PrezzoVaschette.getPrezzoVaschettaPiccola</definition>
+        <argsstring>()</argsstring>
+        <name>getPrezzoVaschettaPiccola</name>
+        <briefdescription>
+<para>Ritorna il valore dell&apos;attributo <ref refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1acb427ea075e904a3ea64d12c0be0faed" kindref="member">PrezzoVaschette.prezzoVaschettaPiccola</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Il valore dell&apos;attributo <ref refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1acb427ea075e904a3ea64d12c0be0faed" kindref="member">PrezzoVaschette.prezzoVaschettaPiccola</ref></para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1acb427ea075e904a3ea64d12c0be0faed" kindref="member">PrezzoVaschette.prezzoVaschettaPiccola</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/prezzovaschette/PrezzoVaschette.java" line="72" column="18" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/prezzovaschette/PrezzoVaschette.java" bodystart="72" bodyend="74"/>
+        <references refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1acb427ea075e904a3ea64d12c0be0faed" compoundref="_prezzo_vaschette_8java" startline="33">resources.prezzovaschette.PrezzoVaschette.prezzoVaschettaPiccola</references>
+        <referencedby refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a03dfacb80fd3faa98d75ae460ade5c8f" compoundref="_interfaccia_principale_galataio_8java" startline="715" endline="893">guiGelataio.InterfacciaPrincipaleGalataio.loadFromServer</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1aa6db40b4079c763ce624ae31c866bc78" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Float</type>
+        <definition>Float resources.prezzovaschette.PrezzoVaschette.getPrezzoVaschettaMedia</definition>
+        <argsstring>()</argsstring>
+        <name>getPrezzoVaschettaMedia</name>
+        <briefdescription>
+<para>Ritorna il valore dell&apos;attributo <ref refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1a8298edee52afd08351f18343567723b1" kindref="member">PrezzoVaschette.prezzoVaschettaMedia</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Il valore dell&apos;attributo <ref refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1a8298edee52afd08351f18343567723b1" kindref="member">PrezzoVaschette.prezzoVaschettaMedia</ref></para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1a8298edee52afd08351f18343567723b1" kindref="member">PrezzoVaschette.prezzoVaschettaMedia</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/prezzovaschette/PrezzoVaschette.java" line="84" column="18" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/prezzovaschette/PrezzoVaschette.java" bodystart="84" bodyend="86"/>
+        <references refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1a8298edee52afd08351f18343567723b1" compoundref="_prezzo_vaschette_8java" startline="38">resources.prezzovaschette.PrezzoVaschette.prezzoVaschettaMedia</references>
+        <referencedby refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a03dfacb80fd3faa98d75ae460ade5c8f" compoundref="_interfaccia_principale_galataio_8java" startline="715" endline="893">guiGelataio.InterfacciaPrincipaleGalataio.loadFromServer</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1a410f59ea6b805dacc5aaa107a5833d5f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Float</type>
+        <definition>Float resources.prezzovaschette.PrezzoVaschette.getPrezzoVaschettaGrande</definition>
+        <argsstring>()</argsstring>
+        <name>getPrezzoVaschettaGrande</name>
+        <briefdescription>
+<para>Ritorna il valore dell&apos;attributo <ref refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1a0f8da2ffb54c85e21d8ed57590804df9" kindref="member">PrezzoVaschette.prezzoVaschettaGrande</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Il valore dell&apos;attributo <ref refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1a0f8da2ffb54c85e21d8ed57590804df9" kindref="member">PrezzoVaschette.prezzoVaschettaGrande</ref></para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1a0f8da2ffb54c85e21d8ed57590804df9" kindref="member">PrezzoVaschette.prezzoVaschettaGrande</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/prezzovaschette/PrezzoVaschette.java" line="96" column="18" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/prezzovaschette/PrezzoVaschette.java" bodystart="96" bodyend="98"/>
+        <references refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1a0f8da2ffb54c85e21d8ed57590804df9" compoundref="_prezzo_vaschette_8java" startline="43">resources.prezzovaschette.PrezzoVaschette.prezzoVaschettaGrande</references>
+        <referencedby refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a03dfacb80fd3faa98d75ae460ade5c8f" compoundref="_interfaccia_principale_galataio_8java" startline="715" endline="893">guiGelataio.InterfacciaPrincipaleGalataio.loadFromServer</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Classe che rappresenta la struttura &quot;PrezzoVaschette&quot;. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Grandieri Andrea <ulink url="mailto:g.andreus02@gmail.com">g.andreus02@gmail.com</ulink> </para>
+</simplesect>
+<simplesect kind="author"><para>Barsotti Mirko <ulink url="mailto:bmirko1505@gmail.com">bmirko1505@gmail.com</ulink> </para>
+</simplesect>
+<simplesect kind="author"><para>Brambilla Mirko <ulink url="mailto:brambobilla01@gmail.com">brambobilla01@gmail.com</ulink></para>
+</simplesect>
+La seguente classe rappresenta l&apos;astrazione della struttura &quot;PrezzoVaschette&quot; e funge da punto di riferimento per i rispettivi parser XML e generator XML che operano su quest&apos;ultima.</para>
+<para><simplesect kind="see"><para><ref refid="classresources_1_1prezzovaschette_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_prezzo_vaschette" kindref="compound">resources.prezzovaschette.xml.generatorxml.GeneratorXMLModificaPrezzoVaschette</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1prezzovaschette_1_1xml_1_1parserxml_1_1_parser_x_m_l_modifica_prezzo_vaschette" kindref="compound">resources.prezzovaschette.xml.parserxml.ParserXMLModificaPrezzoVaschette</ref> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>resources.prezzovaschette.PrezzoVaschette</label>
+        <link refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/prezzovaschette/PrezzoVaschette.java" line="28" column="7" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/prezzovaschette/PrezzoVaschette.java" bodystart="28" bodyend="99"/>
+    <listofallmembers>
+      <member refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1a410f59ea6b805dacc5aaa107a5833d5f" prot="public" virt="non-virtual"><scope>resources::prezzovaschette::PrezzoVaschette</scope><name>getPrezzoVaschettaGrande</name></member>
+      <member refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1aa6db40b4079c763ce624ae31c866bc78" prot="public" virt="non-virtual"><scope>resources::prezzovaschette::PrezzoVaschette</scope><name>getPrezzoVaschettaMedia</name></member>
+      <member refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1aaa7c83ff61d8ae119edfa4a92cef07c8" prot="public" virt="non-virtual"><scope>resources::prezzovaschette::PrezzoVaschette</scope><name>getPrezzoVaschettaPiccola</name></member>
+      <member refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1a0f8da2ffb54c85e21d8ed57590804df9" prot="private" virt="non-virtual"><scope>resources::prezzovaschette::PrezzoVaschette</scope><name>prezzoVaschettaGrande</name></member>
+      <member refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1a8298edee52afd08351f18343567723b1" prot="private" virt="non-virtual"><scope>resources::prezzovaschette::PrezzoVaschette</scope><name>prezzoVaschettaMedia</name></member>
+      <member refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1acb427ea075e904a3ea64d12c0be0faed" prot="private" virt="non-virtual"><scope>resources::prezzovaschette::PrezzoVaschette</scope><name>prezzoVaschettaPiccola</name></member>
+      <member refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette_1a1b35895973a22ba0495fdb0ebe7e3631" prot="public" virt="non-virtual"><scope>resources::prezzovaschette::PrezzoVaschette</scope><name>PrezzoVaschette</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

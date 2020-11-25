@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="classresources_1_1compositionlistapredefinitagusti_1_1xml_1_1parserxml_1_1_parser_x_m_l_composition_lista_predefinita_gusti" kind="class" language="Java" prot="public">
+    <compoundname>resources::compositionlistapredefinitagusti::xml::parserxml::ParserXMLCompositionListaPredefinitaGusti</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classresources_1_1compositionlistapredefinitagusti_1_1xml_1_1parserxml_1_1_parser_x_m_l_composition_lista_predefinita_gusti_1ae1844bfaed10fb89271739409cffe6c9" prot="private" static="no" mutable="no">
+        <type>ArrayList&lt; <ref refid="classresources_1_1compositionlistapredefinitagusti_1_1_composition_lista_predefinita_gusti" kindref="compound">CompositionListaPredefinitaGusti</ref> &gt;</type>
+        <definition>ArrayList&lt;CompositionListaPredefinitaGusti&gt; resources.compositionlistapredefinitagusti.xml.parserxml.ParserXMLCompositionListaPredefinitaGusti.parsingResult</definition>
+        <argsstring></argsstring>
+        <name>parsingResult</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Lista di oggetti convertiti da &quot;nodi dell&apos;albero DOM&quot; </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/compositionlistapredefinitagusti/xml/parserxml/ParserXMLCompositionListaPredefinitaGusti.java" line="43" column="23" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/compositionlistapredefinitagusti/xml/parserxml/ParserXMLCompositionListaPredefinitaGusti.java" bodystart="43" bodyend="-1"/>
+        <referencedby refid="classresources_1_1compositionlistapredefinitagusti_1_1xml_1_1parserxml_1_1_parser_x_m_l_composition_lista_predefinita_gusti_1a79c159b5edf6bf6c5f42a06f2290e37f" compoundref="_parser_x_m_l_composition_lista_predefinita_gusti_8java" startline="76" endline="149">resources.compositionlistapredefinitagusti.xml.parserxml.ParserXMLCompositionListaPredefinitaGusti.parseDocument</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classresources_1_1compositionlistapredefinitagusti_1_1xml_1_1parserxml_1_1_parser_x_m_l_composition_lista_predefinita_gusti_1a41c2c2649743bea8dcd056cb61d77019" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>resources.compositionlistapredefinitagusti.xml.parserxml.ParserXMLCompositionListaPredefinitaGusti.ParserXMLCompositionListaPredefinitaGusti</definition>
+        <argsstring>()</argsstring>
+        <name>ParserXMLCompositionListaPredefinitaGusti</name>
+        <briefdescription>
+<para>Costruttore. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Inizializza tutte le risorse necessarie ad un oggetto di questa classe</para>
+<para><simplesect kind="see"><para><ref refid="classresources_1_1compositionlistapredefinitagusti_1_1xml_1_1parserxml_1_1_parser_x_m_l_composition_lista_predefinita_gusti_1ae1844bfaed10fb89271739409cffe6c9" kindref="member">ParserXMLCompositionListaPredefinitaGusti.parsingResult</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/compositionlistapredefinitagusti/xml/parserxml/ParserXMLCompositionListaPredefinitaGusti.java" line="53" column="12" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/compositionlistapredefinitagusti/xml/parserxml/ParserXMLCompositionListaPredefinitaGusti.java" bodystart="53" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1compositionlistapredefinitagusti_1_1xml_1_1parserxml_1_1_parser_x_m_l_composition_lista_predefinita_gusti_1a79c159b5edf6bf6c5f42a06f2290e37f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ArrayList&lt; <ref refid="classresources_1_1compositionlistapredefinitagusti_1_1_composition_lista_predefinita_gusti" kindref="compound">CompositionListaPredefinitaGusti</ref> &gt;</type>
+        <definition>ArrayList&lt;CompositionListaPredefinitaGusti&gt; resources.compositionlistapredefinitagusti.xml.parserxml.ParserXMLCompositionListaPredefinitaGusti.parseDocument</definition>
+        <argsstring>(String path)</argsstring>
+        <name>parseDocument</name>
+        <param>
+          <type>String</type>
+          <declname>path</declname>
+        </param>
+        <exceptions> throws ParserConfigurationException, SAXException, IOException, ParseException </exceptions>
+        <briefdescription>
+<para>Effettua il parsing del documento XML di cui viene specificato il path. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Path del file XML del quale effettuare il parsing</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Lista di oggetti convertiti da &quot;nodi dell&apos;albero DOM&quot;</para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>ParserConfigurationException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>SAXException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>IOException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ParseException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="classresources_1_1compositionlistapredefinitagusti_1_1xml_1_1parserxml_1_1_parser_x_m_l_composition_lista_predefinita_gusti_1ae1844bfaed10fb89271739409cffe6c9" kindref="member">ParserXMLCompositionListaPredefinitaGusti.parsingResult</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/compositionlistapredefinitagusti/xml/parserxml/ParserXMLCompositionListaPredefinitaGusti.java" line="76" column="22" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/compositionlistapredefinitagusti/xml/parserxml/ParserXMLCompositionListaPredefinitaGusti.java" bodystart="76" bodyend="149"/>
+        <references refid="classresources_1_1compositionlistapredefinitagusti_1_1xml_1_1parserxml_1_1_parser_x_m_l_composition_lista_predefinita_gusti_1ae1844bfaed10fb89271739409cffe6c9" compoundref="_parser_x_m_l_composition_lista_predefinita_gusti_8java" startline="43">resources.compositionlistapredefinitagusti.xml.parserxml.ParserXMLCompositionListaPredefinitaGusti.parsingResult</references>
+        <references refid="classresources_1_1compositionlistapredefinitagusti_1_1xml_1_1parserxml_1_1_parser_x_m_l_composition_lista_predefinita_gusti_1af6301443b1731977343c412d9d5acb4a" compoundref="_parser_x_m_l_composition_lista_predefinita_gusti_8java" startline="162" endline="184">resources.compositionlistapredefinitagusti.xml.parserxml.ParserXMLCompositionListaPredefinitaGusti.put</references>
+        <referencedby refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a03dfacb80fd3faa98d75ae460ade5c8f" compoundref="_interfaccia_principale_galataio_8java" startline="715" endline="893">guiGelataio.InterfacciaPrincipaleGalataio.loadFromServer</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classresources_1_1compositionlistapredefinitagusti_1_1xml_1_1parserxml_1_1_parser_x_m_l_composition_lista_predefinita_gusti_1af6301443b1731977343c412d9d5acb4a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void resources.compositionlistapredefinitagusti.xml.parserxml.ParserXMLCompositionListaPredefinitaGusti.put</definition>
+        <argsstring>(Element singleTag)</argsstring>
+        <name>put</name>
+        <param>
+          <type>Element</type>
+          <declname>singleTag</declname>
+        </param>
+        <exceptions> throws ParseException </exceptions>
+        <briefdescription>
+<para>Converte un &quot;nodo dell&apos;albero DOM&quot; in oggetto. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>singleTag</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Nodo dell&apos;albero DOM da convertire in oggetto</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>ParseException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="classresources_1_1compositionlistapredefinitagusti_1_1xml_1_1parserxml_1_1_parser_x_m_l_composition_lista_predefinita_gusti_1ae1844bfaed10fb89271739409cffe6c9" kindref="member">ParserXMLCompositionListaPredefinitaGusti.parsingResult</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/compositionlistapredefinitagusti/xml/parserxml/ParserXMLCompositionListaPredefinitaGusti.java" line="162" column="18" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/compositionlistapredefinitagusti/xml/parserxml/ParserXMLCompositionListaPredefinitaGusti.java" bodystart="162" bodyend="184"/>
+        <referencedby refid="classresources_1_1compositionlistapredefinitagusti_1_1xml_1_1parserxml_1_1_parser_x_m_l_composition_lista_predefinita_gusti_1a79c159b5edf6bf6c5f42a06f2290e37f" compoundref="_parser_x_m_l_composition_lista_predefinita_gusti_8java" startline="76" endline="149">resources.compositionlistapredefinitagusti.xml.parserxml.ParserXMLCompositionListaPredefinitaGusti.parseDocument</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Classe parser per i file XML con struttura &quot;CompositionListaPredefinitaGusti&quot;. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Grandieri Andrea <ulink url="mailto:g.andreus02@gmail.com">g.andreus02@gmail.com</ulink> </para>
+</simplesect>
+<simplesect kind="author"><para>Barsotti Mirko <ulink url="mailto:bmirko1505@gmail.com">bmirko1505@gmail.com</ulink> </para>
+</simplesect>
+<simplesect kind="author"><para>Brambilla Mirko <ulink url="mailto:brambobilla01@gmail.com">brambobilla01@gmail.com</ulink></para>
+</simplesect>
+La seguente classe fornisce un parser di file XML con struttura &quot;CompositionListaPredefinitaGusti&quot; </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>ArrayList</label>
+      </node>
+      <node id="2">
+        <label>ArrayList&lt; resources.compositionlistapredefinitagusti.CompositionListaPredefinitaGusti &gt;</label>
+        <childnode refid="3" relation="template-instance">
+          <edgelabel>&lt; resources::compositionlistapredefinitagusti::CompositionListaPredefinitaGusti &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>resources.compositionlistapredefinitagusti.xml.parserxml.ParserXMLCompositionListaPredefinitaGusti</label>
+        <link refid="classresources_1_1compositionlistapredefinitagusti_1_1xml_1_1parserxml_1_1_parser_x_m_l_composition_lista_predefinita_gusti"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>-parsingResult</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/compositionlistapredefinitagusti/xml/parserxml/ParserXMLCompositionListaPredefinitaGusti.java" line="36" column="7" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/compositionlistapredefinitagusti/xml/parserxml/ParserXMLCompositionListaPredefinitaGusti.java" bodystart="36" bodyend="185"/>
+    <listofallmembers>
+      <member refid="classresources_1_1compositionlistapredefinitagusti_1_1xml_1_1parserxml_1_1_parser_x_m_l_composition_lista_predefinita_gusti_1a79c159b5edf6bf6c5f42a06f2290e37f" prot="public" virt="non-virtual"><scope>resources::compositionlistapredefinitagusti::xml::parserxml::ParserXMLCompositionListaPredefinitaGusti</scope><name>parseDocument</name></member>
+      <member refid="classresources_1_1compositionlistapredefinitagusti_1_1xml_1_1parserxml_1_1_parser_x_m_l_composition_lista_predefinita_gusti_1a41c2c2649743bea8dcd056cb61d77019" prot="public" virt="non-virtual"><scope>resources::compositionlistapredefinitagusti::xml::parserxml::ParserXMLCompositionListaPredefinitaGusti</scope><name>ParserXMLCompositionListaPredefinitaGusti</name></member>
+      <member refid="classresources_1_1compositionlistapredefinitagusti_1_1xml_1_1parserxml_1_1_parser_x_m_l_composition_lista_predefinita_gusti_1ae1844bfaed10fb89271739409cffe6c9" prot="private" virt="non-virtual"><scope>resources::compositionlistapredefinitagusti::xml::parserxml::ParserXMLCompositionListaPredefinitaGusti</scope><name>parsingResult</name></member>
+      <member refid="classresources_1_1compositionlistapredefinitagusti_1_1xml_1_1parserxml_1_1_parser_x_m_l_composition_lista_predefinita_gusti_1af6301443b1731977343c412d9d5acb4a" prot="private" virt="non-virtual"><scope>resources::compositionlistapredefinitagusti::xml::parserxml::ParserXMLCompositionListaPredefinitaGusti</scope><name>put</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

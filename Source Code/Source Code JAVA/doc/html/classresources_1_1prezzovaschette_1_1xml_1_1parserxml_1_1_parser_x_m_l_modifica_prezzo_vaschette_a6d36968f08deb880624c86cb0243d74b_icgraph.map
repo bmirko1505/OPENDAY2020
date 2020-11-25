@@ -1,0 +1,7 @@
+<map id="resources.prezzovaschette.xml.parserxml.ParserXMLModificaPrezzoVaschette.put" name="resources.prezzovaschette.xml.parserxml.ParserXMLModificaPrezzoVaschette.put">
+<area shape="rect" id="node1" title="Converte un &quot;nodo dell&#39;albero DOM&quot; in oggetto." alt="" coords="1177,5,1444,47"/>
+<area shape="rect" id="node2" href="$classresources_1_1prezzovaschette_1_1xml_1_1parserxml_1_1_parser_x_m_l_modifica_prezzo_vaschette.html#aae5a714a41373e3d975d6ad4b1ef0c2f" title="Effettua il parsing del documento XML di cui viene specificato il path." alt="" coords="801,5,1129,47"/>
+<area shape="rect" id="node3" href="$classgui_gelataio_1_1_interfaccia_principale_galataio.html#a03dfacb80fd3faa98d75ae460ade5c8f" title="Recupera informazioni necessarie dal server." alt="" coords="547,5,753,47"/>
+<area shape="rect" id="node4" href="$classgui_gelataio_1_1_interfaccia_principale_galataio.html#a6c05e9d7c45210225160936679546306" title="Inizializzatore stabile." alt="" coords="292,5,499,47"/>
+<area shape="rect" id="node5" href="$classgui_gelataio_1_1_interfaccia_principale_galataio.html#ad28db3222d7369871d6b679c1a6c1782" title="Costruttore." alt="" coords="5,5,244,47"/>
+</map>

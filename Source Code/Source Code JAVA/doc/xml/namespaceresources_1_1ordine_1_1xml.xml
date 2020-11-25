@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="namespaceresources_1_1ordine_1_1xml" kind="namespace" language="Java">
+    <compoundname>resources::ordine::xml</compoundname>
+    <innernamespace refid="namespaceresources_1_1ordine_1_1xml_1_1generatorxml">resources::ordine::xml::generatorxml</innernamespace>
+    <innernamespace refid="namespaceresources_1_1ordine_1_1xml_1_1generatorxmlv2">resources::ordine::xml::generatorxmlv2</innernamespace>
+    <innernamespace refid="namespaceresources_1_1ordine_1_1xml_1_1generatorxmlv3">resources::ordine::xml::generatorxmlv3</innernamespace>
+    <innernamespace refid="namespaceresources_1_1ordine_1_1xml_1_1parserxml">resources::ordine::xml::parserxml</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="[generated]" line="1" column="1"/>
+  </compounddef>
+</doxygen>

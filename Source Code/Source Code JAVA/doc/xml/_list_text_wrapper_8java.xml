@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="_list_text_wrapper_8java" kind="file" language="Java">
+    <compoundname>ListTextWrapper.java</compoundname>
+    <innerclass refid="classresources_1_1listtextwrapper_1_1_list_text_wrapper" prot="public">resources::listtextwrapper::ListTextWrapper</innerclass>
+    <innernamespace refid="namespaceresources_1_1listtextwrapper">resources::listtextwrapper</innernamespace>
+    <briefdescription>
+<para>Classe per formattare e visualizzare correttamente un elemento della lista InterfacciaPrincipaleGelataio.jListOrdini. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Grandieri Andrea <ulink url="mailto:g.andreus02@gmail.com">g.andreus02@gmail.com</ulink> </para>
+</simplesect>
+<simplesect kind="author"><para>Barsotti Mirko <ulink url="mailto:bmirko1505@gmail.com">bmirko1505@gmail.com</ulink> </para>
+</simplesect>
+<simplesect kind="author"><para>Brambilla Mirko <ulink url="mailto:brambobilla01@gmail.com">brambobilla01@gmail.com</ulink> </para>
+</simplesect>
+<simplesect kind="version"><para>1.0 </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespaceresources_1_1listtextwrapper" refkind="compound"><highlight class="keyword">package<sp/></highlight><highlight class="normal">resources.listtextwrapper;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.awt.Component;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>javax.swing.DefaultListCellRenderer;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>javax.swing.JList;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="classresources_1_1listtextwrapper_1_1_list_text_wrapper" refkind="compound"><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classresources_1_1listtextwrapper_1_1_list_text_wrapper" kindref="compound">ListTextWrapper</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/>DefaultListCellRenderer<sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="classresources_1_1listtextwrapper_1_1_list_text_wrapper_1a0d64ff09958e44d4af742e5bed275db5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">final</highlight><highlight class="normal"><sp/>String<sp/><ref refid="classresources_1_1listtextwrapper_1_1_list_text_wrapper_1a0d64ff09958e44d4af742e5bed275db5" kindref="member">HTML_1</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&lt;html&gt;&lt;body<sp/>style=&apos;width:<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="classresources_1_1listtextwrapper_1_1_list_text_wrapper_1a475a12442894b3c85bdd03430739f963" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">final</highlight><highlight class="normal"><sp/>String<sp/><ref refid="classresources_1_1listtextwrapper_1_1_list_text_wrapper_1a475a12442894b3c85bdd03430739f963" kindref="member">HTML_2</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;px&apos;&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="classresources_1_1listtextwrapper_1_1_list_text_wrapper_1af7abeac720bd481b6a33f185c1c39af3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">final</highlight><highlight class="normal"><sp/>String<sp/><ref refid="classresources_1_1listtextwrapper_1_1_list_text_wrapper_1af7abeac720bd481b6a33f185c1c39af3" kindref="member">HTML_3</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&lt;/html&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="classresources_1_1listtextwrapper_1_1_list_text_wrapper_1ac7693f04e87e4c158b6d5ddba3cc77cf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">final</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classresources_1_1listtextwrapper_1_1_list_text_wrapper_1ac7693f04e87e4c158b6d5ddba3cc77cf" kindref="member">width</ref>;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="classresources_1_1listtextwrapper_1_1_list_text_wrapper_1a9d4cb91fe860a2ee0511d2e8c586d6ca" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classresources_1_1listtextwrapper_1_1_list_text_wrapper_1a9d4cb91fe860a2ee0511d2e8c586d6ca" kindref="member">ListTextWrapper</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classresources_1_1listtextwrapper_1_1_list_text_wrapper_1ac7693f04e87e4c158b6d5ddba3cc77cf" kindref="member">width</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.width<sp/>=<sp/><ref refid="classresources_1_1listtextwrapper_1_1_list_text_wrapper_1ac7693f04e87e4c158b6d5ddba3cc77cf" kindref="member">width</ref>;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>@Override</highlight></codeline>
+<codeline lineno="86" refid="classresources_1_1listtextwrapper_1_1_list_text_wrapper_1a6ccac0ff1761f73a2d6e69fdaf65dd51" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Component<sp/><ref refid="classresources_1_1listtextwrapper_1_1_list_text_wrapper_1a6ccac0ff1761f73a2d6e69fdaf65dd51" kindref="member">getListCellRendererComponent</ref>(JList<sp/>list,<sp/>Object<sp/>value,</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index,<sp/></highlight><highlight class="keywordtype">boolean</highlight><highlight class="normal"><sp/>isSelected,<sp/></highlight><highlight class="keywordtype">boolean</highlight><highlight class="normal"><sp/>cellHasFocus)<sp/>{</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/>text<sp/>=<sp/><ref refid="classresources_1_1listtextwrapper_1_1_list_text_wrapper_1a0d64ff09958e44d4af742e5bed275db5" kindref="member">HTML_1</ref><sp/>+<sp/>String.valueOf(<ref refid="classresources_1_1listtextwrapper_1_1_list_text_wrapper_1ac7693f04e87e4c158b6d5ddba3cc77cf" kindref="member">width</ref>)<sp/>+<sp/><ref refid="classresources_1_1listtextwrapper_1_1_list_text_wrapper_1a475a12442894b3c85bdd03430739f963" kindref="member">HTML_2</ref><sp/>+<sp/>value.toString()</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>+<sp/><ref refid="classresources_1_1listtextwrapper_1_1_list_text_wrapper_1af7abeac720bd481b6a33f185c1c39af3" kindref="member">HTML_3</ref>;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>super.getListCellRendererComponent(list,<sp/>text,<sp/>index,<sp/>isSelected,</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cellHasFocus);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/listtextwrapper/ListTextWrapper.java"/>
+  </compounddef>
+</doxygen>

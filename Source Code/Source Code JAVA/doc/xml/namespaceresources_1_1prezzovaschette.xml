@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="namespaceresources_1_1prezzovaschette" kind="namespace" language="Java">
+    <compoundname>resources::prezzovaschette</compoundname>
+    <innerclass refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette" prot="public">resources::prezzovaschette::PrezzoVaschette</innerclass>
+    <innernamespace refid="namespaceresources_1_1prezzovaschette_1_1xml">resources::prezzovaschette::xml</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/prezzovaschette/PrezzoVaschette.java" line="1" column="15"/>
+  </compounddef>
+</doxygen>

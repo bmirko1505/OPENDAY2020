@@ -1,0 +1,9 @@
+<map id="resources.ftpserver.FTPServer" name="resources.ftpserver.FTPServer">
+<area shape="rect" id="node1" title="Classe per la gestione della comunicazione con un server FTP." alt="" coords="132,587,327,1236"/>
+<area shape="rect" id="node2" href="$classresources_1_1ftpserver_1_1_keeper.html" title="Classe per la gestione del servizio keep alive." alt="" coords="5,432,181,524"/>
+<area shape="rect" id="node3" title=" " alt="" coords="29,219,112,296"/>
+<area shape="rect" id="node4" href="$classresources_1_1ftpserver_1_1_manager.html" title="Classe contenente dati condivisi tra le classi resources.ftpserver.FTPServer e resources...." alt="" coords="137,145,322,369"/>
+<area shape="rect" id="node5" title=" " alt="" coords="137,5,215,83"/>
+<area shape="rect" id="node6" title=" " alt="" coords="240,5,328,83"/>
+<area shape="rect" id="node7" title=" " alt="" coords="313,439,367,517"/>
+</map>

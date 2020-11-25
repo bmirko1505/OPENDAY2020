@@ -1,0 +1,16 @@
+<map id="resources.ftpserver.Manager.getIsConnected" name="resources.ftpserver.Manager.getIsConnected">
+<area shape="rect" id="node1" title="Ritorna il valore dell&#39;attributo Manager.isConnected." alt="" coords="917,289,1124,331"/>
+<area shape="rect" id="node2" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#a674fe9fc38ba3ecf4d779310489ef230" title="Tenta di stabilire una connessione con il server FTP." alt="" coords="605,355,851,382"/>
+<area shape="rect" id="node5" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#adc106008f1f77d93d8189870b1d9ae81" title="Tenta di stabilire una connessione con il server FTP." alt="" coords="595,71,861,98"/>
+<area shape="rect" id="node6" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#ad7b1c599ab1c0dd9a2f3b88cc1ca4f2b" title="Tenta di effettuare la disconnesione dal server." alt="" coords="597,122,859,149"/>
+<area shape="rect" id="node7" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#ae7d54aaf3ba9136f829eaed4aab3b646" title="Tenta di effettuare la disconnesione dal server." alt="" coords="587,173,869,199"/>
+<area shape="rect" id="node8" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#a97a1bef804fb89c035559e813083d9cf" title="Ottiene la directory di lavoro corrente." alt="" coords="619,224,837,265"/>
+<area shape="rect" id="node9" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#a8626bea24c8b8e903489cebffef30ef2" title="Ritorna il valore ottenuto attraverso l&#39;invocazione del metodo resources.ftpserver...." alt="" coords="619,289,837,331"/>
+<area shape="rect" id="node10" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#a7250e1c8a1ee00b6550402cfac9b495a" title="Tenta di effettuare il login sul server FTP." alt="" coords="615,406,841,433"/>
+<area shape="rect" id="node11" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#a2754c501b06fbad87a2fe9770bd2a866" title="Tenta di effettuare il login sul server FTP." alt="" coords="292,461,539,487"/>
+<area shape="rect" id="node12" href="$classresources_1_1ftpserver_1_1_keeper.html#a030e2156a7c720bcdc3f15e7cea92d3e" title="Codice eseguito dal thread." alt="" coords="629,457,827,483"/>
+<area shape="rect" id="node13" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#ae9bf45f3284f3eefd4e65e75d77a77c6" title="Imposta le coordinate del server FTP con il quale comunicare." alt="" coords="619,5,837,47"/>
+<area shape="rect" id="node14" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#a093946fe4f699687964567e9d3bc48e8" title="Imposta le coordinate del server FTP con il quale comunicare." alt="" coords="619,559,837,600"/>
+<area shape="rect" id="node3" href="$classgui_gelataio_1_1_interfaccia_principale_galataio.html#a6c05e9d7c45210225160936679546306" title="Inizializzatore stabile." alt="" coords="312,348,519,389"/>
+<area shape="rect" id="node4" href="$classgui_gelataio_1_1_interfaccia_principale_galataio.html#ad28db3222d7369871d6b679c1a6c1782" title="Costruttore." alt="" coords="5,348,244,389"/>
+</map>

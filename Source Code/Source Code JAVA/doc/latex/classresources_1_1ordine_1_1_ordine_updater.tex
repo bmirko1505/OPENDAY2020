@@ -1,0 +1,215 @@
+\hypertarget{classresources_1_1ordine_1_1_ordine_updater}{}\doxysection{resources.\+ordine.\+Ordine\+Updater Class Reference}
+\label{classresources_1_1ordine_1_1_ordine_updater}\index{resources.ordine.OrdineUpdater@{resources.ordine.OrdineUpdater}}
+
+
+Classe per garantire un aggiornamento automatico e continuo della lista delle ordinazioni in arrivo.  
+
+
+
+
+Inheritance diagram for resources.\+ordine.\+Ordine\+Updater\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=234pt]{classresources_1_1ordine_1_1_ordine_updater__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for resources.\+ordine.\+Ordine\+Updater\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresources_1_1ordine_1_1_ordine_updater__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classresources_1_1ordine_1_1_ordine_updater_aff19d63303141e927df5aec25838a0b8}{Ordine\+Updater}} (\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server}{F\+T\+P\+Server}} \mbox{\hyperlink{classresources_1_1ordine_1_1_ordine_updater_aff0560d0a34ec52e64acf681192a55ca}{server}}, \mbox{\hyperlink{classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine}{Parser\+X\+M\+L\+Ordine}} \mbox{\hyperlink{classresources_1_1ordine_1_1_ordine_updater_a7b205d05f50b7dc05b6357b546ad9941}{parser\+X\+M\+L\+Ordine}}, Default\+List\+Model \mbox{\hyperlink{classresources_1_1ordine_1_1_ordine_updater_a91995f4e8c979b48d21e94ddd52b3aef}{lista\+Ordini\+Model}}, \mbox{\hyperlink{classresources_1_1ordine_1_1xml_1_1generatorxml_1_1_generator_x_m_l_ordine}{Generator\+X\+M\+L\+Ordine}} \mbox{\hyperlink{classresources_1_1ordine_1_1_ordine_updater_a265726979f1e0e490de0a9788e1deccc}{generator\+X\+M\+L\+Ordine}})
+\begin{DoxyCompactList}\small\item\em Costruttore. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classresources_1_1ordine_1_1_ordine_updater_a3cbcc90da488f54195020d4fd0945d95}{run}} ()
+\begin{DoxyCompactList}\small\item\em Codice eseguito dal thread. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final \mbox{\hyperlink{classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine}{Parser\+X\+M\+L\+Ordine}} \mbox{\hyperlink{classresources_1_1ordine_1_1_ordine_updater_a7b205d05f50b7dc05b6357b546ad9941}{parser\+X\+M\+L\+Ordine}}
+\item 
+final Default\+List\+Model \mbox{\hyperlink{classresources_1_1ordine_1_1_ordine_updater_a91995f4e8c979b48d21e94ddd52b3aef}{lista\+Ordini\+Model}}
+\item 
+final \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server}{F\+T\+P\+Server}} \mbox{\hyperlink{classresources_1_1ordine_1_1_ordine_updater_aff0560d0a34ec52e64acf681192a55ca}{server}}
+\item 
+Array\+List$<$ \mbox{\hyperlink{classresources_1_1ordine_1_1_ordine}{Ordine}} $>$ \mbox{\hyperlink{classresources_1_1ordine_1_1_ordine_updater_ad524b5903677c0d402b05801db487800}{parsing\+Result}}
+\item 
+final \mbox{\hyperlink{classresources_1_1ordine_1_1xml_1_1generatorxml_1_1_generator_x_m_l_ordine}{Generator\+X\+M\+L\+Ordine}} \mbox{\hyperlink{classresources_1_1ordine_1_1_ordine_updater_a265726979f1e0e490de0a9788e1deccc}{generator\+X\+M\+L\+Ordine}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Classe per garantire un aggiornamento automatico e continuo della lista delle ordinazioni in arrivo. 
+
+\begin{DoxyAuthor}{Author}
+Grandieri Andrea \href{mailto:g.andreus02@gmail.com}{\texttt{ g.\+andreus02@gmail.\+com}} 
+
+Barsotti Mirko \href{mailto:bmirko1505@gmail.com}{\texttt{ bmirko1505@gmail.\+com}} 
+
+Brambilla Mirko \href{mailto:brambobilla01@gmail.com}{\texttt{ brambobilla01@gmail.\+com}}
+\end{DoxyAuthor}
+La seguente classe rappresenta un thread daemon per garantire un aggiornamento automatico e continuo della lista delle ordinazioni in arrivo. 
+
+Definition at line 43 of file Ordine\+Updater.\+java.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classresources_1_1ordine_1_1_ordine_updater_aff19d63303141e927df5aec25838a0b8}\label{classresources_1_1ordine_1_1_ordine_updater_aff19d63303141e927df5aec25838a0b8}} 
+\index{resources.ordine.OrdineUpdater@{resources.ordine.OrdineUpdater}!OrdineUpdater@{OrdineUpdater}}
+\index{OrdineUpdater@{OrdineUpdater}!resources.ordine.OrdineUpdater@{resources.ordine.OrdineUpdater}}
+\doxysubsubsection{\texorpdfstring{OrdineUpdater()}{OrdineUpdater()}}
+{\footnotesize\ttfamily resources.\+ordine.\+Ordine\+Updater.\+Ordine\+Updater (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server}{F\+T\+P\+Server}}}]{server,  }\item[{\mbox{\hyperlink{classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine}{Parser\+X\+M\+L\+Ordine}}}]{parser\+X\+M\+L\+Ordine,  }\item[{Default\+List\+Model}]{lista\+Ordini\+Model,  }\item[{\mbox{\hyperlink{classresources_1_1ordine_1_1xml_1_1generatorxml_1_1_generator_x_m_l_ordine}{Generator\+X\+M\+L\+Ordine}}}]{generator\+X\+M\+L\+Ordine }\end{DoxyParamCaption})}
+
+
+
+Costruttore. 
+
+Inizializza tutte le risorse necessarie ad un oggetto di questa classe
+
+
+\begin{DoxyParams}{Parameters}
+{\em server} & L\textquotesingle{}oggetto di classe F\+T\+P\+Server per permettere la comunicazione bidirezionale con il server F\+TP \\
+\hline
+{\em parser\+X\+M\+L\+Ordine} & Il parser del file X\+ML contenente la struttura \char`\"{}\+Ordine\char`\"{} \\
+\hline
+{\em lista\+Ordini\+Model} & Il modello lista della lista \mbox{\hyperlink{classgui_gelataio_1_1_interfaccia_principale_galataio_a551a7fb66d6a87390271122b591b4331}{Interfaccia\+Principale\+Galataio.\+j\+List\+Lista\+Gusti\+Vendita}} \\
+\hline
+{\em generator\+X\+M\+L\+Ordine} & Il generator del file X\+ML contenente la struttura \char`\"{}\+Ordine\char`\"{}\\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1ordine_1_1_ordine_updater_aff0560d0a34ec52e64acf681192a55ca}{Ordine\+Updater.\+server}} 
+
+\mbox{\hyperlink{classresources_1_1ordine_1_1_ordine_updater_a7b205d05f50b7dc05b6357b546ad9941}{Ordine\+Updater.\+parser\+X\+M\+L\+Ordine}} 
+
+\mbox{\hyperlink{classresources_1_1ordine_1_1_ordine_updater_a91995f4e8c979b48d21e94ddd52b3aef}{Ordine\+Updater.\+lista\+Ordini\+Model}} 
+
+\mbox{\hyperlink{classresources_1_1ordine_1_1_ordine_updater_ad524b5903677c0d402b05801db487800}{Ordine\+Updater.\+parsing\+Result}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 95 of file Ordine\+Updater.\+java.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classresources_1_1ordine_1_1_ordine_updater_a3cbcc90da488f54195020d4fd0945d95}\label{classresources_1_1ordine_1_1_ordine_updater_a3cbcc90da488f54195020d4fd0945d95}} 
+\index{resources.ordine.OrdineUpdater@{resources.ordine.OrdineUpdater}!run@{run}}
+\index{run@{run}!resources.ordine.OrdineUpdater@{resources.ordine.OrdineUpdater}}
+\doxysubsubsection{\texorpdfstring{run()}{run()}}
+{\footnotesize\ttfamily void resources.\+ordine.\+Ordine\+Updater.\+run (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Codice eseguito dal thread. 
+
+Il seguente metodo controlla l\textquotesingle{}eventuale presenza di nuove ordinazioni nel server in attesa di essere scaricate e caricate localmente nella lista \mbox{\hyperlink{classgui_gelataio_1_1_interfaccia_principale_galataio_a551a7fb66d6a87390271122b591b4331}{Interfaccia\+Principale\+Galataio.\+j\+List\+Lista\+Gusti\+Vendita}}. Se presenti, le scarica, le carica nella lista \mbox{\hyperlink{classgui_gelataio_1_1_interfaccia_principale_galataio_a551a7fb66d6a87390271122b591b4331}{Interfaccia\+Principale\+Galataio.\+j\+List\+Lista\+Gusti\+Vendita}} e infine le elimina dal server.
+
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1ordine_1_1_ordine_updater_aff0560d0a34ec52e64acf681192a55ca}{Ordine\+Updater.\+server}} 
+
+\mbox{\hyperlink{classresources_1_1ordine_1_1_ordine_updater_a7b205d05f50b7dc05b6357b546ad9941}{Ordine\+Updater.\+parser\+X\+M\+L\+Ordine}} 
+
+\mbox{\hyperlink{classresources_1_1ordine_1_1_ordine_updater_a91995f4e8c979b48d21e94ddd52b3aef}{Ordine\+Updater.\+lista\+Ordini\+Model}} 
+
+\mbox{\hyperlink{classresources_1_1ordine_1_1_ordine_updater_ad524b5903677c0d402b05801db487800}{Ordine\+Updater.\+parsing\+Result}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 120 of file Ordine\+Updater.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresources_1_1ordine_1_1_ordine_updater_a3cbcc90da488f54195020d4fd0945d95_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classresources_1_1ordine_1_1_ordine_updater_a265726979f1e0e490de0a9788e1deccc}\label{classresources_1_1ordine_1_1_ordine_updater_a265726979f1e0e490de0a9788e1deccc}} 
+\index{resources.ordine.OrdineUpdater@{resources.ordine.OrdineUpdater}!generatorXMLOrdine@{generatorXMLOrdine}}
+\index{generatorXMLOrdine@{generatorXMLOrdine}!resources.ordine.OrdineUpdater@{resources.ordine.OrdineUpdater}}
+\doxysubsubsection{\texorpdfstring{generatorXMLOrdine}{generatorXMLOrdine}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classresources_1_1ordine_1_1xml_1_1generatorxml_1_1_generator_x_m_l_ordine}{Generator\+X\+M\+L\+Ordine}} resources.\+ordine.\+Ordine\+Updater.\+generator\+X\+M\+L\+Ordine\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 74 of file Ordine\+Updater.\+java.
+
+\mbox{\Hypertarget{classresources_1_1ordine_1_1_ordine_updater_a91995f4e8c979b48d21e94ddd52b3aef}\label{classresources_1_1ordine_1_1_ordine_updater_a91995f4e8c979b48d21e94ddd52b3aef}} 
+\index{resources.ordine.OrdineUpdater@{resources.ordine.OrdineUpdater}!listaOrdiniModel@{listaOrdiniModel}}
+\index{listaOrdiniModel@{listaOrdiniModel}!resources.ordine.OrdineUpdater@{resources.ordine.OrdineUpdater}}
+\doxysubsubsection{\texorpdfstring{listaOrdiniModel}{listaOrdiniModel}}
+{\footnotesize\ttfamily final Default\+List\+Model resources.\+ordine.\+Ordine\+Updater.\+lista\+Ordini\+Model\hspace{0.3cm}{\ttfamily [private]}}
+
+Rappresenta il modello lista della lista \mbox{\hyperlink{classgui_gelataio_1_1_interfaccia_principale_galataio_a551a7fb66d6a87390271122b591b4331}{Interfaccia\+Principale\+Galataio.\+j\+List\+Lista\+Gusti\+Vendita}}
+
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classgui_gelataio_1_1_interfaccia_principale_galataio_a551a7fb66d6a87390271122b591b4331}{Interfaccia\+Principale\+Galataio.\+j\+List\+Lista\+Gusti\+Vendita}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 60 of file Ordine\+Updater.\+java.
+
+\mbox{\Hypertarget{classresources_1_1ordine_1_1_ordine_updater_a7b205d05f50b7dc05b6357b546ad9941}\label{classresources_1_1ordine_1_1_ordine_updater_a7b205d05f50b7dc05b6357b546ad9941}} 
+\index{resources.ordine.OrdineUpdater@{resources.ordine.OrdineUpdater}!parserXMLOrdine@{parserXMLOrdine}}
+\index{parserXMLOrdine@{parserXMLOrdine}!resources.ordine.OrdineUpdater@{resources.ordine.OrdineUpdater}}
+\doxysubsubsection{\texorpdfstring{parserXMLOrdine}{parserXMLOrdine}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine}{Parser\+X\+M\+L\+Ordine}} resources.\+ordine.\+Ordine\+Updater.\+parser\+X\+M\+L\+Ordine\hspace{0.3cm}{\ttfamily [private]}}
+
+Rappresenta il parser del file X\+ML contenente la struttura \char`\"{}\+Ordine\char`\"{}
+
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classgui_gelataio_1_1_interfaccia_principale_galataio_a551a7fb66d6a87390271122b591b4331}{Interfaccia\+Principale\+Galataio.\+j\+List\+Lista\+Gusti\+Vendita}} 
+
+\mbox{\hyperlink{classresources_1_1ordine_1_1_ordine}{resources.\+ordine.\+Ordine}} 
+
+\mbox{\hyperlink{classresources_1_1ordine_1_1xml_1_1parserxml_1_1_parser_x_m_l_ordine}{resources.\+ordine.\+xml.\+parserxml.\+Parser\+X\+M\+L\+Ordine}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 52 of file Ordine\+Updater.\+java.
+
+\mbox{\Hypertarget{classresources_1_1ordine_1_1_ordine_updater_ad524b5903677c0d402b05801db487800}\label{classresources_1_1ordine_1_1_ordine_updater_ad524b5903677c0d402b05801db487800}} 
+\index{resources.ordine.OrdineUpdater@{resources.ordine.OrdineUpdater}!parsingResult@{parsingResult}}
+\index{parsingResult@{parsingResult}!resources.ordine.OrdineUpdater@{resources.ordine.OrdineUpdater}}
+\doxysubsubsection{\texorpdfstring{parsingResult}{parsingResult}}
+{\footnotesize\ttfamily Array\+List$<$\mbox{\hyperlink{classresources_1_1ordine_1_1_ordine}{Ordine}}$>$ resources.\+ordine.\+Ordine\+Updater.\+parsing\+Result\hspace{0.3cm}{\ttfamily [private]}}
+
+Lista di oggetti convertiti da \char`\"{}nodi dell\textquotesingle{}albero D\+O\+M\char`\"{} 
+
+Definition at line 73 of file Ordine\+Updater.\+java.
+
+\mbox{\Hypertarget{classresources_1_1ordine_1_1_ordine_updater_aff0560d0a34ec52e64acf681192a55ca}\label{classresources_1_1ordine_1_1_ordine_updater_aff0560d0a34ec52e64acf681192a55ca}} 
+\index{resources.ordine.OrdineUpdater@{resources.ordine.OrdineUpdater}!server@{server}}
+\index{server@{server}!resources.ordine.OrdineUpdater@{resources.ordine.OrdineUpdater}}
+\doxysubsubsection{\texorpdfstring{server}{server}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server}{F\+T\+P\+Server}} resources.\+ordine.\+Ordine\+Updater.\+server\hspace{0.3cm}{\ttfamily [private]}}
+
+Rappresenta l\textquotesingle{}oggetto di classe F\+T\+P\+Server per permettere la comunicazione bidirezionale con il server F\+TP
+
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classresources_1_1ftpserver_1_1_f_t_p_server}{resources.\+ftpserver.\+F\+T\+P\+Server}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 68 of file Ordine\+Updater.\+java.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/gandr/\+Desktop/\+Interfaccia\+Gelataio/src/resources/ordine/\mbox{\hyperlink{_ordine_updater_8java}{Ordine\+Updater.\+java}}\end{DoxyCompactItemize}

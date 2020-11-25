@@ -1,0 +1,14 @@
+<map id="resources.ftpserver.FTPServer.setCurrentDirectory" name="resources.ftpserver.FTPServer.setCurrentDirectory">
+<area shape="rect" id="node1" title="Cambia la directory di lavoro corrente." alt="" coords="880,291,1097,332"/>
+<area shape="rect" id="node2" href="$classgui_gelataio_1_1_interfaccia_principale_galataio.html#ad2db5f6f733b3d6f9e1301d3c5097c14" title="Bottone conferma dell&#39;interfaccia &quot;Modifica Lista Gusti In Vendita&quot;." alt="" coords="553,5,826,47"/>
+<area shape="rect" id="node3" href="$classgui_gelataio_1_1_interfaccia_principale_galataio.html#a5648ca5385ef5ad8b89e7bbfbc58207f" title="Bottone conferma dell&#39;interfaccia &quot;Modifica Orario Negozio&quot;." alt="" coords="556,71,823,112"/>
+<area shape="rect" id="node4" href="$classgui_gelataio_1_1_interfaccia_principale_galataio.html#a39cae8eaace69bbe3047518bc82e3cc9" title=" " alt="" coords="547,137,831,193"/>
+<area shape="rect" id="node5" href="$classgui_gelataio_1_1_interfaccia_principale_galataio.html#a12d9f4c60e04480a89b8bf1be456cda6" title="Bottone indietro dell&#39;interfaccia &quot;Modifica Lista Predefinita&quot;." alt="" coords="559,217,819,259"/>
+<area shape="rect" id="node6" href="$classgui_gelataio_1_1_interfaccia_principale_galataio.html#a63b28e86a185bdcff2251f9fd6097330" title="Bottone inoltro al fattorino dell&#39;interfaccia &quot;Main&quot;." alt="" coords="564,283,815,339"/>
+<area shape="rect" id="node7" href="$classgui_gelataio_1_1_interfaccia_principale_galataio.html#a62413514aa70becff967d21393308a3e" title=" " alt="" coords="547,363,832,419"/>
+<area shape="rect" id="node8" href="$classgui_gelataio_1_1_interfaccia_principale_galataio.html#a03dfacb80fd3faa98d75ae460ade5c8f" title="Recupera informazioni necessarie dal server." alt="" coords="586,444,793,485"/>
+<area shape="rect" id="node11" href="$classresources_1_1cronology_1_1_cronology_updater.html#a9894bb0596657375bc888de39c019834" title="Codice eseguito dal thread." alt="" coords="589,509,790,551"/>
+<area shape="rect" id="node12" href="$classresources_1_1ordine_1_1_ordine_updater.html#a3cbcc90da488f54195020d4fd0945d95" title="Codice eseguito dal thread." alt="" coords="576,575,803,602"/>
+<area shape="rect" id="node9" href="$classgui_gelataio_1_1_interfaccia_principale_galataio.html#a6c05e9d7c45210225160936679546306" title="Inizializzatore stabile." alt="" coords="292,444,499,485"/>
+<area shape="rect" id="node10" href="$classgui_gelataio_1_1_interfaccia_principale_galataio.html#ad28db3222d7369871d6b679c1a6c1782" title="Costruttore." alt="" coords="5,444,244,485"/>
+</map>

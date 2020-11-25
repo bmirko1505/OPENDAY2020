@@ -1,0 +1,12 @@
+<map id="guiGelataio.InterfacciaPrincipaleGalataio.jButtonConferma2ActionPerformed" name="guiGelataio.InterfacciaPrincipaleGalataio.jButtonConferma2ActionPerformed">
+<area shape="rect" id="node1" title="Bottone conferma dell&#39;interfaccia &quot;Modifica Lista Gusti In Vendita&quot;." alt="" coords="5,100,279,141"/>
+<area shape="rect" id="node2" href="$classresources_1_1compositionlistapredefinitagusti_1_1xml_1_1generatorxml_1_1_generator_x_m_l_co6c72f51d9d15509b0205bb0db7af9881.html#a85d0b1a7c716a766c80aeca5270b117a" title="Crea l&#39;effettivo file XML sulla base dell&#39;albero DOM." alt="" coords="327,5,748,47"/>
+<area shape="rect" id="node3" href="$classresources_1_1compositionlistapredefinitagusti_1_1xml_1_1generatorxml_1_1_generator_x_m_l_co6c72f51d9d15509b0205bb0db7af9881.html#a2cc63b39ce02d5742bf294b20c02cb0e" title="Crea l&#39;albero DOM." alt="" coords="342,71,733,112"/>
+<area shape="rect" id="node5" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#ab87c0e92af371c7034d82b026367b401" title="Cambia la directory di lavoro corrente." alt="" coords="429,192,646,233"/>
+<area shape="rect" id="node10" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#aaae22be90f18fa0c827240ef0fc5b466" title="Carica un file dal client al server." alt="" coords="408,137,667,163"/>
+<area shape="rect" id="node4" href="$classresources_1_1compositionlistapredefinitagusti_1_1xml_1_1generatorxml_1_1_generator_x_m_l_co6c72f51d9d15509b0205bb0db7af9881.html#a02db5f7b39bfdaa91ddf77a876d3fd9d" title="Crea il documento &quot;virtuale&quot; supporto per il nostro albero DOM." alt="" coords="796,12,1191,53"/>
+<area shape="rect" id="node6" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html#a53efc9cad594b3f20e40c70ac21c3504" title="Visualizza su console le eventuali risposte del server a comandi." alt="" coords="885,129,1102,171"/>
+<area shape="rect" id="node7" href="$classresources_1_1ftpserver_1_1_manager.html#a9eea40adb30e967a9fbebe61acb7ecf5" title="Ritorna il valore dell&#39;attributo Manager.server." alt="" coords="1239,163,1445,204"/>
+<area shape="rect" id="node9" href="$classresources_1_1ftpserver_1_1_manager.html#a760aae78030588d2f0d5b5898969de39" title="Ritorna il valore dell&#39;attributo Manager.serverMutex." alt="" coords="890,195,1097,236"/>
+<area shape="rect" id="node8" href="$classresources_1_1ftpserver_1_1_manager.html#a15422d664ec1762a2b98a86228099cd7" title="Ritorna il valore dell&#39;attributo Manager.showServerReplies." alt="" coords="1239,97,1445,139"/>
+</map>

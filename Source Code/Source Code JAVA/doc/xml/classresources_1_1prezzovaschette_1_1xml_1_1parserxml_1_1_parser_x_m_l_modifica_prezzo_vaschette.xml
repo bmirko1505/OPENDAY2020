@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="classresources_1_1prezzovaschette_1_1xml_1_1parserxml_1_1_parser_x_m_l_modifica_prezzo_vaschette" kind="class" language="Java" prot="public">
+    <compoundname>resources::prezzovaschette::xml::parserxml::ParserXMLModificaPrezzoVaschette</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classresources_1_1prezzovaschette_1_1xml_1_1parserxml_1_1_parser_x_m_l_modifica_prezzo_vaschette_1a23871d39dabd1e147e251dc971a3d8af" prot="private" static="no" mutable="no">
+        <type>final ArrayList&lt; <ref refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette" kindref="compound">PrezzoVaschette</ref> &gt;</type>
+        <definition>final ArrayList&lt;PrezzoVaschette&gt; resources.prezzovaschette.xml.parserxml.ParserXMLModificaPrezzoVaschette.parsingResult</definition>
+        <argsstring></argsstring>
+        <name>parsingResult</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Lista di oggetti convertiti da &quot;nodi dell&apos;albero DOM&quot; </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/prezzovaschette/xml/parserxml/ParserXMLModificaPrezzoVaschette.java" line="41" column="29" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/prezzovaschette/xml/parserxml/ParserXMLModificaPrezzoVaschette.java" bodystart="41" bodyend="-1"/>
+        <referencedby refid="classresources_1_1prezzovaschette_1_1xml_1_1parserxml_1_1_parser_x_m_l_modifica_prezzo_vaschette_1aae5a714a41373e3d975d6ad4b1ef0c2f" compoundref="_parser_x_m_l_modifica_prezzo_vaschette_8java" startline="74" endline="145">resources.prezzovaschette.xml.parserxml.ParserXMLModificaPrezzoVaschette.parseDocument</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classresources_1_1prezzovaschette_1_1xml_1_1parserxml_1_1_parser_x_m_l_modifica_prezzo_vaschette_1a73e0e57de77cc5512f37311bce4dbd8b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>resources.prezzovaschette.xml.parserxml.ParserXMLModificaPrezzoVaschette.ParserXMLModificaPrezzoVaschette</definition>
+        <argsstring>()</argsstring>
+        <name>ParserXMLModificaPrezzoVaschette</name>
+        <briefdescription>
+<para>Costruttore. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Inizializza tutte le risorse necessarie ad un oggetto di questa classe</para>
+<para><simplesect kind="see"><para><ref refid="classresources_1_1prezzovaschette_1_1xml_1_1parserxml_1_1_parser_x_m_l_modifica_prezzo_vaschette_1a23871d39dabd1e147e251dc971a3d8af" kindref="member">ParserXMLModificaPrezzoVaschette.parsingResult</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/prezzovaschette/xml/parserxml/ParserXMLModificaPrezzoVaschette.java" line="51" column="12" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/prezzovaschette/xml/parserxml/ParserXMLModificaPrezzoVaschette.java" bodystart="51" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1prezzovaschette_1_1xml_1_1parserxml_1_1_parser_x_m_l_modifica_prezzo_vaschette_1aae5a714a41373e3d975d6ad4b1ef0c2f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ArrayList&lt; <ref refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette" kindref="compound">PrezzoVaschette</ref> &gt;</type>
+        <definition>ArrayList&lt;PrezzoVaschette&gt; resources.prezzovaschette.xml.parserxml.ParserXMLModificaPrezzoVaschette.parseDocument</definition>
+        <argsstring>(String path)</argsstring>
+        <name>parseDocument</name>
+        <param>
+          <type>String</type>
+          <declname>path</declname>
+        </param>
+        <exceptions> throws ParserConfigurationException, SAXException, IOException, ParseException </exceptions>
+        <briefdescription>
+<para>Effettua il parsing del documento XML di cui viene specificato il path. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Path del file XML del quale effettuare il parsing</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Lista di oggetti convertiti da &quot;nodi dell&apos;albero DOM&quot;</para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>ParserConfigurationException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>SAXException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>IOException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ParseException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="classresources_1_1prezzovaschette_1_1xml_1_1parserxml_1_1_parser_x_m_l_modifica_prezzo_vaschette_1a23871d39dabd1e147e251dc971a3d8af" kindref="member">ParserXMLModificaPrezzoVaschette.parsingResult</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/prezzovaschette/xml/parserxml/ParserXMLModificaPrezzoVaschette.java" line="74" column="22" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/prezzovaschette/xml/parserxml/ParserXMLModificaPrezzoVaschette.java" bodystart="74" bodyend="145"/>
+        <references refid="classresources_1_1prezzovaschette_1_1xml_1_1parserxml_1_1_parser_x_m_l_modifica_prezzo_vaschette_1a23871d39dabd1e147e251dc971a3d8af" compoundref="_parser_x_m_l_modifica_prezzo_vaschette_8java" startline="41">resources.prezzovaschette.xml.parserxml.ParserXMLModificaPrezzoVaschette.parsingResult</references>
+        <references refid="classresources_1_1prezzovaschette_1_1xml_1_1parserxml_1_1_parser_x_m_l_modifica_prezzo_vaschette_1a6d36968f08deb880624c86cb0243d74b" compoundref="_parser_x_m_l_modifica_prezzo_vaschette_8java" startline="158" endline="180">resources.prezzovaschette.xml.parserxml.ParserXMLModificaPrezzoVaschette.put</references>
+        <referencedby refid="classgui_gelataio_1_1_interfaccia_principale_galataio_1a03dfacb80fd3faa98d75ae460ade5c8f" compoundref="_interfaccia_principale_galataio_8java" startline="715" endline="893">guiGelataio.InterfacciaPrincipaleGalataio.loadFromServer</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classresources_1_1prezzovaschette_1_1xml_1_1parserxml_1_1_parser_x_m_l_modifica_prezzo_vaschette_1a6d36968f08deb880624c86cb0243d74b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void resources.prezzovaschette.xml.parserxml.ParserXMLModificaPrezzoVaschette.put</definition>
+        <argsstring>(Element singleTag)</argsstring>
+        <name>put</name>
+        <param>
+          <type>Element</type>
+          <declname>singleTag</declname>
+        </param>
+        <exceptions> throws ParseException </exceptions>
+        <briefdescription>
+<para>Converte un &quot;nodo dell&apos;albero DOM&quot; in oggetto. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>singleTag</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Nodo dell&apos;albero DOM da convertire in oggetto</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>ParseException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="classresources_1_1prezzovaschette_1_1xml_1_1parserxml_1_1_parser_x_m_l_modifica_prezzo_vaschette_1a23871d39dabd1e147e251dc971a3d8af" kindref="member">ParserXMLModificaPrezzoVaschette.parsingResult</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/prezzovaschette/xml/parserxml/ParserXMLModificaPrezzoVaschette.java" line="158" column="18" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/prezzovaschette/xml/parserxml/ParserXMLModificaPrezzoVaschette.java" bodystart="158" bodyend="180"/>
+        <referencedby refid="classresources_1_1prezzovaschette_1_1xml_1_1parserxml_1_1_parser_x_m_l_modifica_prezzo_vaschette_1aae5a714a41373e3d975d6ad4b1ef0c2f" compoundref="_parser_x_m_l_modifica_prezzo_vaschette_8java" startline="74" endline="145">resources.prezzovaschette.xml.parserxml.ParserXMLModificaPrezzoVaschette.parseDocument</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Classe parser per i file XML con struttura &quot;PrezzoVaschette&quot;. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Grandieri Andrea <ulink url="mailto:g.andreus02@gmail.com">g.andreus02@gmail.com</ulink> </para>
+</simplesect>
+<simplesect kind="author"><para>Barsotti Mirko <ulink url="mailto:bmirko1505@gmail.com">bmirko1505@gmail.com</ulink> </para>
+</simplesect>
+<simplesect kind="author"><para>Brambilla Mirko <ulink url="mailto:brambobilla01@gmail.com">brambobilla01@gmail.com</ulink></para>
+</simplesect>
+La seguente classe fornisce un parser di file XML con struttura &quot;PrezzoVaschette&quot; </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>ArrayList</label>
+      </node>
+      <node id="2">
+        <label>ArrayList&lt; resources.prezzovaschette.PrezzoVaschette &gt;</label>
+        <childnode refid="3" relation="template-instance">
+          <edgelabel>&lt; resources::prezzovaschette::PrezzoVaschette &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>resources.prezzovaschette.xml.parserxml.ParserXMLModificaPrezzoVaschette</label>
+        <link refid="classresources_1_1prezzovaschette_1_1xml_1_1parserxml_1_1_parser_x_m_l_modifica_prezzo_vaschette"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>-parsingResult</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/prezzovaschette/xml/parserxml/ParserXMLModificaPrezzoVaschette.java" line="34" column="7" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/prezzovaschette/xml/parserxml/ParserXMLModificaPrezzoVaschette.java" bodystart="34" bodyend="181"/>
+    <listofallmembers>
+      <member refid="classresources_1_1prezzovaschette_1_1xml_1_1parserxml_1_1_parser_x_m_l_modifica_prezzo_vaschette_1aae5a714a41373e3d975d6ad4b1ef0c2f" prot="public" virt="non-virtual"><scope>resources::prezzovaschette::xml::parserxml::ParserXMLModificaPrezzoVaschette</scope><name>parseDocument</name></member>
+      <member refid="classresources_1_1prezzovaschette_1_1xml_1_1parserxml_1_1_parser_x_m_l_modifica_prezzo_vaschette_1a73e0e57de77cc5512f37311bce4dbd8b" prot="public" virt="non-virtual"><scope>resources::prezzovaschette::xml::parserxml::ParserXMLModificaPrezzoVaschette</scope><name>ParserXMLModificaPrezzoVaschette</name></member>
+      <member refid="classresources_1_1prezzovaschette_1_1xml_1_1parserxml_1_1_parser_x_m_l_modifica_prezzo_vaschette_1a23871d39dabd1e147e251dc971a3d8af" prot="private" virt="non-virtual"><scope>resources::prezzovaschette::xml::parserxml::ParserXMLModificaPrezzoVaschette</scope><name>parsingResult</name></member>
+      <member refid="classresources_1_1prezzovaschette_1_1xml_1_1parserxml_1_1_parser_x_m_l_modifica_prezzo_vaschette_1a6d36968f08deb880624c86cb0243d74b" prot="private" virt="non-virtual"><scope>resources::prezzovaschette::xml::parserxml::ParserXMLModificaPrezzoVaschette</scope><name>put</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

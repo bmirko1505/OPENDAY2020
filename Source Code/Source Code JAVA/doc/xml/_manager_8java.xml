@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="_manager_8java" kind="file" language="Java">
+    <compoundname>Manager.java</compoundname>
+    <innerclass refid="classresources_1_1ftpserver_1_1_manager" prot="public">resources::ftpserver::Manager</innerclass>
+    <innernamespace refid="namespaceresources_1_1ftpserver">resources::ftpserver</innernamespace>
+    <briefdescription>
+<para>Classe contenente dati condivisi tra le classi <ref refid="classresources_1_1ftpserver_1_1_f_t_p_server" kindref="compound">resources.ftpserver.FTPServer</ref> e <ref refid="classresources_1_1ftpserver_1_1_keeper" kindref="compound">resources.ftpserver.Keeper</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Grandieri Andrea <ulink url="mailto:g.andreus02@gmail.com">g.andreus02@gmail.com</ulink> </para>
+</simplesect>
+<simplesect kind="author"><para>Barsotti Mirko <ulink url="mailto:bmirko1505@gmail.com">bmirko1505@gmail.com</ulink> </para>
+</simplesect>
+<simplesect kind="author"><para>Brambilla Mirko <ulink url="mailto:brambobilla01@gmail.com">brambobilla01@gmail.com</ulink> </para>
+</simplesect>
+<simplesect kind="version"><para>1.0 </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">resources.ftpserver;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.util.concurrent.Semaphore;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>org.apache.commons.net.ftp.FTPClient;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="classresources_1_1ftpserver_1_1_manager" refkind="compound"><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classresources_1_1ftpserver_1_1_manager" kindref="compound">Manager</ref><sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Oggetto<sp/>di<sp/>classe<sp/>FTPClient</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>La<sp/>classe<sp/>FTPClient<sp/>della<sp/>libreria<sp/>org.apache.commons.net.ftp.FTPClient</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>fornisce<sp/>vari<sp/>servizi<sp/>per<sp/>la<sp/>comunicazione<sp/>con<sp/>un<sp/>server<sp/>FTP</highlight></codeline>
+<codeline lineno="38" refid="classresources_1_1ftpserver_1_1_manager_1a0e1523ea05f5c2e3fbc39727e671a906" refkind="member"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">final</highlight><highlight class="normal"><sp/>FTPClient<sp/><ref refid="classresources_1_1ftpserver_1_1_manager_1a0e1523ea05f5c2e3fbc39727e671a906" kindref="member">server</ref>;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Oggetto<sp/>di<sp/>classe<sp/>Semaphore<sp/>per<sp/>gestire</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>l&apos;accesso<sp/>concorrente<sp/>alla<sp/>risorsa<sp/>server</highlight></codeline>
+<codeline lineno="46" refid="classresources_1_1ftpserver_1_1_manager_1ae01a1e451410a78d56d80adf077e5b58" refkind="member"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">final</highlight><highlight class="normal"><sp/>Semaphore<sp/><ref refid="classresources_1_1ftpserver_1_1_manager_1ae01a1e451410a78d56d80adf077e5b58" kindref="member">serverMutex</ref>;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Flag<sp/>booleano<sp/>indicante<sp/>se<sp/>o<sp/>se<sp/>non</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>si<sp/>è<sp/>connessi<sp/>al<sp/>server</highlight></codeline>
+<codeline lineno="54" refid="classresources_1_1ftpserver_1_1_manager_1a99027b1c7083a184d7e1ec316a9100e3" refkind="member"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>Boolean<sp/><ref refid="classresources_1_1ftpserver_1_1_manager_1a99027b1c7083a184d7e1ec316a9100e3" kindref="member">isConnected</ref>;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Flag<sp/>booleano<sp/>indicante<sp/>se<sp/>o<sp/>se<sp/>non</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>visualizzare<sp/>le<sp/>risposte<sp/>del<sp/>server<sp/>su</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>console</highlight></codeline>
+<codeline lineno="63" refid="classresources_1_1ftpserver_1_1_manager_1a94a12ecd20f3b00b689e240d148e1ba6" refkind="member"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">final</highlight><highlight class="normal"><sp/>Boolean<sp/><ref refid="classresources_1_1ftpserver_1_1_manager_1a94a12ecd20f3b00b689e240d148e1ba6" kindref="member">showServerReplies</ref>;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Flag<sp/>booleano<sp/>indicante<sp/>se<sp/>o<sp/>se<sp/>non</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>il<sp/>server<sp/>supporta<sp/>la<sp/>funziona<sp/>keep<sp/>alive</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>tramite<sp/>comandi<sp/>&quot;noop&quot;</highlight></codeline>
+<codeline lineno="72" refid="classresources_1_1ftpserver_1_1_manager_1a35a8f59c67d57503fd7fdf01fa7be316" refkind="member"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">final</highlight><highlight class="normal"><sp/>Boolean<sp/><ref refid="classresources_1_1ftpserver_1_1_manager_1a35a8f59c67d57503fd7fdf01fa7be316" kindref="member">isNoOp</ref>;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Flag<sp/>booleano<sp/>indicante<sp/>se<sp/>o<sp/>se<sp/>non</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>il<sp/>server<sp/>supporta<sp/>il<sp/>logout<sp/>con<sp/>possibile</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>login<sp/>successivo<sp/>senza<sp/>disconnessione</highlight></codeline>
+<codeline lineno="81" refid="classresources_1_1ftpserver_1_1_manager_1a4ff811aeaa38bb4e3c823a42fe2ca6d9" refkind="member"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">final</highlight><highlight class="normal"><sp/>Boolean<sp/><ref refid="classresources_1_1ftpserver_1_1_manager_1a4ff811aeaa38bb4e3c823a42fe2ca6d9" kindref="member">isLogBidirectional</ref>;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Costruttore<sp/>parametrico</highlight></codeline>
+<codeline lineno="103" refid="classresources_1_1ftpserver_1_1_manager_1a85ab397588a9903419b7dc9ed4eda7c0" refkind="member"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classresources_1_1ftpserver_1_1_manager_1a85ab397588a9903419b7dc9ed4eda7c0" kindref="member">Manager</ref>(</highlight><highlight class="keyword">final</highlight><highlight class="normal"><sp/>Boolean<sp/><ref refid="classresources_1_1ftpserver_1_1_manager_1a94a12ecd20f3b00b689e240d148e1ba6" kindref="member">showServerReplies</ref>,<sp/></highlight><highlight class="keyword">final</highlight><highlight class="normal"><sp/>Boolean<sp/><ref refid="classresources_1_1ftpserver_1_1_manager_1a35a8f59c67d57503fd7fdf01fa7be316" kindref="member">isNoOp</ref>,<sp/></highlight><highlight class="keyword">final</highlight><highlight class="normal"><sp/>Boolean<sp/><ref refid="classresources_1_1ftpserver_1_1_manager_1a4ff811aeaa38bb4e3c823a42fe2ca6d9" kindref="member">isLogBidirectional</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Inizializzazione</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.server<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>FTPClient();</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.serverMutex<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Semaphore(1);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.isConnected<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.showServerReplies<sp/>=<sp/><ref refid="classresources_1_1ftpserver_1_1_manager_1a94a12ecd20f3b00b689e240d148e1ba6" kindref="member">showServerReplies</ref>;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.isNoOp<sp/>=<sp/><ref refid="classresources_1_1ftpserver_1_1_manager_1a35a8f59c67d57503fd7fdf01fa7be316" kindref="member">isNoOp</ref>;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.isLogBidirectional<sp/>=<sp/><ref refid="classresources_1_1ftpserver_1_1_manager_1a4ff811aeaa38bb4e3c823a42fe2ca6d9" kindref="member">isLogBidirectional</ref>;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Ritorna<sp/>il<sp/>valore<sp/>dell&apos;attributo<sp/>server</highlight></codeline>
+<codeline lineno="121" refid="classresources_1_1ftpserver_1_1_manager_1a9eea40adb30e967a9fbebe61acb7ecf5" refkind="member"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/>FTPClient<sp/><ref refid="classresources_1_1ftpserver_1_1_manager_1a9eea40adb30e967a9fbebe61acb7ecf5" kindref="member">getServer</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classresources_1_1ftpserver_1_1_manager_1a0e1523ea05f5c2e3fbc39727e671a906" kindref="member">server</ref>;</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Ritorna<sp/>il<sp/>valore<sp/>dell&apos;attributo<sp/>serverMutex</highlight></codeline>
+<codeline lineno="133" refid="classresources_1_1ftpserver_1_1_manager_1a760aae78030588d2f0d5b5898969de39" refkind="member"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/>Semaphore<sp/><ref refid="classresources_1_1ftpserver_1_1_manager_1a760aae78030588d2f0d5b5898969de39" kindref="member">getServerMutex</ref>()<sp/>{<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classresources_1_1ftpserver_1_1_manager_1ae01a1e451410a78d56d80adf077e5b58" kindref="member">serverMutex</ref>;</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Ritorna<sp/>il<sp/>valore<sp/>dell&apos;attributo<sp/>isConnected</highlight></codeline>
+<codeline lineno="145" refid="classresources_1_1ftpserver_1_1_manager_1ae743d882c2b3e7db928b39fc1b164750" refkind="member"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/>Boolean<sp/><ref refid="classresources_1_1ftpserver_1_1_manager_1ae743d882c2b3e7db928b39fc1b164750" kindref="member">getIsConnected</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classresources_1_1ftpserver_1_1_manager_1a99027b1c7083a184d7e1ec316a9100e3" kindref="member">isConnected</ref>;</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Imposta<sp/>il<sp/>valore<sp/>dell&apos;attributo<sp/>isConnected</highlight></codeline>
+<codeline lineno="158" refid="classresources_1_1ftpserver_1_1_manager_1a24a30cecd1eb5c581bcec87d1b70f5a5" refkind="member"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classresources_1_1ftpserver_1_1_manager_1a24a30cecd1eb5c581bcec87d1b70f5a5" kindref="member">setIsConnected</ref>(Boolean<sp/><ref refid="classresources_1_1ftpserver_1_1_manager_1a99027b1c7083a184d7e1ec316a9100e3" kindref="member">isConnected</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.isConnected<sp/>=<sp/><ref refid="classresources_1_1ftpserver_1_1_manager_1a99027b1c7083a184d7e1ec316a9100e3" kindref="member">isConnected</ref>;</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Ritorna<sp/>il<sp/>valore<sp/>dell&apos;attributo<sp/>isNoOp</highlight></codeline>
+<codeline lineno="170" refid="classresources_1_1ftpserver_1_1_manager_1a5c52f5769c89fb20b0bfc7520fc2d3b7" refkind="member"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/>Boolean<sp/><ref refid="classresources_1_1ftpserver_1_1_manager_1a5c52f5769c89fb20b0bfc7520fc2d3b7" kindref="member">getIsNoOp</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classresources_1_1ftpserver_1_1_manager_1a35a8f59c67d57503fd7fdf01fa7be316" kindref="member">isNoOp</ref>;</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Ritorna<sp/>il<sp/>valore<sp/>dell&apos;attributo<sp/>getShowServerReplies</highlight></codeline>
+<codeline lineno="182" refid="classresources_1_1ftpserver_1_1_manager_1a15422d664ec1762a2b98a86228099cd7" refkind="member"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/>Boolean<sp/><ref refid="classresources_1_1ftpserver_1_1_manager_1a15422d664ec1762a2b98a86228099cd7" kindref="member">getShowServerReplies</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classresources_1_1ftpserver_1_1_manager_1a94a12ecd20f3b00b689e240d148e1ba6" kindref="member">showServerReplies</ref>;</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Ritorna<sp/>il<sp/>valore<sp/>dell&apos;attributo<sp/>isLogBidirectional</highlight></codeline>
+<codeline lineno="194" refid="classresources_1_1ftpserver_1_1_manager_1ac7fc827ce92263108d8b6ac380e647af" refkind="member"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/>Boolean<sp/><ref refid="classresources_1_1ftpserver_1_1_manager_1ac7fc827ce92263108d8b6ac380e647af" kindref="member">getIsLogBidirectional</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classresources_1_1ftpserver_1_1_manager_1a4ff811aeaa38bb4e3c823a42fe2ca6d9" kindref="member">isLogBidirectional</ref>;</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight></codeline>
+<codeline lineno="198"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/Manager.java"/>
+  </compounddef>
+</doxygen>

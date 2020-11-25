@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_38f3b576b2a67c6d94cb3ffeddc206f2" kind="dir">
+    <compoundname>C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver</compoundname>
+    <innerfile refid="_f_t_p_server_8java">FTPServer.java</innerfile>
+    <innerfile refid="_keeper_8java">Keeper.java</innerfile>
+    <innerfile refid="_manager_8java">Manager.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/"/>
+  </compounddef>
+</doxygen>

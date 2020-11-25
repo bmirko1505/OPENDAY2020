@@ -1,0 +1,232 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="classresources_1_1prezzovaschette_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_prezzo_vaschette" kind="class" language="Java" prot="public">
+    <compoundname>resources::prezzovaschette::xml::generatorxml::GeneratorXMLModificaPrezzoVaschette</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classresources_1_1prezzovaschette_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_prezzo_vaschette_1a5d2dea4aca3d4121d6263f1ee44ed9fa" prot="private" static="no" mutable="no">
+        <type>Document</type>
+        <definition>Document resources.prezzovaschette.xml.generatorxml.GeneratorXMLModificaPrezzoVaschette.document</definition>
+        <argsstring></argsstring>
+        <name>document</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Rappresenta il documento &quot;virtuale&quot; sul quale andremo a creare il nostro albero DOM </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/prezzovaschette/xml/generatorxml/GeneratorXMLModificaPrezzoVaschette.java" line="51" column="22" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/prezzovaschette/xml/generatorxml/GeneratorXMLModificaPrezzoVaschette.java" bodystart="51" bodyend="-1"/>
+        <referencedby refid="classresources_1_1prezzovaschette_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_prezzo_vaschette_1a411d2863790708fba37872ba37f9a17a" compoundref="_generator_x_m_l_modifica_prezzo_vaschette_8java" startline="97" endline="136">resources.prezzovaschette.xml.generatorxml.GeneratorXMLModificaPrezzoVaschette.createDOMTree</referencedby>
+        <referencedby refid="classresources_1_1prezzovaschette_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_prezzo_vaschette_1a55d91b6bbcfa1af275c69e9c6926c319" compoundref="_generator_x_m_l_modifica_prezzo_vaschette_8java" startline="149" endline="226">resources.prezzovaschette.xml.generatorxml.GeneratorXMLModificaPrezzoVaschette.get</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classresources_1_1prezzovaschette_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_prezzo_vaschette_1af0fd657c61b59764383400bd83ad644a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>resources.prezzovaschette.xml.generatorxml.GeneratorXMLModificaPrezzoVaschette.GeneratorXMLModificaPrezzoVaschette</definition>
+        <argsstring>()</argsstring>
+        <name>GeneratorXMLModificaPrezzoVaschette</name>
+        <briefdescription>
+<para>Costruttore. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Inizializza tutte le risorse necessarie ad un oggetto di questa classe</para>
+<para><simplesect kind="see"><para><ref refid="classresources_1_1prezzovaschette_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_prezzo_vaschette_1a5d2dea4aca3d4121d6263f1ee44ed9fa" kindref="member">GeneratorXMLModificaPrezzoVaschette.document</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/prezzovaschette/xml/generatorxml/GeneratorXMLModificaPrezzoVaschette.java" line="61" column="12" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/prezzovaschette/xml/generatorxml/GeneratorXMLModificaPrezzoVaschette.java" bodystart="61" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1prezzovaschette_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_prezzo_vaschette_1a411d2863790708fba37872ba37f9a17a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void resources.prezzovaschette.xml.generatorxml.GeneratorXMLModificaPrezzoVaschette.createDOMTree</definition>
+        <argsstring>(ArrayList&lt; PrezzoVaschette &gt; data)</argsstring>
+        <name>createDOMTree</name>
+        <param>
+          <type>ArrayList&lt; <ref refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette" kindref="compound">PrezzoVaschette</ref> &gt;</type>
+          <declname>data</declname>
+        </param>
+        <exceptions> throws ParserConfigurationException </exceptions>
+        <briefdescription>
+<para>Crea l&apos;albero DOM. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista di oggetti da convertire in &quot;nodi dell&apos;albero DOM&quot;</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>ParserConfigurationException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="classresources_1_1prezzovaschette_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_prezzo_vaschette_1aae1b8f6bb2d03a929713c5c71be339b5" kindref="member">GeneratorXMLModificaPrezzoVaschette.createDocument()</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1prezzovaschette_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_prezzo_vaschette_1a5d2dea4aca3d4121d6263f1ee44ed9fa" kindref="member">GeneratorXMLModificaPrezzoVaschette.document</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/prezzovaschette/xml/generatorxml/GeneratorXMLModificaPrezzoVaschette.java" line="97" column="17" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/prezzovaschette/xml/generatorxml/GeneratorXMLModificaPrezzoVaschette.java" bodystart="97" bodyend="136"/>
+        <references refid="classresources_1_1prezzovaschette_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_prezzo_vaschette_1aae1b8f6bb2d03a929713c5c71be339b5" compoundref="_generator_x_m_l_modifica_prezzo_vaschette_8java" startline="76" endline="84">resources.prezzovaschette.xml.generatorxml.GeneratorXMLModificaPrezzoVaschette.createDocument</references>
+        <references refid="classresources_1_1prezzovaschette_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_prezzo_vaschette_1a5d2dea4aca3d4121d6263f1ee44ed9fa" compoundref="_generator_x_m_l_modifica_prezzo_vaschette_8java" startline="51">resources.prezzovaschette.xml.generatorxml.GeneratorXMLModificaPrezzoVaschette.document</references>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1prezzovaschette_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_prezzo_vaschette_1a2a0c86959e7d063636c1cd8da4b7089c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void resources.prezzovaschette.xml.generatorxml.GeneratorXMLModificaPrezzoVaschette.applyDOMonXMLFile</definition>
+        <argsstring>(String filenameNpath)</argsstring>
+        <name>applyDOMonXMLFile</name>
+        <param>
+          <type>String</type>
+          <declname>filenameNpath</declname>
+        </param>
+        <exceptions> throws TransformerConfigurationException, TransformerException </exceptions>
+        <briefdescription>
+<para>Crea l&apos;effettivo file XML sulla base dell&apos;albero DOM. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>filenameNpath</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Path del file XML di salvataggio</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>TransformerConfigurationException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>TransformerException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="classresources_1_1prezzovaschette_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_prezzo_vaschette_1a5d2dea4aca3d4121d6263f1ee44ed9fa" kindref="member">GeneratorXMLModificaPrezzoVaschette.document</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/prezzovaschette/xml/generatorxml/GeneratorXMLModificaPrezzoVaschette.java" line="239" column="17" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/prezzovaschette/xml/generatorxml/GeneratorXMLModificaPrezzoVaschette.java" bodystart="239" bodyend="268"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classresources_1_1prezzovaschette_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_prezzo_vaschette_1aae1b8f6bb2d03a929713c5c71be339b5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void resources.prezzovaschette.xml.generatorxml.GeneratorXMLModificaPrezzoVaschette.createDocument</definition>
+        <argsstring>()</argsstring>
+        <name>createDocument</name>
+        <exceptions> throws ParserConfigurationException </exceptions>
+        <briefdescription>
+<para>Crea il documento &quot;virtuale&quot; supporto per il nostro albero DOM. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>ParserConfigurationException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="classresources_1_1prezzovaschette_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_prezzo_vaschette_1a5d2dea4aca3d4121d6263f1ee44ed9fa" kindref="member">GeneratorXMLModificaPrezzoVaschette.document</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/prezzovaschette/xml/generatorxml/GeneratorXMLModificaPrezzoVaschette.java" line="76" column="18" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/prezzovaschette/xml/generatorxml/GeneratorXMLModificaPrezzoVaschette.java" bodystart="76" bodyend="84"/>
+        <referencedby refid="classresources_1_1prezzovaschette_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_prezzo_vaschette_1a411d2863790708fba37872ba37f9a17a" compoundref="_generator_x_m_l_modifica_prezzo_vaschette_8java" startline="97" endline="136">resources.prezzovaschette.xml.generatorxml.GeneratorXMLModificaPrezzoVaschette.createDOMTree</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1prezzovaschette_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_prezzo_vaschette_1a55d91b6bbcfa1af275c69e9c6926c319" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Element</type>
+        <definition>Element resources.prezzovaschette.xml.generatorxml.GeneratorXMLModificaPrezzoVaschette.get</definition>
+        <argsstring>(PrezzoVaschette singleElement)</argsstring>
+        <name>get</name>
+        <param>
+          <type><ref refid="classresources_1_1prezzovaschette_1_1_prezzo_vaschette" kindref="compound">PrezzoVaschette</ref></type>
+          <declname>singleElement</declname>
+        </param>
+        <briefdescription>
+<para>Converte un oggetto in &quot;nodo dell&apos;albero DOM&quot;. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>singleElement</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>L&apos;oggetto da convertire in &quot;nodo dell&apos;albero DOM&quot;</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Il nodo dell&apos;albero DOM (L&apos;oggetto convertito in)</para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1prezzovaschette_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_prezzo_vaschette_1a5d2dea4aca3d4121d6263f1ee44ed9fa" kindref="member">GeneratorXMLModificaPrezzoVaschette.document</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/prezzovaschette/xml/generatorxml/GeneratorXMLModificaPrezzoVaschette.java" line="149" column="21" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/prezzovaschette/xml/generatorxml/GeneratorXMLModificaPrezzoVaschette.java" bodystart="149" bodyend="226"/>
+        <references refid="classresources_1_1prezzovaschette_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_prezzo_vaschette_1a5d2dea4aca3d4121d6263f1ee44ed9fa" compoundref="_generator_x_m_l_modifica_prezzo_vaschette_8java" startline="51">resources.prezzovaschette.xml.generatorxml.GeneratorXMLModificaPrezzoVaschette.document</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Classe generator per i file XML con struttura &quot;PrezzoVaschette&quot;. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Grandieri Andrea <ulink url="mailto:g.andreus02@gmail.com">g.andreus02@gmail.com</ulink> </para>
+</simplesect>
+<simplesect kind="author"><para>Barsotti Mirko <ulink url="mailto:bmirko1505@gmail.com">bmirko1505@gmail.com</ulink> </para>
+</simplesect>
+<simplesect kind="author"><para>Brambilla Mirko <ulink url="mailto:brambobilla01@gmail.com">brambobilla01@gmail.com</ulink></para>
+</simplesect>
+La seguente classe fornisce un generatore di file XML con struttura &quot;PrezzoVaschette&quot; </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>Document</label>
+      </node>
+      <node id="1">
+        <label>resources.prezzovaschette.xml.generatorxml.GeneratorXMLModificaPrezzoVaschette</label>
+        <link refid="classresources_1_1prezzovaschette_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_prezzo_vaschette"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>-document</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/prezzovaschette/xml/generatorxml/GeneratorXMLModificaPrezzoVaschette.java" line="38" column="7" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/prezzovaschette/xml/generatorxml/GeneratorXMLModificaPrezzoVaschette.java" bodystart="38" bodyend="269"/>
+    <listofallmembers>
+      <member refid="classresources_1_1prezzovaschette_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_prezzo_vaschette_1a2a0c86959e7d063636c1cd8da4b7089c" prot="public" virt="non-virtual"><scope>resources::prezzovaschette::xml::generatorxml::GeneratorXMLModificaPrezzoVaschette</scope><name>applyDOMonXMLFile</name></member>
+      <member refid="classresources_1_1prezzovaschette_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_prezzo_vaschette_1aae1b8f6bb2d03a929713c5c71be339b5" prot="private" virt="non-virtual"><scope>resources::prezzovaschette::xml::generatorxml::GeneratorXMLModificaPrezzoVaschette</scope><name>createDocument</name></member>
+      <member refid="classresources_1_1prezzovaschette_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_prezzo_vaschette_1a411d2863790708fba37872ba37f9a17a" prot="public" virt="non-virtual"><scope>resources::prezzovaschette::xml::generatorxml::GeneratorXMLModificaPrezzoVaschette</scope><name>createDOMTree</name></member>
+      <member refid="classresources_1_1prezzovaschette_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_prezzo_vaschette_1a5d2dea4aca3d4121d6263f1ee44ed9fa" prot="private" virt="non-virtual"><scope>resources::prezzovaschette::xml::generatorxml::GeneratorXMLModificaPrezzoVaschette</scope><name>document</name></member>
+      <member refid="classresources_1_1prezzovaschette_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_prezzo_vaschette_1af0fd657c61b59764383400bd83ad644a" prot="public" virt="non-virtual"><scope>resources::prezzovaschette::xml::generatorxml::GeneratorXMLModificaPrezzoVaschette</scope><name>GeneratorXMLModificaPrezzoVaschette</name></member>
+      <member refid="classresources_1_1prezzovaschette_1_1xml_1_1generatorxml_1_1_generator_x_m_l_modifica_prezzo_vaschette_1a55d91b6bbcfa1af275c69e9c6926c319" prot="private" virt="non-virtual"><scope>resources::prezzovaschette::xml::generatorxml::GeneratorXMLModificaPrezzoVaschette</scope><name>get</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

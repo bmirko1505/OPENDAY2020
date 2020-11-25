@@ -1,0 +1,440 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="classresources_1_1ftpserver_1_1_manager" kind="class" language="Java" prot="public">
+    <compoundname>resources::ftpserver::Manager</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classresources_1_1ftpserver_1_1_manager_1a0e1523ea05f5c2e3fbc39727e671a906" prot="private" static="no" mutable="no">
+        <type>final FTPClient</type>
+        <definition>final FTPClient resources.ftpserver.Manager.server</definition>
+        <argsstring></argsstring>
+        <name>server</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Rappresenta un oggetto di classe FTPClient, la quale fornisce vari servizi per la comunicazione con un server FTP </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/Manager.java" line="38" column="29" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/Manager.java" bodystart="38" bodyend="-1"/>
+        <referencedby refid="classresources_1_1ftpserver_1_1_manager_1a9eea40adb30e967a9fbebe61acb7ecf5" compoundref="_manager_8java" startline="121" endline="123">resources.ftpserver.Manager.getServer</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classresources_1_1ftpserver_1_1_manager_1ae01a1e451410a78d56d80adf077e5b58" prot="private" static="no" mutable="no">
+        <type>final Semaphore</type>
+        <definition>final Semaphore resources.ftpserver.Manager.serverMutex</definition>
+        <argsstring></argsstring>
+        <name>serverMutex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Rappresenta un oggetto di classe Semaphore per gestire la concorrenza nell&apos;accesso alla risorsa <ref refid="classresources_1_1ftpserver_1_1_manager_1a0e1523ea05f5c2e3fbc39727e671a906" kindref="member">Manager.server</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/Manager.java" line="46" column="29" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/Manager.java" bodystart="46" bodyend="-1"/>
+        <referencedby refid="classresources_1_1ftpserver_1_1_manager_1a760aae78030588d2f0d5b5898969de39" compoundref="_manager_8java" startline="133" endline="135">resources.ftpserver.Manager.getServerMutex</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classresources_1_1ftpserver_1_1_manager_1a99027b1c7083a184d7e1ec316a9100e3" prot="private" static="no" mutable="no">
+        <type>Boolean</type>
+        <definition>Boolean resources.ftpserver.Manager.isConnected</definition>
+        <argsstring></argsstring>
+        <name>isConnected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Rappresenta un flag booleano indicante se o se non si è connessi al server </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/Manager.java" line="54" column="21" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/Manager.java" bodystart="54" bodyend="-1"/>
+        <referencedby refid="classresources_1_1ftpserver_1_1_manager_1ae743d882c2b3e7db928b39fc1b164750" compoundref="_manager_8java" startline="145" endline="147">resources.ftpserver.Manager.getIsConnected</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_manager_1a24a30cecd1eb5c581bcec87d1b70f5a5" compoundref="_manager_8java" startline="158" endline="160">resources.ftpserver.Manager.setIsConnected</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classresources_1_1ftpserver_1_1_manager_1a94a12ecd20f3b00b689e240d148e1ba6" prot="private" static="no" mutable="no">
+        <type>final Boolean</type>
+        <definition>final Boolean resources.ftpserver.Manager.showServerReplies</definition>
+        <argsstring></argsstring>
+        <name>showServerReplies</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Rappresenta un flag booleano indicante se o se non visualizzare le risposte del server su console </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/Manager.java" line="63" column="27" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/Manager.java" bodystart="63" bodyend="-1"/>
+        <referencedby refid="classresources_1_1ftpserver_1_1_manager_1a85ab397588a9903419b7dc9ed4eda7c0" compoundref="_manager_8java" startline="103" endline="111">resources.ftpserver.Manager.Manager</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_manager_1a15422d664ec1762a2b98a86228099cd7" compoundref="_manager_8java" startline="182" endline="184">resources.ftpserver.Manager.getShowServerReplies</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classresources_1_1ftpserver_1_1_manager_1a35a8f59c67d57503fd7fdf01fa7be316" prot="private" static="no" mutable="no">
+        <type>final Boolean</type>
+        <definition>final Boolean resources.ftpserver.Manager.isNoOp</definition>
+        <argsstring></argsstring>
+        <name>isNoOp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Rappresenta un flag booleano indicante se o se non il server supporta la funzione keep alive tramite comandi &quot;noop&quot; </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/Manager.java" line="72" column="27" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/Manager.java" bodystart="72" bodyend="-1"/>
+        <referencedby refid="classresources_1_1ftpserver_1_1_manager_1a85ab397588a9903419b7dc9ed4eda7c0" compoundref="_manager_8java" startline="103" endline="111">resources.ftpserver.Manager.Manager</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_manager_1a5c52f5769c89fb20b0bfc7520fc2d3b7" compoundref="_manager_8java" startline="170" endline="172">resources.ftpserver.Manager.getIsNoOp</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classresources_1_1ftpserver_1_1_manager_1a4ff811aeaa38bb4e3c823a42fe2ca6d9" prot="private" static="no" mutable="no">
+        <type>final Boolean</type>
+        <definition>final Boolean resources.ftpserver.Manager.isLogBidirectional</definition>
+        <argsstring></argsstring>
+        <name>isLogBidirectional</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Rappresenta un flag booleano indicante se o se non il server supporta il logout con possibile login successivo senza disconnessione </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/Manager.java" line="81" column="27" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/Manager.java" bodystart="81" bodyend="-1"/>
+        <referencedby refid="classresources_1_1ftpserver_1_1_manager_1a85ab397588a9903419b7dc9ed4eda7c0" compoundref="_manager_8java" startline="103" endline="111">resources.ftpserver.Manager.Manager</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_manager_1ac7fc827ce92263108d8b6ac380e647af" compoundref="_manager_8java" startline="194" endline="196">resources.ftpserver.Manager.getIsLogBidirectional</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="classresources_1_1ftpserver_1_1_manager_1a85ab397588a9903419b7dc9ed4eda7c0" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>resources.ftpserver.Manager.Manager</definition>
+        <argsstring>(final Boolean showServerReplies, final Boolean isNoOp, final Boolean isLogBidirectional)</argsstring>
+        <name>Manager</name>
+        <param>
+          <type>final Boolean</type>
+          <declname>showServerReplies</declname>
+        </param>
+        <param>
+          <type>final Boolean</type>
+          <declname>isNoOp</declname>
+        </param>
+        <param>
+          <type>final Boolean</type>
+          <declname>isLogBidirectional</declname>
+        </param>
+        <briefdescription>
+<para>Costruttore. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Inizializza tutte le risorse necessarie ad un oggetto di questa classe</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>showServerReplies</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Flag booleano indicante se o se non visualizzare le risposte del server su console </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>isNoOp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Flag booleano indicante se o se non il server supporta la funzione keep alive tramite comandi &quot;noop&quot; </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>isLogBidirectional</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Flag booleano indicante se o se non il server supporta il logout con possibile login successivo senza disconnessione</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_manager_1a0e1523ea05f5c2e3fbc39727e671a906" kindref="member">Manager.server</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_manager_1ae01a1e451410a78d56d80adf077e5b58" kindref="member">Manager.serverMutex</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_manager_1a99027b1c7083a184d7e1ec316a9100e3" kindref="member">Manager.isConnected</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_manager_1a94a12ecd20f3b00b689e240d148e1ba6" kindref="member">Manager.showServerReplies</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_manager_1a35a8f59c67d57503fd7fdf01fa7be316" kindref="member">Manager.isNoOp</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_manager_1a4ff811aeaa38bb4e3c823a42fe2ca6d9" kindref="member">Manager.isLogBidirectional</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/Manager.java" line="103" column="5" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/Manager.java" bodystart="103" bodyend="111"/>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a4ff811aeaa38bb4e3c823a42fe2ca6d9" compoundref="_manager_8java" startline="81">resources.ftpserver.Manager.isLogBidirectional</references>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a35a8f59c67d57503fd7fdf01fa7be316" compoundref="_manager_8java" startline="72">resources.ftpserver.Manager.isNoOp</references>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a94a12ecd20f3b00b689e240d148e1ba6" compoundref="_manager_8java" startline="63">resources.ftpserver.Manager.showServerReplies</references>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1ftpserver_1_1_manager_1a9eea40adb30e967a9fbebe61acb7ecf5" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>FTPClient</type>
+        <definition>FTPClient resources.ftpserver.Manager.getServer</definition>
+        <argsstring>()</argsstring>
+        <name>getServer</name>
+        <briefdescription>
+<para>Ritorna il valore dell&apos;attributo <ref refid="classresources_1_1ftpserver_1_1_manager_1a0e1523ea05f5c2e3fbc39727e671a906" kindref="member">Manager.server</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Il valore dell&apos;attributo <ref refid="classresources_1_1ftpserver_1_1_manager_1a0e1523ea05f5c2e3fbc39727e671a906" kindref="member">Manager.server</ref></para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_manager_1a0e1523ea05f5c2e3fbc39727e671a906" kindref="member">Manager.server</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/Manager.java" line="121" column="15" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/Manager.java" bodystart="121" bodyend="123"/>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a0e1523ea05f5c2e3fbc39727e671a906" compoundref="_manager_8java" startline="38">resources.ftpserver.Manager.server</references>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a674fe9fc38ba3ecf4d779310489ef230" compoundref="_f_t_p_server_8java" startline="266" endline="326">resources.ftpserver.FTPServer.connect</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1adc106008f1f77d93d8189870b1d9ae81" compoundref="_f_t_p_server_8java" startline="342" endline="401">resources.ftpserver.FTPServer.connectAM</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a6cc5286e0f5e71f286b12df943499577" compoundref="_f_t_p_server_8java" startline="1787" endline="1823">resources.ftpserver.FTPServer.deleteFile</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a378bc314d9cd6300683c36443820a0c0" compoundref="_f_t_p_server_8java" startline="1840" endline="1881">resources.ftpserver.FTPServer.deleteFileAM</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ad7b1c599ab1c0dd9a2f3b88cc1ca4f2b" compoundref="_f_t_p_server_8java" startline="1674" endline="1713">resources.ftpserver.FTPServer.disconnect</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ae7d54aaf3ba9136f829eaed4aab3b646" compoundref="_f_t_p_server_8java" startline="1727" endline="1767">resources.ftpserver.FTPServer.disconnectAM</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1aeed840d7a1f20b8b579203dc60a312d2" compoundref="_f_t_p_server_8java" startline="1274" endline="1323">resources.ftpserver.FTPServer.downloadFile</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a0aa2b7f023ab044bf8723b39aaca43a6" compoundref="_f_t_p_server_8java" startline="1342" endline="1414">resources.ftpserver.FTPServer.downloadFileAM</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a53efc9cad594b3f20e40c70ac21c3504" compoundref="_f_t_p_server_8java" startline="1896" endline="1919">resources.ftpserver.FTPServer.getAndPrintServerReply</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a97a1bef804fb89c035559e813083d9cf" compoundref="_f_t_p_server_8java" startline="571" endline="605">resources.ftpserver.FTPServer.getCurrentDirectory</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a36d4d5cb44e5aa899f60095dc26ce542" compoundref="_f_t_p_server_8java" startline="621" endline="657">resources.ftpserver.FTPServer.getCurrentDirectoryAM</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1acf6cff62c6a86355a070f15d2d15bf84" compoundref="_f_t_p_server_8java" startline="802" endline="841">resources.ftpserver.FTPServer.getListElements</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a71605cd701446bd0c6c72c8ff6dd7210" compoundref="_f_t_p_server_8java" startline="860" endline="901">resources.ftpserver.FTPServer.getListElementsAM</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a471d37798cfc6fbe05c05cd90cd37b0b" compoundref="_f_t_p_server_8java" startline="2009" endline="2011">resources.ftpserver.FTPServer.getServerBackdoor</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a7250e1c8a1ee00b6550402cfac9b495a" compoundref="_f_t_p_server_8java" startline="423" endline="477">resources.ftpserver.FTPServer.login</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a2754c501b06fbad87a2fe9770bd2a866" compoundref="_f_t_p_server_8java" startline="496" endline="555">resources.ftpserver.FTPServer.loginAM</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ab2740547f1222dd15c12f2b3a43e2873" compoundref="_f_t_p_server_8java" startline="1553" endline="1595">resources.ftpserver.FTPServer.logout</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ac715abb38c9bb7ed27155d7ce200d2cb" compoundref="_f_t_p_server_8java" startline="1609" endline="1657">resources.ftpserver.FTPServer.logoutAM</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_keeper_1a030e2156a7c720bcdc3f15e7cea92d3e" compoundref="_keeper_8java" startline="84" endline="135">resources.ftpserver.Keeper.run</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ab87c0e92af371c7034d82b026367b401" compoundref="_f_t_p_server_8java" startline="677" endline="721">resources.ftpserver.FTPServer.setCurrentDirectory</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1aa8db03d0dcb287d621a7909fa44e3a47" compoundref="_f_t_p_server_8java" startline="738" endline="783">resources.ftpserver.FTPServer.setCurrentDirectoryAM</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1aaae22be90f18fa0c827240ef0fc5b466" compoundref="_f_t_p_server_8java" startline="1068" endline="1121">resources.ftpserver.FTPServer.uploadFile</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ac741e8d53f8a6d175e9e7b5b661e1bbe" compoundref="_f_t_p_server_8java" startline="1197" endline="1252">resources.ftpserver.FTPServer.uploadFileAM</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a7c7887e959b30f623c3afa81b8eda93f" compoundref="_f_t_p_server_8java" startline="921" endline="975">resources.ftpserver.FTPServer.uploadUniqueFile</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a22b434ac642092b0e107a794ab039af3" compoundref="_f_t_p_server_8java" startline="992" endline="1047">resources.ftpserver.FTPServer.uploadUniqueFileAM</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1ftpserver_1_1_manager_1a760aae78030588d2f0d5b5898969de39" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Semaphore</type>
+        <definition>Semaphore resources.ftpserver.Manager.getServerMutex</definition>
+        <argsstring>()</argsstring>
+        <name>getServerMutex</name>
+        <briefdescription>
+<para>Ritorna il valore dell&apos;attributo <ref refid="classresources_1_1ftpserver_1_1_manager_1ae01a1e451410a78d56d80adf077e5b58" kindref="member">Manager.serverMutex</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Il valore dell&apos;attributo <ref refid="classresources_1_1ftpserver_1_1_manager_1ae01a1e451410a78d56d80adf077e5b58" kindref="member">Manager.serverMutex</ref></para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_manager_1ae01a1e451410a78d56d80adf077e5b58" kindref="member">Manager.serverMutex</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/Manager.java" line="133" column="15" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/Manager.java" bodystart="133" bodyend="135"/>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1ae01a1e451410a78d56d80adf077e5b58" compoundref="_manager_8java" startline="46">resources.ftpserver.Manager.serverMutex</references>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a674fe9fc38ba3ecf4d779310489ef230" compoundref="_f_t_p_server_8java" startline="266" endline="326">resources.ftpserver.FTPServer.connect</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1adc106008f1f77d93d8189870b1d9ae81" compoundref="_f_t_p_server_8java" startline="342" endline="401">resources.ftpserver.FTPServer.connectAM</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a6cc5286e0f5e71f286b12df943499577" compoundref="_f_t_p_server_8java" startline="1787" endline="1823">resources.ftpserver.FTPServer.deleteFile</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a378bc314d9cd6300683c36443820a0c0" compoundref="_f_t_p_server_8java" startline="1840" endline="1881">resources.ftpserver.FTPServer.deleteFileAM</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ad7b1c599ab1c0dd9a2f3b88cc1ca4f2b" compoundref="_f_t_p_server_8java" startline="1674" endline="1713">resources.ftpserver.FTPServer.disconnect</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ae7d54aaf3ba9136f829eaed4aab3b646" compoundref="_f_t_p_server_8java" startline="1727" endline="1767">resources.ftpserver.FTPServer.disconnectAM</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1aeed840d7a1f20b8b579203dc60a312d2" compoundref="_f_t_p_server_8java" startline="1274" endline="1323">resources.ftpserver.FTPServer.downloadFile</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a0aa2b7f023ab044bf8723b39aaca43a6" compoundref="_f_t_p_server_8java" startline="1342" endline="1414">resources.ftpserver.FTPServer.downloadFileAM</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a97a1bef804fb89c035559e813083d9cf" compoundref="_f_t_p_server_8java" startline="571" endline="605">resources.ftpserver.FTPServer.getCurrentDirectory</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a36d4d5cb44e5aa899f60095dc26ce542" compoundref="_f_t_p_server_8java" startline="621" endline="657">resources.ftpserver.FTPServer.getCurrentDirectoryAM</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1acf6cff62c6a86355a070f15d2d15bf84" compoundref="_f_t_p_server_8java" startline="802" endline="841">resources.ftpserver.FTPServer.getListElements</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a71605cd701446bd0c6c72c8ff6dd7210" compoundref="_f_t_p_server_8java" startline="860" endline="901">resources.ftpserver.FTPServer.getListElementsAM</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a7250e1c8a1ee00b6550402cfac9b495a" compoundref="_f_t_p_server_8java" startline="423" endline="477">resources.ftpserver.FTPServer.login</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a2754c501b06fbad87a2fe9770bd2a866" compoundref="_f_t_p_server_8java" startline="496" endline="555">resources.ftpserver.FTPServer.loginAM</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ab2740547f1222dd15c12f2b3a43e2873" compoundref="_f_t_p_server_8java" startline="1553" endline="1595">resources.ftpserver.FTPServer.logout</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ac715abb38c9bb7ed27155d7ce200d2cb" compoundref="_f_t_p_server_8java" startline="1609" endline="1657">resources.ftpserver.FTPServer.logoutAM</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_keeper_1a030e2156a7c720bcdc3f15e7cea92d3e" compoundref="_keeper_8java" startline="84" endline="135">resources.ftpserver.Keeper.run</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ab87c0e92af371c7034d82b026367b401" compoundref="_f_t_p_server_8java" startline="677" endline="721">resources.ftpserver.FTPServer.setCurrentDirectory</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1aa8db03d0dcb287d621a7909fa44e3a47" compoundref="_f_t_p_server_8java" startline="738" endline="783">resources.ftpserver.FTPServer.setCurrentDirectoryAM</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1aaae22be90f18fa0c827240ef0fc5b466" compoundref="_f_t_p_server_8java" startline="1068" endline="1121">resources.ftpserver.FTPServer.uploadFile</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ac741e8d53f8a6d175e9e7b5b661e1bbe" compoundref="_f_t_p_server_8java" startline="1197" endline="1252">resources.ftpserver.FTPServer.uploadFileAM</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a7c7887e959b30f623c3afa81b8eda93f" compoundref="_f_t_p_server_8java" startline="921" endline="975">resources.ftpserver.FTPServer.uploadUniqueFile</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a22b434ac642092b0e107a794ab039af3" compoundref="_f_t_p_server_8java" startline="992" endline="1047">resources.ftpserver.FTPServer.uploadUniqueFileAM</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1ftpserver_1_1_manager_1ae743d882c2b3e7db928b39fc1b164750" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Boolean</type>
+        <definition>Boolean resources.ftpserver.Manager.getIsConnected</definition>
+        <argsstring>()</argsstring>
+        <name>getIsConnected</name>
+        <briefdescription>
+<para>Ritorna il valore dell&apos;attributo <ref refid="classresources_1_1ftpserver_1_1_manager_1a99027b1c7083a184d7e1ec316a9100e3" kindref="member">Manager.isConnected</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Il valore dell&apos;attributo <ref refid="classresources_1_1ftpserver_1_1_manager_1a99027b1c7083a184d7e1ec316a9100e3" kindref="member">Manager.isConnected</ref></para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_manager_1a99027b1c7083a184d7e1ec316a9100e3" kindref="member">Manager.isConnected</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/Manager.java" line="145" column="13" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/Manager.java" bodystart="145" bodyend="147"/>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a99027b1c7083a184d7e1ec316a9100e3" compoundref="_manager_8java" startline="54">resources.ftpserver.Manager.isConnected</references>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a674fe9fc38ba3ecf4d779310489ef230" compoundref="_f_t_p_server_8java" startline="266" endline="326">resources.ftpserver.FTPServer.connect</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1adc106008f1f77d93d8189870b1d9ae81" compoundref="_f_t_p_server_8java" startline="342" endline="401">resources.ftpserver.FTPServer.connectAM</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ad7b1c599ab1c0dd9a2f3b88cc1ca4f2b" compoundref="_f_t_p_server_8java" startline="1674" endline="1713">resources.ftpserver.FTPServer.disconnect</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ae7d54aaf3ba9136f829eaed4aab3b646" compoundref="_f_t_p_server_8java" startline="1727" endline="1767">resources.ftpserver.FTPServer.disconnectAM</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a97a1bef804fb89c035559e813083d9cf" compoundref="_f_t_p_server_8java" startline="571" endline="605">resources.ftpserver.FTPServer.getCurrentDirectory</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a8626bea24c8b8e903489cebffef30ef2" compoundref="_f_t_p_server_8java" startline="1968" endline="1970">resources.ftpserver.FTPServer.getIsConnected</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a7250e1c8a1ee00b6550402cfac9b495a" compoundref="_f_t_p_server_8java" startline="423" endline="477">resources.ftpserver.FTPServer.login</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a2754c501b06fbad87a2fe9770bd2a866" compoundref="_f_t_p_server_8java" startline="496" endline="555">resources.ftpserver.FTPServer.loginAM</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_keeper_1a030e2156a7c720bcdc3f15e7cea92d3e" compoundref="_keeper_8java" startline="84" endline="135">resources.ftpserver.Keeper.run</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ae9bf45f3284f3eefd4e65e75d77a77c6" compoundref="_f_t_p_server_8java" startline="198" endline="214">resources.ftpserver.FTPServer.setCoords</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a093946fe4f699687964567e9d3bc48e8" compoundref="_f_t_p_server_8java" startline="235" endline="247">resources.ftpserver.FTPServer.setCoordsAM</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1ftpserver_1_1_manager_1a24a30cecd1eb5c581bcec87d1b70f5a5" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void resources.ftpserver.Manager.setIsConnected</definition>
+        <argsstring>(Boolean isConnected)</argsstring>
+        <name>setIsConnected</name>
+        <param>
+          <type>Boolean</type>
+          <declname>isConnected</declname>
+        </param>
+        <briefdescription>
+<para>Imposta il valore dell&apos;attributo <ref refid="classresources_1_1ftpserver_1_1_manager_1a99027b1c7083a184d7e1ec316a9100e3" kindref="member">Manager.isConnected</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>isConnected</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Il valore da assegnare all&apos;attributo <ref refid="classresources_1_1ftpserver_1_1_manager_1a99027b1c7083a184d7e1ec316a9100e3" kindref="member">Manager.isConnected</ref></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_manager_1a99027b1c7083a184d7e1ec316a9100e3" kindref="member">Manager.isConnected</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/Manager.java" line="158" column="10" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/Manager.java" bodystart="158" bodyend="160"/>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a99027b1c7083a184d7e1ec316a9100e3" compoundref="_manager_8java" startline="54">resources.ftpserver.Manager.isConnected</references>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a674fe9fc38ba3ecf4d779310489ef230" compoundref="_f_t_p_server_8java" startline="266" endline="326">resources.ftpserver.FTPServer.connect</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1adc106008f1f77d93d8189870b1d9ae81" compoundref="_f_t_p_server_8java" startline="342" endline="401">resources.ftpserver.FTPServer.connectAM</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ad7b1c599ab1c0dd9a2f3b88cc1ca4f2b" compoundref="_f_t_p_server_8java" startline="1674" endline="1713">resources.ftpserver.FTPServer.disconnect</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ae7d54aaf3ba9136f829eaed4aab3b646" compoundref="_f_t_p_server_8java" startline="1727" endline="1767">resources.ftpserver.FTPServer.disconnectAM</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1ftpserver_1_1_manager_1a5c52f5769c89fb20b0bfc7520fc2d3b7" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Boolean</type>
+        <definition>Boolean resources.ftpserver.Manager.getIsNoOp</definition>
+        <argsstring>()</argsstring>
+        <name>getIsNoOp</name>
+        <briefdescription>
+<para>Ritorna il valore dell&apos;attributo <ref refid="classresources_1_1ftpserver_1_1_manager_1a35a8f59c67d57503fd7fdf01fa7be316" kindref="member">Manager.isNoOp</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Il valore dell&apos;attributo <ref refid="classresources_1_1ftpserver_1_1_manager_1a35a8f59c67d57503fd7fdf01fa7be316" kindref="member">Manager.isNoOp</ref></para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_manager_1a35a8f59c67d57503fd7fdf01fa7be316" kindref="member">Manager.isNoOp</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/Manager.java" line="170" column="13" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/Manager.java" bodystart="170" bodyend="172"/>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a35a8f59c67d57503fd7fdf01fa7be316" compoundref="_manager_8java" startline="72">resources.ftpserver.Manager.isNoOp</references>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a11cf3fa1d1d7eb9e83dae58cdc9afdd1" compoundref="_f_t_p_server_8java" startline="1986" endline="1988">resources.ftpserver.FTPServer.getIsNoOp</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_keeper_1a030e2156a7c720bcdc3f15e7cea92d3e" compoundref="_keeper_8java" startline="84" endline="135">resources.ftpserver.Keeper.run</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1ftpserver_1_1_manager_1a15422d664ec1762a2b98a86228099cd7" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Boolean</type>
+        <definition>Boolean resources.ftpserver.Manager.getShowServerReplies</definition>
+        <argsstring>()</argsstring>
+        <name>getShowServerReplies</name>
+        <briefdescription>
+<para>Ritorna il valore dell&apos;attributo <ref refid="classresources_1_1ftpserver_1_1_manager_1a94a12ecd20f3b00b689e240d148e1ba6" kindref="member">Manager.showServerReplies</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Il valore dell&apos;attributo <ref refid="classresources_1_1ftpserver_1_1_manager_1a94a12ecd20f3b00b689e240d148e1ba6" kindref="member">Manager.showServerReplies</ref></para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_manager_1a94a12ecd20f3b00b689e240d148e1ba6" kindref="member">Manager.showServerReplies</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/Manager.java" line="182" column="13" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/Manager.java" bodystart="182" bodyend="184"/>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a94a12ecd20f3b00b689e240d148e1ba6" compoundref="_manager_8java" startline="63">resources.ftpserver.Manager.showServerReplies</references>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a53efc9cad594b3f20e40c70ac21c3504" compoundref="_f_t_p_server_8java" startline="1896" endline="1919">resources.ftpserver.FTPServer.getAndPrintServerReply</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1a36fb43ded9ef67aadabcd64ffd8a5b28" compoundref="_f_t_p_server_8java" startline="2004" endline="2006">resources.ftpserver.FTPServer.getShowServerReplies</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_keeper_1a030e2156a7c720bcdc3f15e7cea92d3e" compoundref="_keeper_8java" startline="84" endline="135">resources.ftpserver.Keeper.run</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classresources_1_1ftpserver_1_1_manager_1ac7fc827ce92263108d8b6ac380e647af" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Boolean</type>
+        <definition>Boolean resources.ftpserver.Manager.getIsLogBidirectional</definition>
+        <argsstring>()</argsstring>
+        <name>getIsLogBidirectional</name>
+        <briefdescription>
+<para>Ritorna il valore dell&apos;attributo <ref refid="classresources_1_1ftpserver_1_1_manager_1a4ff811aeaa38bb4e3c823a42fe2ca6d9" kindref="member">Manager.isLogBidirectional</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Il valore dell&apos;attributo <ref refid="classresources_1_1ftpserver_1_1_manager_1a4ff811aeaa38bb4e3c823a42fe2ca6d9" kindref="member">Manager.isLogBidirectional</ref></para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classresources_1_1ftpserver_1_1_manager_1a4ff811aeaa38bb4e3c823a42fe2ca6d9" kindref="member">Manager.isLogBidirectional</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/Manager.java" line="194" column="13" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/Manager.java" bodystart="194" bodyend="196"/>
+        <references refid="classresources_1_1ftpserver_1_1_manager_1a4ff811aeaa38bb4e3c823a42fe2ca6d9" compoundref="_manager_8java" startline="81">resources.ftpserver.Manager.isLogBidirectional</references>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ab2740547f1222dd15c12f2b3a43e2873" compoundref="_f_t_p_server_8java" startline="1553" endline="1595">resources.ftpserver.FTPServer.logout</referencedby>
+        <referencedby refid="classresources_1_1ftpserver_1_1_f_t_p_server_1ac715abb38c9bb7ed27155d7ce200d2cb" compoundref="_f_t_p_server_8java" startline="1609" endline="1657">resources.ftpserver.FTPServer.logoutAM</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Classe contenente dati condivisi tra le classi <ref refid="classresources_1_1ftpserver_1_1_f_t_p_server" kindref="compound">resources.ftpserver.FTPServer</ref> e <ref refid="classresources_1_1ftpserver_1_1_keeper" kindref="compound">resources.ftpserver.Keeper</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Grandieri Andrea <ulink url="mailto:g.andreus02@gmail.com">g.andreus02@gmail.com</ulink> </para>
+</simplesect>
+<simplesect kind="author"><para>Barsotti Mirko <ulink url="mailto:bmirko1505@gmail.com">bmirko1505@gmail.com</ulink> </para>
+</simplesect>
+<simplesect kind="author"><para>Brambilla Mirko <ulink url="mailto:brambobilla01@gmail.com">brambobilla01@gmail.com</ulink></para>
+</simplesect>
+La seguente classe contiene dati condivisi tra le classi <ref refid="classresources_1_1ftpserver_1_1_f_t_p_server" kindref="compound">resources.ftpserver.FTPServer</ref> e <ref refid="classresources_1_1ftpserver_1_1_keeper" kindref="compound">resources.ftpserver.Keeper</ref>. Fornisce, inoltre, la gestione della concorrenza a codesti dati condivisi. </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>FTPClient</label>
+      </node>
+      <node id="1">
+        <label>resources.ftpserver.Manager</label>
+        <link refid="classresources_1_1ftpserver_1_1_manager"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>-server</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>-serverMutex</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Semaphore</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/Manager.java" line="29" column="7" bodyfile="C:/Users/gandr/Desktop/InterfacciaGelataio/src/resources/ftpserver/Manager.java" bodystart="29" bodyend="198"/>
+    <listofallmembers>
+      <member refid="classresources_1_1ftpserver_1_1_manager_1ae743d882c2b3e7db928b39fc1b164750" prot="package" virt="non-virtual"><scope>resources::ftpserver::Manager</scope><name>getIsConnected</name></member>
+      <member refid="classresources_1_1ftpserver_1_1_manager_1ac7fc827ce92263108d8b6ac380e647af" prot="package" virt="non-virtual"><scope>resources::ftpserver::Manager</scope><name>getIsLogBidirectional</name></member>
+      <member refid="classresources_1_1ftpserver_1_1_manager_1a5c52f5769c89fb20b0bfc7520fc2d3b7" prot="package" virt="non-virtual"><scope>resources::ftpserver::Manager</scope><name>getIsNoOp</name></member>
+      <member refid="classresources_1_1ftpserver_1_1_manager_1a9eea40adb30e967a9fbebe61acb7ecf5" prot="package" virt="non-virtual"><scope>resources::ftpserver::Manager</scope><name>getServer</name></member>
+      <member refid="classresources_1_1ftpserver_1_1_manager_1a760aae78030588d2f0d5b5898969de39" prot="package" virt="non-virtual"><scope>resources::ftpserver::Manager</scope><name>getServerMutex</name></member>
+      <member refid="classresources_1_1ftpserver_1_1_manager_1a15422d664ec1762a2b98a86228099cd7" prot="package" virt="non-virtual"><scope>resources::ftpserver::Manager</scope><name>getShowServerReplies</name></member>
+      <member refid="classresources_1_1ftpserver_1_1_manager_1a99027b1c7083a184d7e1ec316a9100e3" prot="private" virt="non-virtual"><scope>resources::ftpserver::Manager</scope><name>isConnected</name></member>
+      <member refid="classresources_1_1ftpserver_1_1_manager_1a4ff811aeaa38bb4e3c823a42fe2ca6d9" prot="private" virt="non-virtual"><scope>resources::ftpserver::Manager</scope><name>isLogBidirectional</name></member>
+      <member refid="classresources_1_1ftpserver_1_1_manager_1a35a8f59c67d57503fd7fdf01fa7be316" prot="private" virt="non-virtual"><scope>resources::ftpserver::Manager</scope><name>isNoOp</name></member>
+      <member refid="classresources_1_1ftpserver_1_1_manager_1a85ab397588a9903419b7dc9ed4eda7c0" prot="package" virt="non-virtual"><scope>resources::ftpserver::Manager</scope><name>Manager</name></member>
+      <member refid="classresources_1_1ftpserver_1_1_manager_1a0e1523ea05f5c2e3fbc39727e671a906" prot="private" virt="non-virtual"><scope>resources::ftpserver::Manager</scope><name>server</name></member>
+      <member refid="classresources_1_1ftpserver_1_1_manager_1ae01a1e451410a78d56d80adf077e5b58" prot="private" virt="non-virtual"><scope>resources::ftpserver::Manager</scope><name>serverMutex</name></member>
+      <member refid="classresources_1_1ftpserver_1_1_manager_1a24a30cecd1eb5c581bcec87d1b70f5a5" prot="package" virt="non-virtual"><scope>resources::ftpserver::Manager</scope><name>setIsConnected</name></member>
+      <member refid="classresources_1_1ftpserver_1_1_manager_1a94a12ecd20f3b00b689e240d148e1ba6" prot="private" virt="non-virtual"><scope>resources::ftpserver::Manager</scope><name>showServerReplies</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

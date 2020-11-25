@@ -1,0 +1,11 @@
+<map id="resources.cronology.CronologyUpdater" name="resources.cronology.CronologyUpdater">
+<area shape="rect" id="node1" title="Classe per garantire un aggiornamento automatico e continuo del conteggio dei frammenti cronologici d..." alt="" coords="107,1299,309,1405"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,219,88,296"/>
+<area shape="rect" id="node5" href="$classresources_1_1ftpserver_1_1_keeper.html" title="Classe per la gestione del servizio keep alive." alt="" coords="48,432,224,524"/>
+<area shape="rect" id="node3" title=" " alt="" coords="329,873,388,950"/>
+<area shape="rect" id="node4" href="$classresources_1_1ftpserver_1_1_f_t_p_server.html" title="Classe per la gestione della comunicazione con un server FTP." alt="" coords="111,587,305,1236"/>
+<area shape="rect" id="node6" href="$classresources_1_1ftpserver_1_1_manager.html" title="Classe contenente dati condivisi tra le classi resources.ftpserver.FTPServer e resources...." alt="" coords="146,145,331,369"/>
+<area shape="rect" id="node7" title=" " alt="" coords="146,5,225,83"/>
+<area shape="rect" id="node8" title=" " alt="" coords="249,5,337,83"/>
+<area shape="rect" id="node9" title=" " alt="" coords="355,439,410,517"/>
+</map>

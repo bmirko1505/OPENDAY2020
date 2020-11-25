@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['compositionlistapredefinitagusti_217',['compositionlistapredefinitagusti',['../namespaceresources_1_1compositionlistapredefinitagusti.html',1,'resources']]],
+  ['cronology_218',['cronology',['../namespaceresources_1_1cronology.html',1,'resources']]],
+  ['currenttime_219',['currenttime',['../namespaceresources_1_1currenttime.html',1,'resources']]],
+  ['ftpserver_220',['ftpserver',['../namespaceresources_1_1ftpserver.html',1,'resources']]],
+  ['generatorxml_221',['generatorxml',['../namespaceresources_1_1compositionlistapredefinitagusti_1_1xml_1_1generatorxml.html',1,'resources.compositionlistapredefinitagusti.xml.generatorxml'],['../namespaceresources_1_1orariodelnegozio_1_1xml_1_1generatorxml.html',1,'resources.orariodelnegozio.xml.generatorxml'],['../namespaceresources_1_1ordine_1_1xml_1_1generatorxml.html',1,'resources.ordine.xml.generatorxml'],['../namespaceresources_1_1prezzovaschette_1_1xml_1_1generatorxml.html',1,'resources.prezzovaschette.xml.generatorxml']]],
+  ['generatorxmlv2_222',['generatorxmlv2',['../namespaceresources_1_1ordine_1_1xml_1_1generatorxmlv2.html',1,'resources::ordine::xml']]],
+  ['generatorxmlv3_223',['generatorxmlv3',['../namespaceresources_1_1ordine_1_1xml_1_1generatorxmlv3.html',1,'resources::ordine::xml']]],
+  ['listtextwrapper_224',['listtextwrapper',['../namespaceresources_1_1listtextwrapper.html',1,'resources']]],
+  ['orariodelnegozio_225',['orariodelnegozio',['../namespaceresources_1_1orariodelnegozio.html',1,'resources']]],
+  ['ordine_226',['ordine',['../namespaceresources_1_1ordine.html',1,'resources']]],
+  ['parserxml_227',['parserxml',['../namespaceresources_1_1compositionlistapredefinitagusti_1_1xml_1_1parserxml.html',1,'resources.compositionlistapredefinitagusti.xml.parserxml'],['../namespaceresources_1_1orariodelnegozio_1_1xml_1_1parserxml.html',1,'resources.orariodelnegozio.xml.parserxml'],['../namespaceresources_1_1ordine_1_1xml_1_1parserxml.html',1,'resources.ordine.xml.parserxml'],['../namespaceresources_1_1prezzovaschette_1_1xml_1_1parserxml.html',1,'resources.prezzovaschette.xml.parserxml']]],
+  ['prezzovaschette_228',['prezzovaschette',['../namespaceresources_1_1prezzovaschette.html',1,'resources']]],
+  ['resources_229',['resources',['../namespaceresources.html',1,'']]],
+  ['resultordininonevasi_230',['resultOrdiniNonEvasi',['../classgui_gelataio_1_1_interfaccia_principale_galataio.html#a4c04943d1f44ab74a642f452d33b5222',1,'guiGelataio::InterfacciaPrincipaleGalataio']]],
+  ['run_231',['run',['../classresources_1_1cronology_1_1_cronology_updater.html#a9894bb0596657375bc888de39c019834',1,'resources.cronology.CronologyUpdater.run()'],['../classresources_1_1currenttime_1_1_current_time.html#affec9cbcc42854f1a6583e2ec752ea20',1,'resources.currenttime.CurrentTime.run()'],['../classresources_1_1ftpserver_1_1_keeper.html#a030e2156a7c720bcdc3f15e7cea92d3e',1,'resources.ftpserver.Keeper.run()'],['../classresources_1_1ordine_1_1_ordine_updater.html#a3cbcc90da488f54195020d4fd0945d95',1,'resources.ordine.OrdineUpdater.run()']]],
+  ['xml_232',['xml',['../namespaceresources_1_1compositionlistapredefinitagusti_1_1xml.html',1,'resources.compositionlistapredefinitagusti.xml'],['../namespaceresources_1_1orariodelnegozio_1_1xml.html',1,'resources.orariodelnegozio.xml'],['../namespaceresources_1_1ordine_1_1xml.html',1,'resources.ordine.xml'],['../namespaceresources_1_1prezzovaschette_1_1xml.html',1,'resources.prezzovaschette.xml']]]
+];
