@@ -1,0 +1,202 @@
+\documentclass[a4paper,11pt]{article}       % Articolo, Foglio A4, Carattere 11
+\usepackage[T1]{fontenc}                    % Codifica dei font
+\usepackage[utf8]{inputenc}                 % Codifica dell'input da tastiera
+\usepackage[italian]{babel}                 % Lingua: italiano
+\usepackage{hyperref}                       % Collegamenti ipertestuali  
+\usepackage[toc]{glossaries}                     % Gestione glossario
+
+% Dichiarazione glossario
+\makeglossaries
+\newglossaryentry{database}
+{
+    name = database,
+    description = {Archivio di dati strutturato in modo da razionalizzare la gestione e l'aggiornamento delle informazioni e da permettere lo svolgimento di ricerche complesse}
+}
+
+\newglossaryentry{XML}
+{
+    name = XML,
+    description = {Sigla di eXtensible Markup Language, è un metalinguaggio per la definizione di linguaggi di markup, ovvero un linguaggio marcatore basato su un meccanismo sintattico che consente di definire e controllare il significato degli elementi contenuti in un documento o in un testo}
+}
+
+
+\newglossaryentry{sistema operativo}
+{
+    name = sistema operativo,
+    description = {Piattaforma che gestisce le risorse hardware e software della macchina}
+}
+
+\newglossaryentry{server FTP}
+{
+    name = server FTP,
+    description = {Componente di elaborazione con lo scopo di gestire il trasferimento dei file}
+}
+
+%-----------------------------------------------------------------
+
+
+\begin{document}
+\begin{titlepage}
+    \centering
+        \vspace*{1in}
+        \begin{Large}
+            Progettazione di software gestionale
+  
+            per bar da mimmo\par
+        \end{Large} 
+        \vspace{1.5in}
+        \vfill
+        Documento dei requisiti\\
+        \vspace{0.1in}ver. 1.0
+        \par
+        \vspace{0.5in}
+            \date{05/12/2020}
+        \par
+\end{titlepage}
+
+% numerazione romana delle pagine
+\pagenumbering{roman}
+
+%Indice dei contenuti
+\tableofcontents
+\newpage
+
+%Numerazione araba delle pagine
+\pagenumbering{arabic}
+
+\section{Premesse del progetto}
+    \subsection{Obiettivi e scopo del progetto}
+    Il prodotto è appositamente studiato per gestire e organizzare gli ordini da parte dei clienti. Il prodotto è realizzato direttamente in base alle richieste degli operatori del settore. Risultano immediate e semplici le attività di tutti i giorni: ordinazione e ricezione degli ordini.
+    
+    \subsection{Contesto di business}
+    A causa del COVID-19 i clienti sono impossibilitati a recarsi al bar.
+    
+    \subsection{Stakeholders}
+    Le figure che influenzano lo sviluppo del sistema software sono:
+    \begin{itemize}
+        \item proprietario del bar
+        \item barista/fattorino
+        \item developers (analisti, progettisti, designer)
+    \end{itemize}
+    
+\section{Servizi del sistema}
+    \subsection{Requisiti funzionali}
+        
+        \begin{itemize}
+            \item[2.1.1] Il sistema dovrà consentire la modifica delle impostazioni del sistema software stesso.
+                \begin{itemize}
+                    \item[2.1.1.1] Il sistema dovrà consentire la modifica del \gls{database} dei prodotti.
+                    \item[2.1.1.2] Il sistema dovrà consentire la modifica degli orari del bar.
+                    \item[2.1.1.3] Il sistema dovrà consentire il download della cronologia delle ordinazioni.
+                    \item[2.1.1.4] Il sistema dovrà consentire l'eliminazione della cronologia delle ordinazioni.
+                \end{itemize}
+            \item[2.1.2] Il sistema dovrà consentire la visualizzazione delle ordinazioni.
+            \item[2.1.3] Il sistema dovrà consentire l'evasione delle ordinazioni.
+            \item[2.1.4] Il sistema dovrà consentire la scelta dei prodotti in vendita.
+        \end{itemize}
+        
+    \subsection{Requisiti di informativi}
+        \begin{itemize}
+            \item[2.2.1] Un'ordinazione è strutturata nel seguente modo:
+                \begin{itemize}
+                    \item cibi
+                    \item bevande
+                    \item classe di consegna
+                    \item lotto e piano di consegna
+                    \item orario di consegna
+                    \item numero di telefono
+                    \item prezzo totale
+                \end{itemize}
+        \end{itemize}
+
+\section{Vincoli di sistema}
+
+    \subsection{Requisiti di interfaccia}
+    L'interfaccia proposta dal programma, sfruttando tutte le funzionalità dell'ambiente operativo 
+    a finestre, permette quindi anche all'utente non specializzato di avvicinarsi al programma con facilità.
+        \begin{itemize}
+            \item[3.1.1] Interfaccia software principale del barista.
+                \begin{itemize}
+                    \item[3.1.1.1] Visualizzazione del logo del bar.
+                    \item[3.1.1.2] Visualizzazione dell'ora corrente.
+                    \item[3.1.1.3] Visualizzazione delle ordinazioni in una lista.
+                    \item[3.1.1.4] Presenza di un bottone di evasione degli ordini.
+                    \item[3.1.1.5] Presenza di un bottone per modificare i prodotti in vendita.
+                    \item[3.1.1.6] Presenza di un bottone per accedere alle impostazioni del software.
+                \end{itemize}
+                
+            \item[3.1.2] Interfaccia delle impostazioni del software per il barista.
+                \begin{itemize}
+                    \item[3.1.2.1] Visualizzazione del logo del bar.
+                    \item[3.1.2.2] Visualizzazione dell'ora corrente.
+                    \item[3.1.2.3] Presenza di un bottone per modificare il \gls{database} dei prodotti.
+                    \item[3.1.2.4] Presenza di un bottone per modificare l'orario del bar.
+                    \item[3.1.2.5] Presenza di un bottone per il download della cronologia delle ordinazioni.
+                    \item[3.1.2.6] Presenza di un bottone per l'eliminazione della cronologia delle ordinazioni.
+                    \item[3.1.2.7] Presenza di un bottone che rimanda all'interfaccia principale.
+                \end{itemize}
+            
+            \item[3.1.3] Interfaccia software del barista per modifica dei prodotti in vendita.
+                \begin{itemize}
+                    \item[3.1.3.1] Visualizzazione del logo del bar.
+                    \item[3.1.3.2] Visualizzazione dell'ora corrente.
+                    \item[3.1.3.3] Presenza di una lista contenente tutti gli elementi presenti nel \gls{database} dei prodotti.
+                    \item[3.1.3.4] Presenza di una lista contenente i prodotti in vendita.
+                    \item[3.1.3.5] Presenza di un bottone di aggiunta dal \gls{database} dei prodotti alla lista dei prodotti in vendita.
+                    \item[3.1.3.6] Presenza di un bottone per la rimozione del prodotto selezionato dalla lista dei prodotti in vendita.
+                    \item[3.1.3.7] Presenza di un bottone di conferma che riporta all'interfaccia principale salvando le modifiche apportate.
+                    \item[3.1.3.8] Presenza di un bottone di annullamento che rimanda all'interfaccia principale senza salvare le modifiche apportate.
+                \end{itemize}
+                
+            \item[3.1.4] Interfaccia software del barista per modificare il \gls{database} dei prodotti.
+                \begin{itemize}
+                    \item[3.1.4.1] Visualizzazione del logo del bar.
+                    \item[3.1.4.2] Visualizzazione dell'ora corrente.
+                    \item[3.1.4.3] Presenza di una lista contenente gli elementi presenti nel \gls{database} dei prodotti.
+                    \item[3.1.4.4] Presenza di un bottone per rimuovere gli elementi selezionati dalla lista.
+                    \item[3.1.4.5] Presenza di un campo di inserimento testuale per il nome del prodotto.
+                    \item[3.1.4.6] Presenza di un campo di selezione della tipologia del prodotto (cibo/bevanda).
+                    \item[3.1.4.7] Presenza di un selettore per il prezzo del prodotto.
+                    \item[3.1.4.8] Presenza di un bottone per aggiungere il nuovo prodotto al \gls{database} dei prodotti.
+                    \item[3.1.4.9] Presenza di un bottone che rimanda alle impostazioni.
+                \end{itemize}
+                
+            \item[3.1.5] Interfaccia software del barista per modificare l'orario del bar.
+                \begin{itemize}
+                    \item[3.1.5.1] Visualizzazione del logo del bar.
+                    \item[3.1.5.2] Visualizzazione dell'ora corrente.
+                    \item[3.1.5.3] Presenza di un selettore per modificare l'orario di apertura.
+                    \item[3.1.5.4] Presenza di un selettore per modificare l'orario di chiusura.
+                    \item[3.1.5.5] Presenza di un bottone di conferma che salva le modifiche apportate e rimanda alle impostazioni.
+                    \item[3.1.5.6] Presenza di un bottone di annullamento che rimanda alle impostazioni senza salvare le modifiche apportate.
+                \end{itemize}
+            
+        \end{itemize}
+        
+    \subsection{Requisiti tecnologici}
+        \begin{itemize}
+            \item[3.2.1] Un file è adibito a \gls{database}.
+            \item[3.2.2] Vengono utilizzati diversi file per la comunicazione tra i vari attori.
+            \item[3.2.3] Il formato dei file utilizzati è \gls{XML}.
+        \end{itemize}
+    
+    \subsection{Requisiti di prestazione}
+    Non si registrano particolari esigenze in questo ambito.
+    
+    \subsection{Requisiti di sicurezza}
+    Non si registrano particolari esigenze in questo ambito.
+    
+    \subsection{Requisiti operativi}
+    L'intero progetto è stato sviluppato utilizzando il linguaggio Java.
+	Si relaziona con \gls{sistema operativo} Unix e con \gls{server FTP}.
+    
+    \subsection{Requisiti politici e legali}
+    Non si registrano particolari esigenze in questo ambito.
+    
+    \subsection{Altri vincoli}
+    Questa sezione è vuota.
+
+\clearpage
+\section{Appendici}
+    \printglossary[nonumberlist]
+\end{document}

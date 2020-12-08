@@ -1,0 +1,161 @@
+\documentclass[a4paper,11pt]{article}       % Articolo, Foglio A4, Carattere 11
+\usepackage[T1]{fontenc}                    % Codifica dei font
+\usepackage[utf8]{inputenc}                 % Codifica dell'input da tastiera
+\usepackage[italian]{babel}                 % Lingua: italiano
+\usepackage{hyperref}                       % Collegamenti ipertestuali  
+\usepackage[toc]{glossaries}                % Gestione glossario
+
+% Dichiarazione glossario
+\makeglossaries
+
+\newglossaryentry{XML}
+{
+    name = XML,
+    description = {Sigla di eXtensible Markup Language, è un metalinguaggio per la definizione di linguaggi di markup, ovvero un linguaggio marcatore basato su un meccanismo sintattico che consente di definire e controllare il significato degli elementi contenuti in un documento o in un testo}
+}
+
+\newglossaryentry{server FTP}
+{
+    name = server FTP,
+    description = {Componente di elaborazione con lo scopo di gestire il trasferimento dei file}
+}
+%------------------------------------------------------------------------------------------------------------------
+
+\begin{document}
+\begin{titlepage}
+    \centering
+        \vspace*{1in}
+        \begin{Large}
+            Progettazione di sito
+  
+            per bar da mimmo\par
+        \end{Large} 
+        \vspace{1.5in}
+        \vfill
+        Documento dei requisiti\\
+        \vspace{0.1in}ver. 1.0
+        \par
+        \vspace{0.5in}
+            \date{05/12/2020}
+        \par
+\end{titlepage}
+
+% numerazione romana delle pagine
+\pagenumbering{roman}
+
+%Indice dei contenuti
+\tableofcontents
+\newpage
+
+%Numerazione araba delle pagine
+\pagenumbering{arabic}
+
+\section{Premesse del progetto}
+    \subsection{Obiettivi e scopo del progetto}
+    Il prodotto è appositamente studiato per gestire e organizzare gli ordini da
+	parte dei clienti. Il prodotto è realizzato direttamente in base alle richieste degli operatori del settore. Risultano immediate e semplici le attività di tutti i giorni: ordinazione e ricezione degli ordini.
+    
+    \subsection{Contesto di business}
+    A causa del COVID-19 i clienti sono impossibilitati a recarsi al bar.
+    
+    \subsection{Stakeholders}
+    Le figure che influenzano lo sviluppo del sistema software sono:
+    \begin{itemize}
+        \item proprietario del bar
+        \item barista/fattorino
+        \item developers (analisti, progettisti, designer)
+    \end{itemize}
+
+    
+\section{Servizi del sistema}
+    \subsection{Requisiti funzionali}
+        \begin{itemize}
+            \item[2.1.1] Il sito dovrà consentire la visualizzazione del menù.
+            \item[2.1.2] Il sito dovrà reindirizzare l'utente su Google Maps© per la consultazione della posizione.
+            \item[2.1.3] Il sito dovrà consentire di effettuare un'ordinazione.
+                \begin{itemize}
+                    \item[2.1.3.1] Il sito dovrà consentire l'inserimento della classe di consegna.
+                    \item[2.1.3.2] Il sito dovrà consentire la scelta del lotto e del piano di consegna.
+                    \item[2.1.3.3] Il sito dovrà consentire l'inserimento del numero di telefono.
+                    \item[2.1.3.4] Il sito dovrà consentire la scelta dell'orario consegna.
+                    \item[2.1.3.5] Il sito dovrà consentire l'aggiunta dei prodotti da ordinare.
+                    \item[2.1.3.6] Il sito dovrà consentire la rimozione dei prodotti da ordinare.
+                \end{itemize}
+        \end{itemize}
+    
+    \subsection{Requisiti di informativi}
+        \begin{itemize}
+            \item [2.2.1] Un'ordinazione è strutturata nel seguente modo:
+                \begin{itemize}
+                    \item cibi
+                    \item bevande
+                    \item classe di consegna
+                    \item lotto e piano di consegna
+                    \item orario di consegna
+                    \item numero di telefono
+                    \item prezzo totale
+                \end{itemize}
+        \end{itemize}
+
+\section{Vincoli di sistema}
+    \subsection{Requisiti di interfaccia}
+    L'interfaccia proposta dal sito permette anche all'utente non specializzato di utilizzare il servizio con facilità.
+    \begin{itemize}
+        \item[3.1.1] Interfaccia principale del sito.
+            \begin{itemize}
+                \item[3.1.1.1] Visualizzazione del logo del bar sullo sfondo.
+                \item[3.1.1.2] Visualizzazione dell'orario di apertura e di chiusura.
+                \item[3.1.1.3] Visualizzazione dell'indirizzo.
+                \item[3.1.1.4] Presenza di un bottone per accedere al pennello del menù.
+                \item[3.1.1.5] Presenza di un bottone per accedere al pannello delle ordinazioni.
+            \end{itemize}
+        \item[3.1.2] Interfaccia del pannello del menù.
+            \begin{itemize}
+                \item[3.1.2.1] Visualizzazione dei prodotti in vendita (separati per tipologia).
+                \item[3.1.2.2] Visualizzazione dei prezzi dei prodotti.
+            \end{itemize}
+        \item[3.1.3] Interfaccia del pannello delle ordinazioni.
+            \begin{itemize}
+                \item[3.1.3.1] Presenza di un campo di inserimento testuale per la classe di consegna.
+                \item[3.1.3.2] Presenza di un selettore per il lotto e per il piano di consegna.
+                \item[3.1.3.3] Presenza di un campo di inserimento testuale per il numero di telefono.
+                \item[3.1.3.4] Presenza di un selettore per l'orario di consegna.
+                \item[3.1.3.5] Presenza di un selettore per i cibi da ordinare.
+                \item[3.1.3.6] Presenza di un bottone per aggiungere un cibo.
+                \item[3.1.3.7] Presenza di un bottone per rimuovere l'ultimo cibo aggiunto.
+                \item[3.1.3.8] Visualizzazione provvisoria dei cibi scelti.
+                \item[3.1.3.9] Presenza di un selettore per le bevande da ordinare.
+                \item[3.1.3.10] Presenza di un bottone per aggiungere una bevanda.
+                \item[3.1.3.11] Presenza di un bottone per rimuovere l'ultima bevanda aggiunta.
+                \item[3.1.3.12] Visualizzazione provvisoria delle bevande scelte.
+                \item[3.1.3.13] Visualizzazione del prezzo provvisorio dell'ordine.
+                \item[3.1.3.14] Presenza di un bottone per inoltrare l'ordine.
+            \end{itemize}
+    \end{itemize}
+    
+    \subsection{Requisiti tecnologici}
+        \begin{itemize}
+            \item[3.2.1] Vengono utilizzati diversi file per la comunicazione tra i vari attori.
+            \item[3.2.2] Il formato dei file utilizzati è \gls{XML}.
+        \end{itemize}
+    
+    \subsection{Requisiti di prestazione}
+    Non si registrano particolari esigenze in questo ambito.
+    
+    \subsection{Requisiti di sicurezza}
+    Non si registrano particolari esigenze in questo ambito.
+    
+    \subsection{Requisiti operativi}
+    L'intero progetto è stato sviluppato utilizzando i linguaggi: HTML, CSS e JavaScript. Si relaziona con \gls{server FTP} e Google Maps©.
+    
+    \subsection{Requisiti politici e legali}
+    Non si registrano particolari esigenze in questo ambito.
+    
+    \subsection{Altri vincoli}
+    Questa sezione è vuota.
+    
+\clearpage
+\section{Appendici}
+    \printglossary[nonumberlist]
+
+\end{document}

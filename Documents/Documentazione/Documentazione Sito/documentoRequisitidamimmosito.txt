@@ -1,0 +1,119 @@
+Progettazione di sito per bar damimmo
+
+Documento dei requisiti
+ver. 3.0
+05/12/2020
+
+1 Premesse del progetto:
+
+	1.1 Obiettivi e scopo del progetto:
+	Il prodotto è appositamente studiato per gestire e organizzare gli ordini da
+	parte dei clienti. Il prodotto è realizzato direttamente in base alle richieste degli 	operatoridel settore. 
+	Risultano immediate e semplici le attività di tutti i giorni: ordinazione ericezione degli 	ordini.
+
+	1.2 Contesto di business:
+	A causa del COVID-19 i clienti sono impossibilitati a recarsi al bar.
+	
+	1.3 Stakeholders:
+	Le figure che influenzano lo sviluppo del sistema software sono:
+	- proprietario del bar
+	- barista/fattorino
+	- developers (analisti, progettisti, designer)
+
+2 Servizi del sistema
+
+	2.1 Requisiti funzionali
+		2.1.1 Il sito dovrà consentire la visualizzazione del menu
+		2.1.2 Il sito dovrà reindirizzare l'utente su Google Mapsc per la consultazione della posizione
+		2.1.3 Il sito dovrà consentire di effettuare un'ordinazione
+			2.1.3.1 Il sito dovrà consentire l'inserimento della classe di consegna
+			2.1.3.2 Il sito dovrà consentire la scelta del lotto e del piano di consegna
+			2.1.3.3 Il sito dovrà consentire l'inserimento del numero di telefono
+			2.1.3.4 Il sito dovrà consentire la scelta dell'orario consegna
+			2.1.4.5 Il sito dovrà consentire l'aggiunta dei prodotti da ordinare
+			2.1.4.6 Il sito dovrà consentire la rimozione dei prodotti da ordinare
+
+	2.2 Requisiti di informativi:
+
+		2.2.1 Un'ordinazione è strutturata nel seguente modo:
+		- cibi
+		- bevande
+		- classe di consegna
+		- lotto e piano di consegna
+		- orario di consegna
+		- numero di telefono
+		- prezzo totale
+
+3 Vincoli di sistema
+	
+	3.1 Requisiti di interfaccia
+	L'interfaccia proposta dal sito permette anche all'utente non specializzato di utilizzare il servizio con facilità.
+	
+	3.1.1 Interfaccia principale del sito
+		3.1.1.1 Visualizzazione del logo del bar sullo sfondo
+		3.1.1.2 Visualizzazione dell'orario di apertura e di chiusura
+		3.1.1.3 Visualizzazione dell'indirizzo
+		3.1.1.4 Presenza di un bottone per accedere al pennello del menù
+		3.1.1.5 Presenza di un bottone per accedere al pannello delle ordinazioni
+
+	3.1.2 Interfaccia del pannello del menù
+		3.1.2.1 Visualizzazione dei prodotti in vendita (separati per tipologia)
+		3.1.2.2 Visualizzazione dei prezzi dei prodotti
+
+	3.1.3 Interfaccia del pannello delle ordinazioni
+		3.1.3.1 Presenza di un campo di inserimento testuale per la classe di consegna
+		3.1.3.2 Presenza di un selettore per il lotto e per il piano di consegna
+		3.1.3.3 Presenza di un campo di inserimento testuale per il numero di telefono
+		3.1.3.4 Presenza di un selettore per l'orario di consegna
+		3.1.3.5 Presenza di un selettore per i cibi da ordinare
+		3.1.3.6 Presenza di un bottone per aggiungere un cibo
+		3.1.3.7 Presenza di un bottone per rimuovere l'ultimo cibo aggiunto 
+		3.1.3.8 Visualizzazione provvisoria dei cibi scelti
+		3.1.3.9 Presenza di un selettore per le bevande da ordinare
+		3.1.3.10 Presenza di un bottone per aggiungere una bevanda
+		3.1.3.11 Presenza di un bottone per rimuovere l'ultima bevanda aggiunta 
+		3.1.3.12 Visualizzazione provvisoria delle bevande scelte
+		3.1.3.13 Visualizzazione del prezzo provvisorio dell'ordine
+		3.1.3.14 Presenza di un bottone per inoltrare l'ordine
+
+	3.2 Requisiti tecnologici
+		3.2.1 Vengono utilizzati diversi file per la comunicazione tra i vari attori
+		3.2.2 Il formato dei file utilizzati è XML
+
+	3.3 Requisiti di prestazione
+	Non si registrano particolari esigenze in questo ambito.
+
+	3.4 Requisiti di sicurezza
+	Non si registrano particolari esigenze in questo ambito.
+
+	3.5 Requisiti operativi
+	L'intero progetto e stato sviluppato utilizzando i linguaggi: HTML, CSS e JavaScript. Si relaziona con server FTP e Google MapsC.
+
+	3.6 Requisiti politici e legali
+	Non si registrano particolari esigenze in questo ambito.
+
+	3.7 Altri vincoli
+	Questa sezione è vuota.
+
+4 Appendici
+	4.1 Glossario
+	- Software: In informatica, l'insieme delle procedure e delle istruzioni in un sistema di elaborazione dati.
+	- Database: In informatica, archivio di dati strutturato in modo da razionalizzare la gestione e l'aggiornamento delle informazioni e da permettere lo svolgimento di ricerche complesse.
+	- File: Il termine file, traducibile come "archivio" o "schedario", in informatica indica un contenitore di informazioni/dati in formato digitale.
+	- XML: In informatica XML (sigla di eXtensible Markup Language) è un metalinguaggio per la definizione di linguaggi di markup, ovvero un linguaggio marcatore basato su un meccanismo sintattico che consente
+di definire e controllare il significato degli elementi contenuti in un
+documento o in un testo.
+	- Terminali: E un dispositivo hardware elettronico usato per inserire dati in un computer o in un sistema di elaborazione per poi visualizzarli.
+	- Linguaggio di programmazione: E un insieme di formalismi che specifica una collezione di istruzioni che possono essere usate per produrre dati in output.
+	- Sistema operativo: E un piattaforma che gestisce le risorse hardware e software della macchina.
+	- Server: E un componente di elaborazione e gestione del traffico di informazioni in grado di fornire diverse tipologie di servizi.
+	- Protocollo: Insieme di regole per la comunicazione.
+	- FTP: Protocollo usato per il trasferimento dei file.
+
+
+
+
+
+
+
+	
